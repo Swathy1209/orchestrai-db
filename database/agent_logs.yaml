@@ -182,3 +182,7 @@ logs:
   action: 105 jobs fetched, 65 relevant
   level: INFO
   timestamp: '2026-03-01T19:28:11'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-01T19:28:12'
