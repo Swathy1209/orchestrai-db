@@ -1,0 +1,16 @@
+# Application Package
+
+Company: PathAI
+Role: Machine Learning Intern/Co-op (Summer 2026)
+
+Resume:
+Resume extraction failed
+
+Cover Letter:
+https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/pathai_machine_learning_intern_co_op_summer_2026.md
+
+Apply Here:
+https://www.linkedin.com/jobs/view/machine-learning-intern-co-op-summer-2026-at-pathai-4309502929?position=6&pageNum=0&refId=Kxdn%2Brt46afVhG%2FDT4lxaA%3D%3D&trackingId=%2BCmjchE3rB3l1iIfNTxUFA%3D%3D
+
+Status:
+Ready to Apply
