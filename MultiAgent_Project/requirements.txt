@@ -1,0 +1,25 @@
+# OrchestrAI Career Agent — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── HTTP & Scraping ───────────────────────────────────────────
+httpx>=0.27.0              # Async HTTP client (source fetchers)
+beautifulsoup4>=4.12.0     # HTML scraping (Internshala, Unstop, LinkedIn)
+lxml>=5.2.0                # Fast HTML parser backend for BeautifulSoup
+
+# ── Data Serialisation ────────────────────────────────────────
+pyyaml>=6.0.1              # YAML read/write for GitHub cloud database
+
+# ── AI Relevance Filter ───────────────────────────────────────
+openai>=1.30.0             # OpenAI API client (GPT-3.5-turbo relevance filter)
+
+# ── Scheduling ────────────────────────────────────────────────
+APScheduler>=3.10.4        # Cron-based scheduler (9:30 AM IST daily)
+
+# ── GitHub REST API ───────────────────────────────────────────
+requests>=2.31.0           # Synchronous GitHub API calls (github_yaml_db.py)
+
+# ── Environment ───────────────────────────────────────────────
+python-dotenv>=1.0.1       # Load .env file into os.environ
+
+# ── Standard Library (no install needed) ─────────────────────
+# asyncio, base64, logging, smtplib, email, re, datetime, signal, sys
