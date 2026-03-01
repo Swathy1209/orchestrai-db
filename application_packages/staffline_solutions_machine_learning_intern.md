@@ -1,0 +1,16 @@
+# Application Package
+
+Company: Staffline Solutions
+Role: Machine Learning Intern
+
+Resume:
+Resume extraction failed
+
+Cover Letter:
+https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/staffline_solutions_machine_learning_intern.md
+
+Apply Here:
+https://www.linkedin.com/jobs/view/machine-learning-intern-at-staffline-solutions-4376257927?position=7&pageNum=0&refId=Kxdn%2Brt46afVhG%2FDT4lxaA%3D%3D&trackingId=PCt9ad413gu6T3mTphFR%2BA%3D%3D
+
+Status:
+Ready to Apply
