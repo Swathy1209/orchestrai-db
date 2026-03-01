@@ -6,6 +6,3 @@ I am writing to express my enthusiastic interest in the PhD Machine Learning Eng
 
 Sincerely,
 swathiga
-
-
-*(Note: This is an automatically generated generic fallback letter because the OpenAI API Key provided ran out of quota/credits.)*
