@@ -285,3 +285,7 @@ logs:
   action: Generated Application Packages for 52 internships
   status: success
   timestamp: '2026-03-01T20:12:41'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-01T20:22:21'
