@@ -133,3 +133,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-01T19:13:28'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-01T19:20:22'
