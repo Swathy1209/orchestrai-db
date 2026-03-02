@@ -4,7 +4,7 @@ Company: TikTok
 Role: Business Analyst Project Intern (GBS SMB) - 2026 Start (BS/MS)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_business_analyst_project_intern_gbs_smb_2026_start_bs_ms.md
