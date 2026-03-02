@@ -413,3 +413,44 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: Lensa
+  role: Intern, Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: Intern - Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: TikTok
+  role: Machine Learning Engineer Intern - TikTok Search E-Commerce team - 2026 Summer
+    (BS/MS)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: ARM Institute
+  role: Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Storybizz Media Private Limited
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: EVgo
+  role: Intern, Data Analyst (Winter / Spring)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Family Tree Farms
+  role: Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Thermo Fisher
+  role: Data Engineer II
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
