@@ -500,4 +500,40 @@ jobs:
   technical_skills: []
   source: LinkedIn
   timestamp: '2026-03-01T18:47:44.012212+00:00'
-last_updated: '2026-03-01T18:50:45.069125+00:00'
+- company: METRO Regional Transit Authority
+  role: Data Analyst Intern
+  location: Akron, OH1 week ago
+  apply_link: https://www.linkedin.com/jobs/view/data-analyst-intern-at-metro-regional-transit-authority-4376369586?position=6&pageNum=0&refId=bIWS9BUxP1zdZUz7uQ1L6A%3D%3D&trackingId=PFslm4sbue2Q1azcXc%2FWIw%3D%3D
+  role_keywords:
+  - Data Analyst intern
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-02T04:32:06.180513+00:00'
+- company: Primetrade.ai
+  role: Machine Learning (Modeling + Evaluation)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-modeling-evaluation-internship-at-primetradeai1772422080
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-02T04:31:58.703298+00:00'
+- company: Primetrade.ai
+  role: Artificial Intelligence (AI)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-primetradeai1772422898
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-02T04:31:58.704461+00:00'
+- company: Primetrade.ai
+  role: Data Science
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-data-science-internship-at-primetradeai1772423029
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-02T04:31:58.705773+00:00'
+last_updated: '2026-03-02T04:35:00.437449+00:00'
