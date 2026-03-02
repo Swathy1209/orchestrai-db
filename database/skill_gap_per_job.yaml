@@ -300,3 +300,18 @@ job_skill_analysis:
   missing_skills: []
   roadmap:
   - No skill gaps detected. You are well-equipped for this role!
+- company: Tatari
+  role: Data Science, Intern
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: Lensa
+  role: Business Analyst Intern
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: Accredian
+  role: Data Science
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
