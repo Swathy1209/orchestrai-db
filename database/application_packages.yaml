@@ -57,7 +57,7 @@
 - company: Transcarent
   role: Machine Learning Engineer Intern
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/transcarent_machine_learning_engineer_intern.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-transcarent-4376484034?position=9&pageNum=0&refId=0vFkUVGmz6%2BbzRAfh3XG2A%3D%3D&trackingId=Z6RzhX%2BZDbKXMpfCHXFzxw%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/transcarent_machine_learning_engineer_intern.md
@@ -198,7 +198,7 @@
 - company: Veolia
   role: Intern - Business Analyst
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/veolia_intern_business_analyst.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://www.linkedin.com/jobs/view/intern-business-analyst-at-veolia-4375887450?position=2&pageNum=0&refId=nUpXzn2cdsxc4%2B2wtojttQ%3D%3D&trackingId=QSikax8iDMDvv2JIO90ZMw%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/veolia_intern_business_analyst.md
@@ -255,7 +255,7 @@
 - company: Stripe
   role: PhD Machine Learning Engineer, Intern
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/stripe_phd_machine_learning_engineer_intern.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://stripe.com/jobs/search?gh_jid=7216664
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/stripe_phd_machine_learning_engineer_intern.md
@@ -325,14 +325,14 @@
 - company: Arvyax Technologies Private Limited
   role: Machine Learning
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/arvyax_technologies_private_limited_machine_learning.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-arvyax-technologies-private-limited1772375867
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/arvyax_technologies_private_limited_machine_learning.md
 - company: Career Solutions
   role: Data Science
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/career_solutions_data_science.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://internshala.com/internship/detail/part-time-data-science-internship-in-chennai-at-career-solutions1772354692
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/career_solutions_data_science.md
@@ -420,3 +420,38 @@
   apply_link: https://internshala.com/internship/detail/work-from-home-data-science-internship-at-accredian1772426518
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/accredian_data_science.md
+- company: targetjobs UK
+  role: Business Analyst Internship
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/targetjobs_uk_business_analyst_internship.md
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-internship-at-targetjobs-uk-4371360385?position=10&pageNum=0&refId=nZ0JWDX95lpeWIm3iK5chA%3D%3D&trackingId=pi69EuYbU8%2BcnXRQEszCtA%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/targetjobs_uk_business_analyst_internship.md
+- company: Fitbae Healthcare Private Limited
+  role: Data Science
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/fitbae_healthcare_private_limited_data_science.md
+  apply_link: https://internshala.com/internship/detail/work-from-home-data-science-internship-at-fitbae-healthcare-private-limited1772440900
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/fitbae_healthcare_private_limited_data_science.md
+- company: Aviate Manpower
+  role: Data Science
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/aviate_manpower_data_science.md
+  apply_link: https://internshala.com/internship/detail/data-science-internship-in-mumbai-at-aviate-manpower1772432763
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/aviate_manpower_data_science.md
+- company: Zulitech Solution
+  role: Machine Learning
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-zulitech-solution1772441866
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/zulitech_solution_machine_learning.md
+- company: Zulitech Solution
+  role: Artificial Intelligence (AI)
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zulitech_solution_artificial_intelligence_ai.md
+  apply_link: https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-zulitech-solution1772441797
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/zulitech_solution_artificial_intelligence_ai.md
