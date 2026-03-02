@@ -685,3 +685,7 @@ logs:
   action: 108 jobs fetched
   level: INFO
   timestamp: '2026-03-02T10:45:12'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 81 internships
+  status: success
+  timestamp: '2026-03-02T10:45:17'
