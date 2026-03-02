@@ -399,3 +399,24 @@
   apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-banner-engineering-careers-4378604867?position=9&pageNum=0&refId=LdR5Ujr0n6P18vslpkFGpA%3D%3D&trackingId=LUpMPsO6WxxvNU5fg9eo2w%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/banner_engineering_careers_business_analyst_intern.md
+- company: Tatari
+  role: Data Science, Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tatari_data_science_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/data-science-intern-at-tatari-4374676980?position=9&pageNum=0&refId=nwoRlEF22HYMJgIvuDUA3g%3D%3D&trackingId=ZT4ej2kl7TbMrFq51pSRRg%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/tatari_data_science_intern.md
+- company: Lensa
+  role: Business Analyst Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_business_analyst_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-lensa-4379753352?position=6&pageNum=0&refId=gWKuYjTS8%2BAyANRSbS94Lg%3D%3D&trackingId=nSvBUuMsNuBCxLgwvoemgg%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/lensa_business_analyst_intern.md
+- company: Accredian
+  role: Data Science
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/accredian_data_science.md
+  apply_link: https://internshala.com/internship/detail/work-from-home-data-science-internship-at-accredian1772426518
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/accredian_data_science.md
