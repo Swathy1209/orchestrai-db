@@ -665,3 +665,7 @@ logs:
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-03-02T10:31:58'
+- agent: CoverLetterAgent
+  action: Generated cover letters for 79 internships
+  status: success
+  timestamp: '2026-03-02T10:32:37'
