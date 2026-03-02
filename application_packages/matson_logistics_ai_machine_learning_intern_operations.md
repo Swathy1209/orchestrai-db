@@ -4,7 +4,7 @@ Company: Matson Logistics
 Role: AI & Machine Learning Intern – Operations
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/matson_logistics_ai_machine_learning_intern_operations.md
