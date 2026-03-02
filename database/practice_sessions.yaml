@@ -34,7 +34,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/tiktok_general_hire_machine_learning_engineer_intern_tiktok_recommendation_2026_summer_bs_ms.html
 - company: Upstart
   role: Machine Learning Engineer Intern
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/upstart_machine_learning_engineer_intern.html
 - company: Typeface
   role: ML Engineer Intern
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/typeface_ml_engineer_intern.html
@@ -70,7 +70,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/aday_data_analysis_intern.html
 - company: Okta for Developers
   role: Data Analyst Intern (Summer 2026)
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/okta_for_developers_data_analyst_intern_summer_2026.html
 - company: Washington Commanders
   role: Data Analyst (Intern)
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/washington_commanders_data_analyst_intern.html
@@ -119,7 +119,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/unnati_enterprises_data_science.html
 - company: Unknown
   role: Data Science Intern
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/unknown_data_science_intern.html
 - company: Innoknowvex
   role: Machine Learning
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/innoknowvex_machine_learning.html
@@ -128,7 +128,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/innoknowvex_data_science.html
 - company: Emoolar Technology Private Limited
   role: Artificial Intelligence (AI)
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/emoolar_technology_private_limited_artificial_intelligence_ai.html
 - company: Infinity Assurance Solutions Private Limited
   role: Computer Vision
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/infinity_assurance_solutions_private_limited_computer_vision.html
@@ -137,7 +137,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/mindenious_edutech_data_science.html
 - company: Unknown
   role: Machine Learning Intern
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/unknown_machine_learning_intern.html
 - company: Arvyax Technologies Private Limited
   role: Machine Learning
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/arvyax_technologies_private_limited_machine_learning.html
@@ -210,7 +210,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/forfutures_financial_planning_a_financial_advisory_practice_of_ameriprise_financial_services_llc_data_science_intern.html
 - company: Pacific Seafood
   role: Machine Vision & Data Science Intern
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/pacific_seafood_machine_vision_data_science_intern.html
 - company: Product Manager Accelerator
   role: AI Engineer Intern - AI/ML/GenAI Design & Development
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/product_manager_accelerator_ai_engineer_intern_ai_ml_genai_design_development.html
@@ -245,4 +245,7 @@
   practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/talentrift_business_analyst_intern.html
 - company: Zyndra Talent Solutions
   role: Business Analyst Innovation Intern
-  practice_link: ''
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/zyndra_talent_solutions_business_analyst_innovation_intern.html
+- company: Eightfold AI
+  role: Senior Machine Learning Engineer
+  practice_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/frontend/practice/eightfold_ai_senior_machine_learning_engineer.html
