@@ -181,7 +181,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/washington_commanders_data_analyst_intern.md
 - company: Lensa
   role: Data Analyst Intern
   missing_skills: []
@@ -259,7 +259,7 @@
   - R
   suggestions:
   - Add a project showcasing R
-  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/stripe_data_analyst_intern_master_s_degree.md
+  optimized_resume_link: ''
 - company: Stripe
   role: PhD Machine Learning Engineer, Intern
   missing_skills:
@@ -310,7 +310,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/emoolar_technology_private_limited_artificial_intelligence_ai.md
+  optimized_resume_link: ''
 - company: Infinity Assurance Solutions Private Limited
   role: Computer Vision
   missing_skills: []
@@ -387,7 +387,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/primetrade_ai_machine_learning_modeling_evaluation.md
+  optimized_resume_link: ''
 - company: Primetrade.ai
   role: Artificial Intelligence (AI)
   missing_skills: []
@@ -465,3 +465,118 @@
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
   optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/zulitech_solution_artificial_intelligence_ai.md
+- company: Kensho Technologies
+  role: Machine Learning Intern - Summer 2026
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/kensho_technologies_machine_learning_intern_summer_2026.md
+- company: PANTHERx Rare Pharmacy
+  role: Intern, Data Science
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/pantherx_rare_pharmacy_intern_data_science.md
+- company: Nuro
+  role: Machine Learning intern, Behavior Planning
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/nuro_machine_learning_intern_behavior_planning.md
+- company: ForFutures Financial, Planning, a financial advisory practice of Ameriprise
+    Financial Services LLC
+  role: Data Science Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/forfutures_financial_planning_a_financial_advisory_practice_of_ameriprise_financial_services_llc_data_science_intern.md
+- company: Pacific Seafood
+  role: Machine Vision & Data Science Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/pacific_seafood_machine_vision_data_science_intern.md
+- company: Product Manager Accelerator
+  role: AI Engineer Intern - AI/ML/GenAI Design & Development
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/product_manager_accelerator_ai_engineer_intern_ai_ml_genai_design_development.md
+- company: Viant Technology
+  role: Machine Learning Engineering Internship - Summer 2026
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/viant_technology_machine_learning_engineering_internship_summer_2026.md
+- company: Tatari
+  role: Data Science BI, Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/tatari_data_science_bi_intern.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - Global E-Commerce Content Recommendation
+    - 2026 Summer (BS/MS)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/tiktok_machine_learning_engineer_intern_global_e_commerce_content_recommendation_2026_summer_bs_ms.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - Data-Search-TikTok Recommendation Team
+    - 2026 Summer (BS/MS)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/tiktok_machine_learning_engineer_intern_data_search_tiktok_recommendation_team_2026_summer_bs_ms.md
+- company: Qorvo, Inc.
+  role: Data Science Engineer Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/qorvo_inc_data_science_engineer_intern.md
+- company: Lensa
+  role: Data Analyst Internship (Summer 2026)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/lensa_data_analyst_internship_summer_2026.md
+- company: Tesla
+  role: Internship, Data Engineer, Energy (Summer 2026)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/tesla_internship_data_engineer_energy_summer_2026.md
+- company: Seaman Corporation
+  role: Business Analyst Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/seaman_corporation_business_analyst_intern.md
+- company: Talentrift
+  role: Business Analyst Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/talentrift_business_analyst_intern.md
+- company: Zyndra Talent Solutions
+  role: Business Analyst Innovation Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/zyndra_talent_solutions_business_analyst_innovation_intern.md
