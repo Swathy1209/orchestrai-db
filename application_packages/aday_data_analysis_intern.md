@@ -4,7 +4,7 @@ Company: Aday
 Role: Data Analysis Intern
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/aday_data_analysis_intern.md
