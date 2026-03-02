@@ -4,7 +4,7 @@ Company: Arvyax Technologies Private Limited
 Role: Machine Learning
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/arvyax_technologies_private_limited_machine_learning.md
