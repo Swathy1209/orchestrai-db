@@ -653,3 +653,7 @@ logs:
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-02T10:31:49'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-02T10:31:50'
