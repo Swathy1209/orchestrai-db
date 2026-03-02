@@ -4,7 +4,7 @@ Company: Go Offer
 Role: Data Analyst
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/go_offer_data_analyst.md
