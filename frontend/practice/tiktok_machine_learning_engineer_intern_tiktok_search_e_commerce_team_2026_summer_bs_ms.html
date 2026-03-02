@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Portal — TikTok | Machine Learning Engineer Intern - TikTok Search E-Commerce team - 2026 Summer (BS/MS)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #1a1a3e 40%, #24243e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 0;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 60%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+        @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        .hero .subtitle {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.85);
+            margin-top: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 30px 20px; }
+        .section {
+            margin-bottom: 40px;
+            animation: fadeIn 0.6s ease-out;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #a78bfa;
+            margin-bottom: 18px;
+            border-left: 4px solid #a78bfa;
+            padding-left: 14px;
+        }
+        .card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 14px;
+            padding: 20px 24px;
+            margin-bottom: 14px;
+            backdrop-filter: blur(12px);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(103,126,234,0.12); }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        .qa-q { font-weight: 600; color: #c4b5fd; margin-bottom: 10px; font-size: 1.05rem; }
+        .qa-a { color: #d1d5db; line-height: 1.6; }
+        .intro-box {
+            background: linear-gradient(135deg, rgba(103,126,234,0.15), rgba(118,75,162,0.15));
+            border: 1px solid rgba(167,139,250,0.25);
+            border-radius: 16px;
+            padding: 28px;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #e2e8f0;
+        }
+        .trans-card .tamil { color: #fbbf24; margin-bottom: 8px; }
+        .trans-card .prof { color: #86efac; margin-bottom: 6px; }
+        .trans-card .prac { color: #93c5fd; }
+        .speak-item, .tip-item { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        ul { list-style: none; padding-left: 0; }
+        .sheet-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 14px 20px;
+            margin-bottom: 10px;
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: all 0.25s;
+        }
+        .sheet-link:hover { background: rgba(103,126,234,0.15); border-color: #667eea; transform: translateX(4px); }
+        .sheet-icon { font-size: 1.3rem; }
+        .sheet-arrow { margin-left: auto; color: #667eea; font-weight: 700; }
+        .project-skill { color: #fbbf24; margin-bottom: 6px; }
+        .project-idea { color: #d1d5db; line-height: 1.6; }
+        .course-group { margin-bottom: 18px; }
+        .course-skill { color: #86efac; margin-bottom: 8px; }
+        .course-item { color: #d1d5db; padding: 4px 0; padding-left: 12px; }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255,255,255,0.35);
+            font-size: 0.85rem;
+        }
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.6rem; }
+            .container { padding: 20px 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>🎯 Interview Practice Portal</h1>
+        <p class="subtitle">TikTok — Machine Learning Engineer Intern - TikTok Search E-Commerce team - 2026 Summer (BS/MS)</p>
+    </div>
+
+    <div class="container">
+        <!-- Section 1: Interview Questions & Answers -->
+        <div class="section">
+            <h2 class="section-title">📋 Interview Questions & Answers</h2>
+            
+        <div class="card qa-card">
+            <div class="qa-q"><span class="badge">Q1</span> Tell me about your experience with this role.</div>
+            <div class="qa-a"><strong>Answer:</strong> I have worked with this role in multiple projects and am eager to deepen my expertise.</div>
+        </div>
+        </div>
+
+        <!-- Section 2: HR Introduction -->
+        <div class="section">
+            <h2 class="section-title">🎤 HR Introduction</h2>
+            <div class="intro-box">Hello, my name is swathiga. I am a passionate student with experience in Python, SQL, Machine Learning, Pandas, NumPy, Data Analysis, Scikit-learn, Statistics, Data Visualization, Excel. My career goals include . I am excited to apply for the Machine Learning Engineer Intern - TikTok Search E-Commerce team - 2026 Summer (BS/MS) position at TikTok and contribute to the team.</div>
+        </div>
+
+        <!-- Section 3: Tamil → English Translator -->
+        <div class="section">
+            <h2 class="section-title">🌐 Tamil → English Interview Translator</h2>
+            
+        <div class="card trans-card">
+            <div class="tamil"><strong>🗣 Tamil:</strong> <em>"nan enna intro kudukurathu"</em></div>
+            <div class="prof"><strong>💼 Professional English:</strong> Hello, allow me to introduce myself. My name is Swathiga and I am an aspiring data professional.</div>
+            <div class="prac"><strong>📝 Practice Version:</strong> My name is Swathiga. I am a data science student.</div>
+        </div>
+        <div class="card trans-card">
+            <div class="tamil"><strong>🗣 Tamil:</strong> <em>"enakku Python theriyum"</em></div>
+            <div class="prof"><strong>💼 Professional English:</strong> I possess strong proficiency in Python programming and have applied it extensively in data analysis and machine learning projects.</div>
+            <div class="prac"><strong>📝 Practice Version:</strong> I know Python. I use it for projects.</div>
+        </div>
+        <div class="card trans-card">
+            <div class="tamil"><strong>🗣 Tamil:</strong> <em>"nan oru project panniruken"</em></div>
+            <div class="prof"><strong>💼 Professional English:</strong> I have successfully completed a project that demonstrates my technical capabilities and problem-solving skills.</div>
+            <div class="prac"><strong>📝 Practice Version:</strong> I did a project. It was about building an AI model.</div>
+        </div>
+        </div>
+
+        <!-- Section 4: English Speaking Practice -->
+        <div class="section">
+            <h2 class="section-title">🗣 English Speaking Practice</h2>
+            <div class="card">
+                <h3 style="color:#c4b5fd; margin-bottom:12px;">Practice Sentences</h3>
+                <ul><li class="speak-item">I am passionate about building scalable machine learning engineer intern - tiktok search e-commerce team - 2026 summer (bs/ms) solutions.</li><li class="speak-item">I have hands-on experience with Python, SQL, and data analysis.</li><li class="speak-item">I thrive in collaborative environments and enjoy solving complex problems.</li><li class="speak-item">My strongest skill is my ability to learn new technologies quickly.</li><li class="speak-item">I am eager to apply my academic knowledge in a real-world setting.</li></ul>
+            </div>
+            <div class="card">
+                <h3 style="color:#86efac; margin-bottom:12px;">Confidence Tips</h3>
+                <ul><li class="tip-item">Speak slowly and clearly.</li><li class="tip-item">Maintain eye contact with the interviewer.</li><li class="tip-item">Use the STAR method for behavioral questions.</li><li class="tip-item">Take a breath before answering complex questions.</li><li class="tip-item">Practice in front of a mirror daily.</li></ul>
+            </div>
+        </div>
+
+        <!-- Section 5: Coding Practice Sheets -->
+        <div class="section">
+            <h2 class="section-title">💻 Coding Practice Sheets</h2>
+            
+        <a href="https://neetcode.io" target="_blank" class="sheet-link">
+            <span class="sheet-icon">💻</span>
+            <span>NeetCode — DSA Practice</span>
+            <span class="sheet-arrow">→</span>
+        </a>
+        <a href="https://leetcode.com" target="_blank" class="sheet-link">
+            <span class="sheet-icon">💻</span>
+            <span>LeetCode — Problem Solving</span>
+            <span class="sheet-arrow">→</span>
+        </a>
+        <a href="https://sqlbolt.com" target="_blank" class="sheet-link">
+            <span class="sheet-icon">💻</span>
+            <span>SQLBolt — Interactive SQL</span>
+            <span class="sheet-arrow">→</span>
+        </a>
+        <a href="https://stratascratch.com" target="_blank" class="sheet-link">
+            <span class="sheet-icon">💻</span>
+            <span>StrataScratch — SQL Interview</span>
+            <span class="sheet-arrow">→</span>
+        </a>
+        <a href="https://kaggle.com" target="_blank" class="sheet-link">
+            <span class="sheet-icon">💻</span>
+            <span>Kaggle — ML Competitions</span>
+            <span class="sheet-arrow">→</span>
+        </a>
+        <a href="https://deep-ml.com" target="_blank" class="sheet-link">
+            <span class="sheet-icon">💻</span>
+            <span>Deep-ML — Deep Learning Practice</span>
+            <span class="sheet-arrow">→</span>
+        </a>
+        </div>
+
+        <!-- Section 6: Project Recommendations -->
+        <div class="section">
+            <h2 class="section-title">🚀 Project Recommendations</h2>
+            
+        <div class="card project-card">
+            <div class="project-skill">🔧 Missing Skill: <strong>General</strong></div>
+            <div class="project-idea">💡 Build a portfolio project relevant to Machine Learning Engineer Intern - TikTok Search E-Commerce team - 2026 Summer (BS/MS).</div>
+        </div>
+        </div>
+
+        <!-- Section 7: Course Recommendations -->
+        <div class="section">
+            <h2 class="section-title">📚 Course Recommendations</h2>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        OrchestrAI Practice Portal &bull; Generated on 2026-03-02 14:50 UTC
+    </div>
+</body>
+</html>
