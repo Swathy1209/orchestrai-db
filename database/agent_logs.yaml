@@ -741,3 +741,7 @@ logs:
   action: 102 jobs fetched, 56 relevant
   level: INFO
   timestamp: '2026-03-02T13:22:05'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-02T13:22:07'
