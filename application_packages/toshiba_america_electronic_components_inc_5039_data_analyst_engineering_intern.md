@@ -4,7 +4,7 @@ Company: Toshiba America Electronic Components, Inc.
 Role: 5039 Data Analyst Engineering Intern
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/toshiba_america_electronic_components_inc_5039_data_analyst_engineering_intern.md
