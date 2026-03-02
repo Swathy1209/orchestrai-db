@@ -181,7 +181,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/washington_commanders_data_analyst_intern.md
+  optimized_resume_link: ''
 - company: Lensa
   role: Data Analyst Intern
   missing_skills: []
@@ -366,14 +366,14 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/cloud_back_machine_learning.md
 - company: Lensa
   role: Data Science Intern
   missing_skills: []
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/lensa_data_science_intern.md
 - company: METRO Regional Transit Authority
   role: Data Analyst Intern
   missing_skills: []
@@ -415,7 +415,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/tatari_data_science_intern.md
 - company: Lensa
   role: Business Analyst Intern
   missing_skills: []
@@ -464,4 +464,4 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/zulitech_solution_artificial_intelligence_ai.md
