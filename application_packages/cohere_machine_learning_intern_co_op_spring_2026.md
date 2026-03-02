@@ -4,7 +4,7 @@ Company: Cohere
 Role: Machine Learning Intern/Co-op  (Spring 2026)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/cohere_machine_learning_intern_co_op_spring_2026.md
