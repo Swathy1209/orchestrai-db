@@ -545,4 +545,31 @@ jobs:
   technical_skills: []
   source: LinkedIn
   timestamp: '2026-03-02T05:03:15.990063+00:00'
-last_updated: '2026-03-02T05:06:04.020027+00:00'
+- company: Tatari
+  role: Data Science, Intern
+  location: New York, NYActively Hiring1 week ago
+  apply_link: https://www.linkedin.com/jobs/view/data-science-intern-at-tatari-4374676980?position=9&pageNum=0&refId=nwoRlEF22HYMJgIvuDUA3g%3D%3D&trackingId=ZT4ej2kl7TbMrFq51pSRRg%3D%3D
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-02T06:05:45.410534+00:00'
+- company: Lensa
+  role: Business Analyst Intern
+  location: New York, NYBe an early applicant23 minutes ago
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-lensa-4379753352?position=6&pageNum=0&refId=gWKuYjTS8%2BAyANRSbS94Lg%3D%3D&trackingId=nSvBUuMsNuBCxLgwvoemgg%3D%3D
+  role_keywords:
+  - Business Analyst intern
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-02T06:05:55.296069+00:00'
+- company: Accredian
+  role: Data Science
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-data-science-internship-at-accredian1772426518
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-02T06:05:45.177641+00:00'
+last_updated: '2026-03-02T06:08:41.420339+00:00'
