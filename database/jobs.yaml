@@ -766,4 +766,13 @@ jobs:
   technical_skills: []
   source: LinkedIn
   timestamp: '2026-03-02T10:22:20.426022+00:00'
-last_updated: '2026-03-02T10:23:05.122444+00:00'
+- company: Eightfold AI
+  role: Senior Machine Learning Engineer
+  location: India
+  apply_link: https://unstop.com/jobs/1650872
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Unstop
+  timestamp: '2026-03-02T10:45:00.398339+00:00'
+last_updated: '2026-03-02T10:47:59.201995+00:00'
