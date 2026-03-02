@@ -4,7 +4,7 @@ Company: Stripe
 Role: Data Analyst, Intern (Master's degree)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/stripe_data_analyst_intern_master_s_degree.md
