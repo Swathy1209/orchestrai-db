@@ -821,4 +821,30 @@ jobs:
   technical_skills: []
   source: Internshala
   timestamp: '2026-03-02T13:18:59.493052+00:00'
-last_updated: '2026-03-02T13:22:06.756989+00:00'
+- company: EVgo
+  role: Intern, Data Analyst (Winter / Spring)
+  location: United States2 weeks ago
+  apply_link: https://www.linkedin.com/jobs/view/intern-data-analyst-winter-spring-at-evgo-4365676592?position=9&pageNum=0&refId=696GIZsztixU%2BhjMZyMMhw%3D%3D&trackingId=FCg9sShY29UokXM2vJLaYA%3D%3D
+  role_keywords:
+  - Data Analyst intern
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-02T14:35:17.457514+00:00'
+- company: Family Tree Farms
+  role: Data Analyst Intern
+  location: Reedley, CA6 days ago
+  apply_link: https://www.linkedin.com/jobs/view/data-analyst-intern-at-family-tree-farms-4377180788?position=10&pageNum=0&refId=696GIZsztixU%2BhjMZyMMhw%3D%3D&trackingId=IsgPEIQhRUPJRbOfmIKh4Q%3D%3D
+  role_keywords:
+  - Data Analyst intern
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-02T14:35:17.457916+00:00'
+- company: Thermo Fisher
+  role: Data Engineer II
+  location: India
+  apply_link: https://unstop.com/jobs/1647183
+  role_keywords: []
+  technical_skills: []
+  source: Unstop
+  timestamp: '2026-03-02T14:35:09.717564+00:00'
+last_updated: '2026-03-02T14:38:11.115923+00:00'
