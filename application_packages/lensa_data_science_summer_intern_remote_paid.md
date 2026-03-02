@@ -4,7 +4,7 @@ Company: Lensa
 Role: Data Science Summer Intern (Remote & Paid)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_data_science_summer_intern_remote_paid.md
