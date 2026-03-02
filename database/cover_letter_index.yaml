@@ -18,9 +18,6 @@ cover_letters:
   role: Machine Learning Intern - Summer 2026
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_machine_learning_intern_summer_2026.md
 - company: Lensa
-  role: Data Science Summer Intern (Remote & Paid)
-  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_data_science_summer_intern_remote_paid.md
-- company: Lensa
   role: Intern, Data Science and Analytics
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_intern_data_science_and_analytics.md
 - company: Transcarent
@@ -94,9 +91,6 @@ cover_letters:
   role: Business Analyst Project Intern - Monetization Strategy & Operations - 2026
     Start (BS/MS)
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_business_analyst_project_intern_monetization_strategy_operations_2026_start_bs_ms.md
-- company: Maximus
-  role: Business Analyst Intern
-  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/maximus_business_analyst_intern.md
 - company: Apollo Mission Critical Engineering
   role: Multiple U.S Locations - Business Analyst Intern (BA-I) - Summer 2026
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/apollo_mission_critical_engineering_multiple_u_s_locations_business_analyst_intern_ba_i_summer_2026.md
@@ -122,9 +116,6 @@ cover_letters:
   role: Data Science Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/unknown_data_science_intern.md
 - company: Innoknowvex
-  role: Machine Learning
-  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/innoknowvex_machine_learning.md
-- company: Innoknowvex
   role: Data Science
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/innoknowvex_data_science.md
 - company: Emoolar Technology Private Limited
@@ -148,9 +139,6 @@ cover_letters:
 - company: Unknown
   role: Artificial Intelligence Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/unknown_artificial_intelligence_intern.md
-- company: Symonis
-  role: Machine Learning
-  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/symonis_machine_learning.md
 - company: Cloud Back
   role: Machine Learning
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/cloud_back_machine_learning.md
@@ -181,9 +169,6 @@ cover_letters:
 - company: Accredian
   role: Data Science
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/accredian_data_science.md
-- company: targetjobs UK
-  role: Business Analyst Internship
-  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/targetjobs_uk_business_analyst_internship.md
 - company: Fitbae Healthcare Private Limited
   role: Data Science
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/fitbae_healthcare_private_limited_data_science.md
@@ -205,6 +190,10 @@ cover_letters:
 - company: Nuro
   role: Machine Learning intern, Behavior Planning
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/nuro_machine_learning_intern_behavior_planning.md
+- company: ForFutures Financial, Planning, a financial advisory practice of Ameriprise
+    Financial Services LLC
+  role: Data Science Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/forfutures_financial_planning_a_financial_advisory_practice_of_ameriprise_financial_services_llc_data_science_intern.md
 - company: Pacific Seafood
   role: Machine Vision & Data Science Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/pacific_seafood_machine_vision_data_science_intern.md
@@ -217,6 +206,10 @@ cover_letters:
 - company: Tatari
   role: Data Science BI, Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tatari_data_science_bi_intern.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - Global E-Commerce Content Recommendation
+    - 2026 Summer (BS/MS)
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_machine_learning_engineer_intern_global_e_commerce_content_recommendation_2026_summer_bs_ms.md
 - company: TikTok
   role: Machine Learning Engineer Intern - Data-Search-TikTok Recommendation Team
     - 2026 Summer (BS/MS)
