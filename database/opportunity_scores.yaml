@@ -300,3 +300,28 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: targetjobs UK
+  role: Business Analyst Internship
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Fitbae Healthcare Private Limited
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Aviate Manpower
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Zulitech Solution
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Zulitech Solution
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
