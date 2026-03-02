@@ -454,3 +454,18 @@ job_skill_analysis:
   missing_skills: []
   roadmap:
   - No skill gaps detected. You are well-equipped for this role!
+- company: EVgo
+  role: Intern, Data Analyst (Winter / Spring)
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: Family Tree Farms
+  role: Data Analyst Intern
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: Thermo Fisher
+  role: Data Engineer II
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
