@@ -259,7 +259,7 @@
   - R
   suggestions:
   - Add a project showcasing R
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/stripe_data_analyst_intern_master_s_degree.md
 - company: Stripe
   role: PhD Machine Learning Engineer, Intern
   missing_skills:
@@ -310,7 +310,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/emoolar_technology_private_limited_artificial_intelligence_ai.md
 - company: Infinity Assurance Solutions Private Limited
   role: Computer Vision
   missing_skills: []
@@ -387,7 +387,7 @@
   suggestions:
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
-  optimized_resume_link: ''
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/primetrade_ai_machine_learning_modeling_evaluation.md
 - company: Primetrade.ai
   role: Artificial Intelligence (AI)
   missing_skills: []
@@ -580,3 +580,67 @@
   - Highlight your existing skills matching the role requirements.
   - Tailor your project descriptions to the company operations.
   optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/zyndra_talent_solutions_business_analyst_innovation_intern.md
+- company: Eightfold AI
+  role: Senior Machine Learning Engineer
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/eightfold_ai_senior_machine_learning_engineer.md
+- company: Lensa
+  role: Intern, Data Science
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/lensa_intern_data_science.md
+- company: Lensa
+  role: Intern - Data Science
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/lensa_intern_data_science.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - TikTok Search E-Commerce team - 2026 Summer
+    (BS/MS)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/tiktok_machine_learning_engineer_intern_tiktok_search_e_commerce_team_2026_summer_bs_ms.md
+- company: ARM Institute
+  role: Data Analyst Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/arm_institute_data_analyst_intern.md
+- company: Storybizz Media Private Limited
+  role: Artificial Intelligence (AI)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/storybizz_media_private_limited_artificial_intelligence_ai.md
+- company: EVgo
+  role: Intern, Data Analyst (Winter / Spring)
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/evgo_intern_data_analyst_winter_spring.md
+- company: Family Tree Farms
+  role: Data Analyst Intern
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/family_tree_farms_data_analyst_intern.md
+- company: Thermo Fisher
+  role: Data Engineer II
+  missing_skills: []
+  suggestions:
+  - Highlight your existing skills matching the role requirements.
+  - Tailor your project descriptions to the company operations.
+  optimized_resume_link: https://github.com/Swathy1209/orchestrai-db/blob/main/optimized_resumes/thermo_fisher_data_engineer_ii.md
