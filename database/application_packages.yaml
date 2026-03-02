@@ -43,7 +43,7 @@
 - company: Lensa
   role: Data Science Summer Intern (Remote & Paid)
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_data_science_summer_intern_remote_paid.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://www.linkedin.com/jobs/view/data-science-summer-intern-remote-paid-at-lensa-4379243760?position=6&pageNum=0&refId=0vFkUVGmz6%2BbzRAfh3XG2A%3D%3D&trackingId=C0PrcQMb3mjT%2FUFrDr1rlQ%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/lensa_data_science_summer_intern_remote_paid.md
@@ -57,7 +57,7 @@
 - company: Transcarent
   role: Machine Learning Engineer Intern
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/transcarent_machine_learning_engineer_intern.md
   apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-transcarent-4376484034?position=9&pageNum=0&refId=0vFkUVGmz6%2BbzRAfh3XG2A%3D%3D&trackingId=Z6RzhX%2BZDbKXMpfCHXFzxw%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/transcarent_machine_learning_engineer_intern.md
@@ -198,7 +198,7 @@
 - company: Veolia
   role: Intern - Business Analyst
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/veolia_intern_business_analyst.md
   apply_link: https://www.linkedin.com/jobs/view/intern-business-analyst-at-veolia-4375887450?position=2&pageNum=0&refId=nUpXzn2cdsxc4%2B2wtojttQ%3D%3D&trackingId=QSikax8iDMDvv2JIO90ZMw%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/veolia_intern_business_analyst.md
@@ -220,7 +220,7 @@
 - company: Maximus
   role: Business Analyst Intern
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/maximus_business_analyst_intern.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-maximus-4375062624?position=6&pageNum=0&refId=nUpXzn2cdsxc4%2B2wtojttQ%3D%3D&trackingId=SBwFj154wk6ERgbhurtYsw%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/maximus_business_analyst_intern.md
@@ -255,7 +255,7 @@
 - company: Stripe
   role: PhD Machine Learning Engineer, Intern
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/stripe_phd_machine_learning_engineer_intern.md
   apply_link: https://stripe.com/jobs/search?gh_jid=7216664
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/stripe_phd_machine_learning_engineer_intern.md
@@ -283,7 +283,7 @@
 - company: Innoknowvex
   role: Machine Learning
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/innoknowvex_machine_learning.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-innoknowvex1772115625
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/innoknowvex_machine_learning.md
@@ -293,7 +293,7 @@
   cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/innoknowvex_data_science.md
   apply_link: https://internshala.com/internship/detail/work-from-home-data-science-internship-at-innoknowvex1772116692
   status: Ready to Apply
-  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/innoknowvex_data_science.md
+  application_package_link: ''
 - company: Emoolar Technology Private Limited
   role: Artificial Intelligence (AI)
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
@@ -325,14 +325,14 @@
 - company: Arvyax Technologies Private Limited
   role: Machine Learning
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/arvyax_technologies_private_limited_machine_learning.md
   apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-arvyax-technologies-private-limited1772375867
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/arvyax_technologies_private_limited_machine_learning.md
 - company: Career Solutions
   role: Data Science
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/career_solutions_data_science.md
   apply_link: https://internshala.com/internship/detail/part-time-data-science-internship-in-chennai-at-career-solutions1772354692
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/career_solutions_data_science.md
@@ -346,7 +346,7 @@
 - company: Symonis
   role: Machine Learning
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/symonis_machine_learning.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-symonis1772340756
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/symonis_machine_learning.md
@@ -423,7 +423,7 @@
 - company: targetjobs UK
   role: Business Analyst Internship
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/targetjobs_uk_business_analyst_internship.md
+  cover_letter_link: No Cover Letter Generated
   apply_link: https://www.linkedin.com/jobs/view/business-analyst-internship-at-targetjobs-uk-4371360385?position=10&pageNum=0&refId=nZ0JWDX95lpeWIm3iK5chA%3D%3D&trackingId=pi69EuYbU8%2BcnXRQEszCtA%3D%3D
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/targetjobs_uk_business_analyst_internship.md
@@ -444,7 +444,7 @@
 - company: Zulitech Solution
   role: Machine Learning
   resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zulitech_solution_machine_learning.md
   apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-zulitech-solution1772441866
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/zulitech_solution_machine_learning.md
@@ -455,3 +455,118 @@
   apply_link: https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-zulitech-solution1772441797
   status: Ready to Apply
   application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/zulitech_solution_artificial_intelligence_ai.md
+- company: Kensho Technologies
+  role: Machine Learning Intern - Summer 2026
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/kensho_technologies_machine_learning_intern_summer_2026.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-intern-summer-2026-at-kensho-technologies-4343052872?position=3&pageNum=0&refId=c7hHXNA1NFzxcrlIsihYQA%3D%3D&trackingId=Gy4qWtL1n1Ak%2BMRtp21NXA%3D%3D
+  status: Ready to Apply
+  application_package_link: ''
+- company: PANTHERx Rare Pharmacy
+  role: Intern, Data Science
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/pantherx_rare_pharmacy_intern_data_science.md
+  apply_link: https://www.linkedin.com/jobs/view/intern-data-science-at-pantherx-rare-pharmacy-4372585174?position=4&pageNum=0&refId=c7hHXNA1NFzxcrlIsihYQA%3D%3D&trackingId=E8TnCR7YfP9tnVkU7xCkyg%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/pantherx_rare_pharmacy_intern_data_science.md
+- company: Nuro
+  role: Machine Learning intern, Behavior Planning
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/nuro_machine_learning_intern_behavior_planning.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-intern-behavior-planning-at-nuro-4366803219?position=5&pageNum=0&refId=c7hHXNA1NFzxcrlIsihYQA%3D%3D&trackingId=JwFWEdg%2BBXSYVsr3%2FWc%2BHw%3D%3D
+  status: Ready to Apply
+  application_package_link: ''
+- company: ForFutures Financial, Planning, a financial advisory practice of Ameriprise
+    Financial Services LLC
+  role: Data Science Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/forfutures_financial_planning_a_financial_advisory_practice_of_ameriprise_financial_services_llc_data_science_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/data-science-intern-at-forfutures-financial-planning-a-financial-advisory-practice-of-ameriprise-financial-services-llc-4379749024?position=7&pageNum=0&refId=c7hHXNA1NFzxcrlIsihYQA%3D%3D&trackingId=Cj2se%2BhD3GQjTDsS8IHkMQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/forfutures_financial_planning_a_financial_advisory_practice_of_ameriprise_financial_services_llc_data_science_intern.md
+- company: Pacific Seafood
+  role: Machine Vision & Data Science Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/pacific_seafood_machine_vision_data_science_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-vision-data-science-intern-at-pacific-seafood-4367646431?position=9&pageNum=0&refId=c7hHXNA1NFzxcrlIsihYQA%3D%3D&trackingId=jmpA%2BE54cSrtxzt8dEM7IQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/pacific_seafood_machine_vision_data_science_intern.md
+- company: Product Manager Accelerator
+  role: AI Engineer Intern - AI/ML/GenAI Design & Development
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/product_manager_accelerator_ai_engineer_intern_ai_ml_genai_design_development.md
+  apply_link: https://www.linkedin.com/jobs/view/ai-engineer-intern-ai-ml-genai-design-development-at-product-manager-accelerator-4370990852?position=1&pageNum=0&refId=8VttQ%2B%2FzG13XpKpHxQmMng%3D%3D&trackingId=LIBX3zT7exHnhBmwO8aOZQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/product_manager_accelerator_ai_engineer_intern_ai_ml_genai_design_development.md
+- company: Viant Technology
+  role: Machine Learning Engineering Internship - Summer 2026
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/viant_technology_machine_learning_engineering_internship_summer_2026.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineering-internship-summer-2026-at-viant-technology-4354700161?position=2&pageNum=0&refId=8VttQ%2B%2FzG13XpKpHxQmMng%3D%3D&trackingId=B7JcLUyOm%2Flaat2lU%2F%2B3sQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/viant_technology_machine_learning_engineering_internship_summer_2026.md
+- company: Tatari
+  role: Data Science BI, Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tatari_data_science_bi_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/data-science-bi-intern-at-tatari-4378272927?position=3&pageNum=0&refId=8VttQ%2B%2FzG13XpKpHxQmMng%3D%3D&trackingId=Lu5fNE%2FvK%2BX63d8hzWCwuw%3D%3D
+  status: Ready to Apply
+  application_package_link: ''
+- company: TikTok
+  role: Machine Learning Engineer Intern - Global E-Commerce Content Recommendation
+    - 2026 Summer (BS/MS)
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_machine_learning_engineer_intern_global_e_commerce_content_recommendation_2026_summer_bs_ms.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-global-e-commerce-content-recommendation-2026-summer-bs-ms-at-tiktok-4273280546?position=5&pageNum=0&refId=8VttQ%2B%2FzG13XpKpHxQmMng%3D%3D&trackingId=7WF4xWc7nedA5V1VkOmBpw%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/tiktok_machine_learning_engineer_intern_global_e_commerce_content_recommendation_2026_summer_bs_ms.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - Data-Search-TikTok Recommendation Team
+    - 2026 Summer (BS/MS)
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_machine_learning_engineer_intern_data_search_tiktok_recommendation_team_2026_summer_bs_ms.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-data-search-tiktok-recommendation-team-2026-summer-bs-ms-at-tiktok-4282006233?position=7&pageNum=0&refId=8VttQ%2B%2FzG13XpKpHxQmMng%3D%3D&trackingId=Lqx6xamYUz1GEnrvRA3O7w%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/tiktok_machine_learning_engineer_intern_data_search_tiktok_recommendation_team_2026_summer_bs_ms.md
+- company: Qorvo, Inc.
+  role: Data Science Engineer Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/qorvo_inc_data_science_engineer_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/data-science-engineer-intern-at-qorvo-inc-4294610759?position=8&pageNum=0&refId=8VttQ%2B%2FzG13XpKpHxQmMng%3D%3D&trackingId=YIRK1rKX19Gf8Ky%2F2beVnA%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/qorvo_inc_data_science_engineer_intern.md
+- company: Lensa
+  role: Data Analyst Internship (Summer 2026)
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_data_analyst_internship_summer_2026.md
+  apply_link: https://www.linkedin.com/jobs/view/data-analyst-internship-summer-2026-at-lensa-4379547145?position=7&pageNum=0&refId=4N%2BnZf3ND6TWYdbJ%2B1%2FXyA%3D%3D&trackingId=EIQjEsQb8JfS6l9jLU7B4A%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/lensa_data_analyst_internship_summer_2026.md
+- company: Tesla
+  role: Internship, Data Engineer, Energy (Summer 2026)
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tesla_internship_data_engineer_energy_summer_2026.md
+  apply_link: https://www.linkedin.com/jobs/view/internship-data-engineer-energy-summer-2026-at-tesla-4362346508?position=9&pageNum=0&refId=4N%2BnZf3ND6TWYdbJ%2B1%2FXyA%3D%3D&trackingId=i%2Bk1cfaXMRsqFLWBT5fd%2Fw%3D%3D
+  status: Ready to Apply
+  application_package_link: ''
+- company: Seaman Corporation
+  role: Business Analyst Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/seaman_corporation_business_analyst_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-seaman-corporation-4329170526?position=5&pageNum=0&refId=6EZSEwCioU%2Bkl5zxsyq7GA%3D%3D&trackingId=JXmoJL2VJj1IVrZ34KcNpQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/seaman_corporation_business_analyst_intern.md
+- company: Talentrift
+  role: Business Analyst Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/talentrift_business_analyst_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-talentrift-4376683128?position=7&pageNum=0&refId=6EZSEwCioU%2Bkl5zxsyq7GA%3D%3D&trackingId=Eec7%2BO9G4BcEi1oYBJ6h7A%3D%3D
+  status: Ready to Apply
+  application_package_link: ''
+- company: Zyndra Talent Solutions
+  role: Business Analyst Innovation Intern
+  resume_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+  cover_letter_link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zyndra_talent_solutions_business_analyst_innovation_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-innovation-intern-at-zyndra-talent-solutions-4376231097?position=10&pageNum=0&refId=6EZSEwCioU%2Bkl5zxsyq7GA%3D%3D&trackingId=FN2cA8XIgWjjeba16mDWvA%3D%3D
+  status: Ready to Apply
+  application_package_link: https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/zyndra_talent_solutions_business_analyst_innovation_intern.md
