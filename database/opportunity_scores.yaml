@@ -285,3 +285,18 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: Tatari
+  role: Data Science, Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: Business Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Accredian
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
