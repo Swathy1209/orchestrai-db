@@ -4,7 +4,7 @@ Company: Emoolar Technology Private Limited
 Role: Artificial Intelligence (AI)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/emoolar_technology_private_limited_artificial_intelligence_ai.md
