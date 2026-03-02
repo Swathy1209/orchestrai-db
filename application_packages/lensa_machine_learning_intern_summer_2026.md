@@ -4,7 +4,7 @@ Company: Lensa
 Role: Machine Learning Intern - Summer 2026
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_machine_learning_intern_summer_2026.md
