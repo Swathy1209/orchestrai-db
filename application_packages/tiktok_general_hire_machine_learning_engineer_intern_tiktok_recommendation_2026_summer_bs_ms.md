@@ -4,7 +4,7 @@ Company: TikTok
 Role: (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) - 2026 Summer (BS/MS)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_general_hire_machine_learning_engineer_intern_tiktok_recommendation_2026_summer_bs_ms.md
