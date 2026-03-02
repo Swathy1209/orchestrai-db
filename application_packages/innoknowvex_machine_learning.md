@@ -7,7 +7,7 @@ Resume:
 https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
-https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/innoknowvex_machine_learning.md
+No Cover Letter Generated
 
 Apply Here:
 https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-innoknowvex1772115625
