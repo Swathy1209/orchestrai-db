@@ -522,3 +522,7 @@ logs:
   action: Generated practice portals for 65 internships
   status: success
   timestamp: '2026-03-02T09:44:27'
+- agent: CareerAgent
+  action: 106 jobs fetched, 64 relevant
+  level: INFO
+  timestamp: '2026-03-02T09:46:19'
