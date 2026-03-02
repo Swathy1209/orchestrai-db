@@ -436,3 +436,7 @@ logs:
   action: 104 jobs fetched
   level: INFO
   timestamp: '2026-03-02T06:05:56'
+- agent: CareerAgent
+  action: 104 jobs fetched, 67 relevant
+  level: INFO
+  timestamp: '2026-03-02T06:08:40'
