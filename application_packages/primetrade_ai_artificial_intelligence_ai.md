@@ -4,7 +4,7 @@ Company: Primetrade.ai
 Role: Artificial Intelligence (AI)
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/primetrade_ai_artificial_intelligence_ai.md
