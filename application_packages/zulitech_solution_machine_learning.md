@@ -7,7 +7,7 @@ Resume:
 https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
-No Cover Letter Generated
+https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zulitech_solution_machine_learning.md
 
 Apply Here:
 https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-zulitech-solution1772441866
