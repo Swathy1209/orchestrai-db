@@ -4,7 +4,7 @@ Company: Tinder
 Role: Machine Learning Engineer Intern
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tinder_machine_learning_engineer_intern.md
