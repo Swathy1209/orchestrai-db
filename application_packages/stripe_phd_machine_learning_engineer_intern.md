@@ -4,7 +4,7 @@ Company: Stripe
 Role: PhD Machine Learning Engineer, Intern
 
 Resume:
-Resume extraction failed
+https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
 
 Cover Letter:
 https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/stripe_phd_machine_learning_engineer_intern.md
