@@ -23,6 +23,9 @@ cover_letters:
 - company: Lensa
   role: Intern, Data Science and Analytics
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_intern_data_science_and_analytics.md
+- company: Transcarent
+  role: Machine Learning Engineer Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/transcarent_machine_learning_engineer_intern.md
 - company: Moloco
   role: Machine Learning Engineer Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/moloco_machine_learning_engineer_intern.md
@@ -81,6 +84,9 @@ cover_letters:
 - company: Go Offer
   role: Business Analyst Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/go_offer_business_analyst_intern.md
+- company: Veolia
+  role: Intern - Business Analyst
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/veolia_intern_business_analyst.md
 - company: TikTok
   role: Business Analyst Project Intern (GBS SMB) - 2026 Start (BS/MS)
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_business_analyst_project_intern_gbs_smb_2026_start_bs_ms.md
@@ -103,6 +109,9 @@ cover_letters:
 - company: Stripe
   role: Data Analyst, Intern (Master's degree)
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/stripe_data_analyst_intern_master_s_degree.md
+- company: Stripe
+  role: PhD Machine Learning Engineer, Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/stripe_phd_machine_learning_engineer_intern.md
 - company: Zuneko Labs
   role: Artificial Intelligence (AI)
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zuneko_labs_artificial_intelligence_ai.md
@@ -130,6 +139,12 @@ cover_letters:
 - company: Unknown
   role: Machine Learning Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/unknown_machine_learning_intern.md
+- company: Arvyax Technologies Private Limited
+  role: Machine Learning
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/arvyax_technologies_private_limited_machine_learning.md
+- company: Career Solutions
+  role: Data Science
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/career_solutions_data_science.md
 - company: Unknown
   role: Artificial Intelligence Intern
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/unknown_artificial_intelligence_intern.md
@@ -176,5 +191,59 @@ cover_letters:
   role: Data Science
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/aviate_manpower_data_science.md
 - company: Zulitech Solution
+  role: Machine Learning
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zulitech_solution_machine_learning.md
+- company: Zulitech Solution
   role: Artificial Intelligence (AI)
   link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zulitech_solution_artificial_intelligence_ai.md
+- company: Kensho Technologies
+  role: Machine Learning Intern - Summer 2026
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/kensho_technologies_machine_learning_intern_summer_2026.md
+- company: PANTHERx Rare Pharmacy
+  role: Intern, Data Science
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/pantherx_rare_pharmacy_intern_data_science.md
+- company: Nuro
+  role: Machine Learning intern, Behavior Planning
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/nuro_machine_learning_intern_behavior_planning.md
+- company: ForFutures Financial, Planning, a financial advisory practice of Ameriprise
+    Financial Services LLC
+  role: Data Science Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/forfutures_financial_planning_a_financial_advisory_practice_of_ameriprise_financial_services_llc_data_science_intern.md
+- company: Pacific Seafood
+  role: Machine Vision & Data Science Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/pacific_seafood_machine_vision_data_science_intern.md
+- company: Product Manager Accelerator
+  role: AI Engineer Intern - AI/ML/GenAI Design & Development
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/product_manager_accelerator_ai_engineer_intern_ai_ml_genai_design_development.md
+- company: Viant Technology
+  role: Machine Learning Engineering Internship - Summer 2026
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/viant_technology_machine_learning_engineering_internship_summer_2026.md
+- company: Tatari
+  role: Data Science BI, Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tatari_data_science_bi_intern.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - Global E-Commerce Content Recommendation
+    - 2026 Summer (BS/MS)
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_machine_learning_engineer_intern_global_e_commerce_content_recommendation_2026_summer_bs_ms.md
+- company: TikTok
+  role: Machine Learning Engineer Intern - Data-Search-TikTok Recommendation Team
+    - 2026 Summer (BS/MS)
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tiktok_machine_learning_engineer_intern_data_search_tiktok_recommendation_team_2026_summer_bs_ms.md
+- company: Qorvo, Inc.
+  role: Data Science Engineer Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/qorvo_inc_data_science_engineer_intern.md
+- company: Lensa
+  role: Data Analyst Internship (Summer 2026)
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_data_analyst_internship_summer_2026.md
+- company: Tesla
+  role: Internship, Data Engineer, Energy (Summer 2026)
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/tesla_internship_data_engineer_energy_summer_2026.md
+- company: Seaman Corporation
+  role: Business Analyst Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/seaman_corporation_business_analyst_intern.md
+- company: Talentrift
+  role: Business Analyst Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/talentrift_business_analyst_intern.md
+- company: Zyndra Talent Solutions
+  role: Business Analyst Innovation Intern
+  link: https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/zyndra_talent_solutions_business_analyst_innovation_intern.md
