@@ -989,3 +989,8 @@ logs:
     to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-03T07:37:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-03T07:40:02'
