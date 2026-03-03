@@ -1212,3 +1212,8 @@ logs:
     Private Limited - Computer Vision'
   status: error
   timestamp: '2026-03-03T09:17:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-03T09:19:38'
