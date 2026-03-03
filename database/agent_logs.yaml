@@ -1077,3 +1077,8 @@ logs:
     Q&A for Go Offer - Data Analyst'
   status: error
   timestamp: '2026-03-03T08:16:28'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  status: error
+  timestamp: '2026-03-03T08:18:54'
