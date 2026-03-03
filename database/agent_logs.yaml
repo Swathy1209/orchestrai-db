@@ -1049,3 +1049,8 @@ logs:
     2026)'
   status: error
   timestamp: '2026-03-03T08:04:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-03T08:06:44'
