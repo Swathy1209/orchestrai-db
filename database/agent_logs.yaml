@@ -1159,3 +1159,8 @@ logs:
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
   timestamp: '2026-03-03T08:52:54'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-03T08:55:20'
