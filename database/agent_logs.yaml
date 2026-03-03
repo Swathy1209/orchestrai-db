@@ -914,3 +914,7 @@ logs:
   status: success
   timestamp: '2026-03-03T05:46:55'
   details: Analyzed 95 jobs.
+- agent: CoverLetterAgent
+  action: Generated cover letters for 95 internships
+  status: success
+  timestamp: '2026-03-03T05:50:21'
