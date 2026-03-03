@@ -1129,3 +1129,9 @@ logs:
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
   timestamp: '2026-03-03T08:40:46'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
+    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-03T08:43:12'
