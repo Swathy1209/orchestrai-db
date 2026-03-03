@@ -1000,3 +1000,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-03T07:42:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-03T07:44:53'
