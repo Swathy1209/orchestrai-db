@@ -1589,3 +1589,8 @@ logs:
     interview Q&A for Tatari - Data Science, Intern'
   status: error
   timestamp: '2026-03-05T09:48:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-05T09:48:42'
