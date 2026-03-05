@@ -1,8 +1,12 @@
-# Cover Letter – Mindenious Edutech – Data Science
+# Cover Letter — Mindenious Edutech — Data Science
 
 Dear Hiring Manager at Mindenious Edutech,
 
-I am writing to express my enthusiastic interest in the Data Science position. With a strong foundation in Python, SQL, Machine Learning, Pandas, NumPy, Data Analysis, Scikit-learn, Statistics, Data Visualization, Excel, I am well-prepared to contribute to your team. I am eager to apply my technical background to real-world challenges at Mindenious Edutech.
+I am writing to express my strong interest in the Data Science position at Mindenious Edutech. As a B.Tech in Computer Science student with hands-on expertise in Python, SQL, Machine Learning, Pandas, NumPy, Data Analysis, Scikit-learn, Statistics, I am excited by the opportunity to contribute to your team's work in .
+
+Throughout my academic journey, I have developed a solid foundation in machine learning, data analysis, and software development. I am particularly drawn to Mindenious Edutech's innovative approach and believe my technical skills align perfectly with the requirements of this role. I am eager to apply my knowledge to solve real-world challenges and grow as a professional.
+
+I would welcome the opportunity to discuss how I can contribute to Mindenious Edutech's mission. Thank you for considering my application.
 
 Sincerely,
 swathiga
