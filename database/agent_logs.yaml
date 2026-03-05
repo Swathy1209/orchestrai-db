@@ -1830,3 +1830,8 @@ logs:
     States'
   status: error
   timestamp: '2026-03-05T09:50:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Veolia - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-05T09:50:56'
