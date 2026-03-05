@@ -1847,3 +1847,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-05T09:51:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-05T09:51:04'
