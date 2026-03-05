@@ -1610,3 +1610,8 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-05T09:48:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
+  status: error
+  timestamp: '2026-03-05T09:48:55'
