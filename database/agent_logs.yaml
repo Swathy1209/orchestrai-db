@@ -1473,3 +1473,8 @@ logs:
     degree)'
   status: error
   timestamp: '2026-03-05T09:47:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
+  status: error
+  timestamp: '2026-03-05T09:47:30'
