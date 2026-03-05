@@ -1871,3 +1871,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-05T09:51:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-05T09:51:15'
