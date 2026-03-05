@@ -1594,3 +1594,8 @@ logs:
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
   timestamp: '2026-03-05T09:48:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
+  status: error
+  timestamp: '2026-03-05T09:48:45'
