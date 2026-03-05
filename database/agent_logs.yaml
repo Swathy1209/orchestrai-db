@@ -1341,3 +1341,8 @@ logs:
     to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-05T09:46:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    interview Q&A for Typeface - ML Engineer Intern'
+  status: error
+  timestamp: '2026-03-05T09:46:23'
