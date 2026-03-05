@@ -1865,3 +1865,9 @@ logs:
     Vision'
   status: error
   timestamp: '2026-03-05T09:51:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
+    Engineer'
+  status: error
+  timestamp: '2026-03-05T09:51:13'
