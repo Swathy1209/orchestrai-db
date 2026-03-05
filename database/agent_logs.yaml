@@ -1573,3 +1573,8 @@ logs:
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-05T09:48:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    interview Q&A for Primetrade.ai - Data Science'
+  status: error
+  timestamp: '2026-03-05T09:48:30'
