@@ -1796,3 +1796,8 @@ logs:
     - Summer 2026 Start'
   status: error
   timestamp: '2026-03-05T09:50:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
+  status: error
+  timestamp: '2026-03-05T09:50:38'
