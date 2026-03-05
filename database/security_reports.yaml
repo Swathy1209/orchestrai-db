@@ -1,0 +1,504 @@
+security_reports:
+- repo: orchestrai-agent
+  repo_url: https://github.com/Swathy1209/orchestrai-agent
+  risk_level: High
+  risk_score: 13
+  total_vulnerabilities: 6
+  vulnerabilities:
+  - name: HTTP (not HTTPS)
+    severity: LOW
+    file: backend/agents/auto_fix_pr_agent.py
+    line: 120
+  - name: SQL String Concat
+    severity: HIGH
+    file: backend/agents/career_strategy_agent.py
+    line: 134
+  - name: Unsafe eval()
+    severity: HIGH
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 39
+  - name: Unsafe exec()
+    severity: MEDIUM
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 40
+  - name: SQL String Concat
+    severity: HIGH
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 44
+  - name: HTTP (not HTTPS)
+    severity: LOW
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 48
+  issues:
+  - '[HIGH] SQL String Concat in `backend/agents/career_strategy_agent.py` line 134
+    | Fix: Use parameterized queries to prevent SQL injection'
+  - '[HIGH] Unsafe eval() in `backend/agents/repo_security_scanner_agent.py` line
+    39 | Fix: Avoid eval(); use json.loads() or ast.literal_eval() instead'
+  - '[HIGH] SQL String Concat in `backend/agents/repo_security_scanner_agent.py` line
+    44 | Fix: Use parameterized queries to prevent SQL injection'
+  scanned_files: 47
+  auto_fix_pr: ''
+- repo: Stock_Sentiment_Analysis
+  repo_url: https://github.com/Swathy1209/Stock_Sentiment_Analysis
+  risk_level: Medium
+  risk_score: 6
+  total_vulnerabilities: 2
+  vulnerabilities:
+  - name: Hardcoded API Key
+    severity: HIGH
+    file: stock_sentiment_analysis.py
+    line: 6
+  - name: Hardcoded Token
+    severity: HIGH
+    file: stock_sentiment_analysis.py
+    line: 8
+  issues:
+  - '[HIGH] Hardcoded API Key in `stock_sentiment_analysis.py` line 6 | Fix: Store
+    API keys in environment variables, never in code'
+  - '[HIGH] Hardcoded Token in `stock_sentiment_analysis.py` line 8 | Fix: Store tokens
+    in environment variables'
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: DOCBOT
+  repo_url: https://github.com/Swathy1209/DOCBOT
+  risk_level: Medium
+  risk_score: 6
+  total_vulnerabilities: 2
+  vulnerabilities:
+  - name: Hardcoded Token
+    severity: HIGH
+    file: hmsdocfinal.py
+    line: 177
+  - name: SQL String Concat
+    severity: HIGH
+    file: hmsdocfinal.py
+    line: 149
+  issues:
+  - '[HIGH] Hardcoded Token in `hmsdocfinal.py` line 177 | Fix: Store tokens in environment
+    variables'
+  - '[HIGH] SQL String Concat in `hmsdocfinal.py` line 149 | Fix: Use parameterized
+    queries to prevent SQL injection'
+  scanned_files: 3
+  auto_fix_pr: ''
+- repo: AI_Agent_RecruitmentTeam
+  repo_url: https://github.com/Swathy1209/AI_Agent_RecruitmentTeam
+  risk_level: Low
+  risk_score: 3
+  total_vulnerabilities: 1
+  vulnerabilities:
+  - name: SQL String Concat
+    severity: HIGH
+    file: ai_recruitment_agent_team.py
+    line: 427
+  issues:
+  - '[HIGH] SQL String Concat in `ai_recruitment_agent_team.py` line 427 | Fix: Use
+    parameterized queries to prevent SQL injection'
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Metro_Train_Tracking_System
+  repo_url: https://github.com/Swathy1209/Metro_Train_Tracking_System
+  risk_level: Low
+  risk_score: 3
+  total_vulnerabilities: 1
+  vulnerabilities:
+  - name: SQL String Concat
+    severity: HIGH
+    file: metro_trainapp.py
+    line: 830
+  issues:
+  - '[HIGH] SQL String Concat in `metro_trainapp.py` line 830 | Fix: Use parameterized
+    queries to prevent SQL injection'
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: STST
+  repo_url: https://github.com/Swathy1209/STST
+  risk_level: Low
+  risk_score: 3
+  total_vulnerabilities: 2
+  vulnerabilities:
+  - name: Unsafe exec()
+    severity: MEDIUM
+    file: decorator.py
+    line: 160
+  - name: HTTP (not HTTPS)
+    severity: LOW
+    file: soundfile.py
+    line: 1269
+  issues:
+  - '[MEDIUM] Unsafe exec() in `decorator.py` line 160 | Fix: Avoid exec(); refactor
+    to use functions directly'
+  - '[LOW] HTTP (not HTTPS) in `soundfile.py` line 1269 | Fix: Use HTTPS endpoints
+    to ensure encrypted communication'
+  scanned_files: 5
+  auto_fix_pr: ''
+- repo: Chatbot-Flexbot
+  repo_url: https://github.com/Swathy1209/Chatbot-Flexbot
+  risk_level: Low
+  risk_score: 3
+  total_vulnerabilities: 1
+  vulnerabilities:
+  - name: Pickle Deserialization
+    severity: HIGH
+    file: gui.py
+    line: 66
+  issues:
+  - '[HIGH] Pickle Deserialization in `gui.py` line 66 | Fix: Use JSON serialization
+    instead of pickle'
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: orchestrai-db
+  repo_url: https://github.com/Swathy1209/orchestrai-db
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 11
+  auto_fix_pr: ''
+- repo: acia-cloud-deployment
+  repo_url: https://github.com/Swathy1209/acia-cloud-deployment
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: acia-playwright
+  repo_url: https://github.com/Swathy1209/acia-playwright
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Azure_App
+  repo_url: https://github.com/Swathy1209/Azure_App
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Portfolio
+  repo_url: https://github.com/Swathy1209/Portfolio
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: Lead_Generation_Agent
+  repo_url: https://github.com/Swathy1209/Lead_Generation_Agent
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Customer_Service_Agent
+  repo_url: https://github.com/Swathy1209/Customer_Service_Agent
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: AI_Meeting
+  repo_url: https://github.com/Swathy1209/AI_Meeting
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: AI_StartupAgent
+  repo_url: https://github.com/Swathy1209/AI_StartupAgent
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: DeepSearch_Agent
+  repo_url: https://github.com/Swathy1209/DeepSearch_Agent
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Legal_Agent
+  repo_url: https://github.com/Swathy1209/Legal_Agent
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Chat-with-LLMs
+  repo_url: https://github.com/Swathy1209/Chat-with-LLMs
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: Smoke-detection-video-and-realtime
+  repo_url: https://github.com/Swathy1209/Smoke-detection-video-and-realtime
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Customer_Service_bot
+  repo_url: https://github.com/Swathy1209/Customer_Service_bot
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: Medical_Chatbot
+  repo_url: https://github.com/Swathy1209/Medical_Chatbot
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 3
+  auto_fix_pr: ''
+- repo: Null_Class_Datascience-internship-
+  repo_url: https://github.com/Swathy1209/Null_Class_Datascience-internship-
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 4
+  auto_fix_pr: ''
+- repo: Swathy1209
+  repo_url: https://github.com/Swathy1209/Swathy1209
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: GEMINI-Chatbot
+  repo_url: https://github.com/Swathy1209/GEMINI-Chatbot
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: OLLAMA_Chatbot
+  repo_url: https://github.com/Swathy1209/OLLAMA_Chatbot
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: Smart_PDF_Search
+  repo_url: https://github.com/Swathy1209/Smart_PDF_Search
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Shadowfox
+  repo_url: https://github.com/Swathy1209/Shadowfox
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: Break_Train_Relax
+  repo_url: https://github.com/Swathy1209/Break_Train_Relax
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Gender_Detection-video-Realtime-
+  repo_url: https://github.com/Swathy1209/Gender_Detection-video-Realtime-
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: COGNIFYZ-LEVEL-1
+  repo_url: https://github.com/Swathy1209/COGNIFYZ-LEVEL-1
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: ADAC---Automatic-document-Analyzer-and-Classifier
+  repo_url: https://github.com/Swathy1209/ADAC---Automatic-document-Analyzer-and-Classifier
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 1
+  auto_fix_pr: ''
+- repo: Smart-Budgeting-and-Investment-Advisor
+  repo_url: https://github.com/Swathy1209/Smart-Budgeting-and-Investment-Advisor
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 2
+  auto_fix_pr: ''
+- repo: EDA_COVIDAnalysis
+  repo_url: https://github.com/Swathy1209/EDA_COVIDAnalysis
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: https-github.com-Swathy1209-EDA_COVID_Analysis
+  repo_url: https://github.com/Swathy1209/https-github.com-Swathy1209-EDA_COVID_Analysis
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: EDA_COVID_Analysis
+  repo_url: https://github.com/Swathy1209/EDA_COVID_Analysis
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: OIBSIP_PROJECT
+  repo_url: https://github.com/Swathy1209/OIBSIP_PROJECT
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: Exam_Score_Predictor
+  repo_url: https://github.com/Swathy1209/Exam_Score_Predictor
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: Exam_Score_Prediction
+  repo_url: https://github.com/Swathy1209/Exam_Score_Prediction
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: CREDIT-SCORE-CLASSIFICATION
+  repo_url: https://github.com/Swathy1209/CREDIT-SCORE-CLASSIFICATION
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+- repo: Story-teller
+  repo_url: https://github.com/Swathy1209/Story-teller
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
+priority_security_fix:
+  repo: orchestrai-agent
+  repo_url: https://github.com/Swathy1209/orchestrai-agent
+  risk: HIGH
+  issue: SQL String Concat
+  file: backend/agents/career_strategy_agent.py
+  line: 134
+  snippet: ''
+  fix: Apply secure coding practices.
+summary:
+  total_repos: 41
+  high_risk: 1
+  medium_risk: 2
+  low_risk: 4
+  safe: 34
+  scanned_at: '2026-03-05T09:40:07'
