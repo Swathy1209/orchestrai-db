@@ -1817,3 +1817,10 @@ logs:
     (PhD)'
   status: error
   timestamp: '2026-03-05T09:50:46'
+- agent: PracticeAgent
+  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
+    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
+    for The Institute for Advanced Learning and Research - Artificial Intelligence
+    / Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-05T09:50:49'
