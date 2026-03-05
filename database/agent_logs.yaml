@@ -1314,3 +1314,8 @@ logs:
     & Paid)'
   status: error
   timestamp: '2026-03-05T09:46:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
+  status: error
+  timestamp: '2026-03-05T09:46:10'
