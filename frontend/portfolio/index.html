@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swathiga — AI & Data Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #09090b;
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.5);
+            --secondary: #8b5cf6;
+            --surface: rgba(255, 255, 255, 0.03);
+            --surface-hover: rgba(255, 255, 255, 0.08);
+            --border: rgba(255, 255, 255, 0.08);
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.08), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.08), transparent 25%);
+            background-attachment: fixed;
+            line-height: 1.7;
+        }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+        
+        /* Hero Section */
+        header {
+            padding: 8rem 0 5rem 0;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            position: relative;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            text-transform: uppercase;
+        }
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 4.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #ffffff 30%, #a8a29e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+        .summary {
+            font-size: 1.25rem;
+            color: var(--text-dim);
+            max-width: 700px;
+            margin: 0 auto 3rem auto;
+            font-weight: 300;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .skill-badge {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 0.6rem 1.25rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        .skill-badge:hover {
+            background: var(--surface-hover);
+            border-color: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Projects Section */
+        section { padding: 6rem 0; }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 4rem;
+        }
+        .section-header h2 {
+            font-size: 2.25rem;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+        }
+        .section-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, var(--border), transparent);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+        
+        .project-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(255,255,255,0.15);
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+        }
+        .project-card:hover::before { opacity: 1; }
+
+        .project-card h3 {
+            font-size: 1.4rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+        .project-card .tech {
+            color: var(--primary);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.25rem;
+            font-weight: 700;
+        }
+        .project-card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        .project-card .impact {
+            color: #e2e8f0;
+            margin-top: auto;
+            border-left: 3px solid var(--secondary);
+            padding-left: 1rem;
+            font-style: italic;
+            background: rgba(139, 92, 246, 0.05);
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .card-footer {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+        .btn {
+            padding: 0.6rem 1.25rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .gh-btn {
+            background: transparent;
+            color: #fff;
+            border: 1px solid var(--border);
+        }
+        .gh-btn:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,255,255,0.2);
+        }
+        .demo-btn {
+            background: var(--text-main);
+            color: var(--bg-dark);
+            border: 1px solid transparent;
+        }
+        .demo-btn:hover {
+            background: #d1d5db;
+            transform: scale(1.02);
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-dim);
+            border-top: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            header { padding: 5rem 0 3rem 0; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hero-badge">Curated Engineering Portfolio</div>
+            <h1>swathiga</h1>
+            <p class="summary">None</p>
+            <div class="skills">
+                <span class="skill-badge">Python</span><span class="skill-badge">SQL</span><span class="skill-badge">Machine Learning</span><span class="skill-badge">Pandas</span><span class="skill-badge">NumPy</span><span class="skill-badge">Data Analysis</span><span class="skill-badge">Scikit-learn</span><span class="skill-badge">Statistics</span><span class="skill-badge">Data Visualization</span><span class="skill-badge">Excel</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="projects">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="grid">
+                
+        <div class="project-card">
+            <h3>STST</h3>
+            <p class="tech">Python</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#f29900; font-weight:bold;">Security Risk: 3</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; [MEDIUM] Unsafe exec() in `decorator.py` line 160 | Fix: Avoid exec(); refactor to use functions directly<br>&bull; [LOW] HTTP (not HTTPS) in `soundfile.py` line 1269 | Fix: Use HTTPS endpoints to ensure encrypted communication</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/STST" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/STST?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>Swathy1209</h3>
+            <p class="tech">None</p>
+            <p>Config files for my GitHub profile.</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#2e7d32; font-weight:bold;">Security Risk: 0</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; No critical issues detected.</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/Swathy1209" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/Swathy1209?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>orchestrai-db</h3>
+            <p class="tech">HTML</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#2e7d32; font-weight:bold;">Security Risk: 0</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; No critical issues detected.</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/orchestrai-db" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/orchestrai-db?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>orchestrai-agent</h3>
+            <p class="tech">Python</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#d32f2f; font-weight:bold;">Security Risk: 13</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; [HIGH] SQL String Concat in `backend/agents/career_strategy_agent.py` line 134 | Fix: Use parameterized queries to prevent SQL injection<br>&bull; [HIGH] Unsafe eval() in `backend/agents/repo_security_scanner_agent.py` line 39 | Fix: Avoid eval(); use json.loads() or ast.literal_eval() instead</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/orchestrai-agent" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/orchestrai-agent?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>acia-cloud-deployment</h3>
+            <p class="tech">None</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#2e7d32; font-weight:bold;">Security Risk: 0</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; No critical issues detected.</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/acia-cloud-deployment" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/acia-cloud-deployment?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>acia-playwright</h3>
+            <p class="tech">JavaScript</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#2e7d32; font-weight:bold;">Security Risk: 0</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; No critical issues detected.</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/acia-playwright" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/acia-playwright?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>Azure_App</h3>
+            <p class="tech">Python</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#2e7d32; font-weight:bold;">Security Risk: 0</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; No critical issues detected.</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/Azure_App" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/Azure_App?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>Portfolio</h3>
+            <p class="tech">TypeScript</p>
+            <p>None</p>
+            <div class="impact"><em>" No impact metric formulated. "</em></div>
+            
+            <div style="margin-top:0.5rem; padding:0.5rem; background:rgba(0,0,0,0.2); border-radius:6px; font-size:0.8rem;">
+                <span style="color:#2e7d32; font-weight:bold;">Security Risk: 0</span>
+                <div style="margin-top:0.2rem; color:var(--text-muted);">&bull; No critical issues detected.</div>
+            </div>
+            
+            <div class="card-footer">
+                <a href="https://github.com/Swathy1209/Portfolio" class="btn gh-btn" target="_blank">GitHub Repo</a>
+                <img src="https://img.shields.io/github/stars/None/Portfolio?style=social" alt="GitHub stars" style="margin-right:10px;">
+            </div>
+        </div>
+        
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Built autonomously by OrchestrAI</p>
+    </footer>
+</body>
+</html>
