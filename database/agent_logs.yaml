@@ -1578,3 +1578,9 @@ logs:
     interview Q&A for Primetrade.ai - Data Science'
   status: error
   timestamp: '2026-03-05T09:48:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-05T09:48:34'
