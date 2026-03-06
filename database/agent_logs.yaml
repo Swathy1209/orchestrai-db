@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T18:57:02'
-- agent: CareerAgent
   action: 106 jobs fetched
   level: INFO
   timestamp: '2026-03-01T18:57:15'
@@ -2404,3 +2400,8 @@ logs:
     India Private Limited - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-06T07:17:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
+    to generate interview Q&A for Random Groups Of Companies - Data Science'
+  status: error
+  timestamp: '2026-03-06T07:17:20'
