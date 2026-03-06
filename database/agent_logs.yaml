@@ -2287,3 +2287,8 @@ logs:
     Analyst Innovation Intern'
   status: error
   timestamp: '2026-03-06T07:16:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
+    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
+  status: error
+  timestamp: '2026-03-06T07:16:51'
