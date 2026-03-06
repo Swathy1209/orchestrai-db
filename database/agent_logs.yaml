@@ -1981,3 +1981,8 @@ logs:
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-06T07:15:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-06T07:15:57'
