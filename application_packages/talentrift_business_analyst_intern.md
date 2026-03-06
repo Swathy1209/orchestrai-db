@@ -4,10 +4,10 @@ Company: Talentrift
 Role: Business Analyst Intern
 
 Resume:
-https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+https://orchestrai-agent.onrender.com/application_packages/resume.pdf
 
 Cover Letter:
-https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/talentrift_business_analyst_intern.md
+https://orchestrai-agent.onrender.com/cover_letters/talentrift_business_analyst_intern.md
 
 Apply Here:
 https://www.linkedin.com/jobs/view/business-analyst-intern-at-talentrift-4376683128?position=7&pageNum=0&refId=6EZSEwCioU%2Bkl5zxsyq7GA%3D%3D&trackingId=Eec7%2BO9G4BcEi1oYBJ6h7A%3D%3D
