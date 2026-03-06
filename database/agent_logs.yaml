@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T18:30:27'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-01T18:30:28'
@@ -2383,3 +2379,8 @@ logs:
     States'
   status: error
   timestamp: '2026-03-06T07:17:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Veolia - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-06T07:17:08'
