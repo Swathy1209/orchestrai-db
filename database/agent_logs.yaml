@@ -1,9 +1,4 @@
 logs:
-- agent: ExecutionAgent
-  action: Daily email sent successfully
-  status: success
-  timestamp: '2026-03-01T18:30:42'
-  details: Sent to swathiga22@gmail.com
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2391,3 +2386,9 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-06T07:17:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
+    Vision'
+  status: error
+  timestamp: '2026-03-06T07:17:12'
