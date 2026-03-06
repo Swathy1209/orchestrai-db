@@ -2202,3 +2202,8 @@ logs:
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
   timestamp: '2026-03-06T07:16:34'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-06T07:16:35'
