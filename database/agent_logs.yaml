@@ -2111,3 +2111,8 @@ logs:
     interview Q&A for Unknown - Data Science Intern'
   status: error
   timestamp: '2026-03-06T07:16:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
+    Q&A for Innoknowvex - Data Science'
+  status: error
+  timestamp: '2026-03-06T07:16:20'
