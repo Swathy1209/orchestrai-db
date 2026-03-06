@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T18:50:44'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-01T18:50:45'
@@ -2396,3 +2392,8 @@ logs:
     - Machine Learning Intern'
   status: error
   timestamp: '2026-03-06T07:17:14'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    interview Q&A for OralKart - Machine Learning'
+  status: error
+  timestamp: '2026-03-06T07:17:15'
