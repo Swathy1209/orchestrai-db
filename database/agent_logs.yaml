@@ -2057,3 +2057,8 @@ logs:
     interview Q&A for Lensa - Data Analyst Intern'
   status: error
   timestamp: '2026-03-06T07:16:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Go Offer - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-06T07:16:10'
