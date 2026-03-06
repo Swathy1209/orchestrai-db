@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T19:11:26'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-01T19:11:27'
@@ -2408,3 +2404,7 @@ logs:
   action: 'Computed readiness score: 77.2 — ✅ Strong Candidate'
   status: completed
   timestamp: '2026-03-06T07:19:55'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=77.2
+  status: completed
+  timestamp: '2026-03-06T07:19:58'
