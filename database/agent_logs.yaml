@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T18:57:15'
-- agent: CareerAgent
   action: 106 jobs fetched, 66 relevant
   level: INFO
   timestamp: '2026-03-01T18:59:59'
@@ -2405,3 +2401,8 @@ logs:
     to generate interview Q&A for Random Groups Of Companies - Data Science'
   status: error
   timestamp: '2026-03-06T07:17:20'
+- agent: PracticeAgent
+  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-06T07:17:21'
