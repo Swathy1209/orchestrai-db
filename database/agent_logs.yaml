@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T18:27:31'
-- agent: CareerAgent
   action: 106 jobs fetched, 66 relevant
   level: INFO
   timestamp: '2026-03-01T18:30:27'
@@ -2381,3 +2377,9 @@ logs:
     / Machine Learning Intern'
   status: error
   timestamp: '2026-03-06T07:17:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
+    States'
+  status: error
+  timestamp: '2026-03-06T07:17:07'
