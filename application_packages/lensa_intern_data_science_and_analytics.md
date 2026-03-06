@@ -4,10 +4,10 @@ Company: Lensa
 Role: Intern, Data Science and Analytics
 
 Resume:
-https://raw.githubusercontent.com/Swathy1209/orchestrai-db/main/application_packages/resume.pdf
+https://orchestrai-agent.onrender.com/application_packages/resume.pdf
 
 Cover Letter:
-https://github.com/Swathy1209/orchestrai-db/blob/main/cover_letters/lensa_intern_data_science_and_analytics.md
+https://orchestrai-agent.onrender.com/cover_letters/lensa_intern_data_science_and_analytics.md
 
 Apply Here:
 https://www.linkedin.com/jobs/view/intern-data-science-and-analytics-at-lensa-4379297552?position=7&pageNum=0&refId=0vFkUVGmz6%2BbzRAfh3XG2A%3D%3D&trackingId=qYAqTfq5pBieD6kGw%2BHNPA%3D%3D
