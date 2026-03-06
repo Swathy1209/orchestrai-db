@@ -2218,3 +2218,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-06T07:16:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
+    Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-06T07:16:39'
