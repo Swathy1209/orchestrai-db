@@ -2346,3 +2346,8 @@ logs:
     Internship Spring 2026'
   status: error
   timestamp: '2026-03-06T07:17:00'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-06T07:17:01'
