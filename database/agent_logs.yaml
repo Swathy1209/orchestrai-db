@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
-  status: error
-  timestamp: '2026-03-06T07:16:40'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
     to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
@@ -2398,3 +2393,8 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-07T12:30:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:30:36'
