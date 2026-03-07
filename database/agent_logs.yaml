@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-07T07:08:07'
-- agent: PracticeAgent
   action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
     interview Q&A for Unnati Enterprises - Data Science'
   status: error
@@ -2399,3 +2394,7 @@ logs:
   action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
   status: completed
   timestamp: '2026-03-07T14:00:42'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 75.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T14:00:56'
