@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
-    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate interview
-    Q&A for TikTok - Machine Learning Engineer Intern - Global E-Commerce Content
-    Recommendation - 2026 Summer (BS/MS)'
-  status: error
-  timestamp: '2026-03-05T09:49:26'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
     Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Machine Learning Engineer Intern - Data-Search-TikTok Recommendation
@@ -2448,3 +2441,7 @@ logs:
   action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
   status: completed
   timestamp: '2026-03-07T11:48:47'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T11:49:09'
