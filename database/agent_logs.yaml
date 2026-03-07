@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T09:37:18'
-- agent: CareerAgent
   action: 105 jobs fetched, 63 relevant
   level: INFO
   timestamp: '2026-03-02T09:38:08'
@@ -2496,3 +2492,8 @@ logs:
     Team - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-07T07:08:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:43'
