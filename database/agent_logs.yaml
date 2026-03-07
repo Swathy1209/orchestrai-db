@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:05:35'
 - agent: ExecutionAgent
   action: Pipeline execution completed and email sent
   status: success
@@ -2422,5 +2418,11 @@ logs:
   action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
     Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
     Intern – Operations'
+  status: error
+  timestamp: '2026-03-07T07:07:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
   status: error
   timestamp: '2026-03-07T07:07:47'
