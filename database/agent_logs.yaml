@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
-    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
-  status: error
-  timestamp: '2026-03-06T07:17:01'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
     Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
     - Summer 2026 Start'
@@ -2400,3 +2395,10 @@ logs:
     interview Q&A for Lensa - Intern - Data Science'
   status: error
   timestamp: '2026-03-07T12:31:37'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
+    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:31:40'
