@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
-  status: error
-  timestamp: '2026-03-05T09:50:38'
-- agent: PracticeAgent
   action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
     to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
   status: error
@@ -2417,3 +2412,7 @@ logs:
   action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
   status: completed
   timestamp: '2026-03-07T12:11:21'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T12:11:29'
