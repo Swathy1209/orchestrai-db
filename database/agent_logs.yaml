@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T13:18:56'
-- agent: CareerAgent
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-03-02T13:19:11'
@@ -2567,3 +2563,8 @@ logs:
   status: completed
   expired_removed: 0
   timestamp: '2026-03-07T07:21:18'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 44 jobs
+  status: completed
+  jobs_scraped: 44
+  timestamp: '2026-03-07T07:40:33'
