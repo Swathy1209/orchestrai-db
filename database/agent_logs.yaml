@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
-    interview Q&A for Thermo Fisher - Data Engineer II'
-  status: error
-  timestamp: '2026-03-06T07:16:57'
-- agent: PracticeAgent
   action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
     to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
   status: error
@@ -2401,3 +2396,9 @@ logs:
     generate interview Q&A for Talentrift - Business Analyst Intern'
   status: error
   timestamp: '2026-03-07T12:31:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
+    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
+    Analyst Innovation Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:27'
