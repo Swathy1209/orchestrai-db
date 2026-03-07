@@ -1,0 +1,13 @@
+- company: LinkedIn Corp
+  role: Data Science Intern
+  location: Remote
+  portal: LinkedIn
+  job_url: https://linkedin.com/jobs/view/12345
+  date_posted: '2026-03-07'
+  application_deadline: '2030-12-31'
+  required_skills:
+  - Python
+  - SQL
+  - Machine Learning
+  - Statistics
+  job_description: Data Science Intern focusing on analytics.
