@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-07T07:07:43'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
     failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
     2026)'
@@ -2424,3 +2419,8 @@ logs:
   status: completed
   jobs_scraped: 1
   timestamp: '2026-03-07T13:30:08'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T13:32:17'
