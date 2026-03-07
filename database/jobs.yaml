@@ -1246,4 +1246,22 @@ jobs:
   technical_skills: []
   source: LinkedIn
   timestamp: '2026-03-07T09:31:56.012151+00:00'
-last_updated: '2026-03-07T09:32:13.620203+00:00'
+- company: Aurora Financials
+  role: AI / ML Engineering Intern
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-ai-ml-engineering-intern-internship-at-aurora-financials1772876827
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-07T10:09:38.376216+00:00'
+- company: Zetheta Algorithms Private Limited
+  role: Artificial Intelligence Intern
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-artificial-intelligence-intern-internship-at-zetheta-algorithms-private-limited1772876167
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-07T10:09:38.378827+00:00'
+last_updated: '2026-03-07T10:10:46.212362+00:00'
