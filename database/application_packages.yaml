@@ -938,21 +938,35 @@
 - company: Tatari
   role: Data Science Analyst, Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/tatari_data_science_analyst_intern.md
   apply_link: https://www.linkedin.com/jobs/view/data-science-analyst-intern-at-tatari-4374688558?position=10&pageNum=0&refId=SnFTkeDJgpDpf%2Bfa5l3yBQ%3D%3D&trackingId=PzOYCkIpM3ojfD33tm%2B%2B9g%3D%3D
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/tatari_data_science_analyst_intern.md
 - company: Aurora Financials
   role: AI / ML Engineering Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/aurora_financials_ai_ml_engineering_intern.md
   apply_link: https://internshala.com/internship/detail/work-from-home-ai-ml-engineering-intern-internship-at-aurora-financials1772876827
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/aurora_financials_ai_ml_engineering_intern.md
 - company: Zetheta Algorithms Private Limited
   role: Artificial Intelligence Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/zetheta_algorithms_private_limited_artificial_intelligence_intern.md
   apply_link: https://internshala.com/internship/detail/work-from-home-artificial-intelligence-intern-internship-at-zetheta-algorithms-private-limited1772876167
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/zetheta_algorithms_private_limited_artificial_intelligence_intern.md
+- company: Zetheta Algorithms Private Limited
+  role: Data Science Intern
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://internshala.com/internship/detail/work-from-home-data-science-intern-internship-at-zetheta-algorithms-private-limited1772881209
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/zetheta_algorithms_private_limited_data_science_intern.md
+- company: Quarterhill Inc.
+  role: Machine Learning Engineer Intern
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-quarterhill-inc-4372938118?position=9&pageNum=0&refId=Fp6VCs12OPgfuatRnc7zKw%3D%3D&trackingId=VieqsP8AMUXL0mVGvVlb3Q%3D%3D
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/quarterhill_inc_machine_learning_engineer_intern.md
