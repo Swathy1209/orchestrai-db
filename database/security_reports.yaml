@@ -1,9 +1,9 @@
 security_reports:
-- repo: orchi-agent
-  repo_url: https://github.com/Swathy1209/orchi-agent
-  risk_level: Medium
-  risk_score: 4
-  total_vulnerabilities: 2
+- repo: orchestrai-agent
+  repo_url: https://github.com/Swathy1209/orchestrai-agent
+  risk_level: High
+  risk_score: 13
+  total_vulnerabilities: 6
   vulnerabilities:
   - name: HTTP (not HTTPS)
     severity: LOW
@@ -13,15 +13,33 @@ security_reports:
     severity: HIGH
     file: backend/agents/career_strategy_agent.py
     line: 134
+  - name: Unsafe eval()
+    severity: HIGH
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 39
+  - name: Unsafe exec()
+    severity: MEDIUM
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 40
+  - name: SQL String Concat
+    severity: HIGH
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 44
+  - name: HTTP (not HTTPS)
+    severity: LOW
+    file: backend/agents/repo_security_scanner_agent.py
+    line: 48
   issues:
   - '[HIGH] SQL String Concat in `backend/agents/career_strategy_agent.py` line 134
     | Fix: Use parameterized queries to prevent SQL injection'
-  - '[LOW] HTTP (not HTTPS) in `backend/agents/auto_fix_pr_agent.py` line 120 | Fix:
-    Use HTTPS endpoints to ensure encrypted communication'
-  scanned_files: 53
+  - '[HIGH] Unsafe eval() in `backend/agents/repo_security_scanner_agent.py` line
+    39 | Fix: Avoid eval(); use json.loads() or ast.literal_eval() instead'
+  - '[HIGH] SQL String Concat in `backend/agents/repo_security_scanner_agent.py` line
+    44 | Fix: Use parameterized queries to prevent SQL injection'
+  scanned_files: 48
   auto_fix_pr: ''
-- repo: orchestrai-agent
-  repo_url: https://github.com/Swathy1209/orchestrai-agent
+- repo: orchi-agent
+  repo_url: https://github.com/Swathy1209/orchi-agent
   risk_level: Medium
   risk_score: 4
   total_vulnerabilities: 2
@@ -61,7 +79,7 @@ security_reports:
   - '[HIGH] Hardcoded Token in `stock_sentiment_analysis.py` line 8 | Fix: Store tokens
     in environment variables'
   scanned_files: 1
-  auto_fix_pr: https://github.com/Swathy1209/Stock_Sentiment_Analysis/pull/17
+  auto_fix_pr: ''
 - repo: DOCBOT
   repo_url: https://github.com/Swathy1209/DOCBOT
   risk_level: Medium
@@ -82,7 +100,7 @@ security_reports:
   - '[HIGH] SQL String Concat in `hmsdocfinal.py` line 149 | Fix: Use parameterized
     queries to prevent SQL injection'
   scanned_files: 3
-  auto_fix_pr: https://github.com/Swathy1209/DOCBOT/pull/16
+  auto_fix_pr: ''
 - repo: AI_Agent_RecruitmentTeam
   repo_url: https://github.com/Swathy1209/AI_Agent_RecruitmentTeam
   risk_level: Low
@@ -489,3 +507,19 @@ security_reports:
   - No critical issues detected.
   scanned_files: 0
   auto_fix_pr: ''
+priority_security_fix:
+  repo: orchestrai-agent
+  repo_url: https://github.com/Swathy1209/orchestrai-agent
+  risk: HIGH
+  issue: SQL String Concat
+  file: backend/agents/career_strategy_agent.py
+  line: 134
+  snippet: ''
+  fix: Apply secure coding practices.
+summary:
+  total_repos: 42
+  high_risk: 1
+  medium_risk: 3
+  low_risk: 4
+  safe: 34
+  scanned_at: '2026-03-07T13:44:23'
