@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-07T07:04:31'
-- agent: CareerAgent
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-03-07T07:04:44'
@@ -2429,3 +2425,8 @@ logs:
     Learning Engineer'
   status: error
   timestamp: '2026-03-07T12:33:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
+    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:03'
