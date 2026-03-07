@@ -33,72 +33,76 @@
   h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 3px; font-weight: 700; color: var(--accent); margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
   h3::after { content: ""; height: 1px; flex: 1; background: var(--glass-border); }
 
-  section { margin-bottom: 100px; }
-
-  /* SECTION 1: HERO */
-  .hero { padding: 120px 0 60px 0; }
-  .hero .apply-tag { font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--text-grey); text-transform: uppercase; margin-bottom: 12px; display: block; }
-  .hero .summary { font-size: 18px; color: var(--text-dim); line-height: 1.6; margin-top: 24px; }
+  section { margin-bottom: 120px; animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
   /* Glass Cards */
   .glass-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 20px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
-  .glass-card:hover { border-color: rgba(225, 6, 0, 0.3); background: rgba(255, 255, 255, 0.05); transform: translateY(-4px); }
+  .glass-card:hover { border-color: rgba(225,6,0,0.3); background: rgba(255,255,255,0.05); transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
 
-  /* SECTION 2: SKILLS MATCH */
+  /* SECTION 1: HERO */
+  .hero { padding: 120px 0 60px 0; }
+  .hero .apply-tag { font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; margin-bottom: 16px; display: block; }
+  .hero .summary { font-size: 22px; color: var(--text-dim); line-height: 1.5; margin-top: 32px; font-weight: 300; letter-spacing: -0.2px; }
+
+  /* SECTION 2: TECHNICAL ALIGNMENT (Skills) */
   .skills-match { display: flex; flex-wrap: wrap; gap: 10px; }
-  .skill-tag { padding: 10px 20px; border-radius: 40px; font-size: 14px; font-weight: 600; border: 1px solid var(--glass-border); background: var(--glass); }
+  .skill-tag { padding: 12px 24px; border-radius: 40px; font-size: 14px; font-weight: 600; border: 1px solid var(--glass-border); background: var(--glass); transition: 0.2s; }
   .skill-tag.match { color: #FFF; border-color: rgba(225, 6, 0, 0.5); background: rgba(225, 6, 0, 0.1); box-shadow: 0 0 20px rgba(225, 6, 0, 0.1); }
   .skill-tag.gap { color: var(--text-grey); font-weight: 400; }
 
-  /* SECTION 3: IMPACT */
+  /* SECTION 3: ENGINEERING IMPACT */
   .impact-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-  .impact-item { padding: 24px; border-radius: 16px; background: var(--glass); border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 16px; font-size: 16px; color: var(--text); }
-  .impact-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent); flex-shrink: 0; }
+  .impact-item { padding: 32px; border-radius: 20px; background: var(--glass); border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 20px; font-size: 18px; color: var(--text); font-weight: 500; }
+  .impact-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 15px var(--accent); flex-shrink: 0; }
 
-  /* SECTION 4: PROJECTS */
+  /* SECTION 4: RELEVANT PROJECTS */
   .project-card { padding: 0; overflow: hidden; margin-bottom: 32px; }
   .project-header { padding: 32px; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between; align-items: center; }
-  .project-header h3 { margin: 0; font-size: 24px; text-transform: none; letter-spacing: -0.5px; color: #FFF; border: none; }
+  .project-header h3 { margin: 0; font-size: 26px; text-transform: none; letter-spacing: -1px; color: #FFF; border: none; font-weight: 700; }
   .project-header h3::after { display: none; }
   .gh-link { color: var(--text-grey); transition: color 0.2s; }
-  .gh-link:hover { color: #FFF; }
+  .gh-link:hover { color: var(--accent); transform: scale(1.1); }
   .project-body { padding: 32px; }
   .proj-section { margin-bottom: 24px; }
-  .proj-section label { font-size: 10px; font-weight: 800; letter-spacing: 1.5px; color: var(--text-grey); display: block; margin-bottom: 8px; }
-  .proj-section p { font-size: 15px; color: var(--text-dim); line-height: 1.6; }
-  .proj-tech { font-size: 12px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
+  .proj-section label { font-size: 11px; font-weight: 800; letter-spacing: 2px; color: var(--text-grey); display: block; margin-bottom: 12px; }
+  .proj-section p { font-size: 16px; color: var(--text-dim); line-height: 1.6; }
+  .proj-tech { font-size: 13px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--glass-border); }
 
-  /* SECTION 5: GITHUB */
+  /* SECTION 5: PROFILE */
   .gh-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 32px; }
-  .stat-box { background: var(--glass); border: 1px solid var(--glass-border); padding: 32px; border-radius: 20px; text-align: center; }
-  .stat-value { display: block; font-size: 32px; font-weight: 800; color: #FFF; margin-bottom: 4px; }
-  .stat-label { font-size: 12px; color: var(--text-grey); text-transform: uppercase; letter-spacing: 1px; }
+  .stat-box { background: var(--glass); border: 1px solid var(--glass-border); padding: 40px; border-radius: 24px; text-align: center; }
+  .stat-value { display: block; font-size: 42px; font-weight: 800; color: #FFF; margin-bottom: 8px; letter-spacing: -1px; }
+  .stat-label { font-size: 13px; color: var(--text-grey); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; }
   
   .gh-showcase-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
-  .gh-showcase-item { background: var(--glass); border: 1px solid var(--glass-border); padding: 24px; border-radius: 16px; transition: 0.2s; }
-  .gh-showcase-item:hover { border-color: rgba(255,255,255,0.2); }
-  .gh-item-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-  .gh-item-top h4 { font-size: 16px; font-weight: 600; }
-  .gh-item-top span { font-size: 12px; color: var(--accent); font-weight: 700; }
-  .gh-showcase-item p { font-size: 13px; color: var(--text-grey); line-height: 1.5; }
+  .gh-showcase-item { background: var(--glass); border: 1px solid var(--glass-border); padding: 28px; border-radius: 20px; transition: 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+  .gh-showcase-item:hover { border-color: var(--accent); background: rgba(225, 6, 0, 0.05); transform: translateY(-4px); }
+  .gh-item-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .gh-item-top h4 { font-size: 17px; font-weight: 700; color: #FFF; }
+  .gh-item-top span { font-size: 13px; color: var(--accent); font-weight: 800; }
+  .gh-showcase-item p { font-size: 14px; color: var(--text-dim); line-height: 1.6; }
 
   /* SECTION 6/7: GAPS & ROADMAP */
   .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-  .gap-item { color: var(--accent); font-weight: 600; display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 15px; }
-  .gap-item.success { color: #10B981; }
-  .road-step { color: var(--text-dim); position: relative; padding-left: 24px; margin-bottom: 20px; font-size: 15px; }
-  .road-step::before { content: ""; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
+  .gap-item { color: var(--accent); font-weight: 700; display: flex; align-items: center; gap: 12px; margin-bottom: 16px; font-size: 16px; background: rgba(225, 6, 0, 0.05); padding: 16px 24px; border-radius: 12px; border: 1px solid rgba(225, 6, 0, 0.1); }
+  .gap-item.success { color: #10B981; background: rgba(16, 185, 129, 0.05); border-color: rgba(16, 185, 129, 0.1); }
+  .road-step { color: var(--text-dim); position: relative; padding-left: 32px; margin-bottom: 24px; font-size: 16px; line-height: 1.6; }
+  .road-step::before { content: ""; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px var(--accent); }
 
   /* Buttons */
-  .btn-primary { display: inline-block; background: var(--accent); color: #FFF; text-decoration: none; padding: 18px 40px; border-radius: 50px; font-size: 15px; font-weight: 700; transition: all 0.3s; box-shadow: 0 10px 30px var(--accent-glow); }
-  .btn-primary:hover { transform: scale(1.05); box-shadow: 0 15px 40px var(--accent-glow); }
+  .btn-primary { display: inline-block; background: var(--accent); color: #FFF; text-decoration: none; padding: 20px 48px; border-radius: 60px; font-size: 16px; font-weight: 800; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 15px 40px var(--accent-glow); margin: 0 auto; }
+  .btn-primary:hover { transform: scale(1.05); filter: brightness(1.2); box-shadow: 0 20px 50px var(--accent-glow); }
 
-  .footer { text-align: center; padding: 100px 0; border-top: 1px solid var(--glass-border); margin-top: 60px; }
-  .footer-sub { font-size: 12px; color: var(--text-grey); text-transform: uppercase; letter-spacing: 2px; }
+  .footer { text-align: center; padding: 120px 0; border-top: 1px solid var(--glass-border); margin-top: 60px; }
+  .footer-sub { font-size: 13px; color: var(--text-grey); text-transform: uppercase; letter-spacing: 3px; font-weight: 700; opacity: 0.6; }
 
   @media (max-width: 768px) {
-    h1 { font-size: 48px; letter-spacing: -2px; }
-    .split-grid, .gh-stats-grid { grid-template-columns: 1fr; }
+    h1 { font-size: 52px; letter-spacing: -2px; }
+    .split-grid { grid-template-columns: 1fr; }
+    .gh-stats-grid { grid-template-columns: 1fr; }
+    .container { padding: 24px; }
+    section { margin-bottom: 80px; }
   }
 </style>
 </head>
@@ -107,33 +111,36 @@
   <div class="bg-glow-2"></div>
 
   <div class="container">
-    <section class="hero">
-      <span class="apply-tag">Applying for Machine Learning at OralKart</span>
-      <h1>swathiga</h1>
-      <p class="summary"></p>
+    <section class="hero" style="animation-delay: 0.1s;">
+      <span class="apply-tag">CANDIDATE DOSSIER // ORALKART</span>
+      <h1>Preparing for Machine Learning</h1>
+      <h2>A customized technical portfolio highlighting mission-critical skills and engineering depth for the <strong style="color:#FFF;">OralKart</strong> team.</h2>
+      <div class="summary">Highly specialized candidate for the Machine Learning position at OralKart. Focusing on scalable architecture, data integrity, and engineering excellence.</div>
     </section>
 
-    <section>
-      <h3>Section 2 — Skills Match</h3>
+    <section style="animation-delay: 0.2s;">
+      <h3>Technical Alignment</h3>
       <div class="skills-match">
         
       </div>
     </section>
 
-    <section>
-      <h3>Section 3 — Impact Summary</h3>
+    <section style="animation-delay: 0.3s;">
+      <h3>Engineering Impact</h3>
       <div class="impact-grid">
         
       </div>
     </section>
 
-    <section>
-      <h3>Section 4 — Featured Projects</h3>
+    <section style="animation-delay: 0.4s;">
+      <h3>Relevant Projects</h3>
       
         <div class="glass-card project-card">
             <div class="project-header">
                 <h3>STST</h3>
-                <a href="https://github.com/Swathy1209/STST" target="_blank" class="gh-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                <a href="https://github.com/Swathy1209/STST" target="_blank" class="gh-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
             </div>
             <div class="project-body">
                 <div class="proj-section">
@@ -149,11 +156,12 @@
                 </div>
             </div>
         </div>
-        
         <div class="glass-card project-card">
             <div class="project-header">
                 <h3>Swathy1209</h3>
-                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="gh-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="gh-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
             </div>
             <div class="project-body">
                 <div class="proj-section">
@@ -169,11 +177,12 @@
                 </div>
             </div>
         </div>
-        
         <div class="glass-card project-card">
             <div class="project-header">
                 <h3>orchestrai-db</h3>
-                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="gh-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="gh-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
             </div>
             <div class="project-body">
                 <div class="proj-section">
@@ -189,11 +198,10 @@
                 </div>
             </div>
         </div>
-        
     </section>
 
-    <section>
-      <h3>Section 5 — GitHub Engineering Profile</h3>
+    <section style="animation-delay: 0.5s;">
+      <h3>GitHub Engineering Profile</h3>
       
     <div class="gh-stats-grid">
         <div class="stat-box">
@@ -205,11 +213,10 @@
             <span class="stat-label">Stars Received</span>
         </div>
         <div class="stat-box">
-            <span class="stat-value">Python, Jupyter Notebook, HTML, JavaScript, TypeScript</span>
-            <span class="stat-label">Top Languages</span>
+            <span class="stat-value" style="font-size: 16px; font-weight: 700;">Python, Jupyter Notebook, HTML</span>
+            <span class="stat-label">Core Tech</span>
         </div>
     </div>
-    
       <div class="gh-showcase-grid">
         
         <div class="gh-showcase-item">
@@ -217,49 +224,53 @@
                 <h4>orchestrai-agent</h4>
                 <span>⭐ 0</span>
             </div>
-            <p>Professional engineering repository.</p>
+            <p>...</p>
         </div>
-        
         <div class="gh-showcase-item">
             <div class="gh-item-top">
                 <h4>orchi-agent</h4>
                 <span>⭐ 0</span>
             </div>
-            <p>Professional engineering repository.</p>
+            <p>...</p>
         </div>
-        
         <div class="gh-showcase-item">
             <div class="gh-item-top">
                 <h4>acia-cloud-deployment</h4>
                 <span>⭐ 0</span>
             </div>
-            <p>Professional engineering repository.</p>
+            <p>...</p>
         </div>
-        
+        <div class="gh-showcase-item">
+            <div class="gh-item-top">
+                <h4>acia-playwright</h4>
+                <span>⭐ 0</span>
+            </div>
+            <p>...</p>
+        </div>
       </div>
     </section>
 
-    <section>
+    <section style="animation-delay: 0.6s;">
       <div class="split-grid">
         <div>
-          <h3>Section 6 — Skill Gap Analysis</h3>
-          <div class="gap-item success"><span>✓</span> All required skills present</div>
+          <h3>Growth & Perspective</h3>
+          <div class="gap-item success">✓ All technical requirements met</div>
         </div>
         <div>
-          <h3>Section 7 — Learning Roadmap</h3>
+          <h3>Roadmap to Mastery</h3>
           <div class="road-step">No skill gaps detected. You are well-equipped for this role!</div>
         </div>
       </div>
     </section>
 
-    <section id="cover-letter">
-      <h3>Section 8 — Cover Letter</h3>
-      <div style="text-align:center;margin-top:40px;"><a href="https://orchestrai-agent.onrender.com/cover_letters/oralkart_machine_learning.md" target="_blank" class="btn-primary">View Cover Letter &rarr;</a></div>
+    <section id="cover-letter" style="animation-delay: 0.7s;">
+      <h3>Letter to the Team</h3>
+      <div style="text-align:center;margin-top:40px;"><a href="https://orchestrai-agent.onrender.com/cover_letters/oralkart_machine_learning.md" target="_blank" class="btn-primary">View Letter to the Team &rarr;</a></div>
     </section>
 
     <footer class="footer">
-      <div class="footer-sub">Built autonomously by OrchestrAI</div>
-      <div style="font-size: 14px; font-weight: 600; margin-top: 8px;">Autonomous Career Intelligence System</div>
+      <div class="footer-sub">OrchestrAI // Autonomous Career Intelligence</div>
+      <div style="font-size: 16px; font-weight: 800; margin-top: 12px; color: #FFF; letter-spacing: -0.5px;">ENGINEERED BY MULTI-AGENT SYSTEMS</div>
     </footer>
   </div>
 </body>
