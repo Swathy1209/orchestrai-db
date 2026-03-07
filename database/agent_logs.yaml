@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ZURU Toys - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-06T07:16:05'
-- agent: PracticeAgent
   action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
     Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
     America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
@@ -2399,3 +2394,8 @@ logs:
     to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
   timestamp: '2026-03-07T12:28:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:48'
