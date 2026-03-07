@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
-    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
-    2026)'
-  status: error
-  timestamp: '2026-03-07T07:07:47'
-- agent: PracticeAgent
   action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
     Q&A for Go Offer - Data Analyst'
   status: error
@@ -2420,3 +2414,7 @@ logs:
   action: 64 jobs fetched
   level: INFO
   timestamp: '2026-03-07T13:32:33'
+- agent: CareerAgent
+  action: 64 jobs fetched, 18 relevant
+  level: INFO
+  timestamp: '2026-03-07T13:32:37'
