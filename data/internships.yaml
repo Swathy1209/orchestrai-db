@@ -42,12 +42,9 @@
   job_url: https://stripe.com/jobs/search?gh_jid=7532733
   date_posted: '2026-03-07'
   required_skills: []
-  job_description: '&lt;h2&gt;Who we are&lt;/h2&gt;
-
-    &lt;h3&gt;About Stripe&lt;/h3&gt;
-
-    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions
-    of companies - from the world’s largest enterprises to'
+  job_description: "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n\
+    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions\
+    \ of companies - from the world\u2019s largest enterprises to"
 - company: Stripe
   role: AI/ML Engineering Manager, Payment Intelligence
   location: Remote
@@ -55,12 +52,9 @@
   job_url: https://stripe.com/jobs/search?gh_jid=7286376
   date_posted: '2026-03-07'
   required_skills: []
-  job_description: '&lt;h2&gt;Who we are&lt;/h2&gt;
-
-    &lt;h3&gt;About Stripe&lt;/h3&gt;
-
-    &lt;p&gt;Stripe’s mission is to accelerate global economic and technological development.
-    We offer financial infrastructure and a vari'
+  job_description: "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n\
+    &lt;p&gt;Stripe\u2019s mission is to accelerate global economic and technological\
+    \ development. We offer financial infrastructure and a vari"
 - company: Stripe
   role: AI Solutions Developer, Finance
   location: Remote
@@ -236,11 +230,9 @@
   job_url: https://stripe.com/jobs/search?gh_jid=7609448
   date_posted: '2026-03-07'
   required_skills: []
-  job_description: '&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;
-
-    &lt;h3 id=&quot;about-bridge&quot;&gt;About Bridge&lt;/h3&gt;
-
-    &lt;p&gt;We’re creating an entirely new payments platform, built with stable'
+  job_description: "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n\
+    &lt;h3 id=&quot;about-bridge&quot;&gt;About Bridge&lt;/h3&gt;\n&lt;p&gt;We\u2019\
+    re creating an entirely new payments platform, built with stable"
 - company: Stripe
   role: Paid Digital Marketing Manager
   location: Remote
@@ -320,12 +312,9 @@
   job_url: https://stripe.com/jobs/search?gh_jid=7216668
   date_posted: '2026-03-07'
   required_skills: []
-  job_description: '&lt;h2&gt;Who we are&lt;/h2&gt;
-
-    &lt;h3&gt;About Stripe&lt;/h3&gt;
-
-    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions
-    of companies—from the world’s largest enterprises to t'
+  job_description: "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n\
+    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions\
+    \ of companies\u2014from the world\u2019s largest enterprises to t"
 - company: Stripe
   role: Product Lead, AI
   location: Remote
@@ -515,12 +504,9 @@
   job_url: https://stripe.com/jobs/search?gh_jid=7683133
   date_posted: '2026-03-07'
   required_skills: []
-  job_description: '&lt;h2&gt;Who we are&lt;/h2&gt;
-
-    &lt;h3&gt;About Stripe&lt;/h3&gt;
-
-    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions
-    of companies—from the world&#39;s largest enterprises '
+  job_description: "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n\
+    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions\
+    \ of companies\u2014from the world&#39;s largest enterprises "
 - company: Stripe
   role: Staff Software Engineer - Analytics and Reporting Components
   location: Remote
@@ -541,12 +527,9 @@
   job_url: https://stripe.com/jobs/search?gh_jid=7667847
   date_posted: '2026-03-07'
   required_skills: []
-  job_description: '&lt;h2&gt;Who we are&lt;/h2&gt;
-
-    &lt;h3&gt;About Stripe&lt;/h3&gt;
-
-    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions
-    of companies - from the world’s largest enterprises to'
+  job_description: "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n\
+    &lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions\
+    \ of companies - from the world\u2019s largest enterprises to"
 - company: Stripe
   role: Strategy & Analytics Manager, Technical Account Management
   location: Remote
@@ -585,3 +568,83 @@
   - Python
   - Ethics
   job_description: Helping build safe and reliable AI systems.
+- company: PathAI
+  role: Machine Learning Intern/Co-op (Summer/Fall 2026)
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-co-op-summer-fall-2026-at-pathai-4309502929
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at PathAI.
+- company: Cohere
+  role: Machine Learning Intern/Co-op  (Spring 2026)
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-co-op-spring-2026-at-cohere-4357649891
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Cohere.
+- company: Staffline Solutions
+  role: Machine Learning Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-at-staffline-solutions-4376257927
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Staffline Solutions.
+- company: Trico Electric Cooperative
+  role: Artificial Intelligence (AI) Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/artificial-intelligence-ai-intern-at-trico-electric-cooperative-4377804694
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Trico Electric Cooperative.
+- company: AMETEK
+  role: Artificial Intelligence (AI) Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/artificial-intelligence-ai-intern-at-ametek-4377021162
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at AMETEK.
+- company: Nuro
+  role: Software Engineer, AI Platform - Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Nuro.
+- company: Lensa
+  role: Artificial Intelligence (AI) Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/artificial-intelligence-ai-intern-at-lensa-4382318841
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Lensa.
+- company: Paycor
+  role: AI Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/ai-intern-at-paycor-4378078474
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Paycor.
+- company: Generate:Biomedicines
+  role: Machine Learning Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-at-generate-biomedicines-4377757769
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Generate:Biomedicines.
+- company: Airbnb
+  role: Machine Learning Engineering Intern (PhD)
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/machine-learning-engineering-intern-phd-at-airbnb-4380107920
+  date_posted: '2026-03-07'
+  required_skills: []
+  job_description: AI Internship opportunity at Airbnb.
