@@ -3,275 +3,322 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>swathiga | Data Analyst Intern at Cornerstone Building Brands | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<title>swathiga — Candidate Dossier for Cornerstone Building Brands</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    --bg: #050505;
-    --surface: #0F0F0F;
-    --glass: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(255, 255, 255, 0.08);
-    --accent: #E10600;
-    --accent-glow: rgba(225, 6, 0, 0.3);
-    --text: #FFFFFF;
-    --text-dim: #A0A0A0;
-    --text-grey: #666666;
+    --bg-main: #0a0a0a;
+    --surface: rgba(255, 255, 255, 0.04);
+    --surface-hover: rgba(255, 255, 255, 0.08);
+    --border: rgba(255, 255, 255, 0.1);
+    --primary: #E10600; /* Porsche Red emphasis */
+    --accent: #3b82f6; 
+    --text-main: #f8fafc;
+    --text-dim: #94a3b8;
+    --succ: #10b981;
+    --warn: #eab308;
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  
+  * { margin:0; padding:0; box-sizing:border-box; }
+  
+  body { 
+      font-family: var(--font-body); 
+      background-color: var(--bg-main); 
+      color: var(--text-main); 
+      line-height: 1.6;
+      background-image: 
+        radial-gradient(circle at top left, rgba(225, 6, 0, 0.05), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.05), transparent 40%);
+      background-attachment: fixed;
   }
 
-  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; }
-  body { background: var(--bg); color: var(--text); line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-
-  /* Background elements */
-  .bg-glow { position: fixed; top: -10%; left: -10%; width: 50%; height: 50%; background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%); z-index: -1; filter: blur(100px); pointer-events: none; }
-  .bg-glow-2 { position: fixed; bottom: -10%; right: -10%; width: 40%; height: 40%; background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, transparent 70%); z-index: -1; filter: blur(100px); pointer-events: none; }
-
-  .container { max-width: 1000px; margin: 0 auto; padding: 40px 24px; }
-
-  /* Typography */
-  h1 { font-size: 72px; font-weight: 800; letter-spacing: -3px; line-height: 1.1; margin-bottom: 24px; }
-  h2 { font-size: 20px; font-weight: 500; color: var(--text-dim); margin-bottom: 40px; max-width: 700px; }
-  h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 3px; font-weight: 700; color: var(--accent); margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
-  h3::after { content: ""; height: 1px; flex: 1; background: var(--glass-border); }
-
-  section { margin-bottom: 120px; animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
-  @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-
-  /* Glass Cards */
-  .glass-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 20px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
-  .glass-card:hover { border-color: rgba(225,6,0,0.3); background: rgba(255,255,255,0.05); transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
-
-  /* SECTION 1: HERO */
-  .hero { padding: 120px 0 60px 0; }
-  .hero .apply-tag { font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; margin-bottom: 16px; display: block; }
-  .hero .summary { font-size: 22px; color: var(--text-dim); line-height: 1.5; margin-top: 32px; font-weight: 300; letter-spacing: -0.2px; }
-
-  /* SECTION 2: TECHNICAL ALIGNMENT (Skills) */
-  .skills-match { display: flex; flex-wrap: wrap; gap: 10px; }
-  .skill-tag { padding: 12px 24px; border-radius: 40px; font-size: 14px; font-weight: 600; border: 1px solid var(--glass-border); background: var(--glass); transition: 0.2s; }
-  .skill-tag.match { color: #FFF; border-color: rgba(225, 6, 0, 0.5); background: rgba(225, 6, 0, 0.1); box-shadow: 0 0 20px rgba(225, 6, 0, 0.1); }
-  .skill-tag.gap { color: var(--text-grey); font-weight: 400; }
-
-  /* SECTION 3: ENGINEERING IMPACT */
-  .impact-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-  .impact-item { padding: 32px; border-radius: 20px; background: var(--glass); border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 20px; font-size: 18px; color: var(--text); font-weight: 500; }
-  .impact-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 15px var(--accent); flex-shrink: 0; }
-
-  /* SECTION 4: RELEVANT PROJECTS */
-  .project-card { padding: 0; overflow: hidden; margin-bottom: 32px; }
-  .project-header { padding: 32px; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between; align-items: center; }
-  .project-header h3 { margin: 0; font-size: 26px; text-transform: none; letter-spacing: -1px; color: #FFF; border: none; font-weight: 700; }
-  .project-header h3::after { display: none; }
-  .gh-link { color: var(--text-grey); transition: color 0.2s; }
-  .gh-link:hover { color: var(--accent); transform: scale(1.1); }
-  .project-body { padding: 32px; }
-  .proj-section { margin-bottom: 24px; }
-  .proj-section label { font-size: 11px; font-weight: 800; letter-spacing: 2px; color: var(--text-grey); display: block; margin-bottom: 12px; }
-  .proj-section p { font-size: 16px; color: var(--text-dim); line-height: 1.6; }
-  .proj-tech { font-size: 13px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--glass-border); }
-
-  /* SECTION 5: PROFILE */
-  .gh-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 32px; }
-  .stat-box { background: var(--glass); border: 1px solid var(--glass-border); padding: 40px; border-radius: 24px; text-align: center; }
-  .stat-value { display: block; font-size: 42px; font-weight: 800; color: #FFF; margin-bottom: 8px; letter-spacing: -1px; }
-  .stat-label { font-size: 13px; color: var(--text-grey); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; }
+  /* Animations */
+  @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-section { animation: fadeInUp 0.6s ease-out forwards; opacity: 0; }
   
-  .gh-showcase-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
-  .gh-showcase-item { background: var(--glass); border: 1px solid var(--glass-border); padding: 28px; border-radius: 20px; transition: 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
-  .gh-showcase-item:hover { border-color: var(--accent); background: rgba(225, 6, 0, 0.05); transform: translateY(-4px); }
-  .gh-item-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-  .gh-item-top h4 { font-size: 17px; font-weight: 700; color: #FFF; }
-  .gh-item-top span { font-size: 13px; color: var(--accent); font-weight: 800; }
-  .gh-showcase-item p { font-size: 14px; color: var(--text-dim); line-height: 1.6; }
+  /* Layout */
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+  
+  /* Section 1: Hero Dossier */
+  .hero-dossier {
+      padding: 100px 20px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      background: radial-gradient(circle at top, rgba(255,255,255,0.03) 0%, transparent 70%);
+  }
+  .hero-tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 4px 12px;
+      border: 1px solid rgba(225, 6, 0, 0.3);
+      border-radius: 4px;
+      margin-bottom: 24px;
+      background: rgba(225, 6, 0, 0.05);
+  }
+  .hero-dossier h1 {
+      font-size: 4rem;
+      font-weight: 800;
+      letter-spacing: -2px;
+      margin-bottom: 16px;
+      background: linear-gradient(180deg, #ffffff 0%, #a1a1aa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .hero-dossier h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--text-dim);
+      max-width: 700px;
+      margin: 0 auto 32px auto;
+  }
+  .hero-dossier strong { color: #fff; font-weight: 600; }
 
-  /* SECTION 6/7: GAPS & ROADMAP */
-  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-  .gap-item { color: var(--accent); font-weight: 700; display: flex; align-items: center; gap: 12px; margin-bottom: 16px; font-size: 16px; background: rgba(225, 6, 0, 0.05); padding: 16px 24px; border-radius: 12px; border: 1px solid rgba(225, 6, 0, 0.1); }
-  .gap-item.success { color: #10B981; background: rgba(16, 185, 129, 0.05); border-color: rgba(16, 185, 129, 0.1); }
-  .road-step { color: var(--text-dim); position: relative; padding-left: 32px; margin-bottom: 24px; font-size: 16px; line-height: 1.6; }
-  .road-step::before { content: ""; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px var(--accent); }
+  /* Shared Card Styles */
+  .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 32px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  }
+  .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #fff;
+  }
+  
+  /* Badges & Tags */
+  .badge-container { display: flex; flex-wrap: wrap; gap: 10px; }
+  .badge {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-main);
+  }
+  .badge-accent {
+      background: rgba(59, 130, 246, 0.1);
+      border-color: rgba(59, 130, 246, 0.3);
+      color: #60a5fa;
+  }
 
+  /* Project Grid */
+  .project-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+  }
+  .project-card {
+      background: rgba(0,0,0,0.3);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: all 0.3s ease;
+  }
+  .project-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.02);
+  }
+  .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+  .project-header h3 { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .star-badge { background: rgba(255,255,255,0.08); padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; font-family: var(--font-mono); }
+  .project-desc { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 16px; min-height: 44px; }
+  .project-tech { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); margin-bottom: 16px; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .skill-tag {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--succ);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+  }
+  .project-actions { display: flex; gap: 12px; border-top: 1px solid var(--border); padding-top: 16px; }
+  
   /* Buttons */
-  .btn-primary { display: inline-block; background: var(--accent); color: #FFF; text-decoration: none; padding: 20px 48px; border-radius: 60px; font-size: 16px; font-weight: 800; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 15px 40px var(--accent-glow); margin: 0 auto; }
-  .btn-primary:hover { transform: scale(1.05); filter: brightness(1.2); box-shadow: 0 20px 50px var(--accent-glow); }
+  .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+  }
+  .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(225, 6, 0, 0.4);
+  }
+  .btn-primary:hover { background: #ff1a1a; transform: translateY(-2px); }
+  .btn-secondary { background: #fff; color: #000; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-outline { border: 1px solid var(--border); color: #fff; }
+  .btn-outline:hover { background: rgba(255,255,255,0.1); }
 
-  .footer { text-align: center; padding: 120px 0; border-top: 1px solid var(--glass-border); margin-top: 60px; }
-  .footer-sub { font-size: 13px; color: var(--text-grey); text-transform: uppercase; letter-spacing: 3px; font-weight: 700; opacity: 0.6; }
+  /* Lists */
+  .list-wrapper { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .list-item { display: flex; gap: 12px; font-size: 0.95rem; align-items: flex-start; }
+  .list-item .icon { font-weight: 700; }
+  .list-item.error .icon { color: var(--primary); }
+  .list-item.primary .icon { color: var(--accent); }
 
-  @media (max-width: 768px) {
-    h1 { font-size: 52px; letter-spacing: -2px; }
-    .split-grid { grid-template-columns: 1fr; }
-    .gh-stats-grid { grid-template-columns: 1fr; }
-    .container { padding: 24px; }
-    section { margin-bottom: 80px; }
+  /* Footer */
+  .footer { text-align: center; padding: 40px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.85rem; font-family: var(--font-mono); }
+
+  @media(max-width: 768px) {
+      .project-grid { grid-template-columns: 1fr; }
+      .hero-dossier h1 { font-size: 2.5rem; }
+      .section-card { padding: 24px; }
   }
 </style>
 </head>
 <body>
-  <div class="bg-glow"></div>
-  <div class="bg-glow-2"></div>
 
-  <div class="container">
-    <section class="hero" style="animation-delay: 0.1s;">
-      <span class="apply-tag">CANDIDATE DOSSIER // CORNERSTONE BUILDING BRANDS</span>
-      <h1>Preparing for Data Analyst Intern</h1>
-      <h2>A customized technical portfolio highlighting mission-critical skills and engineering depth for the <strong style="color:#FFF;">Cornerstone Building Brands</strong> team.</h2>
-      <div class="summary">Highly specialized candidate for the Data Analyst Intern position at Cornerstone Building Brands. Focusing on scalable architecture, data integrity, and engineering excellence.</div>
-    </section>
+<!-- Section 1: Hero Dossier -->
+<div class="hero-dossier animate-section" style="animation-delay: 0.1s">
+    <div class="hero-tag">CONFIDENTIAL DOSSIER • EXPORTED March 07, 2026</div>
+    <h1>swathiga</h1>
+    <h2>Candidate Portfolio specifically tailored for <strong>Data Analyst Intern</strong> at <strong>Cornerstone Building Brands</strong></h2>
+    <div style="display:flex; justify-content:center; gap:16px; margin-top: 16px;">
+        <a href="https://orchestrai-agent.onrender.com/cover_letters/cornerstone_building_brands_data_analyst_intern.md" target="_blank" class="btn btn-primary">📄 Read Cover Letter</a>
+        <a href="#projects" class="btn btn-outline">↓ View Engineering Work</a>
+    </div>
+</div>
 
-    <section style="animation-delay: 0.2s;">
-      <h3>Technical Alignment</h3>
-      <div class="skills-match">
-        
-      </div>
-    </section>
+<div class="container">
 
-    <section style="animation-delay: 0.3s;">
-      <h3>Engineering Impact</h3>
-      <div class="impact-grid">
-        <div class="impact-item"><div class="impact-dot"></div>Built multiple AI-powered automation systems using Python and FastAPI</div><div class="impact-item"><div class="impact-dot"></div>Developed real-time data processing and machine learning pipelines</div><div class="impact-item"><div class="impact-dot"></div>Experience deploying AI applications to cloud platforms</div>
-      </div>
-    </section>
-
-    <section style="animation-delay: 0.4s;">
-      <h3>Relevant Projects</h3>
-      
-        <div class="glass-card project-card">
-            <div class="project-header">
-                <h3>STST</h3>
-                <a href="https://github.com/Swathy1209/STST" target="_blank" class="gh-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                </a>
-            </div>
-            <div class="project-body">
-                <div class="proj-section">
-                    <label>PROBLEM</label>
-                    <p>Public open-source repository on GitHub.</p>
-                </div>
-                <div class="proj-section">
-                    <label>SOLUTION</label>
-                    <p>Developed using Python.</p>
-                </div>
-                <div class="proj-tech">
-                    Python
-                </div>
-            </div>
+    <!-- Section 2: Executive Fit -->
+    <div class="section-card animate-section" style="animation-delay: 0.2s">
+        <h3 class="section-title">🎯 Role Alignment</h3>
+        <p style="color:var(--text-dim); margin-bottom:16px; font-size: 1.1rem;">
+            This role at Cornerstone Building Brands strictly requires the following core competencies:
+        </p>
+        <div class="badge-container" style="margin-bottom: 24px;">
+            
         </div>
-        <div class="glass-card project-card">
-            <div class="project-header">
-                <h3>Swathy1209</h3>
-                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="gh-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                </a>
-            </div>
-            <div class="project-body">
-                <div class="proj-section">
-                    <label>PROBLEM</label>
-                    <p>Public open-source repository on GitHub.</p>
-                </div>
-                <div class="proj-section">
-                    <label>SOLUTION</label>
-                    <p>Developed using various technologies.</p>
-                </div>
-                <div class="proj-tech">
-                    
-                </div>
-            </div>
-        </div>
-        <div class="glass-card project-card">
-            <div class="project-header">
-                <h3>orchestrai-db</h3>
-                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="gh-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                </a>
-            </div>
-            <div class="project-body">
-                <div class="proj-section">
-                    <label>PROBLEM</label>
-                    <p>Public open-source repository on GitHub.</p>
-                </div>
-                <div class="proj-section">
-                    <label>SOLUTION</label>
-                    <p>Developed using HTML.</p>
-                </div>
-                <div class="proj-tech">
-                    HTML
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="animation-delay: 0.5s;">
-      <h3>GitHub Engineering Profile</h3>
-      
-    <div class="gh-stats-grid">
-        <div class="stat-box">
-            <span class="stat-value">42</span>
-            <span class="stat-label">Repositories</span>
-        </div>
-        <div class="stat-box">
-            <span class="stat-value">2</span>
-            <span class="stat-label">Stars Received</span>
-        </div>
-        <div class="stat-box">
-            <span class="stat-value" style="font-size: 16px; font-weight: 700;">Python, Jupyter Notebook, HTML</span>
-            <span class="stat-label">Core Tech</span>
+        <p style="color:var(--text-dim); margin-bottom:16px; font-size: 1.1rem; border-top: 1px solid var(--border); padding-top: 24px;">
+            Here is my corresponding technical arsenal:
+        </p>
+        <div class="badge-container">
+            <span class="badge">Python</span><span class="badge">SQL</span><span class="badge">Machine Learning</span><span class="badge">Pandas</span><span class="badge">NumPy</span><span class="badge">Data Analysis</span><span class="badge">Scikit-learn</span><span class="badge">Statistics</span><span class="badge">Data Visualization</span><span class="badge">Excel</span>
         </div>
     </div>
-      <div class="gh-showcase-grid">
+
+    <!-- Section 3 & 4: Roadmap & Gaps -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px;">
+        <div class="section-card animate-section" style="margin-bottom:0; animation-delay: 0.3s">
+            <h3 class="section-title" style="font-size: 1.3rem;">⚠️ Gap Analysis</h3>
+            <p style="color:var(--text-dim); margin-bottom: 16px; font-size: 0.9rem;">Missing qualifications mapped to role</p>
+            <ul class="list-wrapper">
+                <li class='list-item error'><span class='icon'>x</span><span>All required skills covered!</span></li>
+            </ul>
+        </div>
         
-        <div class="gh-showcase-item">
-            <div class="gh-item-top">
-                <h4>orchestrai-agent</h4>
-                <span>⭐ 0</span>
-            </div>
-            <p>...</p>
+        <div class="section-card animate-section" style="margin-bottom:0; animation-delay: 0.4s">
+            <h3 class="section-title" style="font-size: 1.3rem;">🚀 Learning Objective</h3>
+            <p style="color:var(--text-dim); margin-bottom: 16px; font-size: 0.9rem;">My strategic upskilling plan</p>
+            <ul class="list-wrapper">
+                <li class='list-item primary'><span class='icon'>&rarr;</span><span>No skill gaps detected. You are well-equipped for this role!</span></li>
+            </ul>
         </div>
-        <div class="gh-showcase-item">
-            <div class="gh-item-top">
-                <h4>orchi-agent</h4>
-                <span>⭐ 0</span>
-            </div>
-            <p>...</p>
-        </div>
-        <div class="gh-showcase-item">
-            <div class="gh-item-top">
-                <h4>acia-cloud-deployment</h4>
-                <span>⭐ 0</span>
-            </div>
-            <p>...</p>
-        </div>
-        <div class="gh-showcase-item">
-            <div class="gh-item-top">
-                <h4>acia-playwright</h4>
-                <span>⭐ 0</span>
-            </div>
-            <p>...</p>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <section style="animation-delay: 0.6s;">
-      <div class="split-grid">
-        <div>
-          <h3>Growth & Perspective</h3>
-          <div class="gap-item success">✓ All technical requirements met</div>
+    <!-- Section 5: Projects -->
+    <div id="projects" class="section-card animate-section" style="animation-delay: 0.5s">
+        <h3 class="section-title">💻 High-Impact Engineering Proof</h3>
+        <p style="color:var(--text-dim); margin-bottom: 32px; font-size: 1.1rem;">
+            The following repositories demonstrate my hands-on capability directly related to the <strong>Data Analyst Intern</strong> position.
+        </p>
+        <div class="project-grid">
+            
+        <div class="project-card">
+            <div class="project-header">
+                <h3>STST</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">A technical repository.</p>
+            <p class="project-tech"><b>Tech Stack:</b> Python</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/STST" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
         </div>
-        <div>
-          <h3>Roadmap to Mastery</h3>
-          <div class="road-step">No skill gaps detected. You are well-equipped for this role!</div>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Swathy1209</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">Config files for my GitHub profile.</p>
+            <p class="project-tech"><b>Tech Stack:</b> Python</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
         </div>
-      </div>
-    </section>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <h3>orchestrai-db</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">A technical repository.</p>
+            <p class="project-tech"><b>Tech Stack:</b> HTML</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <h3>orchestrai-agent</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">A technical repository.</p>
+            <p class="project-tech"><b>Tech Stack:</b> HTML</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/orchestrai-agent" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
+        </div>
+        
+        </div>
+    </div>
 
-    <section id="cover-letter" style="animation-delay: 0.7s;">
-      <h3>Letter to the Team</h3>
-      <div style="text-align:center;margin-top:40px;"><a href="https://orchestrai-agent.onrender.com/cover_letters/cornerstone_building_brands_data_analyst_intern.md" target="_blank" class="btn-primary">View Letter to the Team &rarr;</a></div>
-    </section>
+</div>
 
-    <footer class="footer">
-      <div class="footer-sub">OrchestrAI // Autonomous Career Intelligence</div>
-      <div style="font-size: 16px; font-weight: 800; margin-top: 12px; color: #FFF; letter-spacing: -0.5px;">ENGINEERED BY MULTI-AGENT SYSTEMS</div>
-    </footer>
-  </div>
+<!-- Footer -->
+<div class="footer animate-section" style="animation-delay: 0.6s">
+    SYSTEM_LOG: Generated via OrchestrAI Autonomous Agent System <br/>
+    TIMESTAMP: March 07, 2026
+</div>
+
 </body>
 </html>
