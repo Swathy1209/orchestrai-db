@@ -177,12 +177,12 @@
   priority: Strong Consideration
 - company: Stripe
   role: Data Analyst, Intern (Master's degree)
-  match_score: 58
+  match_score: 55
   selection_probability: Low
   priority: Optional
 - company: Stripe
   role: PhD Machine Learning Engineer, Intern
-  match_score: 58
+  match_score: 52
   selection_probability: Low
   priority: Optional
 - company: Zuneko Labs
@@ -684,3 +684,13 @@
   match_score: 80
   selection_probability: Medium
   priority: Apply Now
+- company: Zetheta Algorithms Private Limited
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Quarterhill Inc.
+  role: Machine Learning Engineer Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
