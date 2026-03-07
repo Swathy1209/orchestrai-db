@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 68 relevant
-  level: INFO
-  timestamp: '2026-03-02T05:06:03'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-02T05:06:04'
@@ -2460,3 +2456,8 @@ logs:
     interview Q&A for Cloud Back - Machine Learning'
   status: error
   timestamp: '2026-03-07T07:08:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:20'
