@@ -1,7 +1,7 @@
 career_readiness:
-  readiness_score: 77.3
+  readiness_score: 75.3
   label: ✅ Strong Candidate
-  generated_at: '2026-03-07T12:43:00.819005+00:00'
+  generated_at: '2026-03-07T14:00:53.461158+00:00'
   components:
     skill_coverage:
       score: 98.2
@@ -16,9 +16,9 @@ career_readiness:
       weight: 20%
       detail: '90 sessions completed (target: 5) ✅ Interview-ready!'
     security_health:
-      score: 40
+      score: 30
       weight: 20%
-      detail: '42 repos scanned: 0 High, 4 Medium, 4 Low risk'
+      detail: '42 repos scanned: 1 High, 3 Medium, 4 Low risk'
   top_recommendations:
   - Fix HIGH-risk security vulnerabilities in your GitHub repos
   - Strengthen your portfolio — 8 projects, 0 with live demos, 0 total stars
