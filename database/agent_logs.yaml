@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
-    Design & Development: Gemini failed to generate interview Q&A for Product Manager
-    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
-  status: error
-  timestamp: '2026-03-05T09:49:17'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
     Machine Learning Engineering Internship - Summer 2026'
@@ -2453,3 +2447,7 @@ logs:
   action: Generated Application Packages for 138 internships
   status: success
   timestamp: '2026-03-07T11:48:07'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:48:20'
