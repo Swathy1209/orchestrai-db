@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T06:05:43'
-- agent: CareerAgent
   action: 104 jobs fetched
   level: INFO
   timestamp: '2026-03-02T06:05:56'
@@ -2473,3 +2469,8 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-07T07:08:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:30'
