@@ -619,3 +619,53 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: Kodiak
+  role: Fall 2026 Intern, Artificial Intelligence/Machine Learning
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: Artificial Intelligence (AI) Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: Data Science Internship
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: AARP
+  role: Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: TikTok
+  role: Business Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Namaah Pvt Ltd
+  role: AI/ML Engineer
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Bipolar Factory
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Above Alpha Solutions LLP
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: TSTEPS PRIVATE LIMITED
+  role: Senior Machine Learning Engineer
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lightmatter
+  role: Machine Learning Research Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
