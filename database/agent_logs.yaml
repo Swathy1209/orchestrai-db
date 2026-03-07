@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 69 relevant
-  level: INFO
-  timestamp: '2026-03-02T04:34:59'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-02T04:35:00'
@@ -2447,3 +2443,8 @@ logs:
     degree)'
   status: error
   timestamp: '2026-03-07T07:08:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T07:08:07'
