@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T05:03:04'
-- agent: CareerAgent
   action: 106 jobs fetched
   level: INFO
   timestamp: '2026-03-02T05:03:17'
@@ -2458,3 +2454,8 @@ logs:
     to generate interview Q&A for Unknown - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-07T07:08:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
+    Q&A for Symonis - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:08:18'
