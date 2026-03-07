@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 63 relevant
-  level: INFO
-  timestamp: '2026-03-02T10:31:47'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-02T10:31:49'
@@ -2554,3 +2550,8 @@ logs:
     interview Q&A for Tech Phoenix - Data Engineer Intern'
   status: error
   timestamp: '2026-03-07T07:09:26'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    interview Q&A for EXL - Data Analyst Associate'
+  status: error
+  timestamp: '2026-03-07T07:09:27'
