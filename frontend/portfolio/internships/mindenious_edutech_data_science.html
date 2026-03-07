@@ -3,182 +3,150 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>swathiga — Portfolio for Data Science at Mindenious Edutech</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@800&display=swap" rel="stylesheet"/>
+<title>swathiga - Portfolio for Mindenious Edutech</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
-  :root {
-    --bg-main: #09090b;
-    --primary: #3b82f6;
-    --secondary: #8b5cf6;
-    --surface: rgba(255, 255, 255, 0.03);
-    --border: rgba(255, 255, 255, 0.08);
-    --text-main: #f8fafc;
-    --text-dim: #94a3b8;
-    --accent: #10b981;
-    --error: #ef4444;
-  }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { 
-      font-family:'Inter', sans-serif; 
-      background-color: var(--bg-main); 
-      color: var(--text-main); 
-      background-image: radial-gradient(circle at top left, rgba(59, 130, 246, 0.08), transparent 30%),
-                        radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.08), transparent 30%);
-      background-attachment: fixed;
-      line-height: 1.6;
-  }
-  .hero { 
-      padding:80px 40px; 
-      text-align:center;
-      border-bottom: 1px solid var(--border);
-      position: relative;
-  }
-  .hero h1 { 
-      font-family: 'Outfit', sans-serif;
-      font-size:3rem; 
-      font-weight:800; 
-      margin-bottom:12px; 
-      background: linear-gradient(135deg, #ffffff 30%, #a8a29e 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: -1px;
-  }
-  .hero h2 { 
-      font-size:1.25rem; 
-      font-weight:400; 
-      color: var(--text-dim); 
-      margin-bottom:24px; 
-  }
-  .hero .tag { 
-      background: rgba(59, 130, 246, 0.1); 
-      color: var(--primary);
-      padding:6px 16px; 
-      border-radius:20px; 
-      font-size:13px; 
-      font-weight: 600;
-      border: 1px solid rgba(59, 130, 246, 0.2);
-      display:inline-block; 
-      text-transform: uppercase;
-      letter-spacing: 1px;
-  }
-  .container { max-width:900px; margin:0 auto; padding:40px 20px; }
-  .card { 
-      background: var(--surface); 
-      border: 1px solid var(--border);
-      border-radius:16px; 
-      padding:32px; 
-      margin-bottom:24px; 
-      backdrop-filter: blur(10px);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  }
-  .card h3 { 
-      color: #fff; 
-      font-family: 'Outfit', sans-serif;
-      font-size:1.5rem; 
-      margin-bottom:20px; 
-      padding-bottom:12px; 
-      border-bottom: 1px solid var(--border);
-      display: flex; align-items: center; gap: 10px;
-  }
-  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom: 24px; }
-  @media(max-width:768px) { .grid2 { grid-template-columns:1fr; } .hero { padding:60px 20px; } }
-  .footer { text-align:center; color: var(--text-dim); font-size:13px; padding:40px; border-top: 1px solid var(--border); }
+  :root { --bg:#0B0B0B; --surface:#1A1A1A; --primary:#E10600; --text:#F5F5F5; --dim:#9A9A9A; --border:rgba(255,255,255,0.05); }
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter', sans-serif; }
+  body { background:var(--bg); color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased; }
   
-  ul li { color: var(--text-main); font-size: 0.95rem; line-height: 1.5; }
+  .hero { padding:100px 20px; text-align:center; background:linear-gradient(180deg, #1A1A1A 0%, #0B0B0B 100%); border-bottom:1px solid rgba(225,6,0,0.2); }
+  .hero h1 { font-size:48px; font-weight:800; letter-spacing:-1.5px; margin-bottom:16px; color:#fff; }
+  .hero h2 { font-size:18px; font-weight:400; color:var(--dim); max-width:600px; margin:0 auto 24px auto; line-height:1.5; }
+  
+  .container { max-width:900px; margin:0 auto; padding:60px 20px; }
+  
+  .glass-card { background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.5); transition:all 0.3s; }
+  .glass-card:hover { border-color:rgba(225,6,0,0.4); box-shadow:0 15px 40px rgba(225,6,0,0.15); }
+  
+  h3.section-title { font-size:13px; text-transform:uppercase; letter-spacing:2px; font-weight:700; color:var(--primary); margin-bottom:24px; border-bottom:1px solid var(--border); padding-bottom:16px; }
+  
+  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-bottom:48px; }
+  @media(max-width:768px) { .grid-2 { grid-template-columns:1fr; gap:24px; } .hero h1 { font-size:36px; } }
+  
+  .btn-primary { background:linear-gradient(90deg, #E10600, #FF3B3B); color:#fff; text-decoration:none; padding:14px 32px; border-radius:30px; font-size:14px; font-weight:600; transition:all 0.2s; box-shadow:0 4px 15px rgba(225,6,0,0.3); }
+  .btn-primary:hover { transform:scale(1.02); box-shadow:0 8px 25px rgba(225,6,0,0.5); }
+  
+  .btn-outline { background:transparent; border:1px solid rgba(225,6,0,0.5); color:#fff; text-decoration:none; padding:10px 24px; border-radius:24px; font-size:13px; font-weight:600; transition:all 0.2s; }
+  .btn-outline:hover { border-color:#E10600; background:rgba(225,6,0,0.05); }
+  
+  .gh-card:hover { border-color:rgba(225,6,0,0.3) !important; transform:translateY(-2px); }
+  
+  .footer { text-align:center; padding:60px 20px; color:var(--dim); font-size:12px; border-top:1px solid var(--border); text-transform:uppercase; letter-spacing:1px; }
 </style>
 </head>
 <body>
+
 <div class="hero">
-  <span class="tag">Generated on March 07, 2026</span>
-  <h1 style="margin-top:20px;">swathiga</h1>
-  <h2>Customized Portfolio for <strong style="color:var(--primary);">Data Science</strong> at <strong style="color:var(--secondary);">Mindenious Edutech</strong></h2>
-  <br/><a href="https://orchestrai-agent.onrender.com/cover_letters/mindenious_edutech_data_science.md" target="_blank" style="display:inline-block;background:var(--primary);color:white;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;box-shadow:0 4px 15px rgba(59,130,246,0.4);transition:all 0.2s;">📄 View Cover Letter &rarr;</a>
+    <div style="font-size:14px;text-transform:uppercase;letter-spacing:2px;color:var(--primary);font-weight:700;margin-bottom:16px">swathiga</div>
+    <h1>Customized Portfolio</h1>
+    <h2>Designed exclusively for the <strong style="color:#fff">Data Science</strong> role at <strong style="color:#fff">Mindenious Edutech</strong></h2>
+    <a href="https://orchestrai-agent.onrender.com/cover_letters/mindenious_edutech_data_science.md" target="_blank" class="btn-primary" style="margin-top:30px;display:inline-block">View Cover Letter</a>
 </div>
 
 <div class="container">
-  <div class="card">
-    <h3>🎯 Why I'm a Great Fit</h3>
-    <p style="color:var(--text-dim);margin-bottom:15px;font-size:0.95rem;">This role requires: <span style="color:#e2e8f0"></span></p>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px"><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Python</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">SQL</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Machine Learning</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Pandas</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">NumPy</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Data Analysis</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Scikit-learn</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Statistics</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Data Visualization</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Excel</span></div>
-  </div>
 
-  <div class="grid2">
-    <div class="card" style="margin-bottom:0;">
-      <h3>📊 Skill Gap Analysis</h3>
-      <p style="font-size:12px;color:var(--text-dim);margin-bottom:15px;text-transform:uppercase;letter-spacing:1px;font-weight:600;">Skills I'm actively building</p>
-      <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:10px;"><li style='display:flex;gap:10px;'><span style='color:var(--error);'>x</span><span>All required skills covered!</span></li></ul>
+    <div style="margin-bottom:60px">
+        <h3 class="section-title">Why I Am A Great Fit</h3>
+        <div style="margin-top:16px"><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Python</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">SQL</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Machine Learning</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Pandas</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">NumPy</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Data Analysis</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Scikit-learn</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Statistics</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Data Visualization</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Excel</span></div>
     </div>
-    <div class="card" style="margin-bottom:0;">
-      <h3>🗺️ My Learning Roadmap</h3>
-      <p style="font-size:12px;color:var(--text-dim);margin-bottom:15px;text-transform:uppercase;letter-spacing:1px;font-weight:600;">My action plan</p>
-      <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:10px;"><li style='display:flex;gap:10px;'><span style='color:var(--primary);'>&rarr;</span><span>No skill gaps detected. You are well-equipped for this role!</span></li></ul>
-    </div>
-  </div>
 
-  <div class="card">
-    <h3>🏆 Most Relevant Projects</h3>
-    <div style="display:flex;flex-direction:column;gap:16px;">
+    <div class="grid-2">
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Skill Gap Analysis</h3>
+            <div style="color:#10B981;font-size:15px;font-weight:600;display:flex;align-items:center;gap:10px"><span style="font-size:20px">✓</span> All required skills covered</div>
+        </div>
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Learning Roadmap</h3>
+            <div style='color:#F5F5F5;font-size:15px;line-height:1.6;margin-bottom:12px;padding-left:16px;border-left:2px solid #E10600;'>No skill gaps detected. You are well-equipped for this role!</div>
+        </div>
+    </div>
+
+    <div class="grid-2">
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Professional Experience</h3>
+            <p style="color:#9A9A9A;font-size:14px">Focusing on academic and project-based experience.</p>
+        </div>
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Key Achievements</h3>
+            <p style="color:#9A9A9A;font-size:14px">Building technical milestones.</p>
+        </div>
+    </div>
+
+    <div style="margin-bottom:60px">
+        <h3 class="section-title" style="margin-bottom:32px">Most Relevant Projects</h3>
         
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">STST</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">A technical repository.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> Python</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/STST" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
+        <div class="glass-card" style="margin-bottom:24px;padding:32px">
+            <h3 style="color:#F5F5F5;font-size:22px;font-weight:700;margin-bottom:12px;border:none;padding:0;letter-spacing:-0.5px">STST</h3>
+            <p style="color:#9A9A9A;font-size:15px;line-height:1.6;margin-bottom:16px"></p>
+            
+            <div style="color:#E10600;font-size:12px;text-transform:uppercase;font-weight:700;letter-spacing:1px;margin-bottom:24px">TECH STACK: <span style="color:#F5F5F5;font-weight:500">Python</span></div>
+            <a href="https://github.com/Swathy1209/STST" target="_blank" class="btn-outline">GitHub Repository &rarr;</a>
         </div>
         
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">Swathy1209</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">Config files for my GitHub profile.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> Python</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
+        <div class="glass-card" style="margin-bottom:24px;padding:32px">
+            <h3 style="color:#F5F5F5;font-size:22px;font-weight:700;margin-bottom:12px;border:none;padding:0;letter-spacing:-0.5px">Swathy1209</h3>
+            <p style="color:#9A9A9A;font-size:15px;line-height:1.6;margin-bottom:16px">Config files for my GitHub profile.</p>
+            
+            <div style="color:#E10600;font-size:12px;text-transform:uppercase;font-weight:700;letter-spacing:1px;margin-bottom:24px">TECH STACK: <span style="color:#F5F5F5;font-weight:500"></span></div>
+            <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="btn-outline">GitHub Repository &rarr;</a>
         </div>
         
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">orchestrai-db</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">A technical repository.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> HTML</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
-        </div>
-        
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">orchi-agent</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">A technical repository.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> Python</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/orchi-agent" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
+        <div class="glass-card" style="margin-bottom:24px;padding:32px">
+            <h3 style="color:#F5F5F5;font-size:22px;font-weight:700;margin-bottom:12px;border:none;padding:0;letter-spacing:-0.5px">orchestrai-db</h3>
+            <p style="color:#9A9A9A;font-size:15px;line-height:1.6;margin-bottom:16px"></p>
+            
+            <div style="color:#E10600;font-size:12px;text-transform:uppercase;font-weight:700;letter-spacing:1px;margin-bottom:24px">TECH STACK: <span style="color:#F5F5F5;font-weight:500">HTML</span></div>
+            <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="btn-outline">GitHub Repository &rarr;</a>
         </div>
         
     </div>
-  </div>
+
+    <div style="margin-bottom:40px">
+        <h3 class="section-title" style="margin-bottom:32px">GitHub Project Showcase</h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px">
+            
+        <a href="https://github.com/Swathy1209/orchestrai-agent" target="_blank" class="gh-card" style="text-decoration:none;display:block;padding:24px;border:1px solid rgba(255,255,255,0.05);border-radius:12px;background:#1A1A1A;margin-bottom:16px;transition:all 0.2s">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                <h4 style="color:#F5F5F5;font-size:16px;font-weight:600;margin:0">orchestrai-agent</h4>
+                <span style="color:#E10600;font-size:12px;font-weight:700">⭐ 0</span>
+            </div>
+            <p style="color:#9A9A9A;font-size:13px;line-height:1.5;margin:0"></p>
+        </a>
+        
+        <a href="https://github.com/Swathy1209/orchi-agent" target="_blank" class="gh-card" style="text-decoration:none;display:block;padding:24px;border:1px solid rgba(255,255,255,0.05);border-radius:12px;background:#1A1A1A;margin-bottom:16px;transition:all 0.2s">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                <h4 style="color:#F5F5F5;font-size:16px;font-weight:600;margin:0">orchi-agent</h4>
+                <span style="color:#E10600;font-size:12px;font-weight:700">⭐ 0</span>
+            </div>
+            <p style="color:#9A9A9A;font-size:13px;line-height:1.5;margin:0"></p>
+        </a>
+        
+        <a href="https://github.com/Swathy1209/acia-cloud-deployment" target="_blank" class="gh-card" style="text-decoration:none;display:block;padding:24px;border:1px solid rgba(255,255,255,0.05);border-radius:12px;background:#1A1A1A;margin-bottom:16px;transition:all 0.2s">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                <h4 style="color:#F5F5F5;font-size:16px;font-weight:600;margin:0">acia-cloud-deployment</h4>
+                <span style="color:#E10600;font-size:12px;font-weight:700">⭐ 0</span>
+            </div>
+            <p style="color:#9A9A9A;font-size:13px;line-height:1.5;margin:0"></p>
+        </a>
+        
+        <a href="https://github.com/Swathy1209/acia-playwright" target="_blank" class="gh-card" style="text-decoration:none;display:block;padding:24px;border:1px solid rgba(255,255,255,0.05);border-radius:12px;background:#1A1A1A;margin-bottom:16px;transition:all 0.2s">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                <h4 style="color:#F5F5F5;font-size:16px;font-weight:600;margin:0">acia-playwright</h4>
+                <span style="color:#E10600;font-size:12px;font-weight:700">⭐ 0</span>
+            </div>
+            <p style="color:#9A9A9A;font-size:13px;line-height:1.5;margin:0"></p>
+        </a>
+        
+        </div>
+    </div>
+
 </div>
 
-<div class="footer">Built autonomously by OrchestrAI • Advanced Career Intelligence System • March 07, 2026</div>
+<div class="footer">
+    Generated autonomously by OrchestrAI<br/>
+    Advanced Career Intelligence System
+</div>
+
 </body>
 </html>
