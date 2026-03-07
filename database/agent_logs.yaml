@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
-    interview Q&A for Career Solutions - Data Science'
-  status: error
-  timestamp: '2026-03-07T07:08:16'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
     to generate interview Q&A for Unknown - Artificial Intelligence Intern'
   status: error
@@ -2389,3 +2384,7 @@ logs:
   action: Generated premium portfolios for 138 internships
   status: success
   timestamp: '2026-03-07T16:33:32'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 138 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-07T17:31:06'
