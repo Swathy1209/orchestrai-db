@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 83 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T10:22:21'
-- agent: CareerAgent
   action: 83 jobs fetched, 41 relevant
   level: INFO
   timestamp: '2026-03-02T10:23:01'
@@ -2532,3 +2528,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-07T07:09:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T07:09:11'
