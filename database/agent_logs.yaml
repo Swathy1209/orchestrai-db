@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
-    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
-  status: error
-  timestamp: '2026-03-07T07:07:52'
-- agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
     Intern (Summer 2026)'
@@ -2416,3 +2410,8 @@ logs:
   status: success
   timestamp: '2026-03-07T13:33:01'
   details: Analyzed 138 jobs.
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T13:35:37'
