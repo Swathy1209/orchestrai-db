@@ -11,3 +11,15 @@
   - Machine Learning
   - Statistics
   job_description: Data Science Intern focusing on analytics.
+- company: AI Startup Pro
+  role: AI Research Intern
+  location: Palo Alto, CA
+  portal: Wellfound
+  job_url: https://wellfound.com/jobs/8888
+  date_posted: '2026-03-07'
+  application_deadline: ''
+  required_skills:
+  - Generative AI
+  - LLMs
+  - Python
+  job_description: Researching future AI architectures.
