@@ -177,12 +177,12 @@
   priority: Strong Consideration
 - company: Stripe
   role: Data Analyst, Intern (Master's degree)
-  match_score: 55
+  match_score: 58
   selection_probability: Low
   priority: Optional
 - company: Stripe
   role: PhD Machine Learning Engineer, Intern
-  match_score: 52
+  match_score: 58
   selection_probability: Low
   priority: Optional
 - company: Zuneko Labs
