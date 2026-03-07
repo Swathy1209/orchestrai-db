@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 133 cover letters
-  status: success
-  timestamp: '2026-03-07T07:07:30'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2437,3 +2433,7 @@ logs:
   action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
   status: completed
   timestamp: '2026-03-07T12:42:54'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 77.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T12:43:02'
