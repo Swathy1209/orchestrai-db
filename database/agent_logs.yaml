@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 60 relevant
-  level: INFO
-  timestamp: '2026-03-07T07:04:45'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T07:04:47'
@@ -2431,3 +2427,8 @@ logs:
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
   timestamp: '2026-03-07T12:34:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
+    failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:09'
