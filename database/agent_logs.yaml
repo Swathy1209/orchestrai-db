@@ -1,8 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T10:50:54'
 - agent: ExecutionAgent
   action: Pipeline execution completed and email sent
   status: success
@@ -2564,3 +2560,8 @@ logs:
   status: completed
   jobs_scraped: 1
   timestamp: '2026-03-07T07:17:26'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T07:17:35'
