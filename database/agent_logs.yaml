@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-03T07:26:32'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-03T07:26:35'
@@ -2573,3 +2569,7 @@ logs:
   action: Generated Application Packages for 134 internships
   status: success
   timestamp: '2026-03-07T09:41:25'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:41:34'
