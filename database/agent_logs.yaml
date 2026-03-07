@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
-    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
-  status: error
-  timestamp: '2026-03-07T07:07:39'
-- agent: PracticeAgent
   action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
@@ -2429,3 +2424,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-07T13:05:12'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 138 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-07T13:10:12'
