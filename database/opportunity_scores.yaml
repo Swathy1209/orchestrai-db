@@ -674,3 +674,13 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: Aurora Financials
+  role: AI / ML Engineering Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Zetheta Algorithms Private Limited
+  role: Artificial Intelligence Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
