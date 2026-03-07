@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-06T07:15:48'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
     to generate interview Q&A for RefinedScience - Data Engineering Intern'
   status: error
@@ -2396,3 +2392,8 @@ logs:
     & Paid)'
   status: error
   timestamp: '2026-03-07T12:27:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
+  status: error
+  timestamp: '2026-03-07T12:27:53'
