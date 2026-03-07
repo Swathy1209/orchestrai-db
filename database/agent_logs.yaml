@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Go Offer - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-05T09:47:04'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
@@ -2498,3 +2493,9 @@ logs:
     Intern – Operations'
   status: error
   timestamp: '2026-03-07T11:15:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
+  status: error
+  timestamp: '2026-03-07T11:15:38'
