@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
-    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
-  status: error
-  timestamp: '2026-03-03T07:49:45'
-- agent: PracticeAgent
   action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
@@ -2563,3 +2558,8 @@ logs:
   action: Generated optimizations for 134 internships
   status: success
   timestamp: '2026-03-07T09:50:02'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 13 jobs
+  status: completed
+  jobs_scraped: 13
+  timestamp: '2026-03-07T09:50:18'
