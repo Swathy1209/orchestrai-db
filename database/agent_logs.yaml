@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
-    failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
-    (PhD)'
-  status: error
-  timestamp: '2026-03-06T07:17:05'
-- agent: PracticeAgent
   action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
     Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
     for The Institute for Advanced Learning and Research - Artificial Intelligence
@@ -2402,3 +2396,8 @@ logs:
     to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
   timestamp: '2026-03-07T12:31:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    interview Q&A for Thermo Fisher - Data Engineer II'
+  status: error
+  timestamp: '2026-03-07T12:31:55'
