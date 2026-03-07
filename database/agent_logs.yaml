@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T19:13:26'
 - agent: ExecutionAgent
   action: Pipeline execution completed and email sent
   status: success
@@ -2407,3 +2403,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-06T07:23:01'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T04:27:10'
