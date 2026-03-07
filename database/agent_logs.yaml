@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Veolia - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-06T07:17:08'
-- agent: PracticeAgent
   action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
     Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
     Analyst Intern'
@@ -2399,3 +2394,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-07T12:32:01'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
+    (Summer/Fall 2026)'
+  status: error
+  timestamp: '2026-03-07T12:32:04'
