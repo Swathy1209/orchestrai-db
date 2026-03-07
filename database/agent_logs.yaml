@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
-    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
-  status: error
-  timestamp: '2026-03-05T09:46:57'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Data Analyst Intern'
   status: error
@@ -2496,3 +2491,9 @@ logs:
     interview Q&A for Typeface - ML Engineer Intern'
   status: error
   timestamp: '2026-03-07T11:15:26'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-07T11:15:29'
