@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
-    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
-    Analyst Intern'
-  status: error
-  timestamp: '2026-03-06T07:17:09'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
     (AI)'
@@ -2400,3 +2394,9 @@ logs:
     (Summer/Fall 2026)'
   status: error
   timestamp: '2026-03-07T12:32:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
+    Gemini failed to generate interview Q&A for Anne Klein Official - Data Analyst
+    Internship Spring 2026'
+  status: error
+  timestamp: '2026-03-07T12:32:07'
