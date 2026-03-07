@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ARM Institute - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-06T07:16:54'
-- agent: PracticeAgent
   action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
     to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
@@ -2400,3 +2395,9 @@ logs:
     to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
   status: error
   timestamp: '2026-03-07T12:31:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
+    Energy (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T12:31:18'
