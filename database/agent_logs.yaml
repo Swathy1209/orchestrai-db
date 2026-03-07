@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-06T07:17:11'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
     failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
     Vision'
@@ -2399,3 +2393,8 @@ logs:
     - Summer 2026 Start'
   status: error
   timestamp: '2026-03-07T12:32:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
+  status: error
+  timestamp: '2026-03-07T12:32:16'
