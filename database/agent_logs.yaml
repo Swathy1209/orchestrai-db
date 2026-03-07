@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 63 relevant
-  level: INFO
-  timestamp: '2026-03-05T09:34:08'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-05T09:34:17'
@@ -2514,3 +2510,7 @@ logs:
   status: success
   timestamp: '2026-03-07T10:32:40'
   details: Analyzed 30 jobs.
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 15 internships
+  status: success
+  timestamp: '2026-03-07T10:34:18'
