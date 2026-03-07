@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
-    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate interview
-    Q&A for TikTok - (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation)
-    - 2026 Summer (BS/MS)'
-  status: error
-  timestamp: '2026-03-07T07:07:42'
-- agent: PracticeAgent
   action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
   status: error
@@ -2426,3 +2419,8 @@ logs:
   action: Generated 138 cover letters
   status: success
   timestamp: '2026-03-07T13:28:45'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T13:30:08'
