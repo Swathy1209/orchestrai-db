@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
-    generate interview Q&A for Cylinder Health - Junior Data Engineer'
-  status: error
-  timestamp: '2026-03-06T07:15:50'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
   status: error
@@ -2397,3 +2392,8 @@ logs:
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-07T12:27:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:59'
