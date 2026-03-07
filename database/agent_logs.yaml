@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T13:22:10'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-02T13:22:19'
@@ -2571,3 +2567,8 @@ logs:
   status: completed
   jobs_scraped: 1
   timestamp: '2026-03-07T07:48:47'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T09:00:41'
