@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
-    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
-  status: error
-  timestamp: '2026-03-07T07:07:55'
-- agent: PracticeAgent
   action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
     interview Q&A for Sloan - Data Analyst Intern'
   status: error
@@ -2413,3 +2408,8 @@ logs:
   action: Generated optimizations for 138 internships
   status: success
   timestamp: '2026-03-07T13:37:38'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T13:37:42'
