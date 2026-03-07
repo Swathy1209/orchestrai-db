@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
-    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
-    - Summer 2026 Start'
-  status: error
-  timestamp: '2026-03-06T07:17:02'
-- agent: PracticeAgent
   action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
@@ -2402,3 +2396,8 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-07T12:31:40'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ARM Institute - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:43'
