@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
-    generate interview Q&A for Cylinder Health - Junior Data Engineer'
-  status: error
-  timestamp: '2026-03-07T07:07:34'
-- agent: PracticeAgent
   action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
   status: error
@@ -2436,3 +2431,7 @@ logs:
   action: Generated 138 interview simulation pages
   status: success
   timestamp: '2026-03-07T12:48:17'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 138 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-07T12:53:28'
