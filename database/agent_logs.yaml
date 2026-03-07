@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate interview Q&A for ACCA Careers - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-06T07:16:14'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
@@ -2399,3 +2394,9 @@ logs:
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
   timestamp: '2026-03-07T12:29:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
+    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
+    degree)'
+  status: error
+  timestamp: '2026-03-07T12:29:17'
