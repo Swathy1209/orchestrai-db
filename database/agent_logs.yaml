@@ -1,8 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: Generated practice portals for 82 internships
-  status: success
-  timestamp: '2026-03-02T10:59:45'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2566,3 +2562,8 @@ logs:
   status: completed
   jobs_scraped: 2
   timestamp: '2026-03-07T07:21:12'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T07:21:18'
