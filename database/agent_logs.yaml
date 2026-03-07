@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-06T07:13:11'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2388,3 +2384,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-03-07T12:27:28'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
+    to generate interview Q&A for RefinedScience - Data Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:34'
