@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated cover letters for 90 internships
-  status: success
-  timestamp: '2026-03-02T15:20:25'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2574,3 +2570,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-03-07T09:31:26'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 12 jobs
+  status: completed
+  jobs_scraped: 12
+  timestamp: '2026-03-07T09:31:43'
