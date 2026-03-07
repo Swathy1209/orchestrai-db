@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
-    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
-    Intern – Operations'
-  status: error
-  timestamp: '2026-03-07T07:07:47'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
     Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
     2026)'
@@ -2422,3 +2416,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-03-07T13:32:20'
+- agent: CareerAgent
+  action: 64 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T13:32:33'
