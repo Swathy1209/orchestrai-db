@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-06T07:17:16'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
     Gemini failed to generate interview Q&A for Sungrow Power Supply Co., Ltd. - Data
     Analyst Internship'
@@ -2398,3 +2392,8 @@ logs:
     States'
   status: error
   timestamp: '2026-03-07T12:32:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Veolia - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:33'
