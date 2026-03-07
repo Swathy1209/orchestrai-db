@@ -679,3 +679,8 @@ job_skill_analysis:
   missing_skills: []
   roadmap:
   - No skill gaps detected. You are well-equipped for this role!
+- company: Lightmatter
+  role: Machine Learning Research Intern
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
