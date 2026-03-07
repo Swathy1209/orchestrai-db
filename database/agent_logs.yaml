@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched, 60 relevant
-  level: INFO
-  timestamp: '2026-03-07T04:28:17'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-07T04:28:42'
@@ -2417,3 +2413,9 @@ logs:
     interview Q&A for EXL - Data Analyst Associate'
   status: error
   timestamp: '2026-03-07T12:33:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
+    Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
+    Artificial Intelligence/Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:33:35'
