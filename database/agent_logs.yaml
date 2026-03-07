@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
-    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
-  status: error
-  timestamp: '2026-03-05T09:49:33'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
     Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
     Energy (Summer 2026)'
@@ -2441,3 +2436,8 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-07T11:57:58'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T12:00:38'
