@@ -3,182 +3,322 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>swathiga — Portfolio for Business Analyst Intern (Business Integrity) - 2026 Summer (BS/MS) at TikTok</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@800&display=swap" rel="stylesheet"/>
+<title>swathiga — Candidate Dossier for TikTok</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    --bg-main: #09090b;
-    --primary: #3b82f6;
-    --secondary: #8b5cf6;
-    --surface: rgba(255, 255, 255, 0.03);
-    --border: rgba(255, 255, 255, 0.08);
+    --bg-main: #0a0a0a;
+    --surface: rgba(255, 255, 255, 0.04);
+    --surface-hover: rgba(255, 255, 255, 0.08);
+    --border: rgba(255, 255, 255, 0.1);
+    --primary: #E10600; /* Porsche Red emphasis */
+    --accent: #3b82f6; 
     --text-main: #f8fafc;
     --text-dim: #94a3b8;
-    --accent: #10b981;
-    --error: #ef4444;
+    --succ: #10b981;
+    --warn: #eab308;
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
   }
+  
   * { margin:0; padding:0; box-sizing:border-box; }
+  
   body { 
-      font-family:'Inter', sans-serif; 
+      font-family: var(--font-body); 
       background-color: var(--bg-main); 
       color: var(--text-main); 
-      background-image: radial-gradient(circle at top left, rgba(59, 130, 246, 0.08), transparent 30%),
-                        radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.08), transparent 30%);
-      background-attachment: fixed;
       line-height: 1.6;
+      background-image: 
+        radial-gradient(circle at top left, rgba(225, 6, 0, 0.05), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.05), transparent 40%);
+      background-attachment: fixed;
   }
-  .hero { 
-      padding:80px 40px; 
-      text-align:center;
+
+  /* Animations */
+  @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-section { animation: fadeInUp 0.6s ease-out forwards; opacity: 0; }
+  
+  /* Layout */
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+  
+  /* Section 1: Hero Dossier */
+  .hero-dossier {
+      padding: 100px 20px;
+      text-align: center;
       border-bottom: 1px solid var(--border);
       position: relative;
+      background: radial-gradient(circle at top, rgba(255,255,255,0.03) 0%, transparent 70%);
   }
-  .hero h1 { 
-      font-family: 'Outfit', sans-serif;
-      font-size:3rem; 
-      font-weight:800; 
-      margin-bottom:12px; 
-      background: linear-gradient(135deg, #ffffff 30%, #a8a29e 100%);
+  .hero-tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 4px 12px;
+      border: 1px solid rgba(225, 6, 0, 0.3);
+      border-radius: 4px;
+      margin-bottom: 24px;
+      background: rgba(225, 6, 0, 0.05);
+  }
+  .hero-dossier h1 {
+      font-size: 4rem;
+      font-weight: 800;
+      letter-spacing: -2px;
+      margin-bottom: 16px;
+      background: linear-gradient(180deg, #ffffff 0%, #a1a1aa 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      letter-spacing: -1px;
   }
-  .hero h2 { 
-      font-size:1.25rem; 
-      font-weight:400; 
-      color: var(--text-dim); 
-      margin-bottom:24px; 
+  .hero-dossier h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--text-dim);
+      max-width: 700px;
+      margin: 0 auto 32px auto;
   }
-  .hero .tag { 
-      background: rgba(59, 130, 246, 0.1); 
-      color: var(--primary);
-      padding:6px 16px; 
-      border-radius:20px; 
-      font-size:13px; 
-      font-weight: 600;
-      border: 1px solid rgba(59, 130, 246, 0.2);
-      display:inline-block; 
-      text-transform: uppercase;
-      letter-spacing: 1px;
-  }
-  .container { max-width:900px; margin:0 auto; padding:40px 20px; }
-  .card { 
-      background: var(--surface); 
+  .hero-dossier strong { color: #fff; font-weight: 600; }
+
+  /* Shared Card Styles */
+  .section-card {
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius:16px; 
-      padding:32px; 
-      margin-bottom:24px; 
-      backdrop-filter: blur(10px);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 32px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
   }
-  .card h3 { 
-      color: #fff; 
-      font-family: 'Outfit', sans-serif;
-      font-size:1.5rem; 
-      margin-bottom:20px; 
-      padding-bottom:12px; 
-      border-bottom: 1px solid var(--border);
-      display: flex; align-items: center; gap: 10px;
+  .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #fff;
   }
-  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom: 24px; }
-  @media(max-width:768px) { .grid2 { grid-template-columns:1fr; } .hero { padding:60px 20px; } }
-  .footer { text-align:center; color: var(--text-dim); font-size:13px; padding:40px; border-top: 1px solid var(--border); }
   
-  ul li { color: var(--text-main); font-size: 0.95rem; line-height: 1.5; }
+  /* Badges & Tags */
+  .badge-container { display: flex; flex-wrap: wrap; gap: 10px; }
+  .badge {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-main);
+  }
+  .badge-accent {
+      background: rgba(59, 130, 246, 0.1);
+      border-color: rgba(59, 130, 246, 0.3);
+      color: #60a5fa;
+  }
+
+  /* Project Grid */
+  .project-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+  }
+  .project-card {
+      background: rgba(0,0,0,0.3);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: all 0.3s ease;
+  }
+  .project-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.02);
+  }
+  .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+  .project-header h3 { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .star-badge { background: rgba(255,255,255,0.08); padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; font-family: var(--font-mono); }
+  .project-desc { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 16px; min-height: 44px; }
+  .project-tech { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); margin-bottom: 16px; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .skill-tag {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--succ);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+  }
+  .project-actions { display: flex; gap: 12px; border-top: 1px solid var(--border); padding-top: 16px; }
+  
+  /* Buttons */
+  .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+  }
+  .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(225, 6, 0, 0.4);
+  }
+  .btn-primary:hover { background: #ff1a1a; transform: translateY(-2px); }
+  .btn-secondary { background: #fff; color: #000; }
+  .btn-secondary:hover { background: #e2e8f0; }
+  .btn-outline { border: 1px solid var(--border); color: #fff; }
+  .btn-outline:hover { background: rgba(255,255,255,0.1); }
+
+  /* Lists */
+  .list-wrapper { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .list-item { display: flex; gap: 12px; font-size: 0.95rem; align-items: flex-start; }
+  .list-item .icon { font-weight: 700; }
+  .list-item.error .icon { color: var(--primary); }
+  .list-item.primary .icon { color: var(--accent); }
+
+  /* Footer */
+  .footer { text-align: center; padding: 40px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.85rem; font-family: var(--font-mono); }
+
+  @media(max-width: 768px) {
+      .project-grid { grid-template-columns: 1fr; }
+      .hero-dossier h1 { font-size: 2.5rem; }
+      .section-card { padding: 24px; }
+  }
 </style>
 </head>
 <body>
-<div class="hero">
-  <span class="tag">Generated on March 07, 2026</span>
-  <h1 style="margin-top:20px;">swathiga</h1>
-  <h2>Customized Portfolio for <strong style="color:var(--primary);">Business Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)</strong> at <strong style="color:var(--secondary);">TikTok</strong></h2>
-  <br/><a href="https://orchestrai-agent.onrender.com/cover_letters/tiktok_business_analyst_intern_business_integri.md" target="_blank" style="display:inline-block;background:var(--primary);color:white;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;box-shadow:0 4px 15px rgba(59,130,246,0.4);transition:all 0.2s;">📄 View Cover Letter &rarr;</a>
+
+<!-- Section 1: Hero Dossier -->
+<div class="hero-dossier animate-section" style="animation-delay: 0.1s">
+    <div class="hero-tag">CONFIDENTIAL DOSSIER • EXPORTED March 07, 2026</div>
+    <h1>swathiga</h1>
+    <h2>Candidate Portfolio specifically tailored for <strong>Business Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)</strong> at <strong>TikTok</strong></h2>
+    <div style="display:flex; justify-content:center; gap:16px; margin-top: 16px;">
+        <a href="https://orchestrai-agent.onrender.com/cover_letters/tiktok_business_analyst_intern_business_integri.md" target="_blank" class="btn btn-primary">📄 Read Cover Letter</a>
+        <a href="#projects" class="btn btn-outline">↓ View Engineering Work</a>
+    </div>
 </div>
 
 <div class="container">
-  <div class="card">
-    <h3>🎯 Why I'm a Great Fit</h3>
-    <p style="color:var(--text-dim);margin-bottom:15px;font-size:0.95rem;">This role requires: <span style="color:#e2e8f0"></span></p>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px"><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Python</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">SQL</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Machine Learning</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Pandas</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">NumPy</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Data Analysis</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Scikit-learn</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Statistics</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Data Visualization</span><span style="background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--text-main);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;">Excel</span></div>
-  </div>
 
-  <div class="grid2">
-    <div class="card" style="margin-bottom:0;">
-      <h3>📊 Skill Gap Analysis</h3>
-      <p style="font-size:12px;color:var(--text-dim);margin-bottom:15px;text-transform:uppercase;letter-spacing:1px;font-weight:600;">Skills I'm actively building</p>
-      <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:10px;"><li style='display:flex;gap:10px;'><span style='color:var(--error);'>x</span><span>All required skills covered!</span></li></ul>
+    <!-- Section 2: Executive Fit -->
+    <div class="section-card animate-section" style="animation-delay: 0.2s">
+        <h3 class="section-title">🎯 Role Alignment</h3>
+        <p style="color:var(--text-dim); margin-bottom:16px; font-size: 1.1rem;">
+            This role at TikTok strictly requires the following core competencies:
+        </p>
+        <div class="badge-container" style="margin-bottom: 24px;">
+            
+        </div>
+        <p style="color:var(--text-dim); margin-bottom:16px; font-size: 1.1rem; border-top: 1px solid var(--border); padding-top: 24px;">
+            Here is my corresponding technical arsenal:
+        </p>
+        <div class="badge-container">
+            <span class="badge">Python</span><span class="badge">SQL</span><span class="badge">Machine Learning</span><span class="badge">Pandas</span><span class="badge">NumPy</span><span class="badge">Data Analysis</span><span class="badge">Scikit-learn</span><span class="badge">Statistics</span><span class="badge">Data Visualization</span><span class="badge">Excel</span>
+        </div>
     </div>
-    <div class="card" style="margin-bottom:0;">
-      <h3>🗺️ My Learning Roadmap</h3>
-      <p style="font-size:12px;color:var(--text-dim);margin-bottom:15px;text-transform:uppercase;letter-spacing:1px;font-weight:600;">My action plan</p>
-      <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:10px;"><li style='display:flex;gap:10px;'><span style='color:var(--primary);'>&rarr;</span><span>No skill gaps detected. You are well-equipped for this role!</span></li></ul>
-    </div>
-  </div>
 
-  <div class="card">
-    <h3>🏆 Most Relevant Projects</h3>
-    <div style="display:flex;flex-direction:column;gap:16px;">
-        
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">STST</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">A technical repository.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> Python</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/STST" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
+    <!-- Section 3 & 4: Roadmap & Gaps -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px;">
+        <div class="section-card animate-section" style="margin-bottom:0; animation-delay: 0.3s">
+            <h3 class="section-title" style="font-size: 1.3rem;">⚠️ Gap Analysis</h3>
+            <p style="color:var(--text-dim); margin-bottom: 16px; font-size: 0.9rem;">Missing qualifications mapped to role</p>
+            <ul class="list-wrapper">
+                <li class='list-item error'><span class='icon'>x</span><span>All required skills covered!</span></li>
+            </ul>
         </div>
         
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">Swathy1209</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">Config files for my GitHub profile.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> Python</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
+        <div class="section-card animate-section" style="margin-bottom:0; animation-delay: 0.4s">
+            <h3 class="section-title" style="font-size: 1.3rem;">🚀 Learning Objective</h3>
+            <p style="color:var(--text-dim); margin-bottom: 16px; font-size: 0.9rem;">My strategic upskilling plan</p>
+            <ul class="list-wrapper">
+                <li class='list-item primary'><span class='icon'>&rarr;</span><span>No skill gaps detected. You are well-equipped for this role!</span></li>
+            </ul>
         </div>
-        
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">orchestrai-db</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">A technical repository.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> HTML</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
-        </div>
-        
-        <div style="border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:24px;background:rgba(0,0,0,0.2);transition:border-color 0.2s;">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-                <h3 style="margin:0;color:#fff;font-size:1.2rem;font-weight:600;font-family:'Outfit',sans-serif;">orchi-agent</h3>
-                <span style="background:rgba(255,255,255,0.05);color:var(--text-dim);border-radius:20px;padding:4px 10px;font-size:0.75rem;">⭐ 0</span>
-            </div>
-            <p style="color:var(--text-dim);font-size:0.95rem;margin-bottom:16px;line-height:1.5;">A technical repository.</p>
-            <p style="color:var(--primary);font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-weight:600;"><b>Tech:</b> Python</p>
-            <div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:8px;"></div>
-            <div style="display:flex;gap:12px;border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;">
-                <a href="https://github.com/Swathy1209/orchi-agent" target="_blank" style="background:transparent;border:1px solid var(--border);color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:600;transition:background 0.2s">GitHub &rarr;</a>
-                
-            </div>
-        </div>
-        
     </div>
-  </div>
+
+    <!-- Section 5: Projects -->
+    <div id="projects" class="section-card animate-section" style="animation-delay: 0.5s">
+        <h3 class="section-title">💻 High-Impact Engineering Proof</h3>
+        <p style="color:var(--text-dim); margin-bottom: 32px; font-size: 1.1rem;">
+            The following repositories demonstrate my hands-on capability directly related to the <strong>Business Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)</strong> position.
+        </p>
+        <div class="project-grid">
+            
+        <div class="project-card">
+            <div class="project-header">
+                <h3>STST</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">A technical repository.</p>
+            <p class="project-tech"><b>Tech Stack:</b> Python</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/STST" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Swathy1209</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">Config files for my GitHub profile.</p>
+            <p class="project-tech"><b>Tech Stack:</b> Python</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <h3>orchestrai-db</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">A technical repository.</p>
+            <p class="project-tech"><b>Tech Stack:</b> HTML</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <h3>orchestrai-agent</h3>
+                <span class="star-badge">⭐ 0</span>
+            </div>
+            <p class="project-desc">A technical repository.</p>
+            <p class="project-tech"><b>Tech Stack:</b> HTML</p>
+            <div class="project-tags"></div>
+            <div class="project-actions">
+                <a href="https://github.com/Swathy1209/orchestrai-agent" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
+                
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
 </div>
 
-<div class="footer">Built autonomously by OrchestrAI • Advanced Career Intelligence System • March 07, 2026</div>
+<!-- Footer -->
+<div class="footer animate-section" style="animation-delay: 0.6s">
+    SYSTEM_LOG: Generated via OrchestrAI Autonomous Agent System <br/>
+    TIMESTAMP: March 07, 2026
+</div>
+
 </body>
 </html>
