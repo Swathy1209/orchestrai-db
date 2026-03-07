@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T13:22:19'
-  details: Analyzed 87 jobs.
 - agent: CoverLetterAgent
   action: Generated cover letters for 87 internships
   status: success
@@ -2572,3 +2567,8 @@ logs:
   status: completed
   jobs_scraped: 1
   timestamp: '2026-03-07T09:00:41'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T09:01:22'
