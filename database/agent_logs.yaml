@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
-    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-06T07:16:58'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
     Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
     (Summer/Fall 2026)'
@@ -2402,3 +2397,8 @@ logs:
     Analyst Innovation Intern'
   status: error
   timestamp: '2026-03-07T12:31:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
+    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T12:31:30'
