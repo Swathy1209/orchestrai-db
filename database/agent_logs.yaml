@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T19:25:15'
-- agent: CareerAgent
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-03-01T19:25:28'
@@ -2407,3 +2403,7 @@ logs:
   action: Generated premium portfolios for 132 internships
   status: success
   timestamp: '2026-03-07T07:00:29'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T07:04:31'
