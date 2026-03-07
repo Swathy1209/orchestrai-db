@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-06T07:17:09'
-- agent: PracticeAgent
   action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
     Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
     Learning Engineer'
@@ -2400,3 +2394,8 @@ logs:
     Internship Spring 2026'
   status: error
   timestamp: '2026-03-07T12:32:07'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-07T12:32:10'
