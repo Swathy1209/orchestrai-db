@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
-    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-05T09:49:47'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern, Data Science'
   status: error
@@ -2437,3 +2432,7 @@ logs:
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-03-07T12:01:59'
+- agent: CareerAgent
+  action: 103 jobs fetched, 57 relevant
+  level: INFO
+  timestamp: '2026-03-07T12:02:05'
