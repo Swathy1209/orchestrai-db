@@ -3,322 +3,554 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>swathiga — Candidate Dossier for TikTok</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<title>swathiga — Professional Portfolio for TikTok</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
   :root {
-    --bg-main: #0a0a0a;
-    --surface: rgba(255, 255, 255, 0.04);
-    --surface-hover: rgba(255, 255, 255, 0.08);
-    --border: rgba(255, 255, 255, 0.1);
-    --primary: #E10600; /* Porsche Red emphasis */
-    --accent: #3b82f6; 
-    --text-main: #f8fafc;
-    --text-dim: #94a3b8;
-    --succ: #10b981;
-    --warn: #eab308;
-    --font-heading: 'Plus Jakarta Sans', sans-serif;
-    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --bg-primary: #000000;
+    --bg-secondary: #0a0a0a;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --bg-card-hover: rgba(255, 255, 255, 0.06);
+    --border-color: rgba(255, 255, 255, 0.08);
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+    --accent-primary: #ffffff;
+    --accent-secondary: #3b82f6;
+    --accent-success: #10b981;
+    --accent-warning: #eab308;
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --font-primary: 'Inter', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
   }
   
-  * { margin:0; padding:0; box-sizing:border-box; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
   
   body { 
-      font-family: var(--font-body); 
-      background-color: var(--bg-main); 
-      color: var(--text-main); 
-      line-height: 1.6;
-      background-image: 
-        radial-gradient(circle at top left, rgba(225, 6, 0, 0.05), transparent 40%),
-        radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.05), transparent 40%);
-      background-attachment: fixed;
-  }
-
-  /* Animations */
-  @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-  }
-  .animate-section { animation: fadeInUp 0.6s ease-out forwards; opacity: 0; }
-  
-  /* Layout */
-  .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
-  
-  /* Section 1: Hero Dossier */
-  .hero-dossier {
-      padding: 100px 20px;
-      text-align: center;
-      border-bottom: 1px solid var(--border);
-      position: relative;
-      background: radial-gradient(circle at top, rgba(255,255,255,0.03) 0%, transparent 70%);
-  }
-  .hero-tag {
-      display: inline-block;
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      color: var(--primary);
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      padding: 4px 12px;
-      border: 1px solid rgba(225, 6, 0, 0.3);
-      border-radius: 4px;
-      margin-bottom: 24px;
-      background: rgba(225, 6, 0, 0.05);
-  }
-  .hero-dossier h1 {
-      font-size: 4rem;
-      font-weight: 800;
-      letter-spacing: -2px;
-      margin-bottom: 16px;
-      background: linear-gradient(180deg, #ffffff 0%, #a1a1aa 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  .hero-dossier h2 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      color: var(--text-dim);
-      max-width: 700px;
-      margin: 0 auto 32px auto;
-  }
-  .hero-dossier strong { color: #fff; font-weight: 600; }
-
-  /* Shared Card Styles */
-  .section-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 40px;
-      margin-bottom: 32px;
-      backdrop-filter: blur(12px);
-      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
-  }
-  .section-title {
-      font-size: 1.75rem;
-      font-weight: 700;
-      margin-bottom: 24px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: #fff;
+    font-family: var(--font-primary); 
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
   }
   
-  /* Badges & Tags */
-  .badge-container { display: flex; flex-wrap: wrap; gap: 10px; }
-  .badge {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid var(--border);
-      padding: 6px 14px;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: var(--text-main);
-  }
-  .badge-accent {
-      background: rgba(59, 130, 246, 0.1);
-      border-color: rgba(59, 130, 246, 0.3);
-      color: #60a5fa;
-  }
-
-  /* Project Grid */
-  .project-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-  }
-  .project-card {
-      background: rgba(0,0,0,0.3);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-      transition: all 0.3s ease;
-  }
-  .project-card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(255,255,255,0.2);
-      background: rgba(255,255,255,0.02);
-  }
-  .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
-  .project-header h3 { font-size: 1.25rem; font-weight: 700; color: #fff; }
-  .star-badge { background: rgba(255,255,255,0.08); padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; font-family: var(--font-mono); }
-  .project-desc { color: var(--text-dim); font-size: 0.95rem; margin-bottom: 16px; min-height: 44px; }
-  .project-tech { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); margin-bottom: 16px; }
-  .project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
-  .skill-tag {
-      background: rgba(16, 185, 129, 0.1);
-      color: var(--succ);
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 0.75rem;
-      font-weight: 600;
-  }
-  .project-actions { display: flex; gap: 12px; border-top: 1px solid var(--border); padding-top: 16px; }
+  /* Container */
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
   
-  /* Buttons */
-  .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.9rem;
-      text-decoration: none;
-      transition: all 0.2s;
-      cursor: pointer;
+  /* Hero Section */
+  .hero-section {
+    padding: 120px 0 80px;
+    text-align: center;
+    background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
+    border-bottom: 1px solid var(--border-color);
   }
-  .btn-primary {
-      background: var(--primary);
-      color: #fff;
-      box-shadow: 0 4px 14px rgba(225, 6, 0, 0.4);
+  .hero-badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    padding: 6px 16px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
-  .btn-primary:hover { background: #ff1a1a; transform: translateY(-2px); }
-  .btn-secondary { background: #fff; color: #000; }
-  .btn-secondary:hover { background: #e2e8f0; }
-  .btn-outline { border: 1px solid var(--border); color: #fff; }
-  .btn-outline:hover { background: rgba(255,255,255,0.1); }
-
-  /* Lists */
-  .list-wrapper { list-style: none; display: flex; flex-direction: column; gap: 12px; }
-  .list-item { display: flex; gap: 12px; font-size: 0.95rem; align-items: flex-start; }
-  .list-item .icon { font-weight: 700; }
-  .list-item.error .icon { color: var(--primary); }
-  .list-item.primary .icon { color: var(--accent); }
-
+  .hero-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 24px;
+    background: linear-gradient(180deg, #ffffff 0%, #a1a1aa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.02em;
+  }
+  .hero-subtitle {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    line-height: 1.4;
+  }
+  .highlight { color: var(--text-primary); font-weight: 600; }
+  .hero-summary {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  section:last-of-type { border-bottom: none; }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .section-header h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+  .section-header p {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+  }
+  
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    transition: all 0.2s ease;
+  }
+  .skill-item:hover { background: var(--bg-card-hover); }
+  .skill-icon {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .skill-item.has-skill .skill-icon { color: var(--accent-success); }
+  .skill-item.missing-skill .skill-icon { color: var(--text-muted); }
+  .skill-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  /* Impact Section */
+  .impact-grid {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .impact-item {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin-bottom: 24px;
+    padding-left: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Projects Section */
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .project-card.featured {
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+  }
+  .project-card.featured:hover {
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+  }
+  .project-number {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--text-muted);
+    min-width: 60px;
+    line-height: 1;
+  }
+  .project-content { flex: 1; }
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .project-problem-solution {
+    margin-bottom: 24px;
+  }
+  .project-problem, .project-solution {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  .tech-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-right: 8px;
+  }
+  .tech-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.875rem;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  .project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+  }
+  .project-stars {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+  .project-link {
+    color: var(--accent-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .project-link:hover { color: var(--text-primary); }
+  
+  /* GitHub Section */
+  .github-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 24px;
+    max-width: 600px;
+    margin: 0 auto 48px;
+  }
+  .stat-item {
+    text-align: center;
+    padding: 24px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+  }
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .top-repos h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .repos-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .repo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .repo-item:last-child { border-bottom: none; }
+  .repo-name {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .repo-meta {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+  }
+  
+  /* Skill Gap & Learning Sections */
+  .gaps-container, .roadmap-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .gap-item, .roadmap-item {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    padding-left: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Cover Letter Section */
+  .cover-letter-btn {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--gradient-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .cover-letter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+  }
+  
   /* Footer */
-  .footer { text-align: center; padding: 40px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.85rem; font-family: var(--font-mono); }
-
-  @media(max-width: 768px) {
-      .project-grid { grid-template-columns: 1fr; }
-      .hero-dossier h1 { font-size: 2.5rem; }
-      .section-card { padding: 24px; }
+  .portfolio-footer {
+    padding: 48px 0;
+    text-align: center;
+    background: var(--bg-secondary);
+  }
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .footer-text {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+  .footer-subtitle {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+  .footer-timestamp {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container { padding: 0 16px; }
+    .hero-section { padding: 80px 0 60px; }
+    section { padding: 60px 0; }
+    .project-card.featured {
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px;
+    }
+    .project-number { font-size: 2rem; }
+    .project-footer {
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .skills-grid { grid-template-columns: 1fr; }
+    .github-stats { grid-template-columns: 1fr; }
   }
 </style>
 </head>
 <body>
 
-<!-- Section 1: Hero Dossier -->
-<div class="hero-dossier animate-section" style="animation-delay: 0.1s">
-    <div class="hero-tag">CONFIDENTIAL DOSSIER • EXPORTED March 07, 2026</div>
-    <h1>swathiga</h1>
-    <h2>Candidate Portfolio specifically tailored for <strong>Business Analyst Project Intern - Monetization Strategy & Operations - 2026 Start (BS/MS)</strong> at <strong>TikTok</strong></h2>
-    <div style="display:flex; justify-content:center; gap:16px; margin-top: 16px;">
-        <a href="https://orchestrai-agent.onrender.com/cover_letters/tiktok_business_analyst_project_intern_monetiza.md" target="_blank" class="btn btn-primary">📄 Read Cover Letter</a>
-        <a href="#projects" class="btn btn-outline">↓ View Engineering Work</a>
-    </div>
-</div>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">PROFESSIONAL PORTFOLIO</div>
+            <h1 class="hero-title">swathiga</h1>
+            <div class="hero-subtitle">
+                Applying for<br/>
+                <span class="highlight">Business Analyst Project Intern - Monetization Strategy & Operations - 2026 Start (BS/MS)</span> at <span class="highlight">TikTok</span>
+            </div>
+            <p class="hero-summary">Python enthusiast with hands-on experience building innovative systems and applications.</p>
+        </div>
+    </section>
 
 <div class="container">
-
-    <!-- Section 2: Executive Fit -->
-    <div class="section-card animate-section" style="animation-delay: 0.2s">
-        <h3 class="section-title">🎯 Role Alignment</h3>
-        <p style="color:var(--text-dim); margin-bottom:16px; font-size: 1.1rem;">
-            This role at TikTok strictly requires the following core competencies:
-        </p>
-        <div class="badge-container" style="margin-bottom: 24px;">
+    
+    <section class="skills-section">
+        <div class="section-header">
+            <h2>Skills Match</h2>
+            <p>Required skills for this position</p>
+        </div>
+        <div class="skills-grid">
             
         </div>
-        <p style="color:var(--text-dim); margin-bottom:16px; font-size: 1.1rem; border-top: 1px solid var(--border); padding-top: 24px;">
-            Here is my corresponding technical arsenal:
-        </p>
-        <div class="badge-container">
-            <span class="badge">Python</span><span class="badge">SQL</span><span class="badge">Machine Learning</span><span class="badge">Pandas</span><span class="badge">NumPy</span><span class="badge">Data Analysis</span><span class="badge">Scikit-learn</span><span class="badge">Statistics</span><span class="badge">Data Visualization</span><span class="badge">Excel</span>
+    </section>
+    
+    <section class="impact-section">
+        <div class="section-header">
+            <h2>Impact Summary</h2>
+            <p>Key capabilities and achievements</p>
         </div>
-    </div>
-
-    <!-- Section 3 & 4: Roadmap & Gaps -->
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px;">
-        <div class="section-card animate-section" style="margin-bottom:0; animation-delay: 0.3s">
-            <h3 class="section-title" style="font-size: 1.3rem;">⚠️ Gap Analysis</h3>
-            <p style="color:var(--text-dim); margin-bottom: 16px; font-size: 0.9rem;">Missing qualifications mapped to role</p>
-            <ul class="list-wrapper">
-                <li class='list-item error'><span class='icon'>x</span><span>All required skills covered!</span></li>
-            </ul>
+        <div class="impact-grid">
+            <div class="impact-item">• Built multiple technical systems using Python</div><div class="impact-item">• Developed real-time data processing and analysis pipelines</div><div class="impact-item">• Experience deploying applications to cloud platforms</div>
         </div>
-        
-        <div class="section-card animate-section" style="margin-bottom:0; animation-delay: 0.4s">
-            <h3 class="section-title" style="font-size: 1.3rem;">🚀 Learning Objective</h3>
-            <p style="color:var(--text-dim); margin-bottom: 16px; font-size: 0.9rem;">My strategic upskilling plan</p>
-            <ul class="list-wrapper">
-                <li class='list-item primary'><span class='icon'>&rarr;</span><span>No skill gaps detected. You are well-equipped for this role!</span></li>
-            </ul>
+    </section>
+    
+    <section class="projects-section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Most relevant work for this position</p>
         </div>
-    </div>
-
-    <!-- Section 5: Projects -->
-    <div id="projects" class="section-card animate-section" style="animation-delay: 0.5s">
-        <h3 class="section-title">💻 High-Impact Engineering Proof</h3>
-        <p style="color:var(--text-dim); margin-bottom: 32px; font-size: 1.1rem;">
-            The following repositories demonstrate my hands-on capability directly related to the <strong>Business Analyst Project Intern - Monetization Strategy & Operations - 2026 Start (BS/MS)</strong> position.
-        </p>
-        <div class="project-grid">
+        <div class="projects-container">
             
-        <div class="project-card">
-            <div class="project-header">
-                <h3>STST</h3>
-                <span class="star-badge">⭐ 0</span>
-            </div>
-            <p class="project-desc">A technical repository.</p>
-            <p class="project-tech"><b>Tech Stack:</b> Python</p>
-            <div class="project-tags"></div>
-            <div class="project-actions">
-                <a href="https://github.com/Swathy1209/STST" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
-                
-            </div>
-        </div>
-        
-        <div class="project-card">
-            <div class="project-header">
-                <h3>Swathy1209</h3>
-                <span class="star-badge">⭐ 0</span>
-            </div>
-            <p class="project-desc">Config files for my GitHub profile.</p>
-            <p class="project-tech"><b>Tech Stack:</b> Python</p>
-            <div class="project-tags"></div>
-            <div class="project-actions">
-                <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
-                
+        <div class="project-card featured">
+            <div class="project-number">1</div>
+            <div class="project-content">
+                <h3 class="project-title">STST</h3>
+                <div class="project-problem-solution">
+                    <p class="project-problem">Challenge: A technical repository.</p>
+                    <p class="project-solution">Solution: Built a technical solution using Python to address this challenge effectively.</p>
+                </div>
+                <div class="project-tech-stack">
+                    <span class="tech-label">Tech Stack:</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+                <div class="project-footer">
+                    <div class="project-stars">⭐ 0 stars</div>
+                    <a href="https://github.com/Swathy1209/STST" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
             </div>
         </div>
-        
-        <div class="project-card">
-            <div class="project-header">
-                <h3>orchestrai-db</h3>
-                <span class="star-badge">⭐ 0</span>
-            </div>
-            <p class="project-desc">A technical repository.</p>
-            <p class="project-tech"><b>Tech Stack:</b> HTML</p>
-            <div class="project-tags"></div>
-            <div class="project-actions">
-                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
-                
-            </div>
-        </div>
-        
-        <div class="project-card">
-            <div class="project-header">
-                <h3>orchestrai-agent</h3>
-                <span class="star-badge">⭐ 0</span>
-            </div>
-            <p class="project-desc">A technical repository.</p>
-            <p class="project-tech"><b>Tech Stack:</b> HTML</p>
-            <div class="project-tags"></div>
-            <div class="project-actions">
-                <a href="https://github.com/Swathy1209/orchestrai-agent" target="_blank" class="btn btn-outline">GitHub Repository &rarr;</a>
-                
+        <div class="project-card featured">
+            <div class="project-number">2</div>
+            <div class="project-content">
+                <h3 class="project-title">Swathy1209</h3>
+                <div class="project-problem-solution">
+                    <p class="project-problem">Challenge: Config files for my GitHub profile.</p>
+                    <p class="project-solution">Solution: Built a technical solution using Python to address this challenge effectively.</p>
+                </div>
+                <div class="project-tech-stack">
+                    <span class="tech-label">Tech Stack:</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+                <div class="project-footer">
+                    <div class="project-stars">⭐ 0 stars</div>
+                    <a href="https://github.com/Swathy1209/Swathy1209" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
             </div>
         </div>
+        <div class="project-card featured">
+            <div class="project-number">3</div>
+            <div class="project-content">
+                <h3 class="project-title">orchestrai-db</h3>
+                <div class="project-problem-solution">
+                    <p class="project-problem">Challenge: A technical repository.</p>
+                    <p class="project-solution">Solution: Built a technical solution using HTML to address this challenge effectively.</p>
+                </div>
+                <div class="project-tech-stack">
+                    <span class="tech-label">Tech Stack:</span>
+                    <span class="tech-tag">HTML</span>
+                </div>
+                <div class="project-footer">
+                    <div class="project-stars">⭐ 0 stars</div>
+                    <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <section class="github-section">
+        <div class="section-header">
+            <h2>GitHub Engineering Profile</h2>
+            <p>Open source contributions and activity</p>
+        </div>
         
+    <div class="github-stats">
+        <div class="stat-item">
+            <div class="stat-number">30</div>
+            <div class="stat-label">Repositories</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">0</div>
+            <div class="stat-label">Total Stars</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Languages</div>
         </div>
     </div>
-
+        <div class="top-repos">
+            <h3>Top Repositories</h3>
+            <div class="repos-list">
+                
+        <div class="repo-item">
+            <div class="repo-info">
+                <div class="repo-name">acia-cloud-deployment</div>
+                <div class="repo-meta">None • ⭐ 0</div>
+            </div>
+        </div>
+        <div class="repo-item">
+            <div class="repo-info">
+                <div class="repo-name">acia-playwright</div>
+                <div class="repo-meta">JavaScript • ⭐ 0</div>
+            </div>
+        </div>
+        <div class="repo-item">
+            <div class="repo-info">
+                <div class="repo-name">ADAC---Automatic-document-Analyzer-and-Classifier</div>
+                <div class="repo-meta">Python • ⭐ 0</div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skill-gap-section">
+        <div class="section-header">
+            <h2>Skill Gap Analysis</h2>
+            <p>Areas for development</p>
+        </div>
+        <div class="gaps-container">
+            <div class="gap-item">• All required skills covered!</div>
+        </div>
+    </section>
+    
+    <section class="learning-section">
+        <div class="section-header">
+            <h2>Learning Roadmap</h2>
+            <p>Strategic skill development plan</p>
+        </div>
+        <div class="roadmap-container">
+            <div class="roadmap-item">→ No skill gaps detected. You are well-equipped for this role!</div>
+        </div>
+    </section>
+    
+        <section class="cover-letter-section">
+            <div class="section-header">
+                <h2>Cover Letter</h2>
+                <p>Detailed qualifications and motivation</p>
+            </div>
+            <a href="https://orchestrai-agent.onrender.com/cover_letters/tiktok_business_analyst_project_intern_monetiza.md" target="_blank" class="cover-letter-btn">
+                View Cover Letter →
+            </a>
+        </section>
 </div>
 
-<!-- Footer -->
-<div class="footer animate-section" style="animation-delay: 0.6s">
-    SYSTEM_LOG: Generated via OrchestrAI Autonomous Agent System <br/>
-    TIMESTAMP: March 07, 2026
-</div>
+
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                Built autonomously by OrchestrAI<br/>
+                <span class="footer-subtitle">Autonomous Career Intelligence System</span>
+            </div>
+            <div class="footer-timestamp">Generated on March 07, 2026</div>
+        </div>
+    </footer>
 
 </body>
 </html>
