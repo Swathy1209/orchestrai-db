@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swathiga | Stripe Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #000000;
+            --surface: #0a0a0a;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --primary: #d5001c; /* Porsche Red */
+            --primary-hover: #ff1f3d;
+            --text-main: #ffffff;
+            --text-dim: #888888;
+            --spacing: 40px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background: var(--bg); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+
+        .glass {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            background: radial-gradient(circle at center, #1a1a1a 0%, #000 100%);
+        }
+
+        .user-badge {
+            font-size: 11px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 24px;
+            border: 1px solid rgba(213, 0, 28, 0.3);
+            padding: 8px 16px;
+            border-radius: 50px;
+        }
+
+        h1 { font-size: clamp(40px, 8vw, 84px); font-weight: 800; letter-spacing: -3px; margin-bottom: 20px; }
+        h2 { font-size: clamp(16px, 3vw, 20px); font-weight: 400; color: var(--text-dim); max-width: 700px; margin-bottom: 40px; }
+        .highlight { color: #fff; font-weight: 600; }
+
+        .btn {
+            cursor: pointer;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-hover); transform: translateY(-3px); box-shadow: 0 10px 30px rgba(213, 0, 28, 0.3); }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 100px 20px; }
+        
+        section { margin-bottom: 140px; }
+        .section-header { display: flex; align-items: center; margin-bottom: 48px; gap: 20px; }
+        .section-label { font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--primary); white-space: nowrap; }
+        .section-line { height: 1px; width: 100%; background: var(--glass-border); }
+
+        /* Why Fit Section */
+        .skills-container { display: flex; flex-wrap: wrap; gap: 12px; }
+        .skill-chip {
+            padding: 12px 24px;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-dim);
+        }
+        .skill-chip.active {
+            background: rgba(213, 0, 28, 0.1);
+            border-color: rgba(213, 0, 28, 0.4);
+            color: #fff;
+        }
+
+        /* Grid System */
+        .split-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; }
+        @media (max-width: 900px) { .split-grid { grid-template-columns: 1fr; } }
+
+        .status-success { color: #00f593; font-weight: 600; font-size: 18px; }
+        .gap-list { list-style: none; }
+        .gap-list li { margin-bottom: 12px; font-size: 16px; padding-left: 20px; position: relative; }
+        .gap-list li::before { content: "•"; color: var(--primary); position: absolute; left: 0; font-weight: bold; }
+
+        .roadmap-timeline { border-left: 1px solid var(--glass-border); padding-left: 30px; }
+        .roadmap-step { margin-bottom: 24px; position: relative; color: var(--text-dim); font-size: 15px; }
+        .roadmap-step::before {
+            content: ""; width: 9px; height: 9px; background: var(--primary); border-radius: 50%;
+            position: absolute; left: -35px; top: 6px;
+        }
+
+        /* Projects */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
+        .project-card { padding: 32px; }
+        .project-card:hover { border-color: rgba(213, 0, 28, 0.3); transform: translateY(-8px); }
+        .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+        .project-header h3 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+        .link-icon { font-size: 20px; text-decoration: none; color: var(--primary); }
+        
+        .description { color: var(--text-dim); font-size: 15px; margin-bottom: 20px; }
+        .impact { background: rgba(0, 245, 147, 0.05); color: #00f593; padding: 12px; border-radius: 12px; font-size: 13px; font-weight: 500; margin-bottom: 24px; }
+        
+        .tech-label { font-size: 10px; font-weight: 800; letter-spacing: 1px; color: var(--primary); margin-bottom: 12px; }
+        .tech-stack { display: flex; flex-wrap: wrap; gap: 8px; }
+        .tech-tag { font-size: 11px; font-weight: 600; padding: 6px 12px; border-radius: 6px; background: rgba(255,255,255,0.05); }
+
+        /* GitHub Showcase */
+        .gh-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .gh-item { padding: 24px; text-decoration: none; color: inherit; display: block; }
+        .gh-info { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .gh-title { font-weight: 700; font-size: 14px; color: #fff; }
+        .gh-stars { font-size: 12px; font-weight: 700; color: var(--primary); }
+        .gh-desc { font-size: 13px; color: var(--text-dim); }
+
+        footer { text-align: center; padding: 60px 0; border-top: 1px solid var(--glass-border); color: var(--text-dim); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    
+    <div class="hero">
+        <div class="user-badge">swathiga</div>
+        <h1>Customized Portfolio</h1>
+        <h2>Dedicated to the <span class="highlight">Product Lead, AI</span> position at <span class="highlight">Stripe</span></h2>
+        <div class="hero-actions">
+            
+        </div>
+    </div>
+    
+
+    <div class="container">
+        
+        <section id="fit">
+            <div class="section-header">
+                <div class="section-label">Executive Match</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="split-grid">
+                <div>
+                    <h2 style="color: #fff; font-size: 32px; font-weight: 700; margin-bottom: 24px;">Why I am a great fit</h2>
+                    <div class="skills-container"></div>
+                </div>
+                <div class="glass" style="padding: 40px;">
+                    <div class="status-success"><span class="icon">✓</span> All required skills covered</div>
+                    <div style="margin-top: 40px; border-top: 1px solid var(--glass-border); padding-top: 40px;">
+                        <div class="section-subtitle" style="margin-bottom: 20px;">Strategic Roadmap</div>
+                        <p class="dim">You are fully equipped for this role based on your current profile.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header">
+                <div class="section-label">Top Relevance Projects</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                
+        <div class="project-card glass">
+            <div class="project-header">
+                <h3>orchestrai-db</h3>
+                <a href="https://github.com/Swathy1209/orchestrai-db" target="_blank" class="link-icon">↗</a>
+            </div>
+            <p class="description">No description provided.</p>
+            
+            <div class="tech-label">TECH STACK</div>
+            <div class="tech-stack"><span class="tech-tag">HTML</span></div>
+        </div>
+        
+        <div class="project-card glass">
+            <div class="project-header">
+                <h3>Stock_Sentiment_Analysis</h3>
+                <a href="https://github.com/Swathy1209/Stock_Sentiment_Analysis" target="_blank" class="link-icon">↗</a>
+            </div>
+            <p class="description">No description provided.</p>
+            
+            <div class="tech-label">TECH STACK</div>
+            <div class="tech-stack"><span class="tech-tag">Python</span></div>
+        </div>
+        
+        <div class="project-card glass">
+            <div class="project-header">
+                <h3>orchestrai-agent</h3>
+                <a href="https://github.com/Swathy1209/orchestrai-agent" target="_blank" class="link-icon">↗</a>
+            </div>
+            <p class="description">No description provided.</p>
+            
+            <div class="tech-label">TECH STACK</div>
+            <div class="tech-stack"><span class="tech-tag">Python</span></div>
+        </div>
+        
+            </div>
+        </section>
+
+        <section id="github">
+            <div class="section-header">
+                <div class="section-label">GitHub Integration</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="gh-grid">
+                
+        <a href="https://github.com/Swathy1209/DOCBOT" target="_blank" class="gh-item glass">
+            <div class="gh-info">
+                <span class="gh-title">DOCBOT</span>
+                <span class="gh-stars">★ 0</span>
+            </div>
+            <p class="gh-desc">No description provided....</p>
+        </a>
+        
+        <a href="https://github.com/Swathy1209/acia-cloud-deployment" target="_blank" class="gh-item glass">
+            <div class="gh-info">
+                <span class="gh-title">acia-cloud-deployment</span>
+                <span class="gh-stars">★ 0</span>
+            </div>
+            <p class="gh-desc">No description provided....</p>
+        </a>
+        
+        <a href="https://github.com/Swathy1209/acia-playwright" target="_blank" class="gh-item glass">
+            <div class="gh-info">
+                <span class="gh-title">acia-playwright</span>
+                <span class="gh-stars">★ 0</span>
+            </div>
+            <p class="gh-desc">No description provided....</p>
+        </a>
+        
+        <a href="https://github.com/Swathy1209/Azure_App" target="_blank" class="gh-item glass">
+            <div class="gh-info">
+                <span class="gh-title">Azure_App</span>
+                <span class="gh-stars">★ 0</span>
+            </div>
+            <p class="gh-desc">No description provided....</p>
+        </a>
+        
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        Generated autonomously by OrchestrAI<br/>
+        Advanced Career Intelligence System
+    </footer>
+
+</body>
+</html>
