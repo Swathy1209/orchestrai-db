@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
-    for The Institute for Advanced Learning and Research - Artificial Intelligence
-    / Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-05T09:50:49'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
     States'
@@ -2412,3 +2405,7 @@ logs:
   action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
   status: completed
   timestamp: '2026-03-07T12:13:21'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T12:13:30'
