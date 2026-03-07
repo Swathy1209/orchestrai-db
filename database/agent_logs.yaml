@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
-    Vision'
-  status: error
-  timestamp: '2026-03-06T07:17:12'
-- agent: PracticeAgent
   action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
     failed to generate interview Q&A for Resolute AI Software Private Limited - AI
     Engineer'
@@ -2398,3 +2392,8 @@ logs:
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-07T12:32:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-07T12:32:19'
