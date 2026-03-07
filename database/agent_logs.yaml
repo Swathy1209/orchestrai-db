@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 63 relevant
-  level: INFO
-  timestamp: '2026-03-02T09:38:08'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-02T09:38:13'
@@ -2497,3 +2493,8 @@ logs:
     to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
   status: error
   timestamp: '2026-03-07T07:08:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T07:08:44'
