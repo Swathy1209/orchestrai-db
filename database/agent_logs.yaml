@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
-    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
-    Energy (Summer 2026)'
-  status: error
-  timestamp: '2026-03-05T09:49:36'
-- agent: PracticeAgent
   action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
     to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
   status: error
@@ -2441,3 +2435,8 @@ logs:
   status: completed
   jobs_scraped: 1
   timestamp: '2026-03-07T12:00:38'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T12:01:36'
