@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
-    Machine Learning Engineering Internship - Summer 2026'
-  status: error
-  timestamp: '2026-03-06T07:16:43'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
     interview Q&A for Tatari - Data Science BI, Intern'
   status: error
@@ -2396,3 +2390,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-07T12:30:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
+    Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T12:30:44'
