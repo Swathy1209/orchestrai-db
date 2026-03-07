@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    interview Q&A for EXL - Data Analyst Associate'
-  status: error
-  timestamp: '2026-03-06T07:17:24'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 123 internships
   status: success
@@ -2401,3 +2396,9 @@ logs:
     interview Q&A for OralKart - Machine Learning'
   status: error
   timestamp: '2026-03-07T12:32:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
+    Science'
+  status: error
+  timestamp: '2026-03-07T12:33:00'
