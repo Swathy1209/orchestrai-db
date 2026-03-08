@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 133 internships
-  status: success
-  timestamp: '2026-03-07T09:04:02'
 - agent: PorschePortfolioAgent
   action: Generated premium portfolios for 133 internships
   status: success
@@ -2388,3 +2384,8 @@ logs:
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-08T07:12:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-08T07:12:04'
