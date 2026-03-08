@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 64 jobs fetched, 19 relevant
-  level: INFO
-  timestamp: '2026-03-07T09:17:20'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T09:17:28'
@@ -2404,8 +2400,14 @@ logs:
   status: error
   timestamp: '2026-03-08T07:12:14'
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Artificial Intelligence Intern'
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
+    Science'
   status: error
-  timestamp: '2026-03-08T07:12:16'
+  timestamp: '2026-03-08T07:12:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
+    Gemini failed to generate interview Q&A for Sungrow Power Supply Co., Ltd. - Data
+    Analyst Internship'
+  status: error
+  timestamp: '2026-03-08T07:12:17'
