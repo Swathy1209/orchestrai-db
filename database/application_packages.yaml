@@ -970,3 +970,24 @@
   apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-quarterhill-inc-4372938118?position=9&pageNum=0&refId=Fp6VCs12OPgfuatRnc7zKw%3D%3D&trackingId=VieqsP8AMUXL0mVGvVlb3Q%3D%3D
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/quarterhill_inc_machine_learning_engineer_intern.md
+- company: Deloitte
+  role: AWS Data Engineer
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/deloitte_aws_data_engineer.md
+  apply_link: https://unstop.com/jobs/1653539
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/deloitte_aws_data_engineer.md
+- company: Fractal
+  role: Data Engineer
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/fractal_data_engineer.md
+  apply_link: https://unstop.com/jobs/1653217
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/fractal_data_engineer.md
+- company: HSBC
+  role: Business Analyst- Transformation
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/hsbc_business_analyst_transformation.md
+  apply_link: https://unstop.com/jobs/1654227
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/hsbc_business_analyst_transformation.md
