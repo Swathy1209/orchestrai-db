@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAnalyticsAgent
-  action: Generated analytics dashboard — readiness=79.2
-  status: completed
-  timestamp: '2026-03-07T07:12:29'
 - agent: InterviewCoachAgent
   action: Generated 133 interview simulation pages
   status: success
@@ -2359,8 +2355,14 @@ logs:
   status: error
   timestamp: '2026-03-08T07:11:36'
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
-    Planning'
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
-  timestamp: '2026-03-08T07:11:38'
+  timestamp: '2026-03-08T07:11:37'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
+    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC - Data Science Intern'
+  status: error
+  timestamp: '2026-03-08T07:11:39'
