@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 64 jobs fetched
-  level: INFO
-  timestamp: '2026-03-07T09:17:14'
-- agent: CareerAgent
   action: 64 jobs fetched, 19 relevant
   level: INFO
   timestamp: '2026-03-07T09:17:20'
@@ -2407,3 +2403,9 @@ logs:
     interview Q&A for OralKart - Machine Learning'
   status: error
   timestamp: '2026-03-08T07:12:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
+    Science'
+  status: error
+  timestamp: '2026-03-08T07:12:15'
