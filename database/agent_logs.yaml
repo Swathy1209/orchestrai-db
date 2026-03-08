@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-07T09:32:19'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2423,3 +2419,8 @@ logs:
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
   timestamp: '2026-03-08T07:12:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
+    generate interview Q&A for Tatari - Data Science Analyst, Intern'
+  status: error
+  timestamp: '2026-03-08T07:12:34'
