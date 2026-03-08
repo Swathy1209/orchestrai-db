@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
-    interview Q&A for Aviate Manpower - Data Science'
-  status: error
-  timestamp: '2026-03-07T07:08:30'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
     generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
@@ -2373,3 +2368,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-03-08T07:09:05'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-08T07:09:27'
