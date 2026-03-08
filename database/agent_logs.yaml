@@ -2370,12 +2370,13 @@ logs:
   status: error
   timestamp: '2026-03-08T07:11:52'
 - agent: PracticeAgent
-  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ARM Institute - Data Analyst Intern'
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
+    - Artificial Intelligence (AI)'
   status: error
-  timestamp: '2026-03-08T07:11:53'
+  timestamp: '2026-03-08T07:11:54'
 - agent: PracticeAgent
-  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
-    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-08T07:11:55'
+  timestamp: '2026-03-08T07:11:56'
