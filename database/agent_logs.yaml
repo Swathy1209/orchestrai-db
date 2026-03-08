@@ -2355,14 +2355,14 @@ logs:
   status: error
   timestamp: '2026-03-08T07:11:36'
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
   status: error
-  timestamp: '2026-03-08T07:11:37'
+  timestamp: '2026-03-08T07:11:38'
 - agent: PracticeAgent
-  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
-    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC - Data Science Intern'
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
+    Data Science Intern'
   status: error
-  timestamp: '2026-03-08T07:11:39'
+  timestamp: '2026-03-08T07:11:40'
