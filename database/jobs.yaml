@@ -1282,4 +1282,29 @@ jobs:
   technical_skills: []
   source: LinkedIn
   timestamp: '2026-03-07T11:29:22.841873+00:00'
-last_updated: '2026-03-07T11:29:44.540793+00:00'
+- company: Deloitte
+  role: AWS Data Engineer
+  location: India
+  apply_link: https://unstop.com/jobs/1653539
+  role_keywords: []
+  technical_skills:
+  - AWS
+  source: Unstop
+  timestamp: '2026-03-08T07:07:00.631137+00:00'
+- company: Fractal
+  role: Data Engineer
+  location: India
+  apply_link: https://unstop.com/jobs/1653217
+  role_keywords: []
+  technical_skills: []
+  source: Unstop
+  timestamp: '2026-03-08T07:07:00.631238+00:00'
+- company: HSBC
+  role: Business Analyst- Transformation
+  location: India
+  apply_link: https://unstop.com/jobs/1654227
+  role_keywords: []
+  technical_skills: []
+  source: Unstop
+  timestamp: '2026-03-08T07:07:00.631349+00:00'
+last_updated: '2026-03-08T07:07:50.868193+00:00'
