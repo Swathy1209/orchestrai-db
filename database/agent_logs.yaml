@@ -1,8 +1,4 @@
 logs:
-- agent: CareerStrategyAgent
-  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
-  status: completed
-  timestamp: '2026-03-07T09:08:17'
 - agent: CareerReadinessAgent
   action: 'Computed readiness score: 79.2 — ✅ Strong Candidate'
   status: completed
@@ -2396,3 +2392,8 @@ logs:
     States'
   status: error
   timestamp: '2026-03-08T07:12:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Veolia - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-08T07:12:08'
