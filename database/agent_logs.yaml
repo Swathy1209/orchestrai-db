@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 58 relevant
-  level: INFO
-  timestamp: '2026-03-07T09:32:07'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T09:32:15'
@@ -2420,3 +2416,9 @@ logs:
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
   timestamp: '2026-03-08T07:12:32'
+- agent: PracticeAgent
+  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-08T07:12:33'
