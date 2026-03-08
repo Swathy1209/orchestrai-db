@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
-    interview Q&A for Hughes - ML Engineering Intern'
-  status: error
-  timestamp: '2026-03-07T07:09:04'
-- agent: PracticeAgent
   action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
     failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
     (PhD)'
@@ -2362,3 +2357,8 @@ logs:
     - 2026 Start (BS/MS)'
   status: error
   timestamp: '2026-03-08T07:11:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Maximus - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-08T07:11:08'
