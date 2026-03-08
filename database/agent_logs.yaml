@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
-    Gemini failed to generate interview Q&A for Sungrow Power Supply Co., Ltd. - Data
-    Analyst Internship'
-  status: error
-  timestamp: '2026-03-07T07:09:19'
-- agent: PracticeAgent
   action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
     interview Q&A for CareerNest - Machine Learning'
   status: error
@@ -2352,5 +2346,11 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
     interview Q&A for Unknown - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-08T07:11:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
+    - Machine Learning'
   status: error
   timestamp: '2026-03-08T07:11:21'
