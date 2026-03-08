@@ -3,11 +3,6 @@ logs:
   action: Scrape completed, added 44 jobs
   status: completed
   jobs_scraped: 44
-  timestamp: '2026-03-07T07:41:51'
-- agent: InternshipScraperAgent
-  action: Scrape completed, added 44 jobs
-  status: completed
-  jobs_scraped: 44
   timestamp: '2026-03-07T07:44:30'
 - agent: InternshipScraperAgent
   action: Scrape completed, added 1 jobs
@@ -2375,3 +2370,8 @@ logs:
     to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
   status: error
   timestamp: '2026-03-08T07:11:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Talentrift - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-08T07:11:48'
