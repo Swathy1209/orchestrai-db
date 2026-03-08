@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
-    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
-  status: error
-  timestamp: '2026-03-07T07:08:43'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
     to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
   status: error
@@ -2358,3 +2353,8 @@ logs:
     to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
   status: error
   timestamp: '2026-03-08T07:10:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-08T07:10:47'
