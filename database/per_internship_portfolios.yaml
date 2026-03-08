@@ -419,3 +419,12 @@ per_internship_portfolios:
 - company: Quarterhill Inc.
   role: Machine Learning Engineer Intern
   portfolio_url: https://orchestrai-agent.onrender.com/portfolio/internships/quarterhill_inc_machine_learning_engineer_intern.html
+- company: Deloitte
+  role: AWS Data Engineer
+  portfolio_url: https://orchestrai-agent.onrender.com/portfolio/internships/deloitte_aws_data_engineer.html
+- company: Fractal
+  role: Data Engineer
+  portfolio_url: https://orchestrai-agent.onrender.com/portfolio/internships/fractal_data_engineer.html
+- company: HSBC
+  role: Business Analyst- Transformation
+  portfolio_url: https://orchestrai-agent.onrender.com/portfolio/internships/hsbc_business_analyst_transformation.html
