@@ -1,8 +1,8 @@
 analytics:
   dashboard_url: https://orchestrai-agent.onrender.com/analytics
-  readiness_score: 75.3
+  readiness_score: 75.2
   readiness_label: ✅ Strong Candidate
   feedback_sessions: 0
-  opportunities: 138
+  opportunities: 141
   skill_gaps: 8
-  generated_at: '2026-03-07T14:01:10'
+  generated_at: '2026-03-08T07:15:47'
