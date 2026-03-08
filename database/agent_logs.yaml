@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  status: completed
-  jobs_scraped: 2
-  expired_removed: 0
-  timestamp: '2026-03-07T09:15:32'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2405,3 +2400,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-08T07:12:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-08T07:12:14'
