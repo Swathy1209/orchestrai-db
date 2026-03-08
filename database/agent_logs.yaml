@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
-    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-07T07:08:57'
-- agent: PracticeAgent
   action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
     failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
     Intern'
@@ -2361,3 +2356,9 @@ logs:
     America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
   status: error
   timestamp: '2026-03-08T07:10:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
+    Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-08T07:11:01'
