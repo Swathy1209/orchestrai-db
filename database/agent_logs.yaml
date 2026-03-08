@@ -2371,7 +2371,8 @@ logs:
   status: error
   timestamp: '2026-03-08T07:11:47'
 - agent: PracticeAgent
-  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
-    generate interview Q&A for Talentrift - Business Analyst Intern'
+  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
+    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
+    Analyst Innovation Intern'
   status: error
-  timestamp: '2026-03-08T07:11:48'
+  timestamp: '2026-03-08T07:11:49'
