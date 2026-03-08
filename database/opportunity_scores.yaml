@@ -694,3 +694,18 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: Deloitte
+  role: AWS Data Engineer
+  match_score: 17
+  selection_probability: Low
+  priority: Optional
+- company: Fractal
+  role: Data Engineer
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: HSBC
+  role: Business Analyst- Transformation
+  match_score: 65
+  selection_probability: Medium
+  priority: Strong Consideration
