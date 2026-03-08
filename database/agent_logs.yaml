@@ -1,10 +1,5 @@
 logs:
 - agent: InternshipScraperAgent
-  action: Scrape completed, added 1 jobs
-  status: completed
-  jobs_scraped: 1
-  timestamp: '2026-03-07T09:00:41'
-- agent: InternshipScraperAgent
   action: Removed 0 expired jobs
   status: completed
   expired_removed: 0
@@ -2374,5 +2369,12 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern - Data Science'
+  status: error
+  timestamp: '2026-03-08T07:11:52'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
+    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
+    - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-08T07:11:52'
