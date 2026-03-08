@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 64 jobs fetched, 19 relevant
-  level: INFO
-  timestamp: '2026-03-07T09:39:08'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-07T09:39:22'
@@ -2432,3 +2428,7 @@ logs:
   action: Generated Application Packages for 141 internships
   status: success
   timestamp: '2026-03-08T07:15:39'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 141 internships
+  status: success
+  timestamp: '2026-03-08T07:15:41'
