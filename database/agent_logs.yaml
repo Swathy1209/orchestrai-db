@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
-    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
-    Data Science Intern'
-  status: error
-  timestamp: '2026-03-07T07:08:37'
-- agent: PracticeAgent
   action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
     Design & Development: Gemini failed to generate interview Q&A for Product Manager
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
@@ -2364,3 +2358,8 @@ logs:
     generate interview Q&A for Cylinder Health - Junior Data Engineer'
   status: error
   timestamp: '2026-03-08T07:10:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-08T07:10:41'
