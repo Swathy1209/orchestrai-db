@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-07T09:34:14'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-07T09:34:22'
@@ -2431,3 +2427,8 @@ logs:
     interview Q&A for Deloitte - AWS Data Engineer'
   status: error
   timestamp: '2026-03-08T07:12:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
+    Q&A for Fractal - Data Engineer'
+  status: error
+  timestamp: '2026-03-08T07:12:39'
