@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
-    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
-    Science'
-  status: error
-  timestamp: '2026-03-07T07:09:17'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Artificial Intelligence Intern'
@@ -2351,8 +2345,13 @@ logs:
   status: error
   timestamp: '2026-03-08T07:11:17'
 - agent: PracticeAgent
-  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
-    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
-    Private Limited - Computer Vision'
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
+    - Artificial Intelligence (AI)'
   status: error
-  timestamp: '2026-03-08T07:11:19'
+  timestamp: '2026-03-08T07:11:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-08T07:11:20'
