@@ -2379,8 +2379,8 @@ logs:
   status: error
   timestamp: '2026-03-08T07:11:58'
 - agent: PracticeAgent
-  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
-    Intern'
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
+    (Summer/Fall 2026)'
   status: error
-  timestamp: '2026-03-08T07:11:58'
+  timestamp: '2026-03-08T07:11:59'
