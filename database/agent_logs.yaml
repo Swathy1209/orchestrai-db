@@ -2356,7 +2356,7 @@ logs:
   status: error
   timestamp: '2026-03-08T07:10:54'
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
-    Q&A for Go Offer - Data Analyst'
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
-  timestamp: '2026-03-08T07:10:55'
+  timestamp: '2026-03-08T07:10:56'
