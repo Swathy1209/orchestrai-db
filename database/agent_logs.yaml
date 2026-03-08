@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
-    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
-  status: error
-  timestamp: '2026-03-07T07:09:01'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
     Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
     - Summer 2026 Start'
@@ -2360,3 +2355,8 @@ logs:
     interview Q&A for Sloan - Data Analyst Intern'
   status: error
   timestamp: '2026-03-08T07:11:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Go Offer - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-08T07:11:05'
