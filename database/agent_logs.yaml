@@ -2363,7 +2363,7 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-03-08T07:09:49'
-- agent: CoverLetterAgent
-  action: Generated 141 cover letters
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
   status: success
   timestamp: '2026-03-08T07:10:37'
