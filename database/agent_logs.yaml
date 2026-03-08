@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
-    interview Q&A for Lensa - Intern, Data Science'
-  status: error
-  timestamp: '2026-03-07T07:08:49'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern - Data Science'
   status: error
@@ -2360,3 +2355,8 @@ logs:
     2026)'
   status: error
   timestamp: '2026-03-08T07:10:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-08T07:10:51'
