@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate interview Q&A for Zulitech Solution - Machine Learning'
-  status: error
-  timestamp: '2026-03-07T07:08:31'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
     (AI)'
@@ -2373,3 +2368,7 @@ logs:
   status: completed
   expired_removed: 0
   timestamp: '2026-03-08T07:09:27'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-08T07:09:28'
