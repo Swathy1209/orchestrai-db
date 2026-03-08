@@ -1,8 +1,4 @@
 logs:
-- agent: InterviewCoachAgent
-  action: Generated 133 interview simulation pages
-  status: success
-  timestamp: '2026-03-07T07:14:01'
 - agent: PorschePortfolioAgent
   action: Generated premium portfolios for 133 internships
   status: success
@@ -2366,3 +2362,9 @@ logs:
     Data Science Intern'
   status: error
   timestamp: '2026-03-08T07:11:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate interview Q&A for Product Manager
+    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
+  status: error
+  timestamp: '2026-03-08T07:11:41'
