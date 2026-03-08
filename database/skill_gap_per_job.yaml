@@ -709,3 +709,19 @@ job_skill_analysis:
   missing_skills: []
   roadmap:
   - No skill gaps detected. You are well-equipped for this role!
+- company: Deloitte
+  role: AWS Data Engineer
+  missing_skills:
+  - AWS
+  roadmap:
+  - Learn AWS (SageMaker, S3, EC2) — cloud deployment for ML
+- company: Fractal
+  role: Data Engineer
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: HSBC
+  role: Business Analyst- Transformation
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
