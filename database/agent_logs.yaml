@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
-    Machine Learning Engineering Internship - Summer 2026'
-  status: error
-  timestamp: '2026-03-07T07:08:39'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
     Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Machine Learning Engineer Intern - Global E-Commerce Content
@@ -2362,3 +2356,9 @@ logs:
     to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-08T07:10:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-08T07:10:43'
