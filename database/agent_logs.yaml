@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
-    to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
-  status: error
-  timestamp: '2026-03-07T07:09:35'
-- agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
@@ -2355,3 +2350,8 @@ logs:
     Q&A for Accredian - Data Science'
   status: error
   timestamp: '2026-03-08T07:11:31'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-08T07:11:32'
