@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Veolia - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-07T07:09:08'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
     (AI)'
@@ -2360,3 +2355,9 @@ logs:
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
   timestamp: '2026-03-08T07:11:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
+    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
+    degree)'
+  status: error
+  timestamp: '2026-03-08T07:11:12'
