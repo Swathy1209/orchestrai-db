@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-07T07:09:33'
-- agent: PracticeAgent
   action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
@@ -2353,5 +2348,10 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-08T07:11:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
   status: error
   timestamp: '2026-03-08T07:11:31'
