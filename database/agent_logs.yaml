@@ -2404,8 +2404,8 @@ logs:
   status: error
   timestamp: '2026-03-08T07:12:14'
 - agent: PracticeAgent
-  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
-    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
-    Science'
+  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Artificial Intelligence Intern'
   status: error
-  timestamp: '2026-03-08T07:12:15'
+  timestamp: '2026-03-08T07:12:16'
