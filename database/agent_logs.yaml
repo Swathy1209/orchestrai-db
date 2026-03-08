@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Scrape completed, added 12 jobs
-  status: completed
-  jobs_scraped: 12
-  timestamp: '2026-03-07T09:31:43'
 - agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
@@ -2419,3 +2414,9 @@ logs:
     Q&A for AARP - Data Analyst Intern'
   status: error
   timestamp: '2026-03-08T07:12:28'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
+    Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-08T07:12:29'
