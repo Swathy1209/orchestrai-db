@@ -2444,7 +2444,8 @@ logs:
   status: error
   timestamp: '2026-03-09T07:38:08'
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ZURU Toys - Data Analyst Intern'
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
+    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
   status: error
-  timestamp: '2026-03-09T07:38:09'
+  timestamp: '2026-03-09T07:38:10'
