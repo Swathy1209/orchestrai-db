@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 64 jobs fetched, 18 relevant
-  level: INFO
-  timestamp: '2026-03-07T11:03:02'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T11:03:08'
@@ -2484,3 +2480,9 @@ logs:
     Data Analyst Intern'
   status: error
   timestamp: '2026-03-09T07:38:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
+    + Evaluation)'
+  status: error
+  timestamp: '2026-03-09T07:38:44'
