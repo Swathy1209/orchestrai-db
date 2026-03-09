@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-07T11:15:03'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
@@ -2501,3 +2495,10 @@ logs:
     Planning'
   status: error
   timestamp: '2026-03-09T07:38:57'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
+    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC - Data Science Intern'
+  status: error
+  timestamp: '2026-03-09T07:38:58'
