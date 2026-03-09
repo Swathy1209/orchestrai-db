@@ -2501,8 +2501,7 @@ logs:
   status: error
   timestamp: '2026-03-09T07:39:17'
 - agent: PracticeAgent
-  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
-    - Artificial Intelligence (AI)'
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
-  timestamp: '2026-03-09T07:39:18'
+  timestamp: '2026-03-09T07:39:19'
