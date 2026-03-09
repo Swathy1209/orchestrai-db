@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 58 relevant
-  level: INFO
-  timestamp: '2026-03-07T10:05:37'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T10:05:48'
@@ -2436,3 +2432,8 @@ logs:
     to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
   status: error
   timestamp: '2026-03-09T07:37:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-09T07:37:55'
