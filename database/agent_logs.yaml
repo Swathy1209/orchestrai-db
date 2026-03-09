@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 57 relevant
-  level: INFO
-  timestamp: '2026-03-07T11:29:40'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T11:29:45'
@@ -2523,3 +2519,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-09T07:39:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-09T07:39:42'
