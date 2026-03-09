@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
-    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
-  status: error
-  timestamp: '2026-03-07T11:15:52'
-- agent: PracticeAgent
   action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
     interview Q&A for Aday - Data Analysis Intern'
   status: error
@@ -2505,3 +2499,8 @@ logs:
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
   timestamp: '2026-03-09T07:39:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-09T07:39:22'
