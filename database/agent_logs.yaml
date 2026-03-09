@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-07T12:02:11'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-07T12:02:16'
@@ -2558,3 +2554,7 @@ logs:
   action: 'Computed readiness score: 75.2 — ✅ Strong Candidate'
   status: completed
   timestamp: '2026-03-09T07:44:35'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=75.2
+  status: completed
+  timestamp: '2026-03-09T07:44:39'
