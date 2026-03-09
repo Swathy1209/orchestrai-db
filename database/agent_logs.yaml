@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-07T12:01:39'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-03-07T12:01:59'
@@ -2558,3 +2554,7 @@ logs:
   action: Generated Application Packages for 148 internships
   status: success
   timestamp: '2026-03-09T07:44:27'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 148 internships
+  status: success
+  timestamp: '2026-03-09T07:44:30'
