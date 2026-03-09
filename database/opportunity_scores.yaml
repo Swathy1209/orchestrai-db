@@ -709,3 +709,38 @@
   match_score: 65
   selection_probability: Medium
   priority: Strong Consideration
+- company: Lensa
+  role: Data Science Intern - Summer 2026 (Remote)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: AI/Machine Learning Engineering Intern (MS/Ph.D. New Grad)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: GreenLeaf, a Chefs' Warehouse company
+  role: Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Relinns Technologies
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: ILEAD Kolkata
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Newzeninfotech Solutions
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Flipkart
+  role: Data Analysis Lead
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
