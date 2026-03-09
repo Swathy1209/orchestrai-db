@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-07T10:05:48'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
@@ -2437,3 +2433,8 @@ logs:
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-09T07:37:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    interview Q&A for Typeface - ML Engineer Intern'
+  status: error
+  timestamp: '2026-03-09T07:38:00'
