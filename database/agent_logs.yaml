@@ -2502,7 +2502,7 @@ logs:
   status: error
   timestamp: '2026-03-09T07:39:11'
 - agent: PracticeAgent
-  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
-    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
+  action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern, Data Science'
   status: error
-  timestamp: '2026-03-09T07:39:13'
+  timestamp: '2026-03-09T07:39:14'
