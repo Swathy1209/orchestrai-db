@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 64 jobs fetched
-  level: INFO
-  timestamp: '2026-03-07T11:27:06'
-- agent: CareerAgent
   action: 64 jobs fetched, 18 relevant
   level: INFO
   timestamp: '2026-03-07T11:27:10'
@@ -2505,5 +2501,10 @@ logs:
   action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
     Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
     - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-09T07:39:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-09T07:39:28'
