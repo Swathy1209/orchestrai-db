@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 0 expired jobs
-  status: completed
-  expired_removed: 0
-  timestamp: '2026-03-07T10:04:25'
 - agent: CareerAgent
   action: 103 jobs fetched, 58 relevant
   level: INFO
@@ -2436,3 +2431,8 @@ logs:
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
   timestamp: '2026-03-09T07:37:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
+  status: error
+  timestamp: '2026-03-09T07:37:54'
