@@ -2570,7 +2570,7 @@ logs:
   status: error
   timestamp: '2026-03-10T07:29:49'
 - agent: PracticeAgent
-  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
-    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
   status: error
-  timestamp: '2026-03-10T07:29:50'
+  timestamp: '2026-03-10T07:29:51'
