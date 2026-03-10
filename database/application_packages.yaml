@@ -1040,3 +1040,38 @@
   apply_link: https://unstop.com/jobs/1653195
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/flipkart_data_analysis_lead.md
+- company: Taylor Corporation
+  role: Business Analyst Intern
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-taylor-corporation-4371026042?position=8&pageNum=0&refId=GNLZfgrn2HHlg3bqO65%2BPg%3D%3D&trackingId=rJwxNkW5bq8gwocCEavrmQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/taylor_corporation_business_analyst_intern.md
+- company: REALBRIDGE
+  role: Artificial Intelligence (AI)
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-bangalore-at-realbridge1773066568
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/realbridge_artificial_intelligence_ai.md
+- company: Neoteric Analytics
+  role: Data And AI Engineer Intern
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://internshala.com/internship/detail/data-and-ai-engineer-intern-internship-in-delhi-at-neoteric-analytics1773048969
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/neoteric_analytics_data_and_ai_engineer_intern.md
+- company: WeJoy Phonfix Private Limited
+  role: Artificial Intelligence (AI)
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://internshala.com/internship/detail/work-from-home-artificial-intelligence-ai-internship-at-wejoy-phonfix-private-limited1773122431
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/wejoy_phonfix_private_limited_artificial_intelligence_ai.md
+- company: Bizlem Private Limited
+  role: AI/ML Engineering
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: No Cover Letter Generated
+  apply_link: https://internshala.com/internship/detail/ai-ml-engineering-internship-in-navi-mumbai-at-bizlem-private-limited1773118683
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/bizlem_private_limited_ai_ml_engineering.md
