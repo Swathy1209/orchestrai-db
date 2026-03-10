@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
-  status: error
-  timestamp: '2026-03-07T12:29:20'
-- agent: PracticeAgent
   action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
   status: error
@@ -2567,3 +2562,9 @@ logs:
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
   timestamp: '2026-03-10T07:29:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-10T07:29:42'
