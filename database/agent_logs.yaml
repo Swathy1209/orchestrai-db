@@ -2570,7 +2570,8 @@ logs:
   status: error
   timestamp: '2026-03-10T07:30:16'
 - agent: PracticeAgent
-  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
-    interview Q&A for Hughes - ML Engineering Intern'
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
+    (PhD)'
   status: error
-  timestamp: '2026-03-10T07:30:17'
+  timestamp: '2026-03-10T07:30:18'
