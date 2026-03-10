@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-07T12:30:23'
-- agent: PracticeAgent
   action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
     Q&A for Accredian - Data Science'
   status: error
@@ -2577,3 +2572,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-10T07:30:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-10T07:30:25'
