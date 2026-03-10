@@ -2557,12 +2557,13 @@ logs:
   status: error
   timestamp: '2026-03-10T07:29:32'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Business Analyst Intern'
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
   status: error
   timestamp: '2026-03-10T07:29:33'
 - agent: PracticeAgent
-  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
-    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
+    Science'
   status: error
-  timestamp: '2026-03-10T07:29:35'
+  timestamp: '2026-03-10T07:29:36'
