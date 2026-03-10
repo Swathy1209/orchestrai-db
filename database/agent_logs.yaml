@@ -1,8 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-07T12:04:25'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 138 internships
   status: success
@@ -2556,3 +2552,7 @@ logs:
   action: 103 jobs fetched, 59 relevant
   level: INFO
   timestamp: '2026-03-10T07:25:20'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-10T07:25:21'
