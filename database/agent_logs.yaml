@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
-    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
-  status: error
-  timestamp: '2026-03-07T12:31:49'
-- agent: PracticeAgent
   action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
     to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
@@ -2562,3 +2557,7 @@ logs:
   action: Generated 153 interview simulation pages
   status: success
   timestamp: '2026-03-10T07:36:39'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 153 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-10T07:38:06'
