@@ -2565,8 +2565,8 @@ logs:
   status: error
   timestamp: '2026-03-10T07:29:26'
 - agent: PracticeAgent
-  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
-    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
-    Data Analyst Intern'
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
+    + Evaluation)'
   status: error
-  timestamp: '2026-03-10T07:29:27'
+  timestamp: '2026-03-10T07:29:28'
