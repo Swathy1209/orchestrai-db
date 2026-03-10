@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-07T12:28:10'
-- agent: PracticeAgent
   action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
@@ -2570,8 +2564,12 @@ logs:
   status: error
   timestamp: '2026-03-10T07:29:09'
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
-    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
-    degree)'
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-10T07:29:11'
+  timestamp: '2026-03-10T07:29:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
+  status: error
+  timestamp: '2026-03-10T07:29:12'
