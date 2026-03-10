@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
-  status: error
-  timestamp: '2026-03-07T12:30:47'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
     Planning'
@@ -2579,3 +2574,8 @@ logs:
     interview Q&A for EXL - Data Analyst Associate'
   status: error
   timestamp: '2026-03-10T07:30:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
+    failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-10T07:31:03'
