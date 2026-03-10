@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 138 cover letters
-  status: success
-  timestamp: '2026-03-07T12:27:26'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2569,3 +2565,9 @@ logs:
     Intern – Operations'
   status: error
   timestamp: '2026-03-10T07:28:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
+  status: error
+  timestamp: '2026-03-10T07:28:52'
