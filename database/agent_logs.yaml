@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
-    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
-    Data Science Intern'
-  status: error
-  timestamp: '2026-03-07T12:30:55'
-- agent: PracticeAgent
   action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
     Design & Development: Gemini failed to generate interview Q&A for Product Manager
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
@@ -2578,3 +2572,8 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-10T07:31:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
+    interview Q&A for Deloitte - AWS Data Engineer'
+  status: error
+  timestamp: '2026-03-10T07:31:07'
