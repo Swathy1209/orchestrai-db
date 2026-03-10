@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-07T12:27:39'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
   status: error
@@ -2573,3 +2568,8 @@ logs:
     to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
   timestamp: '2026-03-10T07:28:54'
+- agent: PracticeAgent
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ZURU Toys - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-10T07:28:55'
