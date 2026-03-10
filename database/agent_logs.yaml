@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 57 relevant
-  level: INFO
-  timestamp: '2026-03-07T12:04:11'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-07T12:04:16'
@@ -2556,3 +2552,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-09T07:48:16'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-10T07:24:29'
