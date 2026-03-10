@@ -1,8 +1,4 @@
 logs:
-- agent: CareerReadinessAgent
-  action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
-  status: completed
-  timestamp: '2026-03-07T12:11:21'
 - agent: CareerAnalyticsAgent
   action: Generated analytics dashboard — readiness=79.3
   status: completed
@@ -2557,3 +2553,8 @@ logs:
   status: success
   timestamp: '2026-03-10T07:25:25'
   details: Analyzed 153 jobs.
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 11 jobs
+  status: completed
+  jobs_scraped: 11
+  timestamp: '2026-03-10T07:26:01'
