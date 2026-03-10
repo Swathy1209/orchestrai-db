@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
-    interview Q&A for Aviate Manpower - Data Science'
-  status: error
-  timestamp: '2026-03-07T12:30:36'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
     generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
@@ -2580,3 +2575,9 @@ logs:
     - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-10T07:30:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
+    Gemini failed to generate interview Q&A for Sungrow Power Supply Co., Ltd. - Data
+    Analyst Internship'
+  status: error
+  timestamp: '2026-03-10T07:30:35'
