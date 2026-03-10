@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
-    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
-    Private Limited - Computer Vision'
-  status: error
-  timestamp: '2026-03-07T12:29:40'
-- agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
     interview Q&A for Mindenious Edutech - Data Science'
   status: error
@@ -2575,3 +2569,8 @@ logs:
     Team - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-10T07:29:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-10T07:29:50'
