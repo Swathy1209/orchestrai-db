@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
-    Design & Development: Gemini failed to generate interview Q&A for Product Manager
-    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
-  status: error
-  timestamp: '2026-03-07T12:30:58'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
     Machine Learning Engineering Internship - Summer 2026'
@@ -2577,3 +2571,8 @@ logs:
     interview Q&A for Deloitte - AWS Data Engineer'
   status: error
   timestamp: '2026-03-10T07:31:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
+    Q&A for Fractal - Data Engineer'
+  status: error
+  timestamp: '2026-03-10T07:31:09'
