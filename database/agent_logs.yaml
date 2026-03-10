@@ -2563,7 +2563,8 @@ logs:
   status: error
   timestamp: '2026-03-10T07:29:37'
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate interview Q&A for Zulitech Solution - Machine Learning'
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
+    (AI)'
   status: error
-  timestamp: '2026-03-10T07:29:38'
+  timestamp: '2026-03-10T07:29:39'
