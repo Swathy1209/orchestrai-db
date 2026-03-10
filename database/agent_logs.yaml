@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Maximus - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-07T12:29:05'
-- agent: PracticeAgent
   action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
     - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
     Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
@@ -2568,3 +2563,8 @@ logs:
     interview Q&A for Tatari - Data Science, Intern'
   status: error
   timestamp: '2026-03-10T07:29:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-10T07:29:33'
