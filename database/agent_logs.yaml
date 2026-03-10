@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-07T12:29:46'
-- agent: PracticeAgent
   action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
     Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
     - Machine Learning'
@@ -2575,3 +2570,8 @@ logs:
     Energy (Summer 2026)'
   status: error
   timestamp: '2026-03-10T07:29:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-10T07:29:53'
