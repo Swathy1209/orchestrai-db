@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
-    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
-  status: error
-  timestamp: '2026-03-08T07:10:58'
-- agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
     Intern (Summer 2026)'
@@ -2614,3 +2608,9 @@ logs:
     to generate interview Q&A for HSBC - Business Analyst- Transformation'
   status: error
   timestamp: '2026-03-11T07:36:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
+    (Remote)'
+  status: error
+  timestamp: '2026-03-11T07:36:16'
