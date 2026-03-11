@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-08T07:09:28'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-08T07:09:46'
@@ -2610,3 +2606,8 @@ logs:
     Analyst Internship'
   status: error
   timestamp: '2026-03-11T07:35:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-11T07:35:35'
