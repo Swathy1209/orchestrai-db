@@ -2545,7 +2545,8 @@ logs:
   status: error
   timestamp: '2026-03-11T07:33:40'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Science Intern'
+  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
+    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
+    Data Analyst Intern'
   status: error
-  timestamp: '2026-03-11T07:33:41'
+  timestamp: '2026-03-11T07:33:42'
