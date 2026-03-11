@@ -2,10 +2,6 @@ logs:
 - agent: PerInternshipPortfolioAgent
   action: Generated 138 per-internship portfolio pages
   status: success
-  timestamp: '2026-03-07T17:43:43'
-- agent: PerInternshipPortfolioAgent
-  action: Generated 138 per-internship portfolio pages
-  status: success
   timestamp: '2026-03-07T23:54:03'
 - agent: CareerAgent
   action: Fetch started
@@ -2591,3 +2587,8 @@ logs:
     (Summer/Fall 2026)'
   status: error
   timestamp: '2026-03-11T07:34:54'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-11T07:34:59'
