@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-07T13:32:53'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-07T13:33:01'
@@ -2555,3 +2551,8 @@ logs:
     Q&A for Accredian - Data Science'
   status: error
   timestamp: '2026-03-11T07:33:56'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-11T07:33:59'
