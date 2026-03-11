@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
-  status: error
-  timestamp: '2026-03-07T12:34:03'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
@@ -2530,3 +2525,8 @@ logs:
     interview Q&A for Go Offer - Business Analyst Intern'
   status: error
   timestamp: '2026-03-11T07:33:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    interview Q&A for Veolia - Intern - Business Analyst'
+  status: error
+  timestamp: '2026-03-11T07:33:03'
