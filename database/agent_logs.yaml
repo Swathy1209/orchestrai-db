@@ -1,8 +1,4 @@
 logs:
-- agent: PerInternshipPortfolioAgent
-  action: Generated 138 per-internship portfolio pages
-  status: success
-  timestamp: '2026-03-07T23:54:03'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2592,3 +2588,8 @@ logs:
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
   timestamp: '2026-03-11T07:34:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
+  status: error
+  timestamp: '2026-03-11T07:35:03'
