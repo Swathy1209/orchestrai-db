@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
-    Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
-    India Private Limited - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-07T12:33:14'
-- agent: PracticeAgent
   action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
     to generate interview Q&A for Random Groups Of Companies - Data Science'
   status: error
@@ -2529,3 +2523,8 @@ logs:
     to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
   status: error
   timestamp: '2026-03-11T07:32:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-11T07:32:31'
