@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
-    interview Q&A for Thermo Fisher - Data Engineer II'
-  status: error
-  timestamp: '2026-03-07T12:31:55'
-- agent: PracticeAgent
   action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
     to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
   status: error
@@ -2560,3 +2555,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-10T07:38:10'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-11T07:26:43'
