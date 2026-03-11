@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
-    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
-  status: error
-  timestamp: '2026-03-07T12:32:19'
-- agent: PracticeAgent
   action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
     interview Q&A for Hughes - ML Engineering Intern'
   status: error
@@ -2550,3 +2545,8 @@ logs:
   status: completed
   jobs_scraped: 11
   timestamp: '2026-03-11T07:28:01'
+- agent: InternshipScraperAgent
+  action: Removed 1 expired jobs
+  status: completed
+  expired_removed: 1
+  timestamp: '2026-03-11T07:28:58'
