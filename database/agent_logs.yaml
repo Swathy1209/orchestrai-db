@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
-    Q&A for Symonis - Machine Learning'
-  status: error
-  timestamp: '2026-03-08T07:11:23'
-- agent: PracticeAgent
   action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
     interview Q&A for Cloud Back - Machine Learning'
   status: error
@@ -2605,3 +2600,7 @@ logs:
   action: Generated Application Packages for 162 internships
   status: success
   timestamp: '2026-03-11T07:42:08'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 162 internships
+  status: success
+  timestamp: '2026-03-11T07:42:11'
