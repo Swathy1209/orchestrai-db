@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-07T12:33:20'
-- agent: PracticeAgent
   action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
     Limited - Artificial Intelligence (AI)'
@@ -2530,3 +2525,8 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-11T07:32:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-11T07:32:36'
