@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
-    to generate interview Q&A for RefinedScience - Data Engineering Intern'
-  status: error
-  timestamp: '2026-03-08T07:10:39'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
     generate interview Q&A for Cylinder Health - Junior Data Engineer'
   status: error
@@ -2614,3 +2609,9 @@ logs:
     to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-11T07:35:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
+    Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-11T07:35:42'
