@@ -2,10 +2,6 @@ logs:
 - agent: PerInternshipPortfolioAgent
   action: Generated 138 per-internship portfolio pages
   status: success
-  timestamp: '2026-03-07T17:31:06'
-- agent: PerInternshipPortfolioAgent
-  action: Generated 138 per-internship portfolio pages
-  status: success
   timestamp: '2026-03-07T17:43:43'
 - agent: PerInternshipPortfolioAgent
   action: Generated 138 per-internship portfolio pages
@@ -2589,3 +2585,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-11T07:34:52'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
+    (Summer/Fall 2026)'
+  status: error
+  timestamp: '2026-03-11T07:34:54'
