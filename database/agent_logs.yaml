@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-07T13:32:45'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2554,3 +2550,8 @@ logs:
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
   timestamp: '2026-03-11T07:33:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
+  status: error
+  timestamp: '2026-03-11T07:33:56'
