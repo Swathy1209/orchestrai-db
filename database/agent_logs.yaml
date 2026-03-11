@@ -2528,7 +2528,7 @@ logs:
   action: Generated optimizations for 162 internships
   status: success
   timestamp: '2026-03-11T07:31:49'
-- agent: CoverLetterAgent
-  action: Generated 162 cover letters
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
   status: success
-  timestamp: '2026-03-11T07:32:16'
+  timestamp: '2026-03-11T07:32:17'
