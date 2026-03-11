@@ -2,10 +2,6 @@ logs:
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
-  timestamp: '2026-03-07T13:03:59'
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
   timestamp: '2026-03-07T13:04:23'
 - agent: ExecutionAgent
   action: Pipeline execution completed and email sent
@@ -2543,3 +2539,8 @@ logs:
     Private Limited - Computer Vision'
   status: error
   timestamp: '2026-03-11T07:33:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-11T07:33:29'
