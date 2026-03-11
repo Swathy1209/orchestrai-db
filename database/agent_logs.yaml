@@ -2525,7 +2525,8 @@ logs:
   status: error
   timestamp: '2026-03-11T07:32:36'
 - agent: PracticeAgent
-  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
-    interview Q&A for Typeface - ML Engineer Intern'
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
   status: error
-  timestamp: '2026-03-11T07:32:38'
+  timestamp: '2026-03-11T07:32:39'
