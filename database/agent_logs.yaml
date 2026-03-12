@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
-    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
-    States'
-  status: error
-  timestamp: '2026-03-09T07:39:33'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
@@ -2600,3 +2594,7 @@ logs:
   action: Generated analytics dashboard — readiness=75.3
   status: completed
   timestamp: '2026-03-12T07:45:00'
+- agent: InterviewCoachAgent
+  action: Generated 171 interview simulation pages
+  status: success
+  timestamp: '2026-03-12T07:47:54'
