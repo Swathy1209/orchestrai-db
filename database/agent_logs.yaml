@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-08T07:12:30'
-- agent: PracticeAgent
   action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
@@ -2564,3 +2559,9 @@ logs:
     Q&A for Innoknowvex - Data Science'
   status: error
   timestamp: '2026-03-12T07:35:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-12T07:35:56'
