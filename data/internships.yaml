@@ -298,7 +298,7 @@
   location: Remote
   portal: Stripe
   job_url: https://stripe.com/jobs/search?gh_jid=7216664
-  date_posted: '2026-03-11'
+  date_posted: '2026-03-12'
   required_skills: []
   job_description: '&lt;h2&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/h2&gt;
 
@@ -573,7 +573,7 @@
   location: Remote / Hybrid
   portal: LinkedIn
   job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-co-op-summer-fall-2026-at-pathai-4309502929
-  date_posted: '2026-03-11'
+  date_posted: '2026-03-12'
   required_skills: []
   job_description: AI Internship opportunity at PathAI.
 - company: Cohere
@@ -605,7 +605,7 @@
   location: Remote / Hybrid
   portal: LinkedIn
   job_url: https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018
-  date_posted: '2026-03-11'
+  date_posted: '2026-03-12'
   required_skills: []
   job_description: AI Internship opportunity at Nuro.
 - company: Lensa
@@ -629,7 +629,7 @@
   location: Remote / Hybrid
   portal: LinkedIn
   job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-at-generate-biomedicines-4377757769
-  date_posted: '2026-03-11'
+  date_posted: '2026-03-12'
   required_skills: []
   job_description: AI Internship opportunity at Generate:Biomedicines.
 - company: Airbnb
@@ -645,6 +645,22 @@
   location: Remote / Hybrid
   portal: LinkedIn
   job_url: https://www.linkedin.com/jobs/view/artificial-intelligence-ai-intern-at-ametek-4382171104
-  date_posted: '2026-03-11'
+  date_posted: '2026-03-12'
   required_skills: []
   job_description: AI Internship opportunity at AMETEK.
+- company: Cohere
+  role: Machine Learning Intern/Co-op  (Spring/Summer 2026)
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/machine-learning-intern-co-op-spring-summer-2026-at-cohere-4357649891
+  date_posted: '2026-03-12'
+  required_skills: []
+  job_description: AI Internship opportunity at Cohere.
+- company: brandRUSSO
+  role: AI Intern
+  location: Remote / Hybrid
+  portal: LinkedIn
+  job_url: https://www.linkedin.com/jobs/view/ai-intern-at-brandrusso-4334555589
+  date_posted: '2026-03-12'
+  required_skills: []
+  job_description: AI Internship opportunity at brandRUSSO.
