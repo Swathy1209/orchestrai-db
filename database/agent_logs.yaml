@@ -2601,7 +2601,9 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-12T07:37:19'
-- agent: PorschePortfolioAgent
-  action: Generated premium portfolios for 171 internships
-  status: success
+- agent: PracticeAgent
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
   timestamp: '2026-03-12T07:37:24'
