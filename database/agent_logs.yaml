@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-08T07:12:09'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Data Science Intern'
@@ -2565,3 +2559,8 @@ logs:
     Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-12T07:35:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
+  status: error
+  timestamp: '2026-03-12T07:35:21'
