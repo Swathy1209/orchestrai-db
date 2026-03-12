@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-09T07:38:36'
-- agent: PracticeAgent
   action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
     Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
     - Machine Learning'
@@ -2613,3 +2608,9 @@ logs:
     Q&A for AARP - Data Analyst Intern'
   status: error
   timestamp: '2026-03-12T07:38:32'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
+    Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-12T07:38:35'
