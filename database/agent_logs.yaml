@@ -1,8 +1,4 @@
 logs:
-- agent: CareerReadinessAgent
-  action: 'Computed readiness score: 75.2 — ✅ Strong Candidate'
-  status: completed
-  timestamp: '2026-03-08T07:16:38'
 - agent: InterviewCoachAgent
   action: Generated 141 interview simulation pages
   status: success
@@ -2574,3 +2570,8 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-12T07:36:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate interview Q&A for Zulitech Solution - Machine Learning'
+  status: error
+  timestamp: '2026-03-12T07:36:38'
