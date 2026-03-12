@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-08T07:12:33'
-- agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
@@ -2566,3 +2560,8 @@ logs:
     Private Limited - Computer Vision'
   status: error
   timestamp: '2026-03-12T07:35:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-12T07:35:59'
