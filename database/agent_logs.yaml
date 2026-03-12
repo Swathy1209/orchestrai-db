@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
-    Planning'
-  status: error
-  timestamp: '2026-03-09T07:38:57'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
     to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
@@ -2616,3 +2610,8 @@ logs:
     interview Q&A for Flipkart - Data Analysis Lead'
   status: error
   timestamp: '2026-03-12T07:39:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Taylor Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-12T07:39:11'
