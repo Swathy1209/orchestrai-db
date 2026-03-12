@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-09T07:38:52'
-- agent: PracticeAgent
   action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
     interview Q&A for Aviate Manpower - Data Science'
   status: error
@@ -2616,3 +2610,9 @@ logs:
     (Remote)'
   status: error
   timestamp: '2026-03-12T07:38:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
+    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
+    Engineering Intern (MS/Ph.D. New Grad)'
+  status: error
+  timestamp: '2026-03-12T07:39:00'
