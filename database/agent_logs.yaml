@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
-    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
-    (Summer/Fall 2026)'
-  status: error
-  timestamp: '2026-03-08T07:11:59'
-- agent: PracticeAgent
   action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
     Gemini failed to generate interview Q&A for Anne Klein Official - Data Analyst
     Internship Spring 2026'
@@ -2569,3 +2563,8 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-12T07:34:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-12T07:34:57'
