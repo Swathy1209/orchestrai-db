@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Veolia - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-09T07:39:34'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
     (AI)'
@@ -2598,3 +2593,7 @@ logs:
   action: Generated 171 interview simulation pages
   status: success
   timestamp: '2026-03-12T07:47:54'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 171 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-12T07:50:29'
