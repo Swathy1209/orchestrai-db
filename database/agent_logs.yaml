@@ -2565,7 +2565,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-03-12T07:31:26'
-- agent: CoverLetterAgent
-  action: Generated 171 cover letters
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
   status: success
-  timestamp: '2026-03-12T07:34:34'
+  timestamp: '2026-03-12T07:34:35'
