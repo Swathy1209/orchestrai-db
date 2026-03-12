@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
-    Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
-    Artificial Intelligence/Machine Learning'
-  status: error
-  timestamp: '2026-03-08T07:12:26'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
     to generate interview Q&A for Lensa - Artificial Intelligence (AI) Intern'
   status: error
@@ -2565,3 +2559,8 @@ logs:
     to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-12T07:35:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    interview Q&A for Unnati Enterprises - Data Science'
+  status: error
+  timestamp: '2026-03-12T07:35:50'
