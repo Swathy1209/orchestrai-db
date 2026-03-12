@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
-    - Machine Learning'
-  status: error
-  timestamp: '2026-03-09T07:38:37'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
     interview Q&A for Career Solutions - Data Science'
   status: error
@@ -2614,3 +2608,8 @@ logs:
     Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-12T07:38:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-12T07:38:37'
