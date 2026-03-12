@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-09T07:38:55'
-- agent: PracticeAgent
   action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
     2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
     Learning Intern - Summer 2026'
@@ -2618,3 +2612,8 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-12T07:39:03'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-12T07:39:05'
