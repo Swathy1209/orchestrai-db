@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
-  status: error
-  timestamp: '2026-03-09T07:38:56'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
     Planning'
@@ -2616,3 +2611,8 @@ logs:
     to generate interview Q&A for Newzeninfotech Solutions - Data Science'
   status: error
   timestamp: '2026-03-12T07:39:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
+    interview Q&A for Flipkart - Data Analysis Lead'
+  status: error
+  timestamp: '2026-03-12T07:39:09'
