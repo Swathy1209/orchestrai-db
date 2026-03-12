@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
-    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
-  status: error
-  timestamp: '2026-03-09T07:39:19'
-- agent: PracticeAgent
   action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
     to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
@@ -2610,3 +2605,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-12T07:39:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
+    Intern (Summer 2026 - In-Person - NYC)'
+  status: error
+  timestamp: '2026-03-12T07:39:41'
