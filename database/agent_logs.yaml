@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-08T07:12:21'
-- agent: PracticeAgent
   action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
   status: error
@@ -2564,3 +2559,8 @@ logs:
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
   timestamp: '2026-03-12T07:35:38'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-12T07:35:40'
