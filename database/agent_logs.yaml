@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-09T07:39:42'
-- agent: PracticeAgent
   action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
     interview Q&A for OralKart - Machine Learning'
   status: error
@@ -2589,3 +2583,7 @@ logs:
   action: 110 jobs fetched, 61 relevant
   level: INFO
   timestamp: '2026-03-13T07:28:21'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-13T07:28:23'
