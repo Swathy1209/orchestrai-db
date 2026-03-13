@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-03-10T07:27:16'
-- agent: CareerAgent
   action: 103 jobs fetched, 59 relevant
   level: INFO
   timestamp: '2026-03-10T07:27:17'
@@ -2598,3 +2594,8 @@ logs:
     interview Q&A for Lensa - Data Science Intern'
   status: error
   timestamp: '2026-03-13T07:32:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-13T07:33:01'
