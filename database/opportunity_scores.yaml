@@ -859,3 +859,33 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: Tech Economy
+  role: ML-AI Engineering Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Vilya
+  role: Intern - Machine Learning Engineer
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Ramesh S
+  role: AI/ML Engineer
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Irizpro Learning Solutions
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Barclays
+  role: Private Bank Processing Business Analyst
+  match_score: 65
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: LeadUpAI
+  role: AI Engineer
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
