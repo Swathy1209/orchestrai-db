@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
-    Vision'
-  status: error
-  timestamp: '2026-03-09T07:39:40'
-- agent: PracticeAgent
   action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
     failed to generate interview Q&A for Resolute AI Software Private Limited - AI
     Engineer'
@@ -2593,3 +2587,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-03-13T07:27:31'
+- agent: CareerAgent
+  action: 110 jobs fetched
+  level: INFO
+  timestamp: '2026-03-13T07:27:44'
