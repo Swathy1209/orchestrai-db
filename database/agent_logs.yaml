@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 103 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-10T07:27:17'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2599,3 +2595,8 @@ logs:
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-13T07:33:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    interview Q&A for Primetrade.ai - Data Science'
+  status: error
+  timestamp: '2026-03-13T07:33:02'
