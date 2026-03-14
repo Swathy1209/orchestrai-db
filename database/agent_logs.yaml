@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
-    failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
-  status: error
-  timestamp: '2026-03-11T07:36:50'
-- agent: PracticeAgent
   action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
     generate interview Q&A for GE Aerospace - Data Science Specialist'
   status: error
@@ -2601,3 +2596,7 @@ logs:
   status: success
   timestamp: '2026-03-14T07:23:15'
   details: Analyzed 184 jobs.
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 184 internships
+  status: success
+  timestamp: '2026-03-14T07:24:39'
