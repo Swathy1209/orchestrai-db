@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
-    failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
-  status: error
-  timestamp: '2026-03-11T07:36:05'
-- agent: PracticeAgent
   action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Zetheta Algorithms Private
     Limited - Artificial Intelligence Intern'
@@ -2609,3 +2604,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-14T07:19:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
+    Intern (Summer 2026 - In-Person - NYC)'
+  status: error
+  timestamp: '2026-03-14T07:19:52'
