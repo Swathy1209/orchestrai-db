@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
-    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
-    Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-11T07:33:42'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
@@ -2610,3 +2604,8 @@ logs:
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
   timestamp: '2026-03-14T07:18:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-14T07:18:19'
