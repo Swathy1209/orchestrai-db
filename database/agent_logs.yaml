@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
-    generate interview Q&A for Tatari - Data Science Analyst, Intern'
-  status: error
-  timestamp: '2026-03-11T07:36:04'
-- agent: PracticeAgent
   action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
     failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
   status: error
@@ -2604,8 +2599,13 @@ logs:
   status: error
   timestamp: '2026-03-14T07:19:46'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
-    2026 Intern: Gemini failed to generate interview Q&A for Lensa - Artificial Intelligence/Machine
-    Learning - Summer 2026 Intern'
+  action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
+    generate interview Q&A for GE Aerospace - Data Science Specialist'
   status: error
-  timestamp: '2026-03-14T07:19:48'
+  timestamp: '2026-03-14T07:19:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
+    failed to generate interview Q&A for Spectral AI - Deep Learning Data Science
+    Intern'
+  status: error
+  timestamp: '2026-03-14T07:19:50'
