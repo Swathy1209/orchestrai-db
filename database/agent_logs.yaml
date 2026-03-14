@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
-    Limited - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-11T07:35:42'
-- agent: PracticeAgent
   action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
   status: error
@@ -2608,3 +2602,8 @@ logs:
     to generate interview Q&A for Taylor Corporation - Business Analyst Intern'
   status: error
   timestamp: '2026-03-14T07:19:33'
+- agent: PracticeAgent
+  action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-14T07:19:34'
