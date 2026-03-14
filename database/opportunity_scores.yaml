@@ -889,3 +889,38 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: PRGX Global Inc.
+  role: Artificial Intelligence Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: Business Analyst Intern Remote
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: INDUS Technology, Inc.
+  role: Business Analyst, Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: DevTown
+  role: Data Science Mentor
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Diffzene
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Hooman Digital LLP
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Unessa Foundation
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
