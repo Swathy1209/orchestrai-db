@@ -2603,7 +2603,8 @@ logs:
   status: error
   timestamp: '2026-03-14T07:20:06'
 - agent: PracticeAgent
-  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate interview
-    Q&A for LeadUpAI - AI Engineer'
+  action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
+    failed to generate interview Q&A for PRGX Global Inc. - Artificial Intelligence
+    Intern'
   status: error
-  timestamp: '2026-03-14T07:20:07'
+  timestamp: '2026-03-14T07:20:09'
