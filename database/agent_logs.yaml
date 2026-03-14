@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-11T07:35:22'
-- agent: PracticeAgent
   action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
     failed to generate interview Q&A for Resolute AI Software Private Limited - AI
     Engineer'
@@ -2605,8 +2599,13 @@ logs:
   status: error
   timestamp: '2026-03-14T07:19:16'
 - agent: PracticeAgent
-  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
-    Intern'
+  action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Zetheta Algorithms Private Limited
+    - Data Science Intern'
   status: error
-  timestamp: '2026-03-14T07:19:19'
+  timestamp: '2026-03-14T07:19:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
+    interview Q&A for Deloitte - AWS Data Engineer'
+  status: error
+  timestamp: '2026-03-14T07:19:20'
