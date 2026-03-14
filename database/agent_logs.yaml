@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
-    interview Q&A for Veolia - Intern - Business Analyst'
-  status: error
-  timestamp: '2026-03-11T07:33:03'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
     Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
     Project Intern (GBS SMB) - 2026 Start (BS/MS)'
@@ -2605,3 +2600,9 @@ logs:
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
   timestamp: '2026-03-14T07:17:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-14T07:17:53'
