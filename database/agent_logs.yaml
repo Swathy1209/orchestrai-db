@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
-    (Remote)'
-  status: error
-  timestamp: '2026-03-11T07:36:16'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
     New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
     Engineering Intern (MS/Ph.D. New Grad)'
@@ -2605,7 +2599,12 @@ logs:
   status: error
   timestamp: '2026-03-14T07:20:00'
 - agent: PracticeAgent
-  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
-    to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
+  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
+    to generate interview Q&A for Tech Economy - ML-AI Engineering Intern'
   status: error
-  timestamp: '2026-03-14T07:20:02'
+  timestamp: '2026-03-14T07:20:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
+    Q&A for Ramesh S - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-14T07:20:04'
