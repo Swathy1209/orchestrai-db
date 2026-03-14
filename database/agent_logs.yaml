@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 162 internships
-  status: success
-  timestamp: '2026-03-11T07:38:44'
 - agent: CareerStrategyAgent
   action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
   status: completed
@@ -2599,3 +2595,7 @@ logs:
   action: 'Computed readiness score: 75.4 — ✅ Strong Candidate'
   status: completed
   timestamp: '2026-03-14T07:24:48'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=75.4
+  status: completed
+  timestamp: '2026-03-14T07:24:52'
