@@ -2605,7 +2605,7 @@ logs:
   status: error
   timestamp: '2026-03-14T07:20:13'
 - agent: PracticeAgent
-  action: 'Failed portal for Diffzene Machine Learning: Gemini failed to generate
-    interview Q&A for Diffzene - Machine Learning'
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate interview Q&A for Hooman Digital LLP - Machine Learning'
   status: error
-  timestamp: '2026-03-14T07:20:14'
+  timestamp: '2026-03-14T07:20:15'
