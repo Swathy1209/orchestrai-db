@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-11T07:36:01'
-- agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
@@ -2609,3 +2603,8 @@ logs:
     interview Q&A for ARVO - Internship - Computer Vision'
   status: error
   timestamp: '2026-03-14T07:19:45'
+- agent: PracticeAgent
+  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
+    failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
+  status: error
+  timestamp: '2026-03-14T07:19:46'
