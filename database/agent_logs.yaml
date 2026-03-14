@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
-  status: error
-  timestamp: '2026-03-11T07:35:03'
-- agent: PracticeAgent
   action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
     to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
   status: error
@@ -2609,3 +2604,8 @@ logs:
     Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-14T07:19:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-14T07:19:07'
