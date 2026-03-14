@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-11T07:27:36'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-11T07:27:38'
@@ -2587,3 +2583,8 @@ logs:
     Q&A for Go Offer - Data Analyst'
   status: error
   timestamp: '2026-03-14T07:16:53'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  status: error
+  timestamp: '2026-03-14T07:16:54'
