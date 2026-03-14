@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
-    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
-    (Summer/Fall 2026)'
-  status: error
-  timestamp: '2026-03-11T07:34:54'
-- agent: PracticeAgent
   action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
@@ -2609,3 +2603,8 @@ logs:
     to generate interview Q&A for Lensa - Artificial Intelligence (AI) Intern'
   status: error
   timestamp: '2026-03-14T07:19:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Internship'
+  status: error
+  timestamp: '2026-03-14T07:19:03'
