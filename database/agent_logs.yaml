@@ -1,10 +1,5 @@
 logs:
 - agent: InternshipScraperAgent
-  action: Scrape completed, added 11 jobs
-  status: completed
-  jobs_scraped: 11
-  timestamp: '2026-03-11T07:28:01'
-- agent: InternshipScraperAgent
   action: Removed 1 expired jobs
   status: completed
   expired_removed: 1
@@ -2592,3 +2587,8 @@ logs:
     Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-14T07:16:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
+  status: error
+  timestamp: '2026-03-14T07:17:00'
