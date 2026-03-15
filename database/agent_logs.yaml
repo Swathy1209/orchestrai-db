@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
-    failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
-  status: error
-  timestamp: '2026-03-12T07:39:26'
-- agent: PracticeAgent
   action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
     to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
   status: error
@@ -2589,3 +2584,8 @@ logs:
     interview Q&A for ARVO - Internship - Computer Vision'
   status: error
   timestamp: '2026-03-15T07:39:08'
+- agent: PracticeAgent
+  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
+    failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
+  status: error
+  timestamp: '2026-03-15T07:39:09'
