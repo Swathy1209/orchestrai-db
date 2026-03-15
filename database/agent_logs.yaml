@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-12T07:28:28'
-- agent: CareerAgent
   action: 104 jobs fetched
   level: INFO
   timestamp: '2026-03-12T07:28:41'
@@ -2599,3 +2595,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-14T07:35:02'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-15T07:28:09'
