@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 0 expired jobs
-  status: completed
-  expired_removed: 0
-  timestamp: '2026-03-12T07:30:51'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2599,3 +2594,8 @@ logs:
   status: completed
   jobs_scraped: 12
   timestamp: '2026-03-15T07:29:11'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-15T07:30:17'
