@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate interview Q&A for Newzeninfotech Solutions - Data Science'
-  status: error
-  timestamp: '2026-03-12T07:39:07'
-- agent: PracticeAgent
   action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
     interview Q&A for Flipkart - Data Analysis Lead'
   status: error
@@ -2590,3 +2585,8 @@ logs:
     interview Q&A for Flipkart - Data Analysis Lead'
   status: error
   timestamp: '2026-03-15T07:38:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Taylor Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-15T07:38:48'
