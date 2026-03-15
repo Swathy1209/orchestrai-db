@@ -2586,7 +2586,8 @@ logs:
     to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
   timestamp: '2026-03-15T07:37:05'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 187 internships
-  status: success
+- agent: PracticeAgent
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    interview Q&A for Thermo Fisher - Data Engineer II'
+  status: error
   timestamp: '2026-03-15T07:37:06'
