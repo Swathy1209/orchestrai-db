@@ -1696,4 +1696,32 @@ jobs:
   technical_skills: []
   source: Internshala
   timestamp: '2026-03-14T07:11:35.900858+00:00'
-last_updated: '2026-03-14T07:12:24.249195+00:00'
+- company: REVOLVE
+  role: Data Science Intern
+  location: Cerritos, CA11 hours ago
+  apply_link: https://www.linkedin.com/jobs/view/data-science-intern-at-revolve-4384902670?position=3&pageNum=0&refId=RDNVKqRR6SN5q7rmesvPHg%3D%3D&trackingId=J8vJhJdIsKAxDmPkhWq3Ig%3D%3D
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-15T07:28:11.544907+00:00'
+- company: Xometry
+  role: Machine Learning Intern
+  location: Waltham, MAActively Hiring19 hours ago
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-intern-at-xometry-4344837113?position=10&pageNum=0&refId=6Qxa%2B4sop1T8hxMrzquyRg%3D%3D&trackingId=R8GKshPYd6UJiiosyBq9AQ%3D%3D
+  role_keywords:
+  - Data Science
+  - Machine Learning
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-15T07:28:16.319096+00:00'
+- company: Gharpayy
+  role: Artificial Intelligence (AI)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-part-time-artificial-intelligence-ai-internship-at-gharpayy1773471822
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-15T07:28:15.569724+00:00'
+last_updated: '2026-03-15T07:29:01.850430+00:00'
