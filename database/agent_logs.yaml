@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
-    Design & Development: Gemini failed to generate interview Q&A for Product Manager
-    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
-  status: error
-  timestamp: '2026-03-12T07:36:50'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
     Machine Learning Engineering Internship - Summer 2026'
@@ -2597,3 +2591,8 @@ logs:
     Team - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-15T07:36:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-15T07:36:39'
