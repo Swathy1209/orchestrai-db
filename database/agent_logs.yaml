@@ -1,10 +1,5 @@
 logs:
 - agent: InternshipScraperAgent
-  action: Scrape completed, added 10 jobs
-  status: completed
-  jobs_scraped: 10
-  timestamp: '2026-03-12T07:29:58'
-- agent: InternshipScraperAgent
   action: Removed 0 expired jobs
   status: completed
   expired_removed: 0
@@ -2599,3 +2594,8 @@ logs:
   status: success
   timestamp: '2026-03-15T07:29:09'
   details: Analyzed 187 jobs.
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 12 jobs
+  status: completed
+  jobs_scraped: 12
+  timestamp: '2026-03-15T07:29:11'
