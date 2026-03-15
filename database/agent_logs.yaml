@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
-    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
-    Engineer'
-  status: error
-  timestamp: '2026-03-12T07:38:02'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Machine Learning Intern'
@@ -2591,3 +2585,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-15T07:37:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-15T07:37:38'
