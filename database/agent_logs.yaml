@@ -2586,7 +2586,7 @@ logs:
   status: error
   timestamp: '2026-03-15T07:39:19'
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
-    to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
+  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
+    to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
   status: error
-  timestamp: '2026-03-15T07:39:20'
+  timestamp: '2026-03-15T07:39:22'
