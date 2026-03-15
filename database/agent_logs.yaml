@@ -2584,7 +2584,8 @@ logs:
     failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
   status: error
   timestamp: '2026-03-15T07:39:09'
-- agent: InterviewCoachAgent
-  action: Generated 187 interview simulation pages
-  status: success
-  timestamp: '2026-03-15T07:39:10'
+- agent: PracticeAgent
+  action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
+    generate interview Q&A for GE Aerospace - Data Science Specialist'
+  status: error
+  timestamp: '2026-03-15T07:39:11'
