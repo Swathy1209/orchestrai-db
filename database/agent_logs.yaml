@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
-    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
-    Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-12T07:35:19'
-- agent: PracticeAgent
   action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
     to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
@@ -2597,3 +2591,8 @@ logs:
     Q&A for Go Offer - Data Analyst'
   status: error
   timestamp: '2026-03-15T07:34:51'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  status: error
+  timestamp: '2026-03-15T07:34:52'
