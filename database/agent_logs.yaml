@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-13T07:27:31'
-- agent: CareerAgent
   action: 110 jobs fetched
   level: INFO
   timestamp: '2026-03-13T07:27:44'
@@ -2604,3 +2600,8 @@ logs:
     interview Q&A for REVOLVE - Data Science Intern'
   status: error
   timestamp: '2026-03-15T07:39:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Xometry Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Xometry - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-15T07:39:46'
