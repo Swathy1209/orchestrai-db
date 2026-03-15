@@ -940,3 +940,18 @@ job_skill_analysis:
   missing_skills: []
   roadmap:
   - No skill gaps detected. You are well-equipped for this role!
+- company: REVOLVE
+  role: Data Science Intern
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: Xometry
+  role: Machine Learning Intern
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
+- company: Gharpayy
+  role: Artificial Intelligence (AI)
+  missing_skills: []
+  roadmap:
+  - No skill gaps detected. You are well-equipped for this role!
