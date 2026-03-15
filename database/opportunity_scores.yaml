@@ -924,3 +924,18 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: REVOLVE
+  role: Data Science Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Xometry
+  role: Machine Learning Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Gharpayy
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
