@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
-    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
-    + Evaluation)'
-  status: error
-  timestamp: '2026-03-12T07:36:16'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
@@ -2594,3 +2588,9 @@ logs:
     interview Q&A for Primetrade.ai - Data Science'
   status: error
   timestamp: '2026-03-15T07:36:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-15T07:36:05'
