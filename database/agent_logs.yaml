@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
-    Gemini failed to generate interview Q&A for Zetheta Algorithms Private Limited
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-12T07:38:50'
-- agent: PracticeAgent
   action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
     Intern'
@@ -2592,3 +2586,9 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-15T07:38:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-15T07:38:26'
