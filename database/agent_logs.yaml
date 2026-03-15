@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 110 jobs fetched
-  level: INFO
-  timestamp: '2026-03-13T07:27:44'
-- agent: CareerAgent
   action: 110 jobs fetched, 61 relevant
   level: INFO
   timestamp: '2026-03-13T07:28:21'
@@ -2605,3 +2601,8 @@ logs:
     interview Q&A for Xometry - Machine Learning Intern'
   status: error
   timestamp: '2026-03-15T07:39:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-15T07:39:47'
