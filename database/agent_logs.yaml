@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
-    Gemini failed to generate interview Q&A for GreenLeaf, a Chefs'' Warehouse company
-    - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-12T07:39:01'
-- agent: PracticeAgent
   action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Relinns Technologies - Artificial Intelligence
     (AI)'
@@ -2592,3 +2586,8 @@ logs:
     - Data Analyst Intern'
   status: error
   timestamp: '2026-03-15T07:38:38'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-15T07:38:42'
