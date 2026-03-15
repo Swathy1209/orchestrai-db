@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-12T07:34:46'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
     failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
     & Paid)'
@@ -2597,3 +2591,8 @@ logs:
     to generate interview Q&A for RefinedScience - Data Engineering Intern'
   status: error
   timestamp: '2026-03-15T07:34:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-15T07:34:20'
