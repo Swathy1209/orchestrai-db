@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched
-  level: INFO
-  timestamp: '2026-03-14T07:11:45'
-- agent: CareerAgent
   action: 104 jobs fetched, 59 relevant
   level: INFO
   timestamp: '2026-03-14T07:12:22'
@@ -2621,3 +2617,8 @@ logs:
     interview Q&A for Deloitte - AWS Data Engineer'
   status: error
   timestamp: '2026-03-16T08:01:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
+    Q&A for Fractal - Data Engineer'
+  status: error
+  timestamp: '2026-03-16T08:01:34'
