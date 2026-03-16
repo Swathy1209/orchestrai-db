@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-14T07:16:41'
-- agent: PracticeAgent
   action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
   status: error
@@ -2635,3 +2630,8 @@ logs:
     interview Q&A for ARVO - Internship - Computer Vision'
   status: error
   timestamp: '2026-03-16T08:01:54'
+- agent: PracticeAgent
+  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
+    failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
+  status: error
+  timestamp: '2026-03-16T08:01:55'
