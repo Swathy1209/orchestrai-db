@@ -2588,13 +2588,12 @@ logs:
   status: error
   timestamp: '2026-03-16T07:59:33'
 - agent: PracticeAgent
-  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
-    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ZURU Toys - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-16T07:59:33'
+  timestamp: '2026-03-16T07:59:34'
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
-    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
+  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
+    interview Q&A for Aday - Data Analysis Intern'
   status: error
-  timestamp: '2026-03-16T07:59:35'
+  timestamp: '2026-03-16T07:59:37'
