@@ -2589,12 +2589,12 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:41'
 - agent: PracticeAgent
-  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
-    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-16T08:00:42'
+  timestamp: '2026-03-16T08:00:43'
 - agent: PracticeAgent
-  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
-    interview Q&A for Thermo Fisher - Data Engineer II'
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
   status: error
-  timestamp: '2026-03-16T08:00:44'
+  timestamp: '2026-03-16T08:00:45'
