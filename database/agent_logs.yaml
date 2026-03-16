@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate interview Q&A for Zulitech Solution - Machine Learning'
-  status: error
-  timestamp: '2026-03-13T07:33:11'
-- agent: PracticeAgent
   action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
@@ -2598,3 +2593,8 @@ logs:
     interview Q&A for Cloud Back - Machine Learning'
   status: error
   timestamp: '2026-03-16T08:00:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Intern'
+  status: error
+  timestamp: '2026-03-16T08:00:06'
