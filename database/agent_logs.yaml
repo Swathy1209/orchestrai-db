@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
-    interview Q&A for Tech Phoenix - Data Engineer Intern'
-  status: error
-  timestamp: '2026-03-13T07:34:16'
-- agent: PracticeAgent
   action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
     interview Q&A for EXL - Data Analyst Associate'
   status: error
@@ -2600,3 +2595,9 @@ logs:
     (Summer/Fall 2026)'
   status: error
   timestamp: '2026-03-16T08:00:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
+    Gemini failed to generate interview Q&A for Anne Klein Official - Data Analyst
+    Internship Spring 2026'
+  status: error
+  timestamp: '2026-03-16T08:00:48'
