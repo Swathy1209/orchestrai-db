@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-13T07:30:03'
-  details: Analyzed 177 jobs.
 - agent: CoverLetterAgent
   action: Generated 177 cover letters
   status: success
@@ -2604,3 +2599,7 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-16T07:55:24'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-16T07:55:26'
