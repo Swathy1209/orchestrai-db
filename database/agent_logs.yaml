@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-13T07:33:09'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
     generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
@@ -2595,7 +2589,12 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:01'
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
-    Q&A for Symonis - Machine Learning'
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Unknown - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-16T08:00:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
+    interview Q&A for Cloud Back - Machine Learning'
+  status: error
+  timestamp: '2026-03-16T08:00:05'
