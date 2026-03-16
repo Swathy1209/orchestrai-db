@@ -1,10 +1,10 @@
 portfolio:
   url: https://orchestrai-agent.onrender.com/portfolio/
-  generated_at: '2026-03-15T07:33:24.824570+00:00'
+  generated_at: '2026-03-16T07:56:40.844762+00:00'
   projects:
   - original_name: STST
     title: STST
-    summary: null
+    summary: A technical repository.
     technologies: Python
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/STST
@@ -12,48 +12,48 @@ portfolio:
   - original_name: Swathy1209
     title: Swathy1209
     summary: Config files for my GitHub profile.
-    technologies: null
+    technologies: Python
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/Swathy1209
     demo_link: '#'
   - original_name: orchestrai-db
     title: orchestrai-db
-    summary: null
+    summary: A technical repository.
     technologies: HTML
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/orchestrai-db
     demo_link: '#'
   - original_name: Citation_Hallucination
     title: Citation_Hallucination
-    summary: null
+    summary: A technical repository.
     technologies: Jupyter Notebook
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/Citation_Hallucination
     demo_link: '#'
   - original_name: orchestrai-agent
     title: orchestrai-agent
-    summary: null
+    summary: A technical repository.
     technologies: HTML
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/orchestrai-agent
     demo_link: '#'
   - original_name: orchi-agent
     title: orchi-agent
-    summary: null
+    summary: A technical repository.
     technologies: Python
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/orchi-agent
     demo_link: '#'
   - original_name: acia-cloud-deployment
     title: acia-cloud-deployment
-    summary: null
-    technologies: null
+    summary: A technical repository.
+    technologies: Python
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/acia-cloud-deployment
     demo_link: '#'
   - original_name: acia-playwright
     title: acia-playwright
-    summary: null
+    summary: A technical repository.
     technologies: JavaScript
     impact_statement: Contributed to open source community.
     github_link: https://github.com/Swathy1209/acia-playwright
