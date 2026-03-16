@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-13T07:32:21'
-- agent: PracticeAgent
   action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
     Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
     Intern – Operations'
@@ -2595,5 +2589,10 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-16T07:59:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-16T07:59:17'
