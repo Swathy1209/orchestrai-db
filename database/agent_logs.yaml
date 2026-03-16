@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
-    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate interview
-    Q&A for TikTok - Business Analyst Project Intern - Monetization Strategy & Operations
-    - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-14T07:17:07'
-- agent: PracticeAgent
   action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
     interview Q&A for Maximus - Business Analyst Intern'
   status: error
@@ -2634,3 +2627,8 @@ logs:
     interview Q&A for REVOLVE - Data Science Intern'
   status: error
   timestamp: '2026-03-16T08:02:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Xometry Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Xometry - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-16T08:02:20'
