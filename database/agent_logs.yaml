@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate interview Q&A for Newzeninfotech Solutions - Data Science'
-  status: error
-  timestamp: '2026-03-13T07:34:43'
-- agent: PracticeAgent
   action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
     to generate interview Q&A for Taylor Corporation - Business Analyst Intern'
   status: error
@@ -2607,3 +2602,8 @@ logs:
     - Machine Learning Intern'
   status: error
   timestamp: '2026-03-16T08:01:04'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    interview Q&A for OralKart - Machine Learning'
+  status: error
+  timestamp: '2026-03-16T08:01:05'
