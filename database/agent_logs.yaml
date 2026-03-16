@@ -2588,13 +2588,13 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:16'
 - agent: PracticeAgent
-  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
-    interview Q&A for Aviate Manpower - Data Science'
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
-  timestamp: '2026-03-16T08:00:17'
+  timestamp: '2026-03-16T08:00:18'
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
-    (AI)'
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
+    Learning Intern - Summer 2026'
   status: error
-  timestamp: '2026-03-16T08:00:19'
+  timestamp: '2026-03-16T08:00:20'
