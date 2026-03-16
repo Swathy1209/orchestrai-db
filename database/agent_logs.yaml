@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    interview Q&A for EXL - Data Analyst Associate'
-  status: error
-  timestamp: '2026-03-13T07:34:17'
-- agent: PracticeAgent
   action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
     Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
     Artificial Intelligence/Machine Learning'
@@ -2601,3 +2596,8 @@ logs:
     Internship Spring 2026'
   status: error
   timestamp: '2026-03-16T08:00:48'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-16T08:00:49'
