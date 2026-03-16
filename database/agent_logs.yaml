@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ZURU Toys - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-13T07:32:27'
-- agent: PracticeAgent
   action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
     Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
     America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
@@ -2596,3 +2591,8 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-16T07:59:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-16T07:59:25'
