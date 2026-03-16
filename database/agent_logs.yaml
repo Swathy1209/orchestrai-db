@@ -1,10 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate interview Q&A for Barclays - Private Bank Processing Business
-    Analyst'
-  status: error
-  timestamp: '2026-03-13T07:35:15'
 - agent: CareerAnalyticsAgent
   action: Generated analytics dashboard — readiness=75.3
   status: completed
@@ -2606,3 +2600,8 @@ logs:
     to generate interview Q&A for Lensa - Artificial Intelligence (AI) Intern'
   status: error
   timestamp: '2026-03-16T08:01:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Internship'
+  status: error
+  timestamp: '2026-03-16T08:01:20'
