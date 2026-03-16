@@ -939,3 +939,38 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: Sungrow
+  role: Data Analyst Internship
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Web Management Consultants Ltd
+  role: Business Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: New Jersey Courts
+  role: Business Analyst Intern (Hourly)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Hamsi Marketing Private Limited
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Maiway Technologies
+  role: Data Engineer (Data Engineer/Data Collection)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Plix - The Plant Flix
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Cisco
+  role: Staff Machine Learning Engineer
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
