@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
-    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
-  status: error
-  timestamp: '2026-03-13T07:33:38'
-- agent: PracticeAgent
   action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
@@ -2594,9 +2589,14 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:21'
 - agent: PracticeAgent
-  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
-    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC - Data Science Intern'
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
   status: error
-  timestamp: '2026-03-16T08:00:23'
+  timestamp: '2026-03-16T08:00:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
+    Data Science Intern'
+  status: error
+  timestamp: '2026-03-16T08:00:24'
