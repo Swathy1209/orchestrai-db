@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-13T07:34:09'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
     India Private Limited - Artificial Intelligence (AI)'
@@ -2598,3 +2593,9 @@ logs:
     interview Q&A for ARM Institute - Data Analyst Intern'
   status: error
   timestamp: '2026-03-16T08:00:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-16T08:00:41'
