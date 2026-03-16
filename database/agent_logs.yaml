@@ -2601,7 +2601,7 @@ logs:
   status: error
   timestamp: '2026-03-16T08:01:19'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
-    interview Q&A for Lensa - Data Science Internship'
+  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
+    Q&A for AARP - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-16T08:01:20'
+  timestamp: '2026-03-16T08:01:21'
