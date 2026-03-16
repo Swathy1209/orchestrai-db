@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
-    Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
-    IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
-  status: error
-  timestamp: '2026-03-13T07:34:57'
-- agent: PracticeAgent
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
   status: error
@@ -2608,3 +2602,9 @@ logs:
     interview Q&A for CareerNest - Machine Learning'
   status: error
   timestamp: '2026-03-16T08:01:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
+    Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
+    India Private Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-16T08:01:12'
