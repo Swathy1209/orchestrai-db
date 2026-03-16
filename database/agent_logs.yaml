@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
-    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate interview
-    Q&A for TikTok - (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation)
-    - 2026 Summer (BS/MS)'
-  status: error
-  timestamp: '2026-03-13T07:32:18'
-- agent: PracticeAgent
   action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
   status: error
@@ -2599,3 +2592,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-03-16T07:59:13'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
+    to generate interview Q&A for RefinedScience - Data Engineering Intern'
+  status: error
+  timestamp: '2026-03-16T07:59:15'
