@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-13T07:33:01'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
     interview Q&A for Primetrade.ai - Data Science'
   status: error
@@ -2597,3 +2592,8 @@ logs:
     interview Q&A for Innoknowvex - Machine Learning'
   status: error
   timestamp: '2026-03-16T07:59:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
+    Q&A for Innoknowvex - Data Science'
+  status: error
+  timestamp: '2026-03-16T07:59:56'
