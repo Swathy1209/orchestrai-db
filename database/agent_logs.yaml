@@ -2613,8 +2613,8 @@ logs:
   status: error
   timestamp: '2026-03-16T08:01:29'
 - agent: PracticeAgent
-  action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for Zetheta Algorithms Private
-    Limited - Artificial Intelligence Intern'
+  action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Zetheta Algorithms Private Limited
+    - Data Science Intern'
   status: error
-  timestamp: '2026-03-16T08:01:30'
+  timestamp: '2026-03-16T08:01:31'
