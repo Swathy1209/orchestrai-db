@@ -2593,7 +2593,7 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:16'
 - agent: PracticeAgent
-  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
-    interview Q&A for Aviate Manpower - Data Science'
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
-  timestamp: '2026-03-16T08:00:17'
+  timestamp: '2026-03-16T08:00:18'
