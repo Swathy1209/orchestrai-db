@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 0 expired jobs
-  status: completed
-  expired_removed: 0
-  timestamp: '2026-03-13T07:29:43'
 - agent: CareerAgent
   action: 110 jobs fetched
   level: INFO
@@ -2604,3 +2599,7 @@ logs:
   action: Pipeline execution completed and email sent
   status: success
   timestamp: '2026-03-15T07:50:15'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-16T07:54:31'
