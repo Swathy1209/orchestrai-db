@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
-    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-13T07:33:31'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern - Data Science'
   status: error
@@ -2593,7 +2588,13 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:16'
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate interview Q&A for Zulitech Solution - Machine Learning'
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
   status: error
-  timestamp: '2026-03-16T08:00:18'
+  timestamp: '2026-03-16T08:00:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-16T08:00:19'
