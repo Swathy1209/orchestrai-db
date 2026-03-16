@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
-    & Paid)'
-  status: error
-  timestamp: '2026-03-14T07:16:38'
-- agent: PracticeAgent
   action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
@@ -2636,3 +2630,8 @@ logs:
     IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
   status: error
   timestamp: '2026-03-16T08:01:53'
+- agent: PracticeAgent
+  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
+    interview Q&A for ARVO - Internship - Computer Vision'
+  status: error
+  timestamp: '2026-03-16T08:01:54'
