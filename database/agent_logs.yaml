@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-13T07:34:13'
-- agent: PracticeAgent
   action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
   status: error
@@ -2589,12 +2584,18 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:41'
 - agent: PracticeAgent
-  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
-    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
-  timestamp: '2026-03-16T08:00:43'
+  timestamp: '2026-03-16T08:00:42'
 - agent: PracticeAgent
-  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
-    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
-  timestamp: '2026-03-16T08:00:45'
+  timestamp: '2026-03-16T08:00:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
+    Intern'
+  status: error
+  timestamp: '2026-03-16T08:00:46'
