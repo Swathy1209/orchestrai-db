@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-13T07:32:32'
-- agent: PracticeAgent
   action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
     interview Q&A for Sloan - Data Analyst Intern'
   status: error
@@ -2590,7 +2585,14 @@ logs:
   status: error
   timestamp: '2026-03-16T07:59:26'
 - agent: PracticeAgent
-  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
-    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
   status: error
-  timestamp: '2026-03-16T07:59:29'
+  timestamp: '2026-03-16T07:59:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
+    Intern – Operations'
+  status: error
+  timestamp: '2026-03-16T07:59:30'
