@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-14T07:11:31'
-- agent: CareerAgent
   action: 104 jobs fetched
   level: INFO
   timestamp: '2026-03-14T07:11:45'
@@ -2620,3 +2616,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-16T08:01:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
+    interview Q&A for Deloitte - AWS Data Engineer'
+  status: error
+  timestamp: '2026-03-16T08:01:33'
