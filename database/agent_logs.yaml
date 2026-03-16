@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for AmRit Hub Private Limited - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-13T07:35:09'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
     to generate interview Q&A for Tech Economy - ML-AI Engineering Intern'
   status: error
@@ -2606,3 +2600,8 @@ logs:
     interview Q&A for Tech Phoenix - Data Engineer Intern'
   status: error
   timestamp: '2026-03-16T08:01:17'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    interview Q&A for EXL - Data Analyst Associate'
+  status: error
+  timestamp: '2026-03-16T08:01:18'
