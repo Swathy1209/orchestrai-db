@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
-    failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
-  status: error
-  timestamp: '2026-03-13T07:34:30'
-- agent: PracticeAgent
   action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
     Intern'
@@ -2604,3 +2599,9 @@ logs:
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
   timestamp: '2026-03-16T08:00:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-16T08:00:58'
