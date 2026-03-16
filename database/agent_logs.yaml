@@ -2593,7 +2593,7 @@ logs:
   status: error
   timestamp: '2026-03-16T07:59:38'
 - agent: PracticeAgent
-  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
-    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-16T07:59:39'
+  timestamp: '2026-03-16T07:59:40'
