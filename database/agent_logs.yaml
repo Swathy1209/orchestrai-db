@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
-    Gemini failed to generate interview Q&A for Los Angeles Kings - Summer Intern,
-    Data Science (LA Kings)'
-  status: error
-  timestamp: '2026-03-13T07:34:51'
-- agent: PracticeAgent
   action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
@@ -2609,3 +2603,8 @@ logs:
     Analyst Internship'
   status: error
   timestamp: '2026-03-16T08:01:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-16T08:01:09'
