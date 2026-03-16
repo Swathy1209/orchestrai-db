@@ -2590,8 +2590,7 @@ logs:
   status: error
   timestamp: '2026-03-16T07:59:19'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
-    & Paid)'
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
   status: error
-  timestamp: '2026-03-16T07:59:21'
+  timestamp: '2026-03-16T07:59:22'
