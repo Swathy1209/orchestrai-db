@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
-    Q&A for Go Offer - Data Analyst'
-  status: error
-  timestamp: '2026-03-14T07:16:53'
-- agent: PracticeAgent
   action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
     to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
@@ -2634,3 +2629,8 @@ logs:
     generate interview Q&A for Suresh Dani''s Classes - Data Science'
   status: error
   timestamp: '2026-03-16T08:02:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
+    to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
+  status: error
+  timestamp: '2026-03-16T08:02:06'
