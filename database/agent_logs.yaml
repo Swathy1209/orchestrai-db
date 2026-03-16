@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
-    Planning'
-  status: error
-  timestamp: '2026-03-13T07:33:15'
-- agent: PracticeAgent
   action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
     Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
     Data Science Intern'
@@ -2600,3 +2594,8 @@ logs:
     + Evaluation)'
   status: error
   timestamp: '2026-03-16T08:00:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-16T08:00:09'
