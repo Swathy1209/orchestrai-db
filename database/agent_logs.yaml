@@ -2594,7 +2594,7 @@ logs:
   status: error
   timestamp: '2026-03-16T07:59:57'
 - agent: PracticeAgent
-  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
-    interview Q&A for Mindenious Edutech - Data Science'
+  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Unknown - Machine Learning Intern'
   status: error
-  timestamp: '2026-03-16T07:59:58'
+  timestamp: '2026-03-16T07:59:59'
