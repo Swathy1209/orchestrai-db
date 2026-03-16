@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-14T07:16:36'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
@@ -2636,3 +2630,8 @@ logs:
     failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
   status: error
   timestamp: '2026-03-16T08:01:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
+  status: error
+  timestamp: '2026-03-16T08:01:52'
