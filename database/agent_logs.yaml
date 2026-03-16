@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
-    for The Institute for Advanced Learning and Research - Artificial Intelligence
-    / Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-13T07:33:53'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
@@ -2599,8 +2592,12 @@ logs:
   status: error
   timestamp: '2026-03-16T08:00:30'
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
-    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
-    Energy (Summer 2026)'
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
   status: error
-  timestamp: '2026-03-16T08:00:32'
+  timestamp: '2026-03-16T08:00:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-16T08:00:33'
