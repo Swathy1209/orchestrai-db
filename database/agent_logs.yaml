@@ -2590,8 +2590,7 @@ logs:
   status: error
   timestamp: '2026-03-16T07:59:26'
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
-  timestamp: '2026-03-16T07:59:27'
+  timestamp: '2026-03-16T07:59:29'
