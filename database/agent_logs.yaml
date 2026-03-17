@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 0 expired jobs
-  status: completed
-  expired_removed: 0
-  timestamp: '2026-03-14T07:22:50'
 - agent: CareerAgent
   action: 104 jobs fetched
   level: INFO
@@ -2598,3 +2593,9 @@ logs:
     to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-17T07:43:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
+    Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-17T07:43:09'
