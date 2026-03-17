@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
-    interview Q&A for DevTown - Data Science Mentor'
-  status: error
-  timestamp: '2026-03-14T07:20:13'
-- agent: PracticeAgent
   action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
     generate interview Q&A for Hooman Digital LLP - Machine Learning'
   status: error
@@ -2597,3 +2592,8 @@ logs:
     Analyst Internship'
   status: error
   timestamp: '2026-03-17T07:43:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-17T07:43:03'
