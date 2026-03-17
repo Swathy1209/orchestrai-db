@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
-    - 2026 Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
-    Analyst Project Intern(TikTok- Operations) - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-14T07:19:39'
-- agent: PracticeAgent
   action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
@@ -2591,3 +2585,8 @@ logs:
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
   timestamp: '2026-03-17T07:42:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-17T07:42:35'
