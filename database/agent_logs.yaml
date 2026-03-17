@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
-    to generate interview Q&A for HSBC - Business Analyst- Transformation'
-  status: error
-  timestamp: '2026-03-14T07:19:23'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
     New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
     Engineering Intern (MS/Ph.D. New Grad)'
@@ -2590,3 +2585,10 @@ logs:
     Recommendation - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-17T07:42:16'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Data-Search-TikTok Recommendation
+    Team - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-17T07:42:17'
