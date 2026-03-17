@@ -974,3 +974,28 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: 365 Retail Markets
+  role: Business Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Carer Ai
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Career Solutions
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Ball2Data
+  role: Football Data Analysts
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Trustable Solutions Private Limited
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
