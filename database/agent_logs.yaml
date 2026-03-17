@@ -2588,9 +2588,8 @@ logs:
   status: error
   timestamp: '2026-03-17T07:42:46'
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
-    for The Institute for Advanced Learning and Research - Artificial Intelligence
-    / Machine Learning Intern'
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
+    States'
   status: error
-  timestamp: '2026-03-17T07:42:47'
+  timestamp: '2026-03-17T07:42:48'
