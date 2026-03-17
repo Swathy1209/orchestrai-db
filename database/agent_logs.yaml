@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-15T07:28:22'
-- agent: CareerAgent
   action: 106 jobs fetched, 59 relevant
   level: INFO
   timestamp: '2026-03-15T07:29:00'
@@ -2628,3 +2624,9 @@ logs:
     to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
   status: error
   timestamp: '2026-03-17T07:43:49'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
+    - 2026 Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
+    Analyst Project Intern(TikTok- Operations) - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-17T07:43:52'
