@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
-    2026 Summer (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
-    Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
-  status: error
-  timestamp: '2026-03-14T07:19:05'
-- agent: PracticeAgent
   action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Bipolar Factory - Artificial Intelligence
     (AI)'
@@ -2586,3 +2580,8 @@ logs:
     interview Q&A for Aviate Manpower - Data Science'
   status: error
   timestamp: '2026-03-17T07:42:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate interview Q&A for Zulitech Solution - Machine Learning'
+  status: error
+  timestamp: '2026-03-17T07:42:05'
