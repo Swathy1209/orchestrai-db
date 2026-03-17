@@ -1,10 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Unessa Foundation - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-14T07:20:16'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 184 internships
   status: success
@@ -2597,3 +2591,9 @@ logs:
     interview Q&A for CareerNest - Machine Learning'
   status: error
   timestamp: '2026-03-17T07:43:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
+    Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
+    India Private Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-17T07:43:05'
