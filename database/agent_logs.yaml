@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate interview Q&A for Barclays - Private Bank Processing Business
-    Analyst'
-  status: error
-  timestamp: '2026-03-14T07:20:06'
-- agent: PracticeAgent
   action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for PRGX Global Inc. - Artificial Intelligence
     Intern'
@@ -2597,3 +2591,8 @@ logs:
     - Machine Learning Intern'
   status: error
   timestamp: '2026-03-17T07:42:57'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    interview Q&A for OralKart - Machine Learning'
+  status: error
+  timestamp: '2026-03-17T07:42:58'
