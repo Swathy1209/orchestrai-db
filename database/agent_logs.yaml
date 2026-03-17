@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 0 expired jobs
-  status: completed
-  expired_removed: 0
-  timestamp: '2026-03-15T07:30:17'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2636,3 +2631,9 @@ logs:
     Learning - Summer 2026 Intern'
   status: error
   timestamp: '2026-03-17T07:44:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
+    Intern (Summer 2026 - In-Person - NYC)'
+  status: error
+  timestamp: '2026-03-17T07:44:05'
