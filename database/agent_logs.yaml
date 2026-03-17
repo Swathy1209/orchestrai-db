@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 184 internships
-  status: success
-  timestamp: '2026-03-14T07:31:58'
 - agent: CareerStrategyAgent
   action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
   status: completed
@@ -2618,3 +2614,8 @@ logs:
     interview Q&A for Deloitte - AWS Data Engineer'
   status: error
   timestamp: '2026-03-17T07:43:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
+    Q&A for Fractal - Data Engineer'
+  status: error
+  timestamp: '2026-03-17T07:43:31'
