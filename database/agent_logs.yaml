@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
-    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
-    Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-15T07:35:01'
-- agent: PracticeAgent
   action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
     to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
@@ -2644,3 +2638,7 @@ logs:
   action: Generated 199 interview simulation pages
   status: success
   timestamp: '2026-03-17T07:53:21'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 199 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-17T07:55:40'
