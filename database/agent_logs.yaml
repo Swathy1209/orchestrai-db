@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
-    interview Q&A for Deloitte - AWS Data Engineer'
-  status: error
-  timestamp: '2026-03-14T07:19:20'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
     Q&A for Fractal - Data Engineer'
   status: error
@@ -2588,3 +2583,8 @@ logs:
     Machine Learning Engineering Internship - Summer 2026'
   status: error
   timestamp: '2026-03-17T07:42:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science BI, Intern'
+  status: error
+  timestamp: '2026-03-17T07:42:15'
