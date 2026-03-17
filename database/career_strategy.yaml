@@ -3,7 +3,7 @@ strategy:
   all_goals:
   - Data Engineering Internship
   - ML Engineering Internship
-  generated_at: '2026-03-17T07:49:14.445336+00:00'
+  generated_at: '2026-03-17T07:50:29.061047+00:00'
   analysis:
     top_missing_skills:
     - Git
@@ -25,7 +25,7 @@ strategy:
     practice_sessions: 90
     practice_status: Interview-ready (90 sessions)
   actions:
-  - 'Study the top missing skills this week: Git, AWS, Airflow'
-  - 'Apply immediately to your best match: Data Science Intern at Unknown (Score:
-    80/100, Medium probability)'
-  - Update your LinkedIn profile with your latest project
+  - Dedicate 2 hours daily to learning Git — it's needed in the most roles
+  - 'Submit your application to: Data Science Intern at Unknown (Score: 80/100, Medium
+    probability)'
+  - Research the tech stack of your target companies and note any new skill gaps
