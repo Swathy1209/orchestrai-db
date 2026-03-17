@@ -2622,7 +2622,8 @@ logs:
   status: error
   timestamp: '2026-03-17T07:43:39'
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate interview Q&A for Newzeninfotech Solutions - Data Science'
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate interview Q&A for Neoteric Analytics - Data And AI Engineer
+    Intern'
   status: error
-  timestamp: '2026-03-17T07:43:41'
+  timestamp: '2026-03-17T07:43:46'
