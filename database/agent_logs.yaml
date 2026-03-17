@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
-    and Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-14T07:19:55'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
     to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
   status: error
@@ -2593,3 +2587,9 @@ logs:
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
   timestamp: '2026-03-17T07:42:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-17T07:42:51'
