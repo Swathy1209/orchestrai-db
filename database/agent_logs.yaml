@@ -2589,7 +2589,7 @@ logs:
   status: error
   timestamp: '2026-03-17T07:41:15'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Analyst Intern'
+  action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
+    interview Q&A for Sloan - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-17T07:41:19'
+  timestamp: '2026-03-17T07:41:20'
