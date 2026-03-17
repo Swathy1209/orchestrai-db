@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
-    Vision'
-  status: error
-  timestamp: '2026-03-14T07:18:41'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Machine Learning Intern'
@@ -2589,3 +2583,9 @@ logs:
     - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-17T07:41:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
+    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
+    Private Limited - Computer Vision'
+  status: error
+  timestamp: '2026-03-17T07:41:42'
