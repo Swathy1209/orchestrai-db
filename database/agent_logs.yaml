@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-14T07:19:34'
-- agent: PracticeAgent
   action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
     failed to generate interview Q&A for Neoteric Analytics - Data And AI Engineer
     Intern'
@@ -2590,3 +2585,10 @@ logs:
     interview Q&A for Lensa - Intern - Data Science'
   status: error
   timestamp: '2026-03-17T07:42:27'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
+    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-17T07:42:28'
