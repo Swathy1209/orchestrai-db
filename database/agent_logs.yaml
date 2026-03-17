@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-14T07:18:44'
-- agent: PracticeAgent
   action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
     interview Q&A for OralKart - Machine Learning'
   status: error
@@ -2589,3 +2583,8 @@ logs:
     Private Limited - Computer Vision'
   status: error
   timestamp: '2026-03-17T07:41:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Unknown - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-17T07:41:45'
