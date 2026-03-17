@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
-    interview Q&A for Tech Phoenix - Data Engineer Intern'
-  status: error
-  timestamp: '2026-03-14T07:18:58'
-- agent: PracticeAgent
   action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
     Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
     Artificial Intelligence/Machine Learning'
@@ -2586,3 +2581,8 @@ logs:
     interview Q&A for Tatari - Data Science, Intern'
   status: error
   timestamp: '2026-03-17T07:41:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
+  status: error
+  timestamp: '2026-03-17T07:42:01'
