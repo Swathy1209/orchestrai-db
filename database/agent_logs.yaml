@@ -2598,7 +2598,8 @@ logs:
   status: error
   timestamp: '2026-03-17T07:43:11'
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    interview Q&A for EXL - Data Analyst Associate'
+  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
+    Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
+    Artificial Intelligence/Machine Learning'
   status: error
-  timestamp: '2026-03-17T07:43:12'
+  timestamp: '2026-03-17T07:43:13'
