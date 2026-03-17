@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
-    to generate interview Q&A for Tech Economy - ML-AI Engineering Intern'
-  status: error
-  timestamp: '2026-03-14T07:20:01'
-- agent: PracticeAgent
   action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
     Q&A for Ramesh S - AI/ML Engineer'
   status: error
@@ -2595,3 +2590,9 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-17T07:42:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
+    Vision'
+  status: error
+  timestamp: '2026-03-17T07:42:55'
