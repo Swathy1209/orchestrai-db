@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
-    Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
-    IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
-  status: error
-  timestamp: '2026-03-14T07:19:44'
-- agent: PracticeAgent
   action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
     interview Q&A for ARVO - Internship - Computer Vision'
   status: error
@@ -2592,3 +2586,9 @@ logs:
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
   timestamp: '2026-03-17T07:42:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
+    - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-17T07:42:41'
