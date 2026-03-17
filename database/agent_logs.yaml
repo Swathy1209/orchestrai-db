@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched, 58 relevant
-  level: INFO
-  timestamp: '2026-03-14T07:23:06'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-14T07:23:08'
@@ -2600,3 +2596,8 @@ logs:
     to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-17T07:43:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
+    interview Q&A for Tech Phoenix - Data Engineer Intern'
+  status: error
+  timestamp: '2026-03-17T07:43:11'
