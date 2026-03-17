@@ -1,8 +1,4 @@
 logs:
-- agent: InterviewCoachAgent
-  action: Generated 184 interview simulation pages
-  status: success
-  timestamp: '2026-03-14T07:27:35'
 - agent: PorschePortfolioAgent
   action: Generated premium portfolios for 184 internships
   status: success
@@ -2611,3 +2607,8 @@ logs:
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
   timestamp: '2026-03-17T07:43:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
+    generate interview Q&A for Tatari - Data Science Analyst, Intern'
+  status: error
+  timestamp: '2026-03-17T07:43:25'
