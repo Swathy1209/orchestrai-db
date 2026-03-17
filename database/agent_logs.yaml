@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
-    interview Q&A for Lensa - Intern - Data Science'
-  status: error
-  timestamp: '2026-03-14T07:18:12'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
     E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
     for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
@@ -2593,3 +2588,8 @@ logs:
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-17T07:40:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-17T07:40:57'
