@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
-    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
-    Learning Intern - Summer 2026'
-  status: error
-  timestamp: '2026-03-14T07:17:51'
-- agent: PracticeAgent
   action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
@@ -2610,3 +2604,8 @@ logs:
   status: success
   timestamp: '2026-03-17T07:36:46'
   details: Analyzed 199 jobs.
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 12 jobs
+  status: completed
+  jobs_scraped: 12
+  timestamp: '2026-03-17T07:37:36'
