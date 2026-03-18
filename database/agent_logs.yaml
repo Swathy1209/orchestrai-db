@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
-    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
-    Intern (Summer 2026 - In-Person - NYC)'
-  status: error
-  timestamp: '2026-03-15T07:39:16'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
     2026): Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring/Summer
     2026)'
@@ -2613,3 +2607,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-18T07:45:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-18T07:45:40'
