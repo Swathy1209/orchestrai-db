@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
-    generate interview Q&A for Tatari - Data Science Analyst, Intern'
-  status: error
-  timestamp: '2026-03-15T07:38:20'
-- agent: PracticeAgent
   action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
     failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
   status: error
@@ -2607,3 +2602,8 @@ logs:
     to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
   status: error
   timestamp: '2026-03-18T07:44:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Talentrift - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-18T07:44:47'
