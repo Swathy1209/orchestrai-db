@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-15T07:37:59'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
     interview Q&A for Tech Phoenix - Data Engineer Intern'
   status: error
@@ -2602,3 +2597,8 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-18T07:44:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
+  status: error
+  timestamp: '2026-03-18T07:44:14'
