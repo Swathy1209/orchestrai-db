@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
-    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
-    Learning Intern - Summer 2026'
-  status: error
-  timestamp: '2026-03-15T07:36:23'
-- agent: PracticeAgent
   action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
@@ -2615,3 +2609,8 @@ logs:
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-18T07:42:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-18T07:42:44'
