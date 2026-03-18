@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
-    - Machine Learning'
-  status: error
-  timestamp: '2026-03-16T08:00:01'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
     interview Q&A for Career Solutions - Data Science'
   status: error
@@ -2645,3 +2639,9 @@ logs:
     Analyst Intern'
   status: error
   timestamp: '2026-03-18T07:48:13'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
+    (Hourly)'
+  status: error
+  timestamp: '2026-03-18T07:48:15'
