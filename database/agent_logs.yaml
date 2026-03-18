@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
-    to generate interview Q&A for RefinedScience - Data Engineering Intern'
-  status: error
-  timestamp: '2026-03-16T07:59:15'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
     generate interview Q&A for Cylinder Health - Junior Data Engineer'
   status: error
@@ -2642,3 +2637,8 @@ logs:
     failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
   status: error
   timestamp: '2026-03-18T07:47:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
+  status: error
+  timestamp: '2026-03-18T07:47:10'
