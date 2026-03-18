@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
-    interview Q&A for Thermo Fisher - Data Engineer II'
-  status: error
-  timestamp: '2026-03-15T07:37:06'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 187 internships
   status: success
@@ -2611,3 +2606,8 @@ logs:
     - 2026 Start (BS/MS)'
   status: error
   timestamp: '2026-03-18T07:43:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Maximus - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-18T07:43:20'
