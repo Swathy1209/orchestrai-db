@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
-    Design & Development: Gemini failed to generate interview Q&A for Product Manager
-    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
-  status: error
-  timestamp: '2026-03-15T07:36:33'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
     Machine Learning Engineering Internship - Summer 2026'
@@ -2612,3 +2606,9 @@ logs:
     interview Q&A for Typeface - ML Engineer Intern'
   status: error
   timestamp: '2026-03-18T07:42:50'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-18T07:42:52'
