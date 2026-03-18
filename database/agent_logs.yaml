@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
-    Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
-    IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
-  status: error
-  timestamp: '2026-03-15T07:39:05'
-- agent: PracticeAgent
   action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
     interview Q&A for ARVO - Internship - Computer Vision'
   status: error
@@ -2610,3 +2604,9 @@ logs:
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
   timestamp: '2026-03-18T07:45:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-18T07:45:30'
