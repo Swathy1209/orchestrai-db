@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 108 jobs fetched, 64 relevant
-  level: INFO
-  timestamp: '2026-03-16T07:55:21'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-16T07:55:24'
@@ -2630,3 +2626,8 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-18T07:46:45'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-18T07:46:47'
