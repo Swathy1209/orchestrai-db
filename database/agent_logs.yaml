@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
-    to generate interview Q&A for Taylor Corporation - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-15T07:38:48'
-- agent: PracticeAgent
   action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
@@ -2607,3 +2602,8 @@ logs:
     Internship Spring 2026'
   status: error
   timestamp: '2026-03-18T07:45:12'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-18T07:45:14'
