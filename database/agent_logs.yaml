@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-15T07:38:18'
-- agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
@@ -2608,3 +2602,8 @@ logs:
     Team - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-18T07:44:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
+  status: error
+  timestamp: '2026-03-18T07:44:41'
