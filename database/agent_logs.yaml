@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-16T08:00:09'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
     interview Q&A for Primetrade.ai - Data Science'
   status: error
@@ -2646,3 +2641,8 @@ logs:
     to generate interview Q&A for 365 Retail Markets - Business Analyst Intern'
   status: error
   timestamp: '2026-03-18T07:48:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate interview
+    Q&A for Carer Ai - Data Science'
+  status: error
+  timestamp: '2026-03-18T07:48:27'
