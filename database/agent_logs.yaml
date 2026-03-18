@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
-    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
-    Energy (Summer 2026)'
-  status: error
-  timestamp: '2026-03-15T07:36:43'
-- agent: PracticeAgent
   action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
     to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
   status: error
@@ -2610,3 +2604,8 @@ logs:
     to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
   timestamp: '2026-03-18T07:43:01'
+- agent: PracticeAgent
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ZURU Toys - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-18T07:43:02'
