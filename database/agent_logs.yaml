@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
-    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
-    States'
-  status: error
-  timestamp: '2026-03-15T07:37:27'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
@@ -2609,3 +2603,9 @@ logs:
     Q&A for Innoknowvex - Data Science'
   status: error
   timestamp: '2026-03-18T07:43:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-18T07:43:39'
