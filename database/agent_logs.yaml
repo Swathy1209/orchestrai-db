@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science, Intern'
-  status: error
-  timestamp: '2026-03-16T08:00:12'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
@@ -2647,3 +2642,8 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-18T07:48:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
+    interview Q&A for Ball2Data - Football Data Analysts'
+  status: error
+  timestamp: '2026-03-18T07:48:30'
