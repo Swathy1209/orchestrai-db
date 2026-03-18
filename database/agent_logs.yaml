@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
-    Machine Learning Engineering Internship - Summer 2026'
-  status: error
-  timestamp: '2026-03-15T07:36:34'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
     interview Q&A for Tatari - Data Science BI, Intern'
   status: error
@@ -2612,3 +2606,8 @@ logs:
     2026)'
   status: error
   timestamp: '2026-03-18T07:42:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-18T07:42:53'
