@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
-    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
-    Private Limited - Computer Vision'
-  status: error
-  timestamp: '2026-03-16T07:59:57'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
     interview Q&A for Unknown - Machine Learning Intern'
   status: error
@@ -2645,3 +2639,8 @@ logs:
     to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-18T07:48:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
+    interview Q&A for Sungrow - Data Analyst Internship'
+  status: error
+  timestamp: '2026-03-18T07:48:10'
