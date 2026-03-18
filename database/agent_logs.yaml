@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate interview
-    Q&A for LeadUpAI - AI Engineer'
-  status: error
-  timestamp: '2026-03-15T07:39:34'
-- agent: PracticeAgent
   action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for PRGX Global Inc. - Artificial Intelligence
     Intern'
@@ -2612,3 +2607,9 @@ logs:
     to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-18T07:45:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
+    Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-18T07:45:58'
