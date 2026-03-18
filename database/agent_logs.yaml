@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
-    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC - Data Science Intern'
-  status: error
-  timestamp: '2026-03-15T07:36:29'
-- agent: PracticeAgent
   action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
     Design & Development: Gemini failed to generate interview Q&A for Product Manager
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
@@ -2614,3 +2607,8 @@ logs:
     to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-18T07:42:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    interview Q&A for Typeface - ML Engineer Intern'
+  status: error
+  timestamp: '2026-03-18T07:42:50'
