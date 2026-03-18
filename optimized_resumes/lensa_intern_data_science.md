@@ -1,4 +1,4 @@
-# Optimized Resume for Lensa Intern, Data Science
+# Optimized Resume for Lensa Intern - Data Science
 
 ## Recommended Additions
 
