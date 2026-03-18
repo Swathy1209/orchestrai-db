@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
-    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
-    Intern – Operations'
-  status: error
-  timestamp: '2026-03-16T07:59:30'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
     Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
     2026)'
@@ -2645,3 +2639,8 @@ logs:
     to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
   status: error
   timestamp: '2026-03-18T07:47:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
+    to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
+  status: error
+  timestamp: '2026-03-18T07:47:31'
