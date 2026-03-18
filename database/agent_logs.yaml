@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
-    Analyst Innovation Intern'
-  status: error
-  timestamp: '2026-03-15T07:36:49'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
   status: error
@@ -2610,3 +2604,9 @@ logs:
     interview Q&A for Aday - Data Analysis Intern'
   status: error
   timestamp: '2026-03-18T07:43:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
+    Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-18T07:43:08'
