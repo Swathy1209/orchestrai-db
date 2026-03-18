@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-16T08:00:16'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
     generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
@@ -2649,3 +2643,9 @@ logs:
     to generate interview Q&A for Infoware - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-18T07:48:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Almost Magic Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-18T07:48:37'
