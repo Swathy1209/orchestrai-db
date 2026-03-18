@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
-    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-15T07:36:52'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern, Data Science'
   status: error
@@ -2610,3 +2605,8 @@ logs:
     Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-18T07:43:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
+  status: error
+  timestamp: '2026-03-18T07:43:09'
