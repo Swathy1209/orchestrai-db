@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
-    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-15T07:37:05'
-- agent: PracticeAgent
   action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
@@ -2609,3 +2604,10 @@ logs:
     Project Intern (GBS SMB) - 2026 Start (BS/MS)'
   status: error
   timestamp: '2026-03-18T07:43:17'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Business Analyst Project Intern - Monetization Strategy & Operations
+    - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-18T07:43:18'
