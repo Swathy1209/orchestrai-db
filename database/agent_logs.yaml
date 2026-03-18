@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
-    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
-  status: error
-  timestamp: '2026-03-16T07:59:39'
-- agent: PracticeAgent
   action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
     interview Q&A for Sloan - Data Analyst Intern'
   status: error
@@ -2643,3 +2638,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-18T07:47:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-18T07:47:44'
