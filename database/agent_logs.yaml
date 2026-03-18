@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate interview Q&A for Zulitech Solution - Machine Learning'
-  status: error
-  timestamp: '2026-03-15T07:36:20'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
     (AI)'
@@ -2616,3 +2611,9 @@ logs:
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
   timestamp: '2026-03-18T07:42:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
+    & Paid)'
+  status: error
+  timestamp: '2026-03-18T07:42:39'
