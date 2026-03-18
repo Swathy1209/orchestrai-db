@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-15T07:37:10'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
     Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
     (Summer/Fall 2026)'
@@ -2614,3 +2608,8 @@ logs:
     Analyst Intern (BA-I) - Summer 2026'
   status: error
   timestamp: '2026-03-18T07:43:22'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate interview Q&A for ACCA Careers - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-18T07:43:23'
