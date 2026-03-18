@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
-    failed to generate interview Q&A for Spectral AI - Deep Learning Data Science
-    Intern'
-  status: error
-  timestamp: '2026-03-15T07:39:14'
-- agent: PracticeAgent
   action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
     - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
     Intern (Summer 2026 - In-Person - NYC)'
@@ -2613,3 +2607,9 @@ logs:
     Vision'
   status: error
   timestamp: '2026-03-18T07:45:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
+    Engineer'
+  status: error
+  timestamp: '2026-03-18T07:45:39'
