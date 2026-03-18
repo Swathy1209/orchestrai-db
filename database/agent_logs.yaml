@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science BI, Intern'
-  status: error
-  timestamp: '2026-03-15T07:36:35'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
     Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Machine Learning Engineer Intern - Global E-Commerce Content
@@ -2611,3 +2606,9 @@ logs:
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
   timestamp: '2026-03-18T07:42:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
+    Intern – Operations'
+  status: error
+  timestamp: '2026-03-18T07:42:55'
