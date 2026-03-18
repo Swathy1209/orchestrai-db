@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
-    Analyst Innovation Intern'
-  status: error
-  timestamp: '2026-03-16T08:00:35'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
   status: error
@@ -2628,3 +2622,7 @@ logs:
   action: Generated 203 interview simulation pages
   status: success
   timestamp: '2026-03-18T07:58:56'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 203 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-18T08:02:13'
