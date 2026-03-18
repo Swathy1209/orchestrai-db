@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
-    Q&A for Innoknowvex - Data Science'
-  status: error
-  timestamp: '2026-03-15T07:35:36'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
     - Artificial Intelligence (AI)'
@@ -2628,3 +2623,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-03-18T07:38:38'
+- agent: CareerAgent
+  action: 108 jobs fetched
+  level: INFO
+  timestamp: '2026-03-18T07:38:39'
