@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ARM Institute - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-15T07:36:59'
-- agent: PracticeAgent
   action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
     to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
@@ -2608,3 +2603,8 @@ logs:
     interview Q&A for Go Offer - Business Analyst Intern'
   status: error
   timestamp: '2026-03-18T07:43:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    interview Q&A for Veolia - Intern - Business Analyst'
+  status: error
+  timestamp: '2026-03-18T07:43:16'
