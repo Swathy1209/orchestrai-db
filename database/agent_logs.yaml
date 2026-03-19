@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    interview Q&A for CareerNest - Machine Learning'
-  status: error
-  timestamp: '2026-03-16T08:01:11'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
     India Private Limited - Artificial Intelligence (AI)'
@@ -2598,3 +2593,8 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-19T07:37:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-19T07:37:29'
