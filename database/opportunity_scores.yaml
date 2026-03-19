@@ -1019,3 +1019,48 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: MeshyAI
+  role: Data Science Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Waters Corporation
+  role: AI Engineer Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: FTI Defense - Frontier Technology Inc.
+  role: AI/ML Engineering Internship
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Sofar Ocean
+  role: Machine Learning Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Command Post Technologies, Inc
+  role: AI/Machine Learning Software Engineering Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Neurasys
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Alchelyst India Pvt Ltd
+  role: Techno Functional Operations/Data Analyst
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Bharat Diamond Bourse
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Syncretic Engineering
+  role: Business Analyst/Data Analyst/Office Executive
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
