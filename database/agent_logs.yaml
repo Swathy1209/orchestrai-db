@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
-    for The Institute for Advanced Learning and Research - Artificial Intelligence
-    / Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-16T08:00:55'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
@@ -2610,3 +2603,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-03-19T07:33:40'
+- agent: CareerAgent
+  action: 100 jobs fetched, 55 relevant
+  level: INFO
+  timestamp: '2026-03-19T07:33:41'
