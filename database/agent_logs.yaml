@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate interview Q&A for Barclays - Private Bank Processing Business
-    Analyst'
-  status: error
-  timestamp: '2026-03-16T08:02:09'
-- agent: PracticeAgent
   action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate interview
     Q&A for LeadUpAI - AI Engineer'
   status: error
@@ -2602,3 +2596,8 @@ logs:
     interview Q&A for Lensa - Intern, Data Science'
   status: error
   timestamp: '2026-03-19T07:39:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern - Data Science'
+  status: error
+  timestamp: '2026-03-19T07:39:11'
