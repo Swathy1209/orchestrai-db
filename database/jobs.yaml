@@ -1867,4 +1867,87 @@ jobs:
   technical_skills: []
   source: Unstop
   timestamp: '2026-03-18T07:35:42.416761+00:00'
-last_updated: '2026-03-18T07:36:34.463785+00:00'
+- company: MeshyAI
+  role: Data Science Intern
+  location: Sunnyvale, CA45 minutes ago
+  apply_link: https://www.linkedin.com/jobs/view/data-science-intern-at-meshyai-4371667939?position=6&pageNum=0&refId=cU4Eyz5zW492ggsGYeZ%2Fzg%3D%3D&trackingId=t8SVkjvl9nCGiTODCWmRig%3D%3D
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-19T07:30:59.111186+00:00'
+- company: Waters Corporation
+  role: AI Engineer Intern
+  location: Milford, MA1 day ago
+  apply_link: https://www.linkedin.com/jobs/view/ai-engineer-intern-at-waters-corporation-4386914429?position=3&pageNum=0&refId=7kWWzbLD8q3Bz4uNOwpVpw%3D%3D&trackingId=vASYGePO5bmaq7iZtBE31Q%3D%3D
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-19T07:31:01.656625+00:00'
+- company: FTI Defense - Frontier Technology Inc.
+  role: AI/ML Engineering Internship
+  location: Orlando, FL2 days ago
+  apply_link: https://www.linkedin.com/jobs/view/ai-ml-engineering-internship-at-fti-defense-frontier-technology-inc-4386507536?position=6&pageNum=0&refId=7kWWzbLD8q3Bz4uNOwpVpw%3D%3D&trackingId=7C1aSaHXkUSHpSRd7sqDeA%3D%3D
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-19T07:31:01.657898+00:00'
+- company: Sofar Ocean
+  role: Machine Learning Intern
+  location: San Francisco, CA3 hours ago
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-intern-at-sofar-ocean-4387672690?position=4&pageNum=0&refId=7MmWrWRIfBqKxWIpzp%2Bteg%3D%3D&trackingId=Hq%2FgTYmFb1kFG6F9CgemLg%3D%3D
+  role_keywords:
+  - Data Science
+  - Machine Learning
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-19T07:31:03.998662+00:00'
+- company: Command Post Technologies, Inc
+  role: AI/Machine Learning Software Engineering Intern
+  location: Orlando, FL9 hours ago
+  apply_link: https://www.linkedin.com/jobs/view/ai-machine-learning-software-engineering-intern-at-command-post-technologies-inc-4387171432?position=9&pageNum=0&refId=7MmWrWRIfBqKxWIpzp%2Bteg%3D%3D&trackingId=fnok08GmOQu6qx99cFMCwA%3D%3D
+  role_keywords:
+  - Data Science
+  - Machine Learning
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-19T07:31:04.001735+00:00'
+- company: Neurasys
+  role: Machine Learning
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-neurasys1773899476
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-19T07:30:58.679446+00:00'
+- company: Alchelyst India Pvt Ltd
+  role: Techno Functional Operations/Data Analyst
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/techno-functional-operations-data-analyst-internship-in-bangalore-at-alchelyst-india-pvt-ltd1773892952
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-19T07:30:58.680738+00:00'
+- company: Bharat Diamond Bourse
+  role: Artificial Intelligence (AI)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-mumbai-at-bharat-diamond-bourse1773834730
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-19T07:31:00.766428+00:00'
+- company: Syncretic Engineering
+  role: Business Analyst/Data Analyst/Office Executive
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/business-analyst-data-analyst-office-executive-internship-in-bhopal-at-syncretic-engineering1773841939
+  role_keywords:
+  - Data Analytics
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-19T07:31:05.251572+00:00'
+last_updated: '2026-03-19T07:31:49.342714+00:00'
