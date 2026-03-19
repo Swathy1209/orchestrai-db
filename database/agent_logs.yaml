@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-17T07:41:45'
-- agent: PracticeAgent
   action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
     Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
     - Machine Learning'
@@ -2647,3 +2642,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-19T07:41:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-19T07:41:27'
