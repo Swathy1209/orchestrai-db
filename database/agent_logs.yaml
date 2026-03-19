@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    interview Q&A for Unnati Enterprises - Data Science'
-  status: error
-  timestamp: '2026-03-17T07:41:36'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     interview Q&A for Unknown - Data Science Intern'
   status: error
@@ -2647,3 +2642,9 @@ logs:
     to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
   status: error
   timestamp: '2026-03-19T07:41:16'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate interview Q&A for AmRit Hub Private Limited - Artificial
+    Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-19T07:41:17'
