@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-17T07:41:03'
-- agent: PracticeAgent
   action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
@@ -2646,3 +2640,8 @@ logs:
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-19T07:40:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
+    to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
+  status: error
+  timestamp: '2026-03-19T07:40:50'
