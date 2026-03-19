@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Hamsi Marketing Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-16T08:02:24'
-- agent: PracticeAgent
   action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
     Collection): Gemini failed to generate interview Q&A for Maiway Technologies -
     Data Engineer (Data Engineer/Data Collection)'
@@ -2602,3 +2596,8 @@ logs:
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-19T07:39:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-19T07:39:31'
