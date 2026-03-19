@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
-    failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
-    (PhD)'
-  status: error
-  timestamp: '2026-03-16T08:00:54'
-- agent: PracticeAgent
   action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
     Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
     for The Institute for Advanced Learning and Research - Artificial Intelligence
@@ -2612,3 +2606,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-03-19T07:33:34'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-03-19T07:33:40'
