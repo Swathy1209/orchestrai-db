@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Maximus - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-17T07:41:27'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
@@ -2645,3 +2640,9 @@ logs:
     Learning - Summer 2026 Intern'
   status: error
   timestamp: '2026-03-19T07:41:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
+    Intern (Summer 2026 - In-Person - NYC)'
+  status: error
+  timestamp: '2026-03-19T07:41:11'
