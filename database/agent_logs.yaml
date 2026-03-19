@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
-    Vision'
-  status: error
-  timestamp: '2026-03-16T08:01:02'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Machine Learning Intern'
@@ -2600,3 +2594,8 @@ logs:
     generate interview Q&A for Cylinder Health - Junior Data Engineer'
   status: error
   timestamp: '2026-03-19T07:37:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-19T07:37:16'
