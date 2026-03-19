@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 0 expired jobs
-  status: completed
-  expired_removed: 0
-  timestamp: '2026-03-17T07:38:34'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2638,3 +2633,8 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-19T07:40:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
+    to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
+  status: error
+  timestamp: '2026-03-19T07:40:15'
