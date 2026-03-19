@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
-    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
-    Data Science Intern'
-  status: error
-  timestamp: '2026-03-17T07:42:11'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
     Machine Learning Engineering Internship - Summer 2026'
@@ -2648,3 +2642,8 @@ logs:
     interview Q&A for MeshyAI - Data Science Intern'
   status: error
   timestamp: '2026-03-19T07:42:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
+    to generate interview Q&A for Waters Corporation - AI Engineer Intern'
+  status: error
+  timestamp: '2026-03-19T07:42:11'
