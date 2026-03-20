@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science BI, Intern'
-  status: error
-  timestamp: '2026-03-18T07:44:32'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
     Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Machine Learning Engineer Intern - Data-Search-TikTok Recommendation
@@ -2652,3 +2647,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-20T07:41:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-20T07:41:45'
