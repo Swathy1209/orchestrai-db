@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 203 internships
-  status: success
-  timestamp: '2026-03-18T07:41:37'
 - agent: CoverLetterAgent
   action: Generated 203 cover letters
   status: success
@@ -2639,3 +2635,9 @@ logs:
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
   timestamp: '2026-03-20T07:39:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
+    - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-20T07:39:04'
