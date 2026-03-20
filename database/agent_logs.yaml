@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
-    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
-    Science'
-  status: error
-  timestamp: '2026-03-18T07:45:43'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Artificial Intelligence Intern'
@@ -2647,3 +2641,9 @@ logs:
     interview Q&A for Neurasys - Machine Learning'
   status: error
   timestamp: '2026-03-20T07:42:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
+    Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
+    Techno Functional Operations/Data Analyst'
+  status: error
+  timestamp: '2026-03-20T07:42:41'
