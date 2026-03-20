@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
-  status: error
-  timestamp: '2026-03-17T07:43:24'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
@@ -2599,3 +2594,9 @@ logs:
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
   timestamp: '2026-03-20T07:36:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
+    Intern – Operations'
+  status: error
+  timestamp: '2026-03-20T07:36:37'
