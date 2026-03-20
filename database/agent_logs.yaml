@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-17T07:42:54'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
     failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
     Vision'
@@ -2614,3 +2608,7 @@ logs:
   action: 101 jobs fetched
   level: INFO
   timestamp: '2026-03-20T07:31:53'
+- agent: CareerAgent
+  action: 101 jobs fetched, 54 relevant
+  level: INFO
+  timestamp: '2026-03-20T07:31:54'
