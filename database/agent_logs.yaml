@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Veolia - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-17T07:42:50'
-- agent: PracticeAgent
   action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
     Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
     Analyst Intern'
@@ -2620,3 +2615,8 @@ logs:
   status: completed
   jobs_scraped: 14
   timestamp: '2026-03-20T07:30:15'
+- agent: InternshipScraperAgent
+  action: Removed 1 expired jobs
+  status: completed
+  expired_removed: 1
+  timestamp: '2026-03-20T07:31:38'
