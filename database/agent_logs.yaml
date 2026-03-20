@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
-    failed to generate interview Q&A for Cornerstone Building Brands - Data Analyst
-    Intern'
-  status: error
-  timestamp: '2026-03-18T07:42:58'
-- agent: PracticeAgent
   action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
     Q&A for Go Offer - Data Analyst'
   status: error
@@ -2652,3 +2646,8 @@ logs:
     Analyst Internship'
   status: error
   timestamp: '2026-03-20T07:39:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-20T07:39:40'
