@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
-    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-18T07:45:07'
-- agent: PracticeAgent
   action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
     failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
     Intern'
@@ -2652,3 +2647,9 @@ logs:
     Analyst Intern'
   status: error
   timestamp: '2026-03-20T07:42:05'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
+    (Hourly)'
+  status: error
+  timestamp: '2026-03-20T07:42:07'
