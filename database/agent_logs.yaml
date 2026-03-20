@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
-    - 2026 Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
-    Analyst Project Intern(TikTok- Operations) - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-17T07:43:52'
-- agent: PracticeAgent
   action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
@@ -2599,3 +2593,9 @@ logs:
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
   timestamp: '2026-03-20T07:37:05'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
+    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-20T07:37:06'
