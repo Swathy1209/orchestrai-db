@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-18T07:45:36'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
     failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
     Vision'
@@ -2649,3 +2643,8 @@ logs:
     interview Q&A for MeshyAI - Data Science Intern'
   status: error
   timestamp: '2026-03-20T07:42:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
+    to generate interview Q&A for Waters Corporation - AI Engineer Intern'
+  status: error
+  timestamp: '2026-03-20T07:42:31'
