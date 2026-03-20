@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
-    Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
-    Analyst Intern (BA-I) - Summer 2026'
-  status: error
-  timestamp: '2026-03-18T07:43:22'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
@@ -2650,3 +2643,9 @@ logs:
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
   timestamp: '2026-03-20T07:40:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Zetheta Algorithms Private
+    Limited - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-20T07:40:29'
