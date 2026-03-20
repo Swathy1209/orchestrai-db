@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
-    Q&A for AARP - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-17T07:43:17'
-- agent: PracticeAgent
   action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
     interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
   status: error
@@ -2598,3 +2593,8 @@ logs:
     to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
   status: error
   timestamp: '2026-03-20T07:36:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-20T07:36:24'
