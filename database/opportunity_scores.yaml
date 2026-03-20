@@ -1064,3 +1064,33 @@
   match_score: 75
   selection_probability: Medium
   priority: Strong Consideration
+- company: Talkspace
+  role: Marketing Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Havas Edge
+  role: Business Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Nihon Kohden Digital Health Solutions
+  role: Finance/Business Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Artha Energy Projects Private Limited
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: VVP Healthcare Evolution Pvt Ltd
+  role: AI/ML Engineer
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: InfiVR
+  role: Machine Learning Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
