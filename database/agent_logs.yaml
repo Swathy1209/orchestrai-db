@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched, 55 relevant
-  level: INFO
-  timestamp: '2026-03-19T07:31:47'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-19T07:31:50'
@@ -2636,3 +2632,9 @@ logs:
     States'
   status: error
   timestamp: '2026-03-21T07:19:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-21T07:19:13'
