@@ -1491,42 +1491,77 @@
 - company: Talkspace
   role: Marketing Data Analyst Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/talkspace_marketing_data_analyst_intern.md
   apply_link: https://www.linkedin.com/jobs/view/marketing-data-analyst-intern-at-talkspace-4385074535?position=7&pageNum=0&refId=iI41cLrhzk7nqC2h0ODRsA%3D%3D&trackingId=fzUhK3I%2Fje5grNuJsr3BnA%3D%3D
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/talkspace_marketing_data_analyst_intern.md
 - company: Havas Edge
   role: Business Analyst Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/havas_edge_business_analyst_intern.md
   apply_link: https://www.linkedin.com/jobs/view/business-analyst-intern-at-havas-edge-4388135492?position=4&pageNum=0&refId=qUIhm7LFfP04t49GmE5XvA%3D%3D&trackingId=qDPTtqtGTenScuU1CWFI9w%3D%3D
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/havas_edge_business_analyst_intern.md
 - company: Nihon Kohden Digital Health Solutions
   role: Finance/Business Analyst Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/nihon_kohden_digital_health_solutions_finance_business_analyst_intern.md
   apply_link: https://www.linkedin.com/jobs/view/finance-business-analyst-intern-at-nihon-kohden-digital-health-solutions-4387758063?position=9&pageNum=0&refId=qUIhm7LFfP04t49GmE5XvA%3D%3D&trackingId=HuO8nfIKsePCO69Z6mTJLw%3D%3D
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/nihon_kohden_digital_health_solutions_finance_business_analyst_intern.md
 - company: Artha Energy Projects Private Limited
   role: Data Science
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/artha_energy_projects_private_limited_data_science.md
   apply_link: https://internshala.com/internship/detail/data-science-internship-in-mumbai-at-artha-energy-projects-private-limited1773978168
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/artha_energy_projects_private_limited_data_science.md
 - company: VVP Healthcare Evolution Pvt Ltd
   role: AI/ML Engineer
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/vvp_healthcare_evolution_pvt_ltd_ai_ml_engineer.md
   apply_link: https://internshala.com/internship/detail/ai-ml-engineer-internship-in-mumbai-at-vvp-healthcare-evolution-pvt-ltd1773936845
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/vvp_healthcare_evolution_pvt_ltd_ai_ml_engineer.md
 - company: InfiVR
   role: Machine Learning Intern
   resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
-  cover_letter_link: No Cover Letter Generated
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/infivr_machine_learning_intern.md
   apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-intern-internship-at-infivr1773915727
   status: Ready to Apply
   application_package_link: https://orchestrai-agent.onrender.com/application_packages/infivr_machine_learning_intern.md
+- company: Cognitiv
+  role: Machine Learning Engineer Intern (Summer 2026)
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/cognitiv_machine_learning_engineer_intern_summer_.md
+  apply_link: https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-summer-2026-at-cognitiv-4387985095?position=5&pageNum=0&refId=ozWHK8d938yWVt2VO%2B5Jew%3D%3D&trackingId=KM1iklNwK9%2FV6cSQolGbwQ%3D%3D
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/cognitiv_machine_learning_engineer_intern_summer_2026.md
+- company: Zello
+  role: AI & ML Engineering Intern
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/zello_ai_ml_engineering_intern.md
+  apply_link: https://www.linkedin.com/jobs/view/ai-ml-engineering-intern-at-zello-4388206688?position=5&pageNum=0&refId=p2z%2BgVNly53HXhtiXYqdgA%3D%3D&trackingId=N1qOIMF2bHZyxXMId6A2%2FA%3D%3D
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/zello_ai_ml_engineering_intern.md
+- company: Emoolar Technology Private Limited
+  role: Data Science
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/emoolar_technology_private_limited_data_science.md
+  apply_link: https://internshala.com/internship/detail/work-from-home-part-time-data-science-internship-at-emoolar-technology-private-limited1774072018
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/emoolar_technology_private_limited_data_science.md
+- company: Infits
+  role: Machine Learning
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/infits_machine_learning.md
+  apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-infits1774010294
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/infits_machine_learning.md
+- company: Deloitte
+  role: Business Analyst
+  resume_link: https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+  cover_letter_link: https://orchestrai-agent.onrender.com/cover_letters/deloitte_business_analyst.md
+  apply_link: https://unstop.com/jobs/1662862
+  status: Ready to Apply
+  application_package_link: https://orchestrai-agent.onrender.com/application_packages/deloitte_business_analyst.md
