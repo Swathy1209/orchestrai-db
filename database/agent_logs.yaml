@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-19T07:37:29'
-- agent: PracticeAgent
   action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
     interview Q&A for Typeface - ML Engineer Intern'
   status: error
@@ -2657,3 +2652,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-21T07:20:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
+    interview Q&A for Deloitte - AWS Data Engineer'
+  status: error
+  timestamp: '2026-03-21T07:20:20'
