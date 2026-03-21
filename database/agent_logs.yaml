@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-18T07:47:43'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate interview Q&A for Barclays - Private Bank Processing Business
     Analyst'
@@ -2613,3 +2607,8 @@ logs:
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
   timestamp: '2026-03-21T07:17:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    interview Q&A for Unnati Enterprises - Data Science'
+  status: error
+  timestamp: '2026-03-21T07:17:12'
