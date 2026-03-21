@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
-    interview Q&A for Primetrade.ai - Data Science'
-  status: error
-  timestamp: '2026-03-19T07:38:32'
-- agent: PracticeAgent
   action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
     failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
     Intern'
@@ -2658,3 +2653,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-21T07:21:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-21T07:21:21'
