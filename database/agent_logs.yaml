@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-19T07:31:53'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-19T07:31:56'
@@ -2642,3 +2638,9 @@ logs:
     Learning Engineer'
   status: error
   timestamp: '2026-03-21T07:19:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
+    Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Data Science Intern'
+  status: error
+  timestamp: '2026-03-21T07:19:19'
