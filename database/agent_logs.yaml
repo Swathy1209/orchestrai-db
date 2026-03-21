@@ -1,8 +1,4 @@
 logs:
-- agent: InterviewCoachAgent
-  action: Generated 203 interview simulation pages
-  status: success
-  timestamp: '2026-03-18T07:58:56'
 - agent: PerInternshipPortfolioAgent
   action: Generated 203 per-internship portfolio pages
   status: success
@@ -2626,3 +2622,9 @@ logs:
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
   timestamp: '2026-03-21T07:18:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
+    - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-21T07:18:58'
