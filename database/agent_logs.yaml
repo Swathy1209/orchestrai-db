@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
-    generate interview Q&A for Lensa - Business Analyst Intern Remote'
-  status: error
-  timestamp: '2026-03-18T07:47:51'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
     failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
     Intern'
@@ -2611,3 +2606,8 @@ logs:
     - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-21T07:17:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Unknown - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-21T07:17:25'
