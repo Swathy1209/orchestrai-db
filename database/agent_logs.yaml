@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
-    to generate interview Q&A for Taylor Corporation - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-18T07:46:52'
-- agent: PracticeAgent
   action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
@@ -2616,3 +2611,7 @@ logs:
   status: success
   timestamp: '2026-03-21T07:12:06'
   details: Analyzed 223 jobs.
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 223 internships
+  status: success
+  timestamp: '2026-03-21T07:14:04'
