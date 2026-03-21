@@ -2618,7 +2618,8 @@ logs:
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
   timestamp: '2026-03-21T07:18:47'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 223 internships
-  status: success
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
   timestamp: '2026-03-21T07:18:48'
