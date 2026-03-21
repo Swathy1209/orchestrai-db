@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
-    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
-    Intern'
-  status: error
-  timestamp: '2026-03-19T07:38:34'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
     interview Q&A for Tatari - Data Science, Intern'
   status: error
@@ -2659,3 +2653,8 @@ logs:
     Analyst'
   status: error
   timestamp: '2026-03-21T07:21:21'
+- agent: PracticeAgent
+  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate interview
+    Q&A for LeadUpAI - AI Engineer'
+  status: error
+  timestamp: '2026-03-21T07:21:23'
