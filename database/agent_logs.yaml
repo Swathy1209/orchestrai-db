@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-18T07:46:13'
-- agent: PracticeAgent
   action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Bipolar Factory - Artificial Intelligence
     (AI)'
@@ -2638,3 +2633,7 @@ logs:
   action: Generated 218 interview simulation pages
   status: success
   timestamp: '2026-03-20T07:52:51'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-21T07:08:32'
