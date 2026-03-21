@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-19T07:39:41'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Data Science Intern'
@@ -2660,3 +2654,8 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-21T07:22:21'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    interview Q&A for InfiVR - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-21T07:22:22'
