@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-18T07:46:19'
-- agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
   status: error
@@ -2634,3 +2628,7 @@ logs:
   action: 105 jobs fetched, 57 relevant
   level: INFO
   timestamp: '2026-03-21T07:09:23'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-21T07:09:27'
