@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
-    to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
-  status: error
-  timestamp: '2026-03-18T07:47:00'
-- agent: PracticeAgent
   action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
     Gemini failed to generate interview Q&A for Los Angeles Kings - Summer Intern,
     Data Science (LA Kings)'
@@ -2611,3 +2606,8 @@ logs:
     to generate interview Q&A for RefinedScience - Data Engineering Intern'
   status: error
   timestamp: '2026-03-21T07:15:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-21T07:16:02'
