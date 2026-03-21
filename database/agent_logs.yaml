@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate interview
-    Q&A for Carer Ai - Data Science'
-  status: error
-  timestamp: '2026-03-18T07:48:27'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Career Solutions - Artificial Intelligence
     (AI)'
@@ -2611,3 +2606,9 @@ logs:
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
   timestamp: '2026-03-21T07:18:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-21T07:18:03'
