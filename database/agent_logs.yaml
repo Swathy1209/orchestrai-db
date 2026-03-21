@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-18T07:48:08'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
     interview Q&A for Sungrow - Data Analyst Internship'
   status: error
@@ -2612,3 +2607,8 @@ logs:
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-21T07:17:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    interview Q&A for Primetrade.ai - Data Science'
+  status: error
+  timestamp: '2026-03-21T07:17:42'
