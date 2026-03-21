@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REVOLVE Data Science Intern: Gemini failed to generate
-    interview Q&A for REVOLVE - Data Science Intern'
-  status: error
-  timestamp: '2026-03-18T07:48:03'
-- agent: PracticeAgent
   action: 'Failed portal for Xometry Machine Learning Intern: Gemini failed to generate
     interview Q&A for Xometry - Machine Learning Intern'
   status: error
@@ -2611,3 +2606,9 @@ logs:
     Data Analyst Intern'
   status: error
   timestamp: '2026-03-21T07:17:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
+    + Evaluation)'
+  status: error
+  timestamp: '2026-03-21T07:17:39'
