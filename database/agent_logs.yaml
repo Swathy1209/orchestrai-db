@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
-    interview Q&A for ARVO - Internship - Computer Vision'
-  status: error
-  timestamp: '2026-03-18T07:47:14'
-- agent: PracticeAgent
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
   status: error
@@ -2611,3 +2606,9 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-21T07:16:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
+  status: error
+  timestamp: '2026-03-21T07:16:32'
