@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
-    Q&A for Ramesh S - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-18T07:47:40'
-- agent: PracticeAgent
   action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
     Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
     Intelligence (AI)'
@@ -2613,3 +2608,8 @@ logs:
     Analyst Intern (BA-I) - Summer 2026'
   status: error
   timestamp: '2026-03-21T07:17:00'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-21T07:17:04'
