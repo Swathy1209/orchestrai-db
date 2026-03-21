@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
-    Planning'
-  status: error
-  timestamp: '2026-03-19T07:38:49'
-- agent: PracticeAgent
   action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
     Design & Development: Gemini failed to generate interview Q&A for Product Manager
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
@@ -2658,3 +2652,8 @@ logs:
     interview Q&A for REVOLVE - Data Science Intern'
   status: error
   timestamp: '2026-03-21T07:21:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Xometry Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Xometry - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-21T07:21:35'
