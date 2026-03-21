@@ -1094,3 +1094,28 @@
   match_score: 80
   selection_probability: Medium
   priority: Apply Now
+- company: Cognitiv
+  role: Machine Learning Engineer Intern (Summer 2026)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Zello
+  role: AI & ML Engineering Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Emoolar Technology Private Limited
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Infits
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Deloitte
+  role: Business Analyst
+  match_score: 65
+  selection_probability: Medium
+  priority: Strong Consideration
