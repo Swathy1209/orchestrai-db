@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
-    failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
-    (Hourly)'
-  status: error
-  timestamp: '2026-03-18T07:48:15'
-- agent: PracticeAgent
   action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Hamsi Marketing Private Limited
     - Artificial Intelligence (AI)'
@@ -2612,3 +2606,9 @@ logs:
     to generate interview Q&A for targetjobs UK - Business Analyst Internship'
   status: error
   timestamp: '2026-03-21T07:17:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
+    Science'
+  status: error
+  timestamp: '2026-03-21T07:17:53'
