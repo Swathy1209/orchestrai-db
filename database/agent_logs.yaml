@@ -2673,7 +2673,7 @@ logs:
   status: error
   timestamp: '2026-03-22T07:21:14'
 - agent: PracticeAgent
-  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
-    to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
+  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
+    Q&A for Ramesh S - AI/ML Engineer'
   status: error
-  timestamp: '2026-03-22T07:21:15'
+  timestamp: '2026-03-22T07:21:16'
