@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
-    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-20T07:38:36'
-- agent: PracticeAgent
   action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
     generate interview Q&A for Talentrift - Business Analyst Intern'
   status: error
@@ -2673,3 +2668,8 @@ logs:
     - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-22T07:21:49'
+- agent: PracticeAgent
+  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate interview
+    Q&A for GCCX - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-22T07:21:50'
