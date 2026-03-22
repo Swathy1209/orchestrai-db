@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
-    Planning'
-  status: error
-  timestamp: '2026-03-20T07:38:16'
-- agent: PracticeAgent
   action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
     Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
     Data Science Intern'
@@ -2671,8 +2665,13 @@ logs:
   status: error
   timestamp: '2026-03-22T07:21:31'
 - agent: PracticeAgent
-  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
-    Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
-    Analyst Intern'
+  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
+    interview Q&A for Sungrow - Data Analyst Internship'
   status: error
-  timestamp: '2026-03-22T07:21:33'
+  timestamp: '2026-03-22T07:21:32'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
+    (Hourly)'
+  status: error
+  timestamp: '2026-03-22T07:21:35'
