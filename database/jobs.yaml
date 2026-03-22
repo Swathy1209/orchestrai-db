@@ -2048,4 +2048,47 @@ jobs:
   technical_skills: []
   source: Unstop
   timestamp: '2026-03-21T07:08:34.293205+00:00'
-last_updated: '2026-03-21T07:09:26.147848+00:00'
+- company: DISH TV
+  role: AI Data Analyst Intern
+  location: Littleton, CO1 week ago
+  apply_link: https://www.linkedin.com/jobs/view/ai-data-analyst-intern-at-dish-tv-4383241889?position=10&pageNum=0&refId=91XtrdFtbcfvmQASiNI3EQ%3D%3D&trackingId=ZHKZV9lbLd8%2BWVWgOjPToA%3D%3D
+  role_keywords:
+  - Data Analyst intern
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-22T07:13:07.553933+00:00'
+- company: Raviraj Sarees Pvt Ltd
+  role: Artificial Intelligence (AI)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/part-time-artificial-intelligence-ai-internship-in-surat-at-raviraj-sarees-pvt-ltd1774093623
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-22T07:13:01.999820+00:00'
+- company: SkillLevel
+  role: Machine Learning
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-internship-at-skilllevel1774086354
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-22T07:13:02.084277+00:00'
+- company: Myntra
+  role: Associate -Data Analyst
+  location: India
+  apply_link: https://unstop.com/jobs/1662959
+  role_keywords: []
+  technical_skills: []
+  source: Unstop
+  timestamp: '2026-03-22T07:13:00.398914+00:00'
+- company: Cult Fit
+  role: Data Analyst
+  location: India
+  apply_link: https://unstop.com/jobs/1663258
+  role_keywords: []
+  technical_skills: []
+  source: Unstop
+  timestamp: '2026-03-22T07:13:00.398986+00:00'
+last_updated: '2026-03-22T07:13:49.936095+00:00'
