@@ -2669,7 +2669,7 @@ logs:
   status: error
   timestamp: '2026-03-22T07:21:49'
 - agent: PracticeAgent
-  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate interview
-    Q&A for GCCX - AI/ML Engineer'
+  action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
+    interview Q&A for MeshyAI - Data Science Intern'
   status: error
-  timestamp: '2026-03-22T07:21:50'
+  timestamp: '2026-03-22T07:21:51'
