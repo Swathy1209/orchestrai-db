@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Almost Magic Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-19T07:42:06'
-- agent: PracticeAgent
   action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
     interview Q&A for MeshyAI - Data Science Intern'
   status: error
@@ -2618,12 +2612,18 @@ logs:
   status: error
   timestamp: '2026-03-22T07:19:04'
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science, Intern'
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
   status: error
-  timestamp: '2026-03-22T07:19:06'
+  timestamp: '2026-03-22T07:19:05'
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
-    Q&A for Accredian - Data Science'
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-22T07:19:09'
+  timestamp: '2026-03-22T07:19:08'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-22T07:19:10'
