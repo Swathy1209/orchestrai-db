@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
-    failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
-    Intern'
-  status: error
-  timestamp: '2026-03-19T07:41:32'
-- agent: PracticeAgent
   action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
     interview Q&A for DevTown - Data Science Mentor'
   status: error
@@ -2631,3 +2625,8 @@ logs:
     failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
   status: error
   timestamp: '2026-03-22T07:18:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-22T07:18:44'
