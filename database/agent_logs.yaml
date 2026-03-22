@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
-    Gemini failed to generate interview Q&A for Crustdata (YC F24) - ML Engineer Intern
-    (Summer 2026)'
-  status: error
-  timestamp: '2026-03-19T07:42:04'
-- agent: PracticeAgent
   action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Infoware - Artificial Intelligence (AI)'
   status: error
@@ -2628,3 +2622,9 @@ logs:
     interview Q&A for Primetrade.ai - Data Science'
   status: error
   timestamp: '2026-03-22T07:19:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-22T07:19:05'
