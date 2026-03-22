@@ -2674,7 +2674,7 @@ logs:
   status: error
   timestamp: '2026-03-22T07:20:17'
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
-    interview Q&A for Tech Phoenix - Data Engineer Intern'
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    interview Q&A for EXL - Data Analyst Associate'
   status: error
-  timestamp: '2026-03-22T07:20:18'
+  timestamp: '2026-03-22T07:20:19'
