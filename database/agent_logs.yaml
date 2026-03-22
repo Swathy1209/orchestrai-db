@@ -2624,7 +2624,8 @@ logs:
   status: error
   timestamp: '2026-03-22T07:18:20'
 - agent: PracticeAgent
-  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
-    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
+    Intern – Operations'
   status: error
-  timestamp: '2026-03-22T07:18:21'
+  timestamp: '2026-03-22T07:18:22'
