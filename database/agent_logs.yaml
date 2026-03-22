@@ -2618,13 +2618,12 @@ logs:
   status: error
   timestamp: '2026-03-22T07:19:04'
 - agent: PracticeAgent
-  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
-    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
-    Intern'
+  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science, Intern'
   status: error
-  timestamp: '2026-03-22T07:19:05'
+  timestamp: '2026-03-22T07:19:06'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Business Analyst Intern'
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
   status: error
-  timestamp: '2026-03-22T07:19:08'
+  timestamp: '2026-03-22T07:19:09'
