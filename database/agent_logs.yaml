@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAnalyticsAgent
-  action: Generated analytics dashboard — readiness=75.4
-  status: completed
-  timestamp: '2026-03-19T07:48:36'
 - agent: InterviewCoachAgent
   action: Generated 212 interview simulation pages
   status: success
@@ -2643,3 +2639,9 @@ logs:
     generate interview Q&A for Talentrift - Business Analyst Intern'
   status: error
   timestamp: '2026-03-22T07:19:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
+    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
+    Analyst Innovation Intern'
+  status: error
+  timestamp: '2026-03-22T07:19:32'
