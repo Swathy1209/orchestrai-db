@@ -1,10 +1,5 @@
 logs:
 - agent: InternshipScraperAgent
-  action: Scrape completed, added 14 jobs
-  status: completed
-  jobs_scraped: 14
-  timestamp: '2026-03-20T07:30:15'
-- agent: InternshipScraperAgent
   action: Removed 1 expired jobs
   status: completed
   expired_removed: 1
@@ -2655,3 +2650,9 @@ logs:
     to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-22T07:19:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
+    Intern'
+  status: error
+  timestamp: '2026-03-22T07:19:43'
