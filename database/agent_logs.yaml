@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate interview Q&A for Barclays - Private Bank Processing Business
-    Analyst'
-  status: error
-  timestamp: '2026-03-19T07:41:27'
-- agent: PracticeAgent
   action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate interview
     Q&A for LeadUpAI - AI Engineer'
   status: error
@@ -2629,5 +2623,12 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
     interview Q&A for Maximus - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-22T07:18:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
+    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
+    Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
+    Analyst Intern (BA-I) - Summer 2026'
   status: error
   timestamp: '2026-03-22T07:18:38'
