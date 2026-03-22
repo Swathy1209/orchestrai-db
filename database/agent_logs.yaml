@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
-    Analyst Innovation Intern'
-  status: error
-  timestamp: '2026-03-20T07:38:39'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
   status: error
@@ -2673,3 +2667,9 @@ logs:
     to generate interview Q&A for Waters Corporation - AI Engineer Intern'
   status: error
   timestamp: '2026-03-22T07:21:52'
+- agent: PracticeAgent
+  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
+    Internship: Gemini failed to generate interview Q&A for FTI Defense - Frontier
+    Technology Inc. - AI/ML Engineering Internship'
+  status: error
+  timestamp: '2026-03-22T07:21:54'
