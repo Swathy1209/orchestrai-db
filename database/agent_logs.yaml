@@ -2670,7 +2670,7 @@ logs:
   status: error
   timestamp: '2026-03-22T07:20:57'
 - agent: PracticeAgent
-  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
-    failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
   status: error
-  timestamp: '2026-03-22T07:20:58'
+  timestamp: '2026-03-22T07:20:59'
