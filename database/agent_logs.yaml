@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate interview Q&A for ACCA Careers - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-20T07:37:11'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
@@ -2673,3 +2668,9 @@ logs:
     to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
   status: error
   timestamp: '2026-03-22T07:20:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
+    Gemini failed to generate interview Q&A for Los Angeles Kings - Summer Intern,
+    Data Science (LA Kings)'
+  status: error
+  timestamp: '2026-03-22T07:20:55'
