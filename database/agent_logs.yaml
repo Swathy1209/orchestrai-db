@@ -2672,7 +2672,8 @@ logs:
   status: error
   timestamp: '2026-03-22T07:22:08'
 - agent: PracticeAgent
-  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
-    interview Q&A for Zello - AI & ML Engineering Intern'
+  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Emoolar Technology Private Limited - Data
+    Science'
   status: error
-  timestamp: '2026-03-22T07:22:09'
+  timestamp: '2026-03-22T07:22:10'
