@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
-    Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
-    Artificial Intelligence/Machine Learning'
-  status: error
-  timestamp: '2026-03-19T07:40:06'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
     interview Q&A for Lensa - Data Science Internship'
   status: error
@@ -2642,3 +2636,7 @@ logs:
   action: 107 jobs fetched, 59 relevant
   level: INFO
   timestamp: '2026-03-22T07:13:48'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-22T07:13:50'
