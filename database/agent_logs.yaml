@@ -2673,7 +2673,7 @@ logs:
   status: error
   timestamp: '2026-03-22T07:20:45'
 - agent: PracticeAgent
-  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
+  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
+    to generate interview Q&A for Newzeninfotech Solutions - Data Science'
   status: error
-  timestamp: '2026-03-22T07:20:46'
+  timestamp: '2026-03-22T07:20:47'
