@@ -1119,3 +1119,28 @@
   match_score: 65
   selection_probability: Medium
   priority: Strong Consideration
+- company: DISH TV
+  role: AI Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Raviraj Sarees Pvt Ltd
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: SkillLevel
+  role: Machine Learning
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Myntra
+  role: Associate -Data Analyst
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Cult Fit
+  role: Data Analyst
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
