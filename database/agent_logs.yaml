@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
-    interview Q&A for Unknown - Data Science Intern'
-  status: error
-  timestamp: '2026-03-21T07:17:14'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
     interview Q&A for Innoknowvex - Machine Learning'
   status: error
@@ -2672,3 +2667,9 @@ logs:
     Intern (Summer 2026 - In-Person - NYC)'
   status: error
   timestamp: '2026-03-23T07:54:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
+    and Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-23T07:54:53'
