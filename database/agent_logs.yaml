@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
-    and Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-20T07:41:25'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
     to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
   status: error
@@ -2622,7 +2616,13 @@ logs:
   status: error
   timestamp: '2026-03-23T07:51:53'
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
+    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
+    degree)'
   status: error
-  timestamp: '2026-03-23T07:51:56'
+  timestamp: '2026-03-23T07:51:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-23T07:51:57'
