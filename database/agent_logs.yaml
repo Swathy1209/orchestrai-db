@@ -2621,7 +2621,7 @@ logs:
   status: error
   timestamp: '2026-03-23T07:52:00'
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
-    interview Q&A for Innoknowvex - Machine Learning'
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
+    Q&A for Innoknowvex - Data Science'
   status: error
-  timestamp: '2026-03-23T07:52:01'
+  timestamp: '2026-03-23T07:52:02'
