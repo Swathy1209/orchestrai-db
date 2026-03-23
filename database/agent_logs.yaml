@@ -2624,8 +2624,7 @@ logs:
   status: error
   timestamp: '2026-03-23T07:51:37'
 - agent: PracticeAgent
-  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
-    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
-    Intern (Summer 2026)'
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
-  timestamp: '2026-03-23T07:51:38'
+  timestamp: '2026-03-23T07:51:39'
