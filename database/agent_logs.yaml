@@ -2669,8 +2669,7 @@ logs:
   status: error
   timestamp: '2026-03-23T07:55:11'
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
-    failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
-    Intern'
+  action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
+    interview Q&A for DevTown - Data Science Mentor'
   status: error
-  timestamp: '2026-03-23T07:55:13'
+  timestamp: '2026-03-23T07:55:15'
