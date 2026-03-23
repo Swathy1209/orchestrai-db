@@ -1144,3 +1144,28 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: Lensa
+  role: Artificial Intelligence Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Lensa
+  role: AI Engineer Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Black Potato Systems
+  role: Data Engineering & Database Research
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Saniya SanjayGaikwad
+  role: Data Science
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Hexa Solution
+  role: Data Analyst
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
