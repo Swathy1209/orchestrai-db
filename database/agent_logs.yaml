@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
-    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
-  status: error
-  timestamp: '2026-03-21T07:18:56'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
     Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
     - Summer 2026 Start'
@@ -2671,3 +2666,7 @@ logs:
   action: Generated analytics dashboard — readiness=75.5
   status: completed
   timestamp: '2026-03-23T07:59:17'
+- agent: InterviewCoachAgent
+  action: Generated 233 interview simulation pages
+  status: success
+  timestamp: '2026-03-23T08:03:22'
