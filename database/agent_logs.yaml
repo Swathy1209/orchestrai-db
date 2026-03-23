@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
-    - 2026 Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
-    Analyst Project Intern(TikTok- Operations) - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-20T07:41:04'
-- agent: PracticeAgent
   action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
@@ -2624,7 +2618,13 @@ logs:
   status: error
   timestamp: '2026-03-23T07:51:31'
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ZURU Toys - Data Analyst Intern'
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
-  timestamp: '2026-03-23T07:51:34'
+  timestamp: '2026-03-23T07:51:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
+    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
+  status: error
+  timestamp: '2026-03-23T07:51:36'
