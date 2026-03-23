@@ -2624,7 +2624,7 @@ logs:
   status: error
   timestamp: '2026-03-23T07:51:31'
 - agent: PracticeAgent
-  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
-    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ZURU Toys - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-23T07:51:33'
+  timestamp: '2026-03-23T07:51:34'
