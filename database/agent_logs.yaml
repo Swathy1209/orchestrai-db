@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
-    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
-    Intern'
-  status: error
-  timestamp: '2026-03-21T07:17:43'
-- agent: PracticeAgent
   action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
     to generate interview Q&A for targetjobs UK - Business Analyst Internship'
   status: error
@@ -2673,3 +2667,9 @@ logs:
     interview Q&A for Diffzene - Machine Learning'
   status: error
   timestamp: '2026-03-23T07:55:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Unessa Foundation - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-23T07:55:20'
