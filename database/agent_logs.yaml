@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate interview
-    Q&A for Carer Ai - Data Science'
-  status: error
-  timestamp: '2026-03-20T07:42:17'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Career Solutions - Artificial Intelligence
     (AI)'
@@ -2630,3 +2625,8 @@ logs:
     Machine Learning Engineering Internship - Summer 2026'
   status: error
   timestamp: '2026-03-23T07:52:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science BI, Intern'
+  status: error
+  timestamp: '2026-03-23T07:52:45'
