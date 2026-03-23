@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
-    to generate interview Q&A for 365 Retail Markets - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-20T07:42:15'
-- agent: PracticeAgent
   action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate interview
     Q&A for Carer Ai - Data Science'
   status: error
@@ -2629,3 +2624,9 @@ logs:
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
   status: error
   timestamp: '2026-03-23T07:52:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
+    Machine Learning Engineering Internship - Summer 2026'
+  status: error
+  timestamp: '2026-03-23T07:52:44'
