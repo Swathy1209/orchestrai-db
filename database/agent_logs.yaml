@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Bipolar Factory - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-20T07:40:14'
-- agent: PracticeAgent
   action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
@@ -2636,3 +2630,7 @@ logs:
   action: 106 jobs fetched, 58 relevant
   level: INFO
   timestamp: '2026-03-23T07:47:15'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-23T07:47:17'
