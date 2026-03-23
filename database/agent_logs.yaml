@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
-    to generate interview Q&A for Cisco - Staff Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-20T07:42:13'
-- agent: PracticeAgent
   action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
     to generate interview Q&A for 365 Retail Markets - Business Analyst Intern'
   status: error
@@ -2628,3 +2623,9 @@ logs:
     Data Science Intern'
   status: error
   timestamp: '2026-03-23T07:52:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate interview Q&A for Product Manager
+    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
+  status: error
+  timestamp: '2026-03-23T07:52:42'
