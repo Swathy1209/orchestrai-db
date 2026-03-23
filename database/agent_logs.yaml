@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-21T07:16:15'
-- agent: PracticeAgent
   action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
   status: error
@@ -2673,3 +2668,9 @@ logs:
     (Remote)'
   status: error
   timestamp: '2026-03-23T07:54:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
+    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
+    Engineering Intern (MS/Ph.D. New Grad)'
+  status: error
+  timestamp: '2026-03-23T07:54:21'
