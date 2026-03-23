@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-21T07:17:19'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
     interview Q&A for Unknown - Machine Learning Intern'
   status: error
@@ -2673,3 +2667,8 @@ logs:
     to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
   status: error
   timestamp: '2026-03-23T07:54:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
+    to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
+  status: error
+  timestamp: '2026-03-23T07:54:55'
