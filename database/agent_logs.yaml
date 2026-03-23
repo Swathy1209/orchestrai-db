@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
-    failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
-  status: error
-  timestamp: '2026-03-20T07:41:07'
-- agent: PracticeAgent
   action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
     to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
   status: error
@@ -2628,3 +2623,9 @@ logs:
     interview Q&A for Aday - Data Analysis Intern'
   status: error
   timestamp: '2026-03-23T07:51:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
+    Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-23T07:51:38'
