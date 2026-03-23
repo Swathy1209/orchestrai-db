@@ -2628,8 +2628,7 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-03-23T07:47:20'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-23T07:47:23'
-  details: Analyzed 233 jobs.
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 2 security fix PRs
+  status: completed
+  timestamp: '2026-03-23T07:47:24'
