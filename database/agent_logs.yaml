@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
-    to generate interview Q&A for Waters Corporation - AI Engineer Intern'
-  status: error
-  timestamp: '2026-03-20T07:42:31'
-- agent: PracticeAgent
   action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
     Internship: Gemini failed to generate interview Q&A for FTI Defense - Frontier
     Technology Inc. - AI/ML Engineering Internship'
@@ -2632,3 +2627,8 @@ logs:
     interview Q&A for Lensa - Intern - Data Science'
   status: error
   timestamp: '2026-03-23T07:52:59'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ARM Institute - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-23T07:53:02'
