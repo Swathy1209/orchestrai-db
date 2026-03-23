@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    interview Q&A for Unnati Enterprises - Data Science'
-  status: error
-  timestamp: '2026-03-21T07:17:12'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     interview Q&A for Unknown - Data Science Intern'
   status: error
@@ -2671,3 +2666,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-23T07:54:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
+    Intern (Summer 2026 - In-Person - NYC)'
+  status: error
+  timestamp: '2026-03-23T07:54:49'
