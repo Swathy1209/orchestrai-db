@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-21T07:17:25'
-- agent: PracticeAgent
   action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
     Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
     - Machine Learning'
@@ -2672,3 +2667,9 @@ logs:
     to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
   status: error
   timestamp: '2026-03-23T07:54:55'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate interview Q&A for AmRit Hub Private Limited - Artificial
+    Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-23T07:54:57'
