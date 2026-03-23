@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
-  status: error
-  timestamp: '2026-03-21T07:19:00'
-- agent: PracticeAgent
   action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
     failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
     (PhD)'
@@ -2668,3 +2663,7 @@ logs:
   action: Generated Application Packages for 233 internships
   status: success
   timestamp: '2026-03-23T08:03:42'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 233 internships
+  status: success
+  timestamp: '2026-03-23T08:03:45'
