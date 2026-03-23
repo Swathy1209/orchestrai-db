@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Hamsi Marketing Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-20T07:42:09'
-- agent: PracticeAgent
   action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
     Collection): Gemini failed to generate interview Q&A for Maiway Technologies -
     Data Engineer (Data Engineer/Data Collection)'
@@ -2627,3 +2621,9 @@ logs:
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
   timestamp: '2026-03-23T07:52:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-23T07:52:38'
