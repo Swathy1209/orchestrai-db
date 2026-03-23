@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-20T07:41:44'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate interview Q&A for Barclays - Private Bank Processing Business
     Analyst'
@@ -2623,7 +2617,13 @@ logs:
   status: error
   timestamp: '2026-03-23T07:52:05'
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
   status: error
-  timestamp: '2026-03-23T07:52:08'
+  timestamp: '2026-03-23T07:52:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
+    - Machine Learning'
+  status: error
+  timestamp: '2026-03-23T07:52:09'
