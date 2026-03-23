@@ -2667,8 +2667,7 @@ logs:
   status: error
   timestamp: '2026-03-23T07:56:07'
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate interview Q&A for Syncretic Engineering -
-    Business Analyst/Data Analyst/Office Executive'
+  action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
   status: error
-  timestamp: '2026-03-23T07:56:08'
+  timestamp: '2026-03-23T07:56:10'
