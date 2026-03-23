@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
-    Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
-    Analyst Intern'
-  status: error
-  timestamp: '2026-03-20T07:42:05'
-- agent: PracticeAgent
   action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
     failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
     (Hourly)'
@@ -2628,3 +2622,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-23T07:52:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
+    Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-23T07:52:35'
