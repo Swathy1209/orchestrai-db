@@ -2623,7 +2623,7 @@ logs:
   status: error
   timestamp: '2026-03-23T07:51:42'
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Go Offer - Business Analyst Intern'
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    interview Q&A for Veolia - Intern - Business Analyst'
   status: error
-  timestamp: '2026-03-23T07:51:43'
+  timestamp: '2026-03-23T07:51:45'
