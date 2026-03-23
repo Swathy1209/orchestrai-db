@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Artha Energy Projects Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-20T07:42:51'
-- agent: PracticeAgent
   action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
     failed to generate interview Q&A for VVP Healthcare Evolution Pvt Ltd - AI/ML
     Engineer'
@@ -2631,3 +2625,8 @@ logs:
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-23T07:53:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-23T07:53:19'
