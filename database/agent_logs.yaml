@@ -1,8 +1,4 @@
 logs:
-- agent: InterviewCoachAgent
-  action: Generated 218 interview simulation pages
-  status: success
-  timestamp: '2026-03-20T07:52:51'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2645,3 +2641,8 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-23T07:53:34'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    interview Q&A for OralKart - Machine Learning'
+  status: error
+  timestamp: '2026-03-23T07:53:37'
