@@ -2629,7 +2629,8 @@ logs:
   status: error
   timestamp: '2026-03-24T07:42:21'
 - agent: PracticeAgent
-  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
-    interview Q&A for OralKart - Machine Learning'
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
+    Science'
   status: error
-  timestamp: '2026-03-24T07:42:22'
+  timestamp: '2026-03-24T07:42:23'
