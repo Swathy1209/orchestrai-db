@@ -2633,8 +2633,7 @@ logs:
   status: error
   timestamp: '2026-03-24T07:41:41'
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
-    Machine Learning Engineering Internship - Summer 2026'
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science BI, Intern'
   status: error
-  timestamp: '2026-03-24T07:41:42'
+  timestamp: '2026-03-24T07:41:43'
