@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    interview Q&A for Unnati Enterprises - Data Science'
-  status: error
-  timestamp: '2026-03-22T07:18:45'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     interview Q&A for Unknown - Data Science Intern'
   status: error
@@ -2666,3 +2661,9 @@ logs:
     interview Q&A for Zello - AI & ML Engineering Intern'
   status: error
   timestamp: '2026-03-24T07:44:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Emoolar Technology Private Limited - Data
+    Science'
+  status: error
+  timestamp: '2026-03-24T07:44:25'
