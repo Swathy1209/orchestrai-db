@@ -2135,4 +2135,31 @@ jobs:
   technical_skills: []
   source: Unstop
   timestamp: '2026-03-23T07:44:45.976542+00:00'
-last_updated: '2026-03-23T07:45:37.129010+00:00'
+- company: C3 AI
+  role: Data Science - Intern (Summer 2026)
+  location: Redwood City, CA8 hours ago
+  apply_link: https://www.linkedin.com/jobs/view/data-science-intern-summer-2026-at-c3-ai-4387522316?position=6&pageNum=0&refId=XIxj14i%2FeY0AX8fFHGDmQg%3D%3D&trackingId=d0v4mcXWPO713ov9OKjd8A%3D%3D
+  role_keywords:
+  - Data Science
+  technical_skills: []
+  source: LinkedIn
+  timestamp: '2026-03-24T07:35:16.753233+00:00'
+- company: Primetrade.ai
+  role: Machine Learning (Modeling and Evaluation)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/work-from-home-machine-learning-modeling-and-evaluation-internship-at-primetradeai1774331030
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-24T07:35:16.372246+00:00'
+- company: DivyaNetra AI
+  role: Artificial Intelligence (AI)
+  location: India / Remote
+  apply_link: https://internshala.com/internship/detail/artificial-intelligence-ai-internship-in-greater-noida-at-divyanetra-ai1774328591
+  role_keywords:
+  - Machine Learning
+  technical_skills: []
+  source: Internshala
+  timestamp: '2026-03-24T07:35:18.366812+00:00'
+last_updated: '2026-03-24T07:36:06.212142+00:00'
