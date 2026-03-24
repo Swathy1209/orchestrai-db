@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
-    Q&A for Innoknowvex - Data Science'
-  status: error
-  timestamp: '2026-03-22T07:18:48'
-- agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
     Private Limited - Computer Vision'
@@ -2667,3 +2662,8 @@ logs:
     Q&A for Infits - Machine Learning'
   status: error
   timestamp: '2026-03-24T07:44:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
+    interview Q&A for Deloitte - Business Analyst'
+  status: error
+  timestamp: '2026-03-24T07:44:27'
