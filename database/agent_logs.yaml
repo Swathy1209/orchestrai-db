@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REVOLVE Data Science Intern: Gemini failed to generate
-    interview Q&A for REVOLVE - Data Science Intern'
-  status: error
-  timestamp: '2026-03-21T07:21:34'
-- agent: PracticeAgent
   action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
   status: error
@@ -2637,3 +2632,9 @@ logs:
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
   status: error
   timestamp: '2026-03-24T07:41:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
+    Machine Learning Engineering Internship - Summer 2026'
+  status: error
+  timestamp: '2026-03-24T07:41:42'
