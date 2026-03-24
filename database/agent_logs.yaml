@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
-    Engineering Intern: Gemini failed to generate interview Q&A for Command Post Technologies,
-    Inc - AI/Machine Learning Software Engineering Intern'
-  status: error
-  timestamp: '2026-03-21T07:22:07'
-- agent: PracticeAgent
   action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
     Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
     Techno Functional Operations/Data Analyst'
@@ -2634,3 +2628,8 @@ logs:
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-24T07:42:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-24T07:42:07'
