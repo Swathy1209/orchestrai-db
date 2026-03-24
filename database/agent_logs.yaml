@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate interview Q&A for Syncretic Engineering -
-    Business Analyst/Data Analyst/Office Executive'
-  status: error
-  timestamp: '2026-03-21T07:22:14'
-- agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
   status: error
@@ -2632,3 +2626,9 @@ logs:
     / Machine Learning Intern'
   status: error
   timestamp: '2026-03-24T07:42:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-24T07:42:14'
