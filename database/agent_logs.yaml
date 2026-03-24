@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
-    interview Q&A for Sungrow - Data Analyst Internship'
-  status: error
-  timestamp: '2026-03-21T07:21:38'
-- agent: PracticeAgent
   action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
     Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
     Analyst Intern'
@@ -2640,3 +2635,8 @@ logs:
     Recommendation - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-24T07:41:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-24T07:41:46'
