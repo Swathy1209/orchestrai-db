@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
-    2026): Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring/Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-21T07:21:07'
-- agent: PracticeAgent
   action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
     Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
     and Machine Learning Intern'
@@ -2635,3 +2629,8 @@ logs:
     interview Q&A for Career Solutions - Data Science'
   status: error
   timestamp: '2026-03-24T07:41:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Unknown - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-24T07:41:21'
