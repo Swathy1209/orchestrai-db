@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Unessa Foundation - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-21T07:21:32'
-- agent: PracticeAgent
   action: 'Failed portal for REVOLVE Data Science Intern: Gemini failed to generate
     interview Q&A for REVOLVE - Data Science Intern'
   status: error
@@ -2635,5 +2629,11 @@ logs:
   action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
     Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
     Data Science Intern'
+  status: error
+  timestamp: '2026-03-24T07:41:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate interview Q&A for Product Manager
+    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
   status: error
   timestamp: '2026-03-24T07:41:41'
