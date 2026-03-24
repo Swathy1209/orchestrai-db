@@ -2633,7 +2633,8 @@ logs:
   status: error
   timestamp: '2026-03-24T07:41:55'
 - agent: PracticeAgent
-  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ARM Institute - Data Analyst Intern'
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
+    - Artificial Intelligence (AI)'
   status: error
-  timestamp: '2026-03-24T07:41:55'
+  timestamp: '2026-03-24T07:41:56'
