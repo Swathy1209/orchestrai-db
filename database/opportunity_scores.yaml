@@ -1169,3 +1169,18 @@
   match_score: 70
   selection_probability: Medium
   priority: Strong Consideration
+- company: C3 AI
+  role: Data Science - Intern (Summer 2026)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Primetrade.ai
+  role: Machine Learning (Modeling and Evaluation)
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: DivyaNetra AI
+  role: Artificial Intelligence (AI)
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
