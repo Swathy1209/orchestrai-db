@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nihon Kohden Digital Health Solutions Finance/Business
-    Analyst Intern: Gemini failed to generate interview Q&A for Nihon Kohden Digital
-    Health Solutions - Finance/Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-21T07:22:18'
-- agent: PracticeAgent
   action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
     failed to generate interview Q&A for Artha Energy Projects Private Limited - Data
     Science'
@@ -2634,3 +2628,9 @@ logs:
     Vision'
   status: error
   timestamp: '2026-03-24T07:42:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-24T07:42:21'
