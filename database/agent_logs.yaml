@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Maximus - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-22T07:18:38'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
@@ -2666,3 +2661,8 @@ logs:
     Business Analyst/Data Analyst/Office Executive'
   status: error
   timestamp: '2026-03-24T07:44:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-24T07:44:16'
