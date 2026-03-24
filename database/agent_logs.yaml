@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
-    Limited - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-21T07:19:43'
-- agent: PracticeAgent
   action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
   status: error
@@ -2644,3 +2638,7 @@ logs:
   status: completed
   jobs_scraped: 14
   timestamp: '2026-03-24T07:37:39'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-24T07:38:48'
