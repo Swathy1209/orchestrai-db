@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-22T07:13:53'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-22T07:13:55'
@@ -2652,5 +2648,10 @@ logs:
   action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Relinns Technologies - Artificial Intelligence
     (AI)'
+  status: error
+  timestamp: '2026-03-24T07:43:01'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-24T07:43:01'
