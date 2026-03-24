@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
-    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
-    Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-22T07:19:01'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
     Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
     + Evaluation)'
@@ -2667,3 +2661,8 @@ logs:
     interview Q&A for Saniya SanjayGaikwad - Data Science'
   status: error
   timestamp: '2026-03-24T07:44:36'
+- agent: PracticeAgent
+  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for C3 AI - Data Science - Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-24T07:44:39'
