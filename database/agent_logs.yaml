@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
-    interview Q&A for Deloitte - AWS Data Engineer'
-  status: error
-  timestamp: '2026-03-21T07:20:20'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate interview Q&A for HSBC - Business Analyst- Transformation'
   status: error
@@ -2638,3 +2633,8 @@ logs:
     2026)'
   status: error
   timestamp: '2026-03-24T07:40:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-24T07:40:43'
