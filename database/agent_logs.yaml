@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate interview Q&A for ACCA Careers - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-22T07:18:39'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
@@ -2666,3 +2661,8 @@ logs:
     to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
   status: error
   timestamp: '2026-03-24T07:44:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Havas Edge - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-24T07:44:17'
