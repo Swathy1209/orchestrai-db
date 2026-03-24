@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 107 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-22T07:13:48'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-22T07:13:50'
@@ -2648,3 +2644,9 @@ logs:
     Q&A for Fractal - Data Engineer'
   status: error
   timestamp: '2026-03-24T07:42:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
+    (Remote)'
+  status: error
+  timestamp: '2026-03-24T07:42:57'
