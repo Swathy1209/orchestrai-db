@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate interview Q&A for Newzeninfotech Solutions - Data Science'
-  status: error
-  timestamp: '2026-03-21T07:20:34'
-- agent: PracticeAgent
   action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
@@ -2637,3 +2632,8 @@ logs:
     to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
   timestamp: '2026-03-24T07:40:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-24T07:40:54'
