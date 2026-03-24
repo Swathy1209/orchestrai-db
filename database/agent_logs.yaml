@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
-    Q&A for Symonis - Machine Learning'
-  status: error
-  timestamp: '2026-03-22T07:18:58'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
     interview Q&A for Lensa - Data Science Intern'
   status: error
@@ -2666,3 +2661,9 @@ logs:
     Q&A for Lensa - AI Engineer Intern'
   status: error
   timestamp: '2026-03-24T07:44:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate interview Q&A for Black Potato Systems - Data Engineering
+    & Database Research'
+  status: error
+  timestamp: '2026-03-24T07:44:35'
