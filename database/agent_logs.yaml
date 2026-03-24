@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
-    (Remote)'
-  status: error
-  timestamp: '2026-03-21T07:20:25'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
     New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
     Engineering Intern (MS/Ph.D. New Grad)'
@@ -2639,3 +2633,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-24T07:40:46'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  status: error
+  timestamp: '2026-03-24T07:40:48'
