@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
-    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
-    Engineering Intern (MS/Ph.D. New Grad)'
-  status: error
-  timestamp: '2026-03-21T07:20:26'
-- agent: PracticeAgent
   action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Relinns Technologies - Artificial Intelligence
     (AI)'
@@ -2638,3 +2632,9 @@ logs:
     to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
   timestamp: '2026-03-24T07:40:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
+    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
+  status: error
+  timestamp: '2026-03-24T07:40:50'
