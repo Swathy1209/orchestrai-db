@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAnalyticsAgent
-  action: Generated analytics dashboard — readiness=75.5
-  status: completed
-  timestamp: '2026-03-21T07:28:22'
 - agent: InterviewCoachAgent
   action: Generated 223 interview simulation pages
   status: success
@@ -2642,3 +2638,8 @@ logs:
     Learning Engineer'
   status: error
   timestamp: '2026-03-24T07:42:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
+    generate interview Q&A for Tatari - Data Science Analyst, Intern'
+  status: error
+  timestamp: '2026-03-24T07:42:48'
