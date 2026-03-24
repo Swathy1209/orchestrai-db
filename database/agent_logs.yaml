@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
-    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
-    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-22T07:18:36'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
     Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Business Analyst Project Intern - Monetization Strategy & Operations
@@ -2667,3 +2661,9 @@ logs:
     Inc - AI/Machine Learning Software Engineering Intern'
   status: error
   timestamp: '2026-03-24T07:44:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
+    Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
+    Techno Functional Operations/Data Analyst'
+  status: error
+  timestamp: '2026-03-24T07:44:13'
