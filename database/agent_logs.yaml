@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Bipolar Factory - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-21T07:20:02'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
     Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
     Learning Engineer'
@@ -2641,3 +2635,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-24T07:40:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-24T07:40:33'
