@@ -2628,8 +2628,7 @@ logs:
   status: error
   timestamp: '2026-03-24T07:41:36'
 - agent: PracticeAgent
-  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
-    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
-    Learning Intern - Summer 2026'
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
-  timestamp: '2026-03-24T07:41:37'
+  timestamp: '2026-03-24T07:41:38'
