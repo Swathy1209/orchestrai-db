@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
-    failed to generate interview Q&A for VVP Healthcare Evolution Pvt Ltd - AI/ML
-    Engineer'
-  status: error
-  timestamp: '2026-03-21T07:22:21'
-- agent: PracticeAgent
   action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
     interview Q&A for InfiVR - Machine Learning Intern'
   status: error
@@ -2634,3 +2628,9 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-24T07:42:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-24T07:42:24'
