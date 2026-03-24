@@ -2632,7 +2632,8 @@ logs:
   status: error
   timestamp: '2026-03-24T07:41:16'
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
+    - Machine Learning'
   status: error
-  timestamp: '2026-03-24T07:41:18'
+  timestamp: '2026-03-24T07:41:19'
