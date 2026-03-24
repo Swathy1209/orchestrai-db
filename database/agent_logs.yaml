@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
-    2026 Intern: Gemini failed to generate interview Q&A for Lensa - Artificial Intelligence/Machine
-    Learning - Summer 2026 Intern'
-  status: error
-  timestamp: '2026-03-21T07:21:03'
-- agent: PracticeAgent
   action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
     failed to generate interview Q&A for Spectral AI - Deep Learning Data Science
     Intern'
@@ -2638,3 +2632,8 @@ logs:
     Private Limited - Computer Vision'
   status: error
   timestamp: '2026-03-24T07:41:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-24T07:41:16'
