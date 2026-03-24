@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-22T07:12:58'
-- agent: CareerAgent
   action: 107 jobs fetched
   level: INFO
   timestamp: '2026-03-22T07:13:11'
@@ -2645,3 +2641,9 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-24T07:42:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-24T07:42:53'
