@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-21T07:20:18'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
     interview Q&A for Deloitte - AWS Data Engineer'
   status: error
@@ -2638,3 +2632,9 @@ logs:
     to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-24T07:40:40'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-24T07:40:42'
