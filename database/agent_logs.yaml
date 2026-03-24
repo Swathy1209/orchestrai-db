@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
-    interview Q&A for MeshyAI - Data Science Intern'
-  status: error
-  timestamp: '2026-03-21T07:22:00'
-- agent: PracticeAgent
   action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
     Internship: Gemini failed to generate interview Q&A for FTI Defense - Frontier
     Technology Inc. - AI/ML Engineering Internship'
@@ -2636,3 +2631,8 @@ logs:
     (Summer/Fall 2026)'
   status: error
   timestamp: '2026-03-24T07:42:02'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-24T07:42:04'
