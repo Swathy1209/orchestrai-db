@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-23T07:51:25'
-- agent: PracticeAgent
   action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
@@ -2676,3 +2670,9 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-25T07:45:53'
+- agent: PracticeAgent
+  action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
+    failed to generate interview Q&A for VVP Healthcare Evolution Pvt Ltd - AI/ML
+    Engineer'
+  status: error
+  timestamp: '2026-03-25T07:45:54'
