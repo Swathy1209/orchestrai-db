@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
-    interview Q&A for Lensa - Data Science Internship'
-  status: error
-  timestamp: '2026-03-22T07:20:23'
-- agent: PracticeAgent
   action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
     Q&A for AARP - Data Analyst Intern'
   status: error
@@ -2622,8 +2617,13 @@ logs:
   status: error
   timestamp: '2026-03-25T07:42:12'
 - agent: PracticeAgent
-  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
-    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
-    Private Limited - Computer Vision'
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
+    - Artificial Intelligence (AI)'
   status: error
-  timestamp: '2026-03-25T07:42:14'
+  timestamp: '2026-03-25T07:42:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-25T07:42:16'
