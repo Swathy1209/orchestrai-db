@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
-    (Remote)'
-  status: error
-  timestamp: '2026-03-22T07:20:41'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
     New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
     Engineering Intern (MS/Ph.D. New Grad)'
@@ -2628,3 +2622,8 @@ logs:
     + Evaluation)'
   status: error
   timestamp: '2026-03-25T07:42:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-25T07:42:27'
