@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-22T07:21:18'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate interview Q&A for Barclays - Private Bank Processing Business
     Analyst'
@@ -2628,3 +2622,9 @@ logs:
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
   timestamp: '2026-03-25T07:43:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
+    - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-25T07:43:18'
