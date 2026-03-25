@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Maximus - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-23T07:51:49'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
@@ -2673,3 +2668,9 @@ logs:
     and Evaluation)'
   status: error
   timestamp: '2026-03-25T07:46:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
+    failed to generate interview Q&A for Hone Health - Data Science Intern (Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-25T07:46:22'
