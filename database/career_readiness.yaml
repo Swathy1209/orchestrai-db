@@ -1,12 +1,12 @@
 career_readiness:
-  readiness_score: 75.5
+  readiness_score: 75.6
   label: ✅ Strong Candidate
-  generated_at: '2026-03-24T07:50:08.418820+00:00'
+  generated_at: '2026-03-25T07:48:58.434509+00:00'
   components:
     skill_coverage:
-      score: 98.7
+      score: 98.9
       weight: 40%
-      detail: '231/236 roles fully covered. Top gaps: Git, AWS, Airflow'
+      detail: '273/278 roles fully covered. Top gaps: Git, AWS, Airflow'
     portfolio_strength:
       score: 50
       weight: 20%
