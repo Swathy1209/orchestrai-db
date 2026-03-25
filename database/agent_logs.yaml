@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
-    Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
-    IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
-  status: error
-  timestamp: '2026-03-22T07:21:01'
-- agent: PracticeAgent
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
   status: error
@@ -2627,3 +2621,9 @@ logs:
     practice of Ameriprise Financial Services LLC - Data Science Intern'
   status: error
   timestamp: '2026-03-25T07:42:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
+    Data Science Intern'
+  status: error
+  timestamp: '2026-03-25T07:42:44'
