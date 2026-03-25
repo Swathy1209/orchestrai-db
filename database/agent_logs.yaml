@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    interview Q&A for MTX Group - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-23T07:51:53'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
@@ -2674,3 +2669,9 @@ logs:
     failed to generate interview Q&A for Webbybutter Technologies - Data Science Intern'
   status: error
   timestamp: '2026-03-25T07:46:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Fine Data Analytics Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Fine Data Analytics Private Limited
+    - Data Science Intern'
+  status: error
+  timestamp: '2026-03-25T07:46:26'
