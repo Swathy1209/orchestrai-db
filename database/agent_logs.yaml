@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
-    to generate interview Q&A for Tech Economy - ML-AI Engineering Intern'
-  status: error
-  timestamp: '2026-03-22T07:21:14'
-- agent: PracticeAgent
   action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
     to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
   status: error
@@ -2627,3 +2622,9 @@ logs:
     to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-25T07:43:12'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
+    (Summer/Fall 2026)'
+  status: error
+  timestamp: '2026-03-25T07:43:14'
