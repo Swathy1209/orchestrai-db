@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-23T07:47:13'
-- agent: CareerAgent
   action: 106 jobs fetched, 58 relevant
   level: INFO
   timestamp: '2026-03-23T07:47:15'
@@ -2662,3 +2658,9 @@ logs:
     interview Q&A for Sungrow - Data Analyst Internship'
   status: error
   timestamp: '2026-03-25T07:45:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-25T07:45:18'
