@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-23T07:44:44'
-- agent: CareerAgent
   action: 106 jobs fetched
   level: INFO
   timestamp: '2026-03-23T07:44:57'
@@ -2653,3 +2649,9 @@ logs:
     Q&A for Ramesh S - AI/ML Engineer'
   status: error
   timestamp: '2026-03-25T07:44:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
+    Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
+    Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-25T07:44:58'
