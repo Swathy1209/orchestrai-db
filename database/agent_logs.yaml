@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
-    - Machine Learning'
-  status: error
-  timestamp: '2026-03-23T07:52:09'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
     interview Q&A for Career Solutions - Data Science'
   status: error
@@ -2672,3 +2666,8 @@ logs:
     generate interview Q&A for Chamadia Group - Data Science Intern'
   status: error
   timestamp: '2026-03-25T07:46:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Kumaresh Chinnaswamy - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-25T07:46:41'
