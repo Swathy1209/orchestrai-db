@@ -1,8 +1,4 @@
 logs:
-- agent: CareerStrategyAgent
-  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
-  status: completed
-  timestamp: '2026-03-22T07:32:21'
 - agent: CareerReadinessAgent
   action: 'Computed readiness score: 75.5 — ✅ Strong Candidate'
   status: completed
@@ -2651,3 +2647,8 @@ logs:
     to generate interview Q&A for Tech Economy - ML-AI Engineering Intern'
   status: error
   timestamp: '2026-03-25T07:44:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
+    to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
+  status: error
+  timestamp: '2026-03-25T07:44:56'
