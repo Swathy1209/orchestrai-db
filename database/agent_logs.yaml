@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-23T07:51:57'
-- agent: PracticeAgent
   action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
     interview Q&A for Unnati Enterprises - Data Science'
   status: error
@@ -2674,3 +2669,8 @@ logs:
     interview Q&A for AsiaDirect - Data Science Intern'
   status: error
   timestamp: '2026-03-25T07:46:28'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
+    generate interview Q&A for OMNIDYA TECH LLP - Data Science Intern'
+  status: error
+  timestamp: '2026-03-25T07:46:29'
