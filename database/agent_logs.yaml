@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
-    Vision'
-  status: error
-  timestamp: '2026-03-22T07:20:01'
-- agent: PracticeAgent
   action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
     failed to generate interview Q&A for Resolute AI Software Private Limited - AI
     Engineer'
@@ -2623,7 +2617,12 @@ logs:
   status: error
   timestamp: '2026-03-25T07:41:51'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Analyst Intern'
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
-  timestamp: '2026-03-25T07:41:53'
+  timestamp: '2026-03-25T07:41:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
+    interview Q&A for Sloan - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-25T07:41:55'
