@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
-  status: error
-  timestamp: '2026-03-23T07:52:36'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
     Planning'
@@ -2674,3 +2669,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-25T07:47:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Tejate Education Private Limited
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-25T07:47:10'
