@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-23T07:45:41'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-23T07:45:43'
@@ -2660,3 +2656,8 @@ logs:
     interview Q&A for Diffzene - Machine Learning'
   status: error
   timestamp: '2026-03-25T07:45:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate interview Q&A for Hooman Digital LLP - Machine Learning'
+  status: error
+  timestamp: '2026-03-25T07:45:09'
