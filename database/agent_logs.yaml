@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-22T07:20:15'
-- agent: PracticeAgent
   action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
     Limited - Artificial Intelligence (AI)'
@@ -2623,7 +2618,12 @@ logs:
   status: error
   timestamp: '2026-03-25T07:42:05'
 - agent: PracticeAgent
-  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
   status: error
-  timestamp: '2026-03-25T07:42:07'
+  timestamp: '2026-03-25T07:42:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    interview Q&A for Unnati Enterprises - Data Science'
+  status: error
+  timestamp: '2026-03-25T07:42:09'
