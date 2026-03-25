@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
-    & Paid)'
-  status: error
-  timestamp: '2026-03-23T07:51:16'
-- agent: PracticeAgent
   action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
   status: error
@@ -2675,3 +2669,9 @@ logs:
     to generate interview Q&A for Waters Corporation - AI Engineer Intern'
   status: error
   timestamp: '2026-03-25T07:45:38'
+- agent: PracticeAgent
+  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
+    Internship: Gemini failed to generate interview Q&A for FTI Defense - Frontier
+    Technology Inc. - AI/ML Engineering Internship'
+  status: error
+  timestamp: '2026-03-25T07:45:39'
