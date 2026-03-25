@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
-    interview Q&A for Deloitte - AWS Data Engineer'
-  status: error
-  timestamp: '2026-03-22T07:20:37'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate interview Q&A for HSBC - Business Analyst- Transformation'
   status: error
@@ -2626,3 +2621,9 @@ logs:
     interview Q&A for Lensa - Data Science Intern'
   status: error
   timestamp: '2026-03-25T07:42:24'
+- agent: PracticeAgent
+  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
+    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
+    Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-25T07:42:25'
