@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
-    failed to generate interview Q&A for Spectral AI - Deep Learning Data Science
-    Intern'
-  status: error
-  timestamp: '2026-03-22T07:21:07'
-- agent: PracticeAgent
   action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
     - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
     Intern (Summer 2026 - In-Person - NYC)'
@@ -2630,3 +2624,8 @@ logs:
     Team - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-25T07:42:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
+  status: error
+  timestamp: '2026-03-25T07:42:53'
