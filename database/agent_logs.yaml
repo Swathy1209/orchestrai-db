@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-23T07:52:04'
-- agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
     Private Limited - Computer Vision'
@@ -2674,3 +2668,8 @@ logs:
     interview Q&A for Neha Singh - Data Science Intern'
   status: error
   timestamp: '2026-03-25T07:46:36'
+- agent: PracticeAgent
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate interview Q&A for IIIT Hyderabad - Data Science Intern'
+  status: error
+  timestamp: '2026-03-25T07:46:37'
