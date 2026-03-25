@@ -2623,7 +2623,7 @@ logs:
   status: error
   timestamp: '2026-03-25T07:42:02'
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate interview Q&A for ACCA Careers - Business Analyst Intern'
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-25T07:42:03'
+  timestamp: '2026-03-25T07:42:04'
