@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 58 relevant
-  level: INFO
-  timestamp: '2026-03-23T07:45:35'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-23T07:45:37'
@@ -2656,3 +2652,8 @@ logs:
     Q&A for LeadUpAI - AI Engineer'
   status: error
   timestamp: '2026-03-25T07:45:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
+    generate interview Q&A for Lensa - Business Analyst Intern Remote'
+  status: error
+  timestamp: '2026-03-25T07:45:04'
