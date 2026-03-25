@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
-    generate interview Q&A for Cylinder Health - Junior Data Engineer'
-  status: error
-  timestamp: '2026-03-23T07:51:09'
-- agent: PracticeAgent
   action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
   status: error
@@ -2674,3 +2669,9 @@ logs:
     Limited - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-25T07:45:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Crustdata (YC F24) - ML Engineer Intern
+    (Summer 2026)'
+  status: error
+  timestamp: '2026-03-25T07:45:31'
