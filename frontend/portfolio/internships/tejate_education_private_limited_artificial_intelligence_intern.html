@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>swathiga - Portfolio for Tejate Education Private Limited</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  :root { --bg:#0B0B0B; --surface:#1A1A1A; --primary:#E10600; --text:#F5F5F5; --dim:#9A9A9A; --border:rgba(255,255,255,0.05); }
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter', sans-serif; }
+  body { background:var(--bg); color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased; }
+  
+  .hero { padding:100px 20px; text-align:center; background:linear-gradient(180deg, #1A1A1A 0%, #0B0B0B 100%); border-bottom:1px solid rgba(225,6,0,0.2); }
+  .hero h1 { font-size:48px; font-weight:800; letter-spacing:-1.5px; margin-bottom:16px; color:#fff; }
+  .hero h2 { font-size:18px; font-weight:400; color:var(--dim); max-width:600px; margin:0 auto 24px auto; line-height:1.5; }
+  
+  .container { max-width:900px; margin:0 auto; padding:60px 20px; }
+  
+  .glass-card { background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.5); transition:all 0.3s; }
+  .glass-card:hover { border-color:rgba(225,6,0,0.4); box-shadow:0 15px 40px rgba(225,6,0,0.15); }
+  
+  h3.section-title { font-size:13px; text-transform:uppercase; letter-spacing:2px; font-weight:700; color:var(--primary); margin-bottom:24px; border-bottom:1px solid var(--border); padding-bottom:16px; }
+  
+  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-bottom:48px; }
+  @media(max-width:768px) { .grid-2 { grid-template-columns:1fr; gap:24px; } .hero h1 { font-size:36px; } }
+  
+  .btn-primary { background:linear-gradient(90deg, #E10600, #FF3B3B); color:#fff; text-decoration:none; padding:14px 32px; border-radius:30px; font-size:14px; font-weight:600; transition:all 0.2s; box-shadow:0 4px 15px rgba(225,6,0,0.3); }
+  .btn-primary:hover { transform:scale(1.02); box-shadow:0 8px 25px rgba(225,6,0,0.5); }
+  
+  .btn-outline { background:transparent; border:1px solid rgba(225,6,0,0.5); color:#fff; text-decoration:none; padding:10px 24px; border-radius:24px; font-size:13px; font-weight:600; transition:all 0.2s; }
+  .btn-outline:hover { border-color:#E10600; background:rgba(225,6,0,0.05); }
+  
+  .gh-card:hover { border-color:rgba(225,6,0,0.3) !important; transform:translateY(-2px); }
+  
+  .footer { text-align:center; padding:60px 20px; color:var(--dim); font-size:12px; border-top:1px solid var(--border); text-transform:uppercase; letter-spacing:1px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <div style="font-size:14px;text-transform:uppercase;letter-spacing:2px;color:var(--primary);font-weight:700;margin-bottom:16px">swathiga</div>
+    <h1>Customized Portfolio</h1>
+    <h2>Designed exclusively for the <strong style="color:#fff">Artificial Intelligence Intern</strong> role at <strong style="color:#fff">Tejate Education Private Limited</strong></h2>
+    <a href="https://orchestrai-agent.onrender.com/cover_letters/tejate_education_private_limited_artificial_intelligence_intern.md" target="_blank" class="btn-primary" style="margin-top:30px;display:inline-block">View Cover Letter</a>
+</div>
+
+<div class="container">
+
+    <div style="margin-bottom:60px">
+        <h3 class="section-title">Why I Am A Great Fit</h3>
+        <div style="margin-top:16px"><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Python</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">SQL</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Machine Learning</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Pandas</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">NumPy</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Data Analysis</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Scikit-learn</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Statistics</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Data Visualization</span><span style="background:rgba(255,255,255,0.03);color:#9A9A9A;border:1px solid rgba(255,255,255,0.1);padding:8px 16px;border-radius:24px;font-size:13px;font-weight:500;margin:4px;display:inline-block;">Excel</span></div>
+    </div>
+
+    <div class="grid-2">
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Skill Gap Analysis</h3>
+            <div style="color:#10B981;font-size:15px;font-weight:600;display:flex;align-items:center;gap:10px"><span style="font-size:20px">✓</span> All required skills covered</div>
+        </div>
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Learning Roadmap</h3>
+            <div style='color:#F5F5F5;font-size:15px;line-height:1.6;margin-bottom:12px;padding-left:16px;border-left:2px solid #E10600;'>No skill gaps detected. You are well-equipped for this role!</div>
+        </div>
+    </div>
+
+    <div class="grid-2">
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Professional Experience</h3>
+            <p style="color:#9A9A9A;font-size:14px">Focusing on academic and project-based experience.</p>
+        </div>
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Key Achievements</h3>
+            <p style="color:#9A9A9A;font-size:14px">Building technical milestones.</p>
+        </div>
+    </div>
+
+    <div style="margin-bottom:60px">
+        <h3 class="section-title" style="margin-bottom:32px">Most Relevant Projects</h3>
+        <p style="color:#9A9A9A">No matching projects found.</p>
+    </div>
+
+    <div style="margin-bottom:40px">
+        <h3 class="section-title" style="margin-bottom:32px">GitHub Project Showcase</h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px">
+            <p style="color:#9A9A9A">No additional repositories available.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    Generated autonomously by OrchestrAI<br/>
+    Advanced Career Intelligence System
+</div>
+
+</body>
+</html>
