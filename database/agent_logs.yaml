@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Bharat Diamond Bourse - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-22T07:21:59'
-- agent: PracticeAgent
   action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
     Executive: Gemini failed to generate interview Q&A for Syncretic Engineering -
     Business Analyst/Data Analyst/Office Executive'
@@ -2635,3 +2629,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-25T07:44:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
+    Q&A for Fractal - Data Engineer'
+  status: error
+  timestamp: '2026-03-25T07:44:17'
