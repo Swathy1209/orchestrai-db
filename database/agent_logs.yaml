@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Science Intern'
-  status: error
-  timestamp: '2026-03-23T07:52:17'
-- agent: PracticeAgent
   action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
     Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
     Data Analyst Intern'
@@ -2673,3 +2668,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-25T07:46:45'
+- agent: PracticeAgent
+  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
+    to generate interview Q&A for The Hustle House - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-25T07:46:46'
