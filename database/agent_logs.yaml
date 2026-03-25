@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-23T07:51:10'
-- agent: PracticeAgent
   action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
     failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
     Intern'
@@ -2675,3 +2670,9 @@ logs:
     (Summer 2026)'
   status: error
   timestamp: '2026-03-25T07:45:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Almost Magic Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-25T07:45:34'
