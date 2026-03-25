@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-23T07:47:17'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2666,3 +2662,9 @@ logs:
     - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-25T07:45:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
+    Collection): Gemini failed to generate interview Q&A for Maiway Technologies -
+    Data Engineer (Data Engineer/Data Collection)'
+  status: error
+  timestamp: '2026-03-25T07:45:22'
