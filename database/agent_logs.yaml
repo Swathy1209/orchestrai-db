@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
-    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
-    + Evaluation)'
-  status: error
-  timestamp: '2026-03-23T07:52:19'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
@@ -2672,3 +2666,8 @@ logs:
     to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
   status: error
   timestamp: '2026-03-25T07:46:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Mple AI - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-25T07:46:49'
