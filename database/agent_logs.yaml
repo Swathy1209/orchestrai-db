@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
-    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-22T07:19:30'
-- agent: PracticeAgent
   action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
     generate interview Q&A for Talentrift - Business Analyst Intern'
   status: error
@@ -2634,3 +2629,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-03-25T07:38:22'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-25T07:38:35'
