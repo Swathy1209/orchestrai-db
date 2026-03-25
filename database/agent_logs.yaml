@@ -2653,7 +2653,8 @@ logs:
   status: error
   timestamp: '2026-03-25T07:45:02'
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
-    generate interview Q&A for Lensa - Business Analyst Intern Remote'
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
+    Intern'
   status: error
-  timestamp: '2026-03-25T07:45:04'
+  timestamp: '2026-03-25T07:45:05'
