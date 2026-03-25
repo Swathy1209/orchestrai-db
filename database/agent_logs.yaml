@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
-    interview Q&A for Aday - Data Analysis Intern'
-  status: error
-  timestamp: '2026-03-23T07:51:37'
-- agent: PracticeAgent
   action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
     to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
@@ -2675,3 +2670,8 @@ logs:
     interview Q&A for DISH TV - AI Data Analyst Intern'
   status: error
   timestamp: '2026-03-25T07:46:05'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
+    interview Q&A for SkillLevel - Machine Learning'
+  status: error
+  timestamp: '2026-03-25T07:46:08'
