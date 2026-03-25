@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
-    Internship: Gemini failed to generate interview Q&A for FTI Defense - Frontier
-    Technology Inc. - AI/ML Engineering Internship'
-  status: error
-  timestamp: '2026-03-22T07:21:54'
-- agent: PracticeAgent
   action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
     generate interview Q&A for Sofar Ocean - Machine Learning Intern'
   status: error
@@ -2634,3 +2628,8 @@ logs:
     Learning Engineer'
   status: error
   timestamp: '2026-03-25T07:44:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
+    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
+  status: error
+  timestamp: '2026-03-25T07:44:06'
