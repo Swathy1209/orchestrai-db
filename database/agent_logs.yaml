@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
-    Q&A for Accredian - Data Science'
-  status: error
-  timestamp: '2026-03-23T07:52:27'
-- agent: PracticeAgent
   action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
     failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
     Science'
@@ -2672,3 +2667,9 @@ logs:
     - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-25T07:47:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence Intern:
+    Gemini failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Artificial
+    Intelligence Intern'
+  status: error
+  timestamp: '2026-03-25T07:47:01'
