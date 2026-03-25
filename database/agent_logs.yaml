@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 107 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-22T07:25:35'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-22T07:25:37'
@@ -2635,3 +2631,9 @@ logs:
     to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
   status: error
   timestamp: '2026-03-25T07:44:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
+    Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
+    IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
+  status: error
+  timestamp: '2026-03-25T07:44:40'
