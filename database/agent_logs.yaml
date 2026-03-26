@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-24T07:42:24'
-- agent: PracticeAgent
   action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
   status: error
@@ -2666,3 +2660,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-26T08:01:14'
+- agent: PracticeAgent
+  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
+    to generate interview Q&A for The Hustle House - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:15'
