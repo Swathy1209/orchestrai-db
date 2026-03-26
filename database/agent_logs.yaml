@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
-    Limited - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-24T07:42:32'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
     interview Q&A for Tech Phoenix - Data Engineer Intern'
   status: error
@@ -2665,3 +2659,8 @@ logs:
     generate interview Q&A for White & Co - Machine Learning Intern'
   status: error
   timestamp: '2026-03-26T08:01:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Reach Technologies - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:22'
