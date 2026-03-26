@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-24T07:41:33'
-- agent: PracticeAgent
   action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
     interview Q&A for Aviate Manpower - Data Science'
   status: error
@@ -2673,3 +2667,8 @@ logs:
     to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
   status: error
   timestamp: '2026-03-26T08:00:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Havas Edge - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:05'
