@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-23T07:55:25'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
     interview Q&A for Sungrow - Data Analyst Internship'
   status: error
@@ -2633,3 +2628,8 @@ logs:
     failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
   status: error
   timestamp: '2026-03-26T07:56:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
+    interview Q&A for Hughes - ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-26T07:56:07'
