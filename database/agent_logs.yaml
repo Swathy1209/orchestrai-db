@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-23T07:54:02'
-- agent: PracticeAgent
   action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
@@ -2634,3 +2629,9 @@ logs:
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
   timestamp: '2026-03-26T07:53:28'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
+    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-26T07:53:29'
