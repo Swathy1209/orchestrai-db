@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-24T07:42:16'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
     failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
     Vision'
@@ -2667,3 +2661,8 @@ logs:
     generate interview Q&A for Shunya Digital - Data Science Intern'
   status: error
   timestamp: '2026-03-26T08:01:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
+    generate interview Q&A for Chamadia Group - Data Science Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:06'
