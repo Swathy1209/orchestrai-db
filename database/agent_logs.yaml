@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-24T07:36:06'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-03-24T07:36:07'
@@ -2650,3 +2646,8 @@ logs:
     - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-26T07:58:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
+    to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
+  status: error
+  timestamp: '2026-03-26T07:58:16'
