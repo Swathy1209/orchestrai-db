@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
-    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
-    Engineer'
-  status: error
-  timestamp: '2026-03-23T07:53:34'
-- agent: PracticeAgent
   action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
     interview Q&A for OralKart - Machine Learning'
   status: error
@@ -2634,3 +2628,8 @@ logs:
     to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
   status: error
   timestamp: '2026-03-26T07:52:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-26T07:52:46'
