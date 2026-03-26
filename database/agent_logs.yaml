@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
-    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
-    Analyst Intern'
-  status: error
-  timestamp: '2026-03-24T07:42:14'
-- agent: PracticeAgent
   action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
     Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
     Learning Engineer'
@@ -2668,3 +2662,8 @@ logs:
     generate interview Q&A for IIIT Hyderabad - Data Science Intern'
   status: error
   timestamp: '2026-03-26T08:01:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
+    generate interview Q&A for Shunya Digital - Data Science Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:05'
