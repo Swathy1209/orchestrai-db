@@ -2666,7 +2666,8 @@ logs:
   status: error
   timestamp: '2026-03-26T07:59:48'
 - agent: PracticeAgent
-  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
-    to generate interview Q&A for Waters Corporation - AI Engineer Intern'
+  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
+    Internship: Gemini failed to generate interview Q&A for FTI Defense - Frontier
+    Technology Inc. - AI/ML Engineering Internship'
   status: error
-  timestamp: '2026-03-26T07:59:49'
+  timestamp: '2026-03-26T07:59:51'
