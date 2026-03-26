@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-24T07:36:09'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-24T07:36:11'
@@ -2653,3 +2649,8 @@ logs:
     Analyst Project Intern(TikTok- Operations) - 2026 Start (BS/MS)'
   status: error
   timestamp: '2026-03-26T07:58:23'
+- agent: PracticeAgent
+  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
+    to generate interview Q&A for MCube AI Private Limited - Data Science'
+  status: error
+  timestamp: '2026-03-26T07:58:26'
