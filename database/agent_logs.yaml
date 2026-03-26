@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
-    failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
-  status: error
-  timestamp: '2026-03-24T07:43:19'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
     2026 Intern: Gemini failed to generate interview Q&A for Lensa - Artificial Intelligence/Machine
     Learning - Summer 2026 Intern'
@@ -2666,3 +2661,8 @@ logs:
     to generate interview Q&A for Old World Industries - Data Analyst Intern'
   status: error
   timestamp: '2026-03-26T08:01:57'
+- agent: PracticeAgent
+  action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
+    to generate interview Q&A for MSX International - Data Analyst - Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:59'
