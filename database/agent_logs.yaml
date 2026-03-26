@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
-    Vision'
-  status: error
-  timestamp: '2026-03-24T07:42:19'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Machine Learning Intern'
@@ -2666,3 +2660,9 @@ logs:
     failed to generate interview Q&A for Kumaresh Chinnaswamy - Machine Learning Intern'
   status: error
   timestamp: '2026-03-26T08:01:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
+    Gemini failed to generate interview Q&A for Almost Magic Private Limited - Machine
+    Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:10'
