@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 99 jobs fetched
-  level: INFO
-  timestamp: '2026-03-24T07:35:27'
-- agent: CareerAgent
   action: 99 jobs fetched, 54 relevant
   level: INFO
   timestamp: '2026-03-24T07:36:05'
@@ -2646,3 +2642,9 @@ logs:
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-26T07:58:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate interview Q&A for Neoteric Analytics - Data And AI Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-26T07:58:12'
