@@ -2664,7 +2664,7 @@ logs:
   status: error
   timestamp: '2026-03-26T08:00:59'
 - agent: PracticeAgent
-  action: 'Failed portal for Neha Singh Data Science Intern: Gemini failed to generate
-    interview Q&A for Neha Singh - Data Science Intern'
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate interview Q&A for IIIT Hyderabad - Data Science Intern'
   status: error
-  timestamp: '2026-03-26T08:01:01'
+  timestamp: '2026-03-26T08:01:02'
