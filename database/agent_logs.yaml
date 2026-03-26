@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-24T07:42:26'
-- agent: PracticeAgent
   action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
     interview Q&A for CareerNest - Machine Learning'
   status: error
@@ -2665,3 +2660,8 @@ logs:
     to generate interview Q&A for The Hustle House - Machine Learning Intern'
   status: error
   timestamp: '2026-03-26T08:01:15'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
+    to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:17'
