@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    interview Q&A for CareerNest - Machine Learning'
-  status: error
-  timestamp: '2026-03-24T07:42:27'
-- agent: PracticeAgent
   action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
     to generate interview Q&A for Random Groups Of Companies - Data Science'
   status: error
@@ -2665,3 +2660,8 @@ logs:
     to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
   status: error
   timestamp: '2026-03-26T08:01:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Mple AI - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:19'
