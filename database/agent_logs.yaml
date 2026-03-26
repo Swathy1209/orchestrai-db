@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
-    to generate interview Q&A for HSBC - Business Analyst- Transformation'
-  status: error
-  timestamp: '2026-03-23T07:54:19'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
     failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
     (Remote)'
@@ -2633,3 +2628,8 @@ logs:
     Private Limited - Computer Vision'
   status: error
   timestamp: '2026-03-26T07:53:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-26T07:54:00'
