@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
-    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
-    (Summer/Fall 2026)'
-  status: error
-  timestamp: '2026-03-24T07:42:02'
-- agent: PracticeAgent
   action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
     to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
   status: error
@@ -2668,3 +2662,8 @@ logs:
     to generate interview Q&A for Raviraj Sarees Pvt Ltd - Data Science Intern'
   status: error
   timestamp: '2026-03-26T08:00:49'
+- agent: PracticeAgent
+  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
+    interview Q&A for AsiaDirect - Data Science Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:51'
