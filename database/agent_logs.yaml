@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
-    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
-    Science'
-  status: error
-  timestamp: '2026-03-24T07:42:23'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Artificial Intelligence Intern'
@@ -2666,3 +2660,9 @@ logs:
     Limited - Machine Learning Intern'
   status: error
   timestamp: '2026-03-26T08:01:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Raviraj Sarees Pvt Ltd Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Machine Learning
+    Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:14'
