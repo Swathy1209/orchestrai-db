@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
-    interview Q&A for Mindenious Edutech - Data Science'
-  status: error
-  timestamp: '2026-03-24T07:41:16'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
     interview Q&A for Unknown - Machine Learning Intern'
   status: error
@@ -2668,3 +2663,8 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-26T07:59:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
+    interview Q&A for Ball2Data - Football Data Analysts'
+  status: error
+  timestamp: '2026-03-26T07:59:37'
