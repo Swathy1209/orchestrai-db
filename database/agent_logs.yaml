@@ -2664,8 +2664,7 @@ logs:
   status: error
   timestamp: '2026-03-26T08:00:46'
 - agent: PracticeAgent
-  action: 'Failed portal for Fine Data Analytics Private Limited Data Science Intern:
-    Gemini failed to generate interview Q&A for Fine Data Analytics Private Limited
-    - Data Science Intern'
+  action: 'Failed portal for Raviraj Sarees Pvt Ltd Data Science Intern: Gemini failed
+    to generate interview Q&A for Raviraj Sarees Pvt Ltd - Data Science Intern'
   status: error
-  timestamp: '2026-03-26T08:00:47'
+  timestamp: '2026-03-26T08:00:49'
