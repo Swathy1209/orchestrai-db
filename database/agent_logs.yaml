@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-24T07:42:53'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
     Q&A for Fractal - Data Engineer'
   status: error
@@ -2665,3 +2659,9 @@ logs:
     Intelligence Intern'
   status: error
   timestamp: '2026-03-26T08:01:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Arihant Publications Artificial Intelligence Intern:
+    Gemini failed to generate interview Q&A for Arihant Publications - Artificial
+    Intelligence Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:38'
