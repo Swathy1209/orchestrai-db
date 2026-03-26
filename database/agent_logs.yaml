@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
-    generate interview Q&A for Cylinder Health - Junior Data Engineer'
-  status: error
-  timestamp: '2026-03-24T07:40:29'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
   status: error
@@ -2666,3 +2661,8 @@ logs:
     and Machine Learning Intern'
   status: error
   timestamp: '2026-03-26T07:58:44'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
+    to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-26T07:58:46'
