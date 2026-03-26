@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
-    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
-    Private Limited - Computer Vision'
-  status: error
-  timestamp: '2026-03-24T07:41:15'
-- agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
     interview Q&A for Mindenious Edutech - Data Science'
   status: error
@@ -2668,3 +2662,8 @@ logs:
     to generate interview Q&A for 365 Retail Markets - Business Analyst Intern'
   status: error
   timestamp: '2026-03-26T07:59:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate interview
+    Q&A for Carer Ai - Data Science'
+  status: error
+  timestamp: '2026-03-26T07:59:33'
