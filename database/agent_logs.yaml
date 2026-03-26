@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-24T07:40:40'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
     failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
     2026)'
@@ -2667,3 +2662,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-26T07:58:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-26T07:59:00'
