@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-24T07:42:01'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
     Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
     (Summer/Fall 2026)'
@@ -2669,3 +2663,9 @@ logs:
     failed to generate interview Q&A for Webbybutter Technologies - Data Science Intern'
   status: error
   timestamp: '2026-03-26T08:00:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Fine Data Analytics Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Fine Data Analytics Private Limited
+    - Data Science Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:47'
