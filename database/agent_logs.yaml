@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
-    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
-    Engineering Intern (MS/Ph.D. New Grad)'
-  status: error
-  timestamp: '2026-03-23T07:54:21'
-- agent: PracticeAgent
   action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Relinns Technologies - Artificial Intelligence
     (AI)'
@@ -2633,3 +2627,8 @@ logs:
     - Machine Learning'
   status: error
   timestamp: '2026-03-26T07:54:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    interview Q&A for Career Solutions - Data Science'
+  status: error
+  timestamp: '2026-03-26T07:54:07'
