@@ -1,8 +1,4 @@
 logs:
-- agent: InterviewCoachAgent
-  action: Generated 233 interview simulation pages
-  status: success
-  timestamp: '2026-03-23T08:03:22'
 - agent: AutoApplyAgent
   action: Generated Application Packages for 233 internships
   status: success
@@ -2636,3 +2632,9 @@ logs:
     (Remote)'
   status: error
   timestamp: '2026-03-26T07:57:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
+    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
+    Engineering Intern (MS/Ph.D. New Grad)'
+  status: error
+  timestamp: '2026-03-26T07:57:52'
