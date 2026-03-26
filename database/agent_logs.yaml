@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate interview
-    Q&A for Cult Fit - Data Analyst'
-  status: error
-  timestamp: '2026-03-23T07:56:35'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence Intern: Gemini failed to
     generate interview Q&A for Lensa - Artificial Intelligence Intern'
   status: error
@@ -2632,3 +2627,8 @@ logs:
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
   timestamp: '2026-03-26T07:57:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
+    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
+  status: error
+  timestamp: '2026-03-26T07:57:28'
