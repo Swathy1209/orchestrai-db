@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
-    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
-    Intern (Summer 2026 - In-Person - NYC)'
-  status: error
-  timestamp: '2026-03-23T07:54:49'
-- agent: PracticeAgent
   action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
     Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
     and Machine Learning Intern'
@@ -2631,3 +2625,9 @@ logs:
   action: Generated analytics dashboard — readiness=75.6
   status: completed
   timestamp: '2026-03-26T07:54:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate interview Q&A for Product Manager
+    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
+  status: error
+  timestamp: '2026-03-26T07:54:59'
