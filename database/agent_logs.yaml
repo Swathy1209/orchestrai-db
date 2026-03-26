@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
-    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC - Data Science Intern'
-  status: error
-  timestamp: '2026-03-24T07:41:40'
-- agent: PracticeAgent
   action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
     Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
     Data Science Intern'
@@ -2673,3 +2666,8 @@ logs:
     Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-26T08:00:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
+    interview Q&A for Zello - AI & ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:15'
