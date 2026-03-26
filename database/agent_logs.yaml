@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
-    to generate interview Q&A for Tech Economy - ML-AI Engineering Intern'
-  status: error
-  timestamp: '2026-03-23T07:55:01'
-- agent: PracticeAgent
   action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
     to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
   status: error
@@ -2634,3 +2629,8 @@ logs:
     Energy (Summer 2026)'
   status: error
   timestamp: '2026-03-26T07:55:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-26T07:55:19'
