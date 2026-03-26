@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-23T07:53:30'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
     failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
     Vision'
@@ -2635,3 +2629,9 @@ logs:
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
   timestamp: '2026-03-26T07:52:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
+    & Paid)'
+  status: error
+  timestamp: '2026-03-26T07:52:41'
