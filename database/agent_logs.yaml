@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-24T07:40:32'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
@@ -2666,3 +2660,9 @@ logs:
     to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
   status: error
   timestamp: '2026-03-26T07:58:47'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate interview Q&A for AmRit Hub Private Limited - Artificial
+    Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-26T07:58:49'
