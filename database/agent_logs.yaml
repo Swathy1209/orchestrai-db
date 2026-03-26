@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
-    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
-    Learning Intern - Summer 2026'
-  status: error
-  timestamp: '2026-03-24T07:41:37'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
     Planning'
@@ -2674,3 +2668,8 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-26T08:00:10'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    interview Q&A for InfiVR - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:11'
