@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
-    interview Q&A for Lensa - Intern - Data Science'
-  status: error
-  timestamp: '2026-03-24T07:41:54'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
     E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
     for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
@@ -2668,3 +2663,8 @@ logs:
     interview Q&A for Saniya SanjayGaikwad - Data Science'
   status: error
   timestamp: '2026-03-26T08:00:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
+    interview Q&A for Hexa Solution - Data Analyst'
+  status: error
+  timestamp: '2026-03-26T08:00:36'
