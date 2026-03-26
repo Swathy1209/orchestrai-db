@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
-    generate interview Q&A for Lensa - Business Analyst Intern Remote'
-  status: error
-  timestamp: '2026-03-23T07:55:11'
-- agent: PracticeAgent
   action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
     interview Q&A for DevTown - Data Science Mentor'
   status: error
@@ -2632,3 +2627,8 @@ logs:
     to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
   timestamp: '2026-03-26T07:55:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-26T07:55:48'
