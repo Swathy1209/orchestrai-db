@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Emoolar Technology Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-23T07:56:25'
-- agent: PracticeAgent
   action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
     interview Q&A for DISH TV - AI Data Analyst Intern'
   status: error
@@ -2633,3 +2627,8 @@ logs:
     Artificial Intelligence/Machine Learning'
   status: error
   timestamp: '2026-03-26T07:57:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Internship'
+  status: error
+  timestamp: '2026-03-26T07:57:12'
