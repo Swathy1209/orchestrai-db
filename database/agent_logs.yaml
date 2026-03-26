@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
-  status: error
-  timestamp: '2026-03-24T07:42:06'
-- agent: PracticeAgent
   action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
     to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
   status: error
@@ -2668,3 +2663,8 @@ logs:
     interview Q&A for Career-Domain - Data Science Intern'
   status: error
   timestamp: '2026-03-26T08:00:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Cabswale Data Science Intern: Gemini failed to generate
+    interview Q&A for Cabswale - Data Science Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:56'
