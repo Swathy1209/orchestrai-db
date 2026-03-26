@@ -2659,8 +2659,8 @@ logs:
   status: error
   timestamp: '2026-03-26T08:02:13'
 - agent: PracticeAgent
-  action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Global Ace Technology - Machine Learning
-    Intern'
+  action: 'Failed portal for Zetheta Algorithms Private Limited Machine Learning Intern:
+    Gemini failed to generate interview Q&A for Zetheta Algorithms Private Limited
+    - Machine Learning Intern'
   status: error
-  timestamp: '2026-03-26T08:02:15'
+  timestamp: '2026-03-26T08:02:16'
