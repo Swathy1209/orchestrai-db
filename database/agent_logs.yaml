@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
-    failed to generate interview Q&A for Neoteric Analytics - Data And AI Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-23T07:54:31'
-- agent: PracticeAgent
   action: 'Failed portal for WeJoy Phonfix Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for WeJoy Phonfix Private Limited
     - Artificial Intelligence (AI)'
@@ -2632,3 +2626,9 @@ logs:
     to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-26T07:54:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-26T07:54:30'
