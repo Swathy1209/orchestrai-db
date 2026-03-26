@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
-    Q&A for Ramesh S - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-24T07:43:33'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate interview Q&A for Barclays - Private Bank Processing Business
     Analyst'
@@ -2664,3 +2659,8 @@ logs:
     interview Q&A for Conversely - Data Science Intern'
   status: error
   timestamp: '2026-03-26T08:02:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Configtap Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Configtap - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-26T08:02:13'
