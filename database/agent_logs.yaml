@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-23T07:56:31'
-- agent: PracticeAgent
   action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
     interview Q&A for SkillLevel - Machine Learning'
   status: error
@@ -2633,3 +2627,8 @@ logs:
     Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-26T07:57:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-26T07:57:19'
