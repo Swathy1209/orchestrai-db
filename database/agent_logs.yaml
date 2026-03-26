@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
-    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
-    States'
-  status: error
-  timestamp: '2026-03-23T07:53:24'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
@@ -2637,3 +2631,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-03-26T07:52:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-26T07:52:33'
