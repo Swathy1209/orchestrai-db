@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
-    Engineering Intern: Gemini failed to generate interview Q&A for Command Post Technologies,
-    Inc - AI/Machine Learning Software Engineering Intern'
-  status: error
-  timestamp: '2026-03-23T07:56:02'
-- agent: PracticeAgent
   action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
     Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
     Techno Functional Operations/Data Analyst'
@@ -2635,3 +2629,8 @@ logs:
     to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-26T07:56:47'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
+    interview Q&A for CareerNest - Machine Learning'
+  status: error
+  timestamp: '2026-03-26T07:56:49'
