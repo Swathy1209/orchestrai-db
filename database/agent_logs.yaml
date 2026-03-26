@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
-    failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
-  status: error
-  timestamp: '2026-03-23T07:54:10'
-- agent: PracticeAgent
   action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Zetheta Algorithms Private
     Limited - Artificial Intelligence Intern'
@@ -2635,3 +2630,8 @@ logs:
     failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
   status: error
   timestamp: '2026-03-26T07:53:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    interview Q&A for Unnati Enterprises - Data Science'
+  status: error
+  timestamp: '2026-03-26T07:53:49'
