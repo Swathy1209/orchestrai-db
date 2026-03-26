@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-24T07:40:26'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
     to generate interview Q&A for RefinedScience - Data Engineering Intern'
   status: error
@@ -2663,3 +2659,9 @@ logs:
     Intern (Summer 2026 - In-Person - NYC)'
   status: error
   timestamp: '2026-03-26T07:58:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring/Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-26T07:58:43'
