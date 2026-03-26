@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Artha Energy Projects Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-23T07:56:16'
-- agent: PracticeAgent
   action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
     interview Q&A for Zello - AI & ML Engineering Intern'
   status: error
@@ -2633,3 +2627,8 @@ logs:
     Limited - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-26T07:56:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-26T07:57:01'
