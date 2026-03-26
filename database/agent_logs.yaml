@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
-    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
-  status: error
-  timestamp: '2026-03-24T07:41:32'
-- agent: PracticeAgent
   action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
     failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
     Science'
@@ -2673,3 +2668,8 @@ logs:
     Business Analyst/Data Analyst/Office Executive'
   status: error
   timestamp: '2026-03-26T08:00:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-26T08:00:03'
