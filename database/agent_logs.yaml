@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-24T07:40:42'
-- agent: PracticeAgent
   action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
@@ -2667,3 +2661,9 @@ logs:
     Q&A for LeadUpAI - AI Engineer'
   status: error
   timestamp: '2026-03-26T07:59:01'
+- agent: PracticeAgent
+  action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
+    failed to generate interview Q&A for PRGX Global Inc. - Artificial Intelligence
+    Intern'
+  status: error
+  timestamp: '2026-03-26T07:59:04'
