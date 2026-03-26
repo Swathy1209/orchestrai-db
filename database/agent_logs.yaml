@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
-    (Remote)'
-  status: error
-  timestamp: '2026-03-23T07:54:20'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
     New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
     Engineering Intern (MS/Ph.D. New Grad)'
@@ -2633,3 +2627,9 @@ logs:
     interview Q&A for Mindenious Edutech - Data Science'
   status: error
   timestamp: '2026-03-26T07:54:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
+    - Machine Learning'
+  status: error
+  timestamp: '2026-03-26T07:54:05'
