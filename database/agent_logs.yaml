@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
-  status: error
-  timestamp: '2026-03-23T07:54:07'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
@@ -2634,3 +2629,9 @@ logs:
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
   timestamp: '2026-03-26T07:53:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
+    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
+    degree)'
+  status: error
+  timestamp: '2026-03-26T07:53:43'
