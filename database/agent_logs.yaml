@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
-    and Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-23T07:54:53'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
     to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
   status: error
@@ -2631,3 +2625,10 @@ logs:
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
   status: error
   timestamp: '2026-03-26T07:54:59'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
+    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Global E-Commerce Content
+    Recommendation - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-26T07:55:07'
