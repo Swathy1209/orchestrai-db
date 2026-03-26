@@ -2625,7 +2625,9 @@ logs:
   action: Generated Application Packages for 297 internships
   status: success
   timestamp: '2026-03-26T07:54:50'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 297 internships
-  status: success
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
   timestamp: '2026-03-26T07:54:52'
