@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-24T07:36:11'
-  details: Analyzed 236 jobs.
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 43 repos, priority fix: SQL String Concat'
   status: completed
@@ -2654,3 +2649,8 @@ logs:
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
   timestamp: '2026-03-26T07:58:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
+    failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
+  status: error
+  timestamp: '2026-03-26T07:58:27'
