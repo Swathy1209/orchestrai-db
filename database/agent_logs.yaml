@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-24T07:43:01'
-- agent: PracticeAgent
   action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
     interview Q&A for Flipkart - Data Analysis Lead'
   status: error
@@ -2666,3 +2661,8 @@ logs:
     - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-26T08:01:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Pure Plan Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Pure Plan - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-26T08:01:46'
