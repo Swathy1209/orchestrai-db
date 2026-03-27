@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-26T07:43:23'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-26T07:43:26'
@@ -2677,3 +2673,8 @@ logs:
     to generate interview Q&A for Old World Industries - Data Analyst Intern'
   status: error
   timestamp: '2026-03-27T07:55:43'
+- agent: PracticeAgent
+  action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
+    to generate interview Q&A for MSX International - Data Analyst - Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:44'
