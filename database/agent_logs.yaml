@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-25T07:42:13'
-- agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
     interview Q&A for Mindenious Edutech - Data Science'
   status: error
@@ -2673,3 +2667,9 @@ logs:
     to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-27T07:51:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
+    Intern'
+  status: error
+  timestamp: '2026-03-27T07:51:42'
