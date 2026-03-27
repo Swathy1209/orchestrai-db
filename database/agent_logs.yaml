@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
-    interview Q&A for Innoknowvex - Machine Learning'
-  status: error
-  timestamp: '2026-03-25T07:42:11'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
     Q&A for Innoknowvex - Data Science'
   status: error
@@ -2673,3 +2668,8 @@ logs:
     to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
   status: error
   timestamp: '2026-03-27T07:51:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    interview Q&A for Thermo Fisher - Data Engineer II'
+  status: error
+  timestamp: '2026-03-27T07:51:40'
