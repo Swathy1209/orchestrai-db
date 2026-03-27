@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
-    interview Q&A for Unknown - Data Science Intern'
-  status: error
-  timestamp: '2026-03-25T07:42:10'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
     interview Q&A for Innoknowvex - Machine Learning'
   status: error
@@ -2673,3 +2668,8 @@ logs:
     to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
   timestamp: '2026-03-27T07:51:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-27T07:51:39'
