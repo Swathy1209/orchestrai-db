@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
-    interview Q&A for Typeface - ML Engineer Intern'
-  status: error
-  timestamp: '2026-03-26T07:52:52'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
     failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
     2026)'
@@ -2702,3 +2697,9 @@ logs:
     & TODDLER GAMES PRIVATE LIMITED - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-27T07:56:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Artificial Intelligence Intern:
+    Gemini failed to generate interview Q&A for Technoculture Research - Artificial
+    Intelligence Intern'
+  status: error
+  timestamp: '2026-03-27T07:56:18'
