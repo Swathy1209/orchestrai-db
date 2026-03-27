@@ -2667,7 +2667,9 @@ logs:
     interview Q&A for Neurasys - Machine Learning'
   status: error
   timestamp: '2026-03-27T07:54:06'
-- agent: CareerReadinessAgent
-  action: 'Computed readiness score: 75.6 — ✅ Strong Candidate'
-  status: completed
+- agent: PracticeAgent
+  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
+    Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
+    Techno Functional Operations/Data Analyst'
+  status: error
   timestamp: '2026-03-27T07:54:07'
