@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate interview Q&A for Syncretic Engineering -
-    Business Analyst/Data Analyst/Office Executive'
-  status: error
-  timestamp: '2026-03-25T07:45:49'
-- agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
   status: error
@@ -2670,3 +2664,8 @@ logs:
     interview Q&A for DISH TV - AI Data Analyst Intern'
   status: error
   timestamp: '2026-03-27T07:54:31'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
+    interview Q&A for SkillLevel - Machine Learning'
+  status: error
+  timestamp: '2026-03-27T07:54:33'
