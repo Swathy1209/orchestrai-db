@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-26T07:52:24'
-- agent: PracticeAgent
   action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
   status: error
@@ -2698,3 +2694,9 @@ logs:
     PRIVATE LIMITED - Data Science Intern'
   status: error
   timestamp: '2026-03-27T07:56:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
+    failed to generate interview Q&A for Collective Artists Network - Data Science
+    Intern'
+  status: error
+  timestamp: '2026-03-27T07:56:06'
