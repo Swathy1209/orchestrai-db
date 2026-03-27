@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
-    Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
-    Analyst Intern (BA-I) - Summer 2026'
-  status: error
-  timestamp: '2026-03-25T07:42:02'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
@@ -2673,3 +2666,8 @@ logs:
     interview Q&A for Lensa - Intern, Data Science'
   status: error
   timestamp: '2026-03-27T07:51:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern - Data Science'
+  status: error
+  timestamp: '2026-03-27T07:51:26'
