@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
-    interview Q&A for Aday - Data Analysis Intern'
-  status: error
-  timestamp: '2026-03-25T07:41:50'
-- agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
     Intern (Summer 2026)'
@@ -2672,3 +2667,9 @@ logs:
     practice of Ameriprise Financial Services LLC - Data Science Intern'
   status: error
   timestamp: '2026-03-27T07:51:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
+    Data Science Intern'
+  status: error
+  timestamp: '2026-03-27T07:51:09'
