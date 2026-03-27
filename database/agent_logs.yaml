@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
-    interview Q&A for Deloitte - Business Analyst'
-  status: error
-  timestamp: '2026-03-24T07:44:27'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
     Gemini failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Artificial
     Intelligence (AI)'
@@ -2640,3 +2635,9 @@ logs:
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
   timestamp: '2026-03-27T07:49:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
+    & Paid)'
+  status: error
+  timestamp: '2026-03-27T07:49:38'
