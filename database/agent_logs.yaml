@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
-    Collection): Gemini failed to generate interview Q&A for Maiway Technologies -
-    Data Engineer (Data Engineer/Data Collection)'
-  status: error
-  timestamp: '2026-03-25T07:45:22'
-- agent: PracticeAgent
   action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
     to generate interview Q&A for Cisco - Staff Machine Learning Engineer'
   status: error
@@ -2673,3 +2667,7 @@ logs:
     Techno Functional Operations/Data Analyst'
   status: error
   timestamp: '2026-03-27T07:54:07'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=75.6
+  status: completed
+  timestamp: '2026-03-27T07:54:09'
