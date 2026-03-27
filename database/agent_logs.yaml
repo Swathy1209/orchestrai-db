@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
-    interview Q&A for Sungrow - Data Analyst Internship'
-  status: error
-  timestamp: '2026-03-25T07:45:17'
-- agent: PracticeAgent
   action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
     Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
     Analyst Intern'
@@ -2673,3 +2668,9 @@ logs:
     generate interview Q&A for Sofar Ocean - Machine Learning Intern'
   status: error
   timestamp: '2026-03-27T07:54:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
+    Engineering Intern: Gemini failed to generate interview Q&A for Command Post Technologies,
+    Inc - AI/Machine Learning Software Engineering Intern'
+  status: error
+  timestamp: '2026-03-27T07:54:05'
