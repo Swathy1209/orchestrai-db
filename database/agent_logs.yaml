@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Science Intern'
-  status: error
-  timestamp: '2026-03-25T07:42:24'
-- agent: PracticeAgent
   action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
     Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
     Data Analyst Intern'
@@ -2675,3 +2670,9 @@ logs:
     interview Q&A for Hughes - ML Engineering Intern'
   status: error
   timestamp: '2026-03-27T07:51:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
+    (PhD)'
+  status: error
+  timestamp: '2026-03-27T07:51:52'
