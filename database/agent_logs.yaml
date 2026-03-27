@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
-    interview Q&A for Go Offer - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-25T07:41:56'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
@@ -2675,3 +2670,10 @@ logs:
     Recommendation - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-27T07:51:14'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Data-Search-TikTok Recommendation
+    Team - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-27T07:51:15'
