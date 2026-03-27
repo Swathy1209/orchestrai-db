@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
-    to generate interview Q&A for Reach Technologies - Data Science Intern'
-  status: error
-  timestamp: '2026-03-25T07:46:33'
-- agent: PracticeAgent
   action: 'Failed portal for Neha Singh Data Science Intern: Gemini failed to generate
     interview Q&A for Neha Singh - Data Science Intern'
   status: error
@@ -2667,3 +2662,8 @@ logs:
     generate interview Q&A for Shunya Digital - Data Science Intern'
   status: error
   timestamp: '2026-03-27T07:55:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
+    generate interview Q&A for Chamadia Group - Data Science Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:02'
