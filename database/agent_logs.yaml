@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-25T07:46:45'
-- agent: PracticeAgent
   action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
     to generate interview Q&A for The Hustle House - Machine Learning Intern'
   status: error
@@ -2669,3 +2663,8 @@ logs:
     to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
   status: error
   timestamp: '2026-03-27T07:55:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Mple AI - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:10'
