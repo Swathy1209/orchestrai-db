@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
-    Gemini failed to generate interview Q&A for Black Potato Systems - Data Engineering
-    & Database Research'
-  status: error
-  timestamp: '2026-03-24T07:44:35'
-- agent: PracticeAgent
   action: 'Failed portal for Saniya SanjayGaikwad Data Science: Gemini failed to generate
     interview Q&A for Saniya SanjayGaikwad - Data Science'
   status: error
@@ -2642,3 +2636,8 @@ logs:
     - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-27T07:49:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-27T07:49:43'
