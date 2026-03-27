@@ -1,10 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
-    Artificial Intelligence Intern: Gemini failed to generate interview Q&A for Nebula
-    Personalization Tech Solutions Private Limited - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-25T07:47:14'
 - agent: CareerStrategyAgent
   action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
   status: completed
@@ -2668,3 +2662,8 @@ logs:
     - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-27T07:55:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Pure Plan Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Pure Plan - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:36'
