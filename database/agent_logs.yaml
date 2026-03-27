@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
-    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
-    Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-25T07:41:51'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Data Analyst Intern'
   status: error
@@ -2673,3 +2667,9 @@ logs:
     Data Science Intern'
   status: error
   timestamp: '2026-03-27T07:51:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
+    Machine Learning Engineering Internship - Summer 2026'
+  status: error
+  timestamp: '2026-03-27T07:51:11'
