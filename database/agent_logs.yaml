@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-25T07:42:35'
-- agent: PracticeAgent
   action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
     interview Q&A for Aviate Manpower - Data Science'
   status: error
@@ -2682,3 +2676,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-27T07:52:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-27T07:52:05'
