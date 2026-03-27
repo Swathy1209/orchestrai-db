@@ -177,6 +177,16 @@ security_reports:
   - No critical issues detected.
   scanned_files: 11
   auto_fix_pr: ''
+- repo: Self-Verifying_LLMs
+  repo_url: https://github.com/Swathy1209/Self-Verifying_LLMs
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 0
+  auto_fix_pr: ''
 - repo: Citation_Hallucination
   repo_url: https://github.com/Swathy1209/Citation_Hallucination
   risk_level: Safe
@@ -527,9 +537,9 @@ priority_security_fix:
   snippet: ''
   fix: Apply secure coding practices.
 summary:
-  total_repos: 43
+  total_repos: 44
   high_risk: 1
   medium_risk: 3
   low_risk: 4
-  safe: 35
-  scanned_at: '2026-03-26T07:48:56'
+  safe: 36
+  scanned_at: '2026-03-27T07:43:57'
