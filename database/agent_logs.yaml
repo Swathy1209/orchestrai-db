@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Emoolar Technology Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-25T07:46:00'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
     interview Q&A for Deloitte - Business Analyst'
   status: error
@@ -2666,3 +2660,9 @@ logs:
     to generate interview Q&A for C3 AI - Data Science - Intern (Summer 2026)'
   status: error
   timestamp: '2026-03-27T07:54:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
+    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
+    and Evaluation)'
+  status: error
+  timestamp: '2026-03-27T07:54:45'
