@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
-    to generate interview Q&A for C3 AI - Data Science - Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-24T07:44:39'
-- agent: PracticeAgent
   action: 'Failed portal for DivyaNetra AI Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for DivyaNetra AI - Artificial Intelligence (AI)'
   status: error
@@ -2641,3 +2636,9 @@ logs:
     interview Q&A for Typeface - ML Engineer Intern'
   status: error
   timestamp: '2026-03-27T07:49:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
+  status: error
+  timestamp: '2026-03-27T07:49:50'
