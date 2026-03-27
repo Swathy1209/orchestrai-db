@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
-    interview Q&A for Sungrow - Data Analyst Internship'
-  status: error
-  timestamp: '2026-03-24T07:43:49'
-- agent: PracticeAgent
   action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Hamsi Marketing Private Limited
     - Artificial Intelligence (AI)'
@@ -2661,3 +2656,7 @@ logs:
   action: Generated optimizations for 297 internships
   status: success
   timestamp: '2026-03-26T08:06:54'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-27T07:41:38'
