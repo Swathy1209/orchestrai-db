@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Hamsi Marketing Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-24T07:43:52'
-- agent: PracticeAgent
   action: 'Failed portal for Plix - The Plant Flix Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Plix - The Plant Flix - Artificial Intelligence
     (AI)'
@@ -2660,3 +2654,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-03-27T07:41:38'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-03-27T07:41:52'
