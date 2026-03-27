@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-25T07:41:39'
-- agent: PracticeAgent
   action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
     to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
   status: error
@@ -2671,3 +2665,8 @@ logs:
     Q&A for Accredian - Data Science'
   status: error
   timestamp: '2026-03-27T07:50:54'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-27T07:50:56'
