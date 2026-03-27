@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arihant Publications Artificial Intelligence Intern:
-    Gemini failed to generate interview Q&A for Arihant Publications - Artificial
-    Intelligence Intern'
-  status: error
-  timestamp: '2026-03-25T07:47:05'
-- agent: PracticeAgent
   action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for Chamadia Group - Artificial Intelligence
     Intern'
@@ -2668,3 +2662,9 @@ logs:
     Intelligence Intern'
   status: error
   timestamp: '2026-03-27T07:55:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Shunya Digital Artificial Intelligence Intern: Gemini
+    failed to generate interview Q&A for Shunya Digital - Artificial Intelligence
+    Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:27'
