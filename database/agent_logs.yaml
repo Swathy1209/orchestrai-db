@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence Intern:
-    Gemini failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Artificial
-    Intelligence Intern'
-  status: error
-  timestamp: '2026-03-25T07:47:01'
-- agent: PracticeAgent
   action: 'Failed portal for Invensis Technologies Artificial Intelligence Intern:
     Gemini failed to generate interview Q&A for Invensis Technologies - Artificial
     Intelligence Intern'
@@ -2668,3 +2662,9 @@ logs:
     Limited - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-27T07:55:18'
+- agent: PracticeAgent
+  action: 'Failed portal for VISHVASNIYA EDUCATION FOUNDATION Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for VISHVASNIYA EDUCATION FOUNDATION
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:19'
