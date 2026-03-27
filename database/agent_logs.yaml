@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-25T07:44:23'
-- agent: PracticeAgent
   action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
     to generate interview Q&A for Newzeninfotech Solutions - Data Science'
   status: error
@@ -2670,3 +2665,9 @@ logs:
     to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
   status: error
   timestamp: '2026-03-27T07:53:18'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate interview Q&A for AmRit Hub Private Limited - Artificial
+    Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-27T07:53:19'
