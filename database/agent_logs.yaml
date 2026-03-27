@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
-    to generate interview Q&A for The Hustle House - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-25T07:46:46'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
     to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
   status: error
@@ -2668,3 +2663,8 @@ logs:
     interview Q&A for Mple AI - Machine Learning Intern'
   status: error
   timestamp: '2026-03-27T07:55:10'
+- agent: PracticeAgent
+  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
+    generate interview Q&A for White & Co - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:12'
