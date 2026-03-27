@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-03-26T07:45:04'
-- agent: CareerAgent
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-03-26T07:45:05'
@@ -2681,3 +2677,8 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-27T07:55:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
+    generate interview Q&A for Adex Media Hub - Data Science Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:50'
