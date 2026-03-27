@@ -1,8 +1,4 @@
 logs:
-- agent: CareerReadinessAgent
-  action: 'Computed readiness score: 75.6 — ✅ Strong Candidate'
-  status: completed
-  timestamp: '2026-03-25T07:48:59'
 - agent: CareerAnalyticsAgent
   action: Generated analytics dashboard — readiness=75.6
   status: completed
@@ -2669,3 +2665,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-27T07:55:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
+    Artificial Intelligence Intern: Gemini failed to generate interview Q&A for Nebula
+    Personalization Tech Solutions Private Limited - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-27T07:55:38'
