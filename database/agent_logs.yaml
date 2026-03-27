@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Emoolar Technology Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-24T07:44:25'
-- agent: PracticeAgent
   action: 'Failed portal for Infits Machine Learning: Gemini failed to generate interview
     Q&A for Infits - Machine Learning'
   status: error
@@ -2640,3 +2634,9 @@ logs:
     to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
   status: error
   timestamp: '2026-03-27T07:49:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-27T07:49:36'
