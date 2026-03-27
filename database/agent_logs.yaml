@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trustable Solutions Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Trustable Solutions Private
-    Limited - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-24T07:44:01'
-- agent: PracticeAgent
   action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
     Gemini failed to generate interview Q&A for Crustdata (YC F24) - ML Engineer Intern
     (Summer 2026)'
@@ -2653,3 +2647,8 @@ logs:
   status: success
   timestamp: '2026-03-27T07:42:42'
   details: Analyzed 314 jobs.
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 14 jobs
+  status: completed
+  jobs_scraped: 14
+  timestamp: '2026-03-27T07:43:13'
