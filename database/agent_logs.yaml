@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    interview Q&A for MTX Group - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-25T07:42:04'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
@@ -2671,3 +2666,10 @@ logs:
     interview Q&A for Lensa - Intern - Data Science'
   status: error
   timestamp: '2026-03-27T07:51:26'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
+    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-27T07:51:28'
