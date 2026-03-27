@@ -2667,7 +2667,8 @@ logs:
     interview Q&A for MeshyAI - Data Science Intern'
   status: error
   timestamp: '2026-03-27T07:54:00'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 314 internships
-  status: success
+- agent: PracticeAgent
+  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
+    to generate interview Q&A for Waters Corporation - AI Engineer Intern'
+  status: error
   timestamp: '2026-03-27T07:54:01'
