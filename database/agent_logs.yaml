@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for Chamadia Group - Artificial Intelligence
-    Intern'
-  status: error
-  timestamp: '2026-03-26T08:01:40'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for OMNIDYA TECH LLP - Artificial Intelligence
     Intern'
@@ -2685,3 +2679,9 @@ logs:
     Techno Functional Operations/Data Analyst'
   status: error
   timestamp: '2026-03-28T07:39:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Bharat Diamond Bourse - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-28T07:39:48'
