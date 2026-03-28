@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-27T07:42:39'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-27T07:42:42'
@@ -2692,3 +2688,9 @@ logs:
     interview Q&A for Cabswale - Data Science Intern'
   status: error
   timestamp: '2026-03-28T07:40:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Tejate Education Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Tejate Education Private Limited -
+    Data Science Intern'
+  status: error
+  timestamp: '2026-03-28T07:40:35'
