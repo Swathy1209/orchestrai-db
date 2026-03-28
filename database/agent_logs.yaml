@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
-    to generate interview Q&A for Reach Technologies - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:00:58'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Data Science Intern:
     Gemini failed to generate interview Q&A for Tejate Education Private Limited -
     Data Science Intern'
@@ -2686,3 +2681,9 @@ logs:
     generate interview Q&A for Lensa - Business Analyst Intern Remote'
   status: error
   timestamp: '2026-03-28T07:39:12'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
+    Intern'
+  status: error
+  timestamp: '2026-03-28T07:39:13'
