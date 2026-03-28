@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
-    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
-    2026)'
-  status: error
-  timestamp: '2026-03-26T07:52:59'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
     failed to generate interview Q&A for Cornerstone Building Brands - Data Analyst
     Intern'
@@ -2702,3 +2696,7 @@ logs:
   action: Generated 314 interview simulation pages
   status: success
   timestamp: '2026-03-27T07:57:00'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-28T07:28:24'
