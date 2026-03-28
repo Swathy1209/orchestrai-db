@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    interview Q&A for Unnati Enterprises - Data Science'
-  status: error
-  timestamp: '2026-03-27T07:50:19'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     interview Q&A for Unknown - Data Science Intern'
   status: error
@@ -2708,3 +2703,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-28T07:41:54'
+- agent: PracticeAgent
+  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
+    Learning Intern: Gemini failed to generate interview Q&A for KIDLOLAND KIDS &
+    TODDLER GAMES PRIVATE LIMITED - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-28T07:41:55'
