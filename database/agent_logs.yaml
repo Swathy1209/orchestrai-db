@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    interview Q&A for MTX Group - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-26T07:53:41'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
@@ -2692,3 +2687,8 @@ logs:
   action: 'Scanned 44 repos, priority fix: SQL String Concat'
   status: completed
   timestamp: '2026-03-28T07:30:33'
+- agent: InternshipScraperAgent
+  action: Removed 1 expired jobs
+  status: completed
+  expired_removed: 1
+  timestamp: '2026-03-28T07:30:38'
