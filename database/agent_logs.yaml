@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
-    interview Q&A for Aday - Data Analysis Intern'
-  status: error
-  timestamp: '2026-03-27T07:49:58'
-- agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
     Intern (Summer 2026)'
@@ -2707,3 +2702,8 @@ logs:
     - Data Science Intern'
   status: error
   timestamp: '2026-03-28T07:41:25'
+- agent: PracticeAgent
+  action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
+    interview Q&A for TRISKN - Data Science Intern'
+  status: error
+  timestamp: '2026-03-28T07:41:26'
