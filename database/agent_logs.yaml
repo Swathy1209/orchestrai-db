@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
-    generate interview Q&A for Adex Media Hub - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:02:07'
-- agent: PracticeAgent
   action: 'Failed portal for Conversely Data Science Intern: Gemini failed to generate
     interview Q&A for Conversely - Data Science Intern'
   status: error
@@ -2684,3 +2679,9 @@ logs:
     generate interview Q&A for Lensa - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-28T07:40:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate interview Q&A for Black Potato Systems - Data Engineering
+    & Database Research'
+  status: error
+  timestamp: '2026-03-28T07:40:15'
