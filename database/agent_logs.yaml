@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
-    to generate interview Q&A for Unknown - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-26T07:54:09'
-- agent: PracticeAgent
   action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
     Q&A for Symonis - Machine Learning'
   status: error
@@ -2680,3 +2675,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-03-28T07:35:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
+    generate interview Q&A for Cylinder Health - Junior Data Engineer'
+  status: error
+  timestamp: '2026-03-28T07:35:39'
