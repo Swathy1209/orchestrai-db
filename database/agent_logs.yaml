@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAnalyticsAgent
-  action: Generated analytics dashboard — readiness=75.6
-  status: completed
-  timestamp: '2026-03-26T07:54:58'
 - agent: PracticeAgent
   action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
     Design & Development: Gemini failed to generate interview Q&A for Product Manager
@@ -2680,3 +2676,9 @@ logs:
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
   timestamp: '2026-03-28T07:36:16'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
+    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-28T07:36:17'
