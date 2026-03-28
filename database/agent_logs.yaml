@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-26T07:58:00'
-- agent: PracticeAgent
   action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
     to generate interview Q&A for Newzeninfotech Solutions - Data Science'
   status: error
@@ -2680,3 +2675,9 @@ logs:
     to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
   status: error
   timestamp: '2026-03-28T07:37:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
+    Energy (Summer 2026)'
+  status: error
+  timestamp: '2026-03-28T07:37:11'
