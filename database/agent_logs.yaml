@@ -2679,7 +2679,9 @@ logs:
     Engineer'
   status: error
   timestamp: '2026-03-28T07:39:56'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 327 internships
-  status: success
+- agent: PracticeAgent
+  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Cognitiv - Machine Learning Engineer
+    Intern (Summer 2026)'
+  status: error
   timestamp: '2026-03-28T07:39:59'
