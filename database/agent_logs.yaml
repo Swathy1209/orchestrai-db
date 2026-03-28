@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
-    interview Q&A for Mindenious Edutech - Data Science'
-  status: error
-  timestamp: '2026-03-26T07:54:00'
-- agent: PracticeAgent
   action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
     Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
     - Machine Learning'
@@ -2683,3 +2678,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-03-28T07:30:55'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-28T07:30:57'
+  details: Analyzed 327 jobs.
