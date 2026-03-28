@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
-    interview Q&A for ARM Institute - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-26T07:55:38'
-- agent: PracticeAgent
   action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
     - Artificial Intelligence (AI)'
@@ -2680,3 +2675,8 @@ logs:
     to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-28T07:36:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    interview Q&A for Unnati Enterprises - Data Science'
+  status: error
+  timestamp: '2026-03-28T07:36:27'
