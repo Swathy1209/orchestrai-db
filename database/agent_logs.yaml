@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
-    - Machine Learning'
-  status: error
-  timestamp: '2026-03-27T07:50:36'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
     to generate interview Q&A for Unknown - Artificial Intelligence Intern'
   status: error
@@ -2710,3 +2704,9 @@ logs:
     Intelligence Intern'
   status: error
   timestamp: '2026-03-28T07:42:03'
+- agent: PracticeAgent
+  action: 'Failed portal for PULPUL SOFTTECH PRIVATE LIMITED Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for PULPUL SOFTTECH PRIVATE LIMITED
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-28T07:42:04'
