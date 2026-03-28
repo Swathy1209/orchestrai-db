@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
-    Gemini failed to generate interview Q&A for Zetheta Algorithms Private Limited
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T07:57:38'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate interview
     Q&A for Fractal - Data Engineer'
   status: error
@@ -2680,3 +2674,9 @@ logs:
     Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
   status: error
   timestamp: '2026-03-28T07:37:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
+    Machine Learning Engineering Internship - Summer 2026'
+  status: error
+  timestamp: '2026-03-28T07:37:04'
