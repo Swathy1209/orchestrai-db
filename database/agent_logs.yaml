@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
-    generate interview Q&A for OMNIDYA TECH LLP - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:00:53'
-- agent: PracticeAgent
   action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
     interview Q&A for Career-Domain - Data Science Intern'
   status: error
@@ -2684,3 +2679,9 @@ logs:
     Q&A for Ramesh S - AI/ML Engineer'
   status: error
   timestamp: '2026-03-28T07:39:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
+    Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
+    Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-28T07:39:06'
