@@ -591,3 +591,11 @@ executions:
   email_sent: false
   status: success
   errors: []
+- run_at: '2026-03-28T07:28:24'
+  fetched: 107
+  relevant: 92
+  stored_new: 13
+  total_in_db: 327
+  email_sent: false
+  status: success
+  errors: []
