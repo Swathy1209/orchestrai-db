@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
-    Gemini failed to generate interview Q&A for The Goat Academy Private Limited -
-    Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:00:44'
-- agent: PracticeAgent
   action: 'Failed portal for Webbybutter Technologies Data Science Intern: Gemini
     failed to generate interview Q&A for Webbybutter Technologies - Data Science Intern'
   status: error
@@ -2685,3 +2679,8 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-28T07:39:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Suresh Dani''s Classes Data Science: Gemini failed to
+    generate interview Q&A for Suresh Dani''s Classes - Data Science'
+  status: error
+  timestamp: '2026-03-28T07:39:02'
