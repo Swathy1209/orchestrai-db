@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
-    Q&A for Ramesh S - AI/ML Engineer'
-  status: error
-  timestamp: '2026-03-26T07:58:56'
-- agent: PracticeAgent
   action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
     Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
     Intelligence (AI)'
@@ -2683,3 +2678,9 @@ logs:
     Analyst Intern'
   status: error
   timestamp: '2026-03-28T07:37:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-28T07:37:43'
