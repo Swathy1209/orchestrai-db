@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for Tejate Education Private Limited
-    - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-26T08:01:45'
-- agent: PracticeAgent
   action: 'Failed portal for Pure Plan Artificial Intelligence Intern: Gemini failed
     to generate interview Q&A for Pure Plan - Artificial Intelligence Intern'
   status: error
@@ -2684,3 +2678,8 @@ logs:
     to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
   status: error
   timestamp: '2026-03-28T07:39:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Havas Edge - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-28T07:39:51'
