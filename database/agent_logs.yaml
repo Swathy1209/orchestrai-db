@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Genesis Molecular AI - Cheminformatics
-    and Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-26T07:58:44'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
     to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
   status: error
@@ -2680,3 +2674,8 @@ logs:
     to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
   status: error
   timestamp: '2026-03-28T07:37:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
+    interview Q&A for Hughes - ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-28T07:37:36'
