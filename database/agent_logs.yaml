@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cabswale Data Science Intern: Gemini failed to generate
-    interview Q&A for Cabswale - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:00:56'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
     to generate interview Q&A for Reach Technologies - Data Science Intern'
   status: error
@@ -2686,3 +2681,8 @@ logs:
     Analyst'
   status: error
   timestamp: '2026-03-28T07:39:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
+    generate interview Q&A for Lensa - Business Analyst Intern Remote'
+  status: error
+  timestamp: '2026-03-28T07:39:12'
