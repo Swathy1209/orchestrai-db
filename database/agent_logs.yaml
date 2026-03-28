@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-26T07:56:57'
-- agent: PracticeAgent
   action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
     Limited - Artificial Intelligence (AI)'
@@ -2677,3 +2672,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-28T07:36:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science, Intern'
+  status: error
+  timestamp: '2026-03-28T07:36:47'
