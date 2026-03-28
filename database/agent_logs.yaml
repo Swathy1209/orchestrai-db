@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Almost Magic Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-26T07:59:45'
-- agent: PracticeAgent
   action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate interview
     Q&A for GCCX - AI/ML Engineer'
   status: error
@@ -2685,3 +2679,8 @@ logs:
     Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-28T07:38:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-28T07:38:09'
