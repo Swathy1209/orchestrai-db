@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
-    Artificial Intelligence Intern: Gemini failed to generate interview Q&A for Nebula
-    Personalization Tech Solutions Private Limited - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-26T08:01:49'
-- agent: PracticeAgent
   action: 'Failed portal for Lemnisk Artificial Intelligence Intern: Gemini failed
     to generate interview Q&A for Lemnisk - Artificial Intelligence Intern'
   status: error
@@ -2684,3 +2678,9 @@ logs:
     Science'
   status: error
   timestamp: '2026-03-28T07:39:54'
+- agent: PracticeAgent
+  action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
+    failed to generate interview Q&A for VVP Healthcare Evolution Pvt Ltd - AI/ML
+    Engineer'
+  status: error
+  timestamp: '2026-03-28T07:39:56'
