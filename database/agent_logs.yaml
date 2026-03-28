@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
-    Gemini failed to generate interview Q&A for California Medical Behavioral Health
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:02:02'
-- agent: PracticeAgent
   action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
     interview Q&A for TRISKN - Data Science Intern'
   status: error
@@ -2686,3 +2680,8 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-28T07:40:06'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
+    interview Q&A for SkillLevel - Machine Learning'
+  status: error
+  timestamp: '2026-03-28T07:40:07'
