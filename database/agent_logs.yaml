@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
-    interview Q&A for Unknown - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T07:53:50'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
     interview Q&A for Innoknowvex - Machine Learning'
   status: error
@@ -2688,3 +2683,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-03-28T07:30:49'
+- agent: CareerAgent
+  action: 107 jobs fetched
+  level: INFO
+  timestamp: '2026-03-28T07:30:51'
