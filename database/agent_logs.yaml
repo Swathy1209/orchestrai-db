@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
-    Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
-    IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
-  status: error
-  timestamp: '2026-03-26T07:58:30'
-- agent: PracticeAgent
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate interview Q&A for PwC Consulting Solutions - Python Data Engineer'
   status: error
@@ -2682,3 +2676,8 @@ logs:
     interview Q&A for Thermo Fisher - Data Engineer II'
   status: error
   timestamp: '2026-03-28T07:37:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-28T07:37:26'
