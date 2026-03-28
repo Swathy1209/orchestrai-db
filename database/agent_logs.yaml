@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
-    interview Q&A for Sloan - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-27T07:50:03'
-- agent: PracticeAgent
   action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
     interview Q&A for Go Offer - Business Analyst Intern'
   status: error
@@ -2705,5 +2700,10 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
     generate interview Q&A for Adex Media Hub - Data Science Intern'
+  status: error
+  timestamp: '2026-03-28T07:41:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Better Data Science Intern: Gemini failed to generate
+    interview Q&A for Better - Data Science Intern'
   status: error
   timestamp: '2026-03-28T07:41:29'
