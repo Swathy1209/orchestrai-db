@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
-    interview Q&A for Career-Domain - Data Science Intern'
-  status: error
-  timestamp: '2026-03-26T08:00:55'
-- agent: PracticeAgent
   action: 'Failed portal for Cabswale Data Science Intern: Gemini failed to generate
     interview Q&A for Cabswale - Data Science Intern'
   status: error
@@ -2685,3 +2680,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-28T07:39:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-28T07:39:07'
