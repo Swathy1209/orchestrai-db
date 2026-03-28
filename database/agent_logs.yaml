@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
-    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-26T07:55:19'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern - Data Science'
   status: error
@@ -2680,3 +2675,8 @@ logs:
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
   timestamp: '2026-03-28T07:36:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
+  status: error
+  timestamp: '2026-03-28T07:36:24'
