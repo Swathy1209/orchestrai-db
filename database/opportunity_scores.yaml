@@ -1574,3 +1574,68 @@
   match_score: 80
   selection_probability: Medium
   priority: Apply Now
+- company: Lensa
+  role: AI Data Science Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: RTW Institute
+  role: Data Analyst Intern
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: Tercept Incorporation
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Alster IT Solutions
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Emoolar Technology Private Limited
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Across The Globe (ATG)
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Emoolar Technology Private Limited
+  role: Machine Learning Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Across The Globe (ATG)
+  role: Machine Learning Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Symonis
+  role: Machine Learning Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Across The Globe (ATG)
+  role: Artificial Intelligence Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: 10x Impact Labs
+  role: Artificial Intelligence Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Wish A Brand
+  role: Artificial Intelligence Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: HSBC
+  role: Business Analyst
+  match_score: 65
+  selection_probability: Medium
+  priority: Strong Consideration
