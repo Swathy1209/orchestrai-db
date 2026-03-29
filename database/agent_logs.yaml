@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 107 jobs fetched
-  level: INFO
-  timestamp: '2026-03-28T07:28:38'
-- agent: CareerAgent
   action: 107 jobs fetched, 92 relevant
   level: INFO
   timestamp: '2026-03-28T07:29:15'
@@ -2691,3 +2687,8 @@ logs:
     interview Q&A for Hexa Solution - Data Analyst'
   status: error
   timestamp: '2026-03-29T07:50:26'
+- agent: PracticeAgent
+  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for C3 AI - Data Science - Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-29T07:50:27'
