@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for Chamadia Group - Artificial Intelligence
-    Intern'
-  status: error
-  timestamp: '2026-03-27T07:55:30'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Tejate Education Private Limited
     - Artificial Intelligence Intern'
@@ -2692,3 +2686,9 @@ logs:
     interview Q&A for Sungrow - Data Analyst Internship'
   status: error
   timestamp: '2026-03-29T07:49:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-29T07:49:04'
