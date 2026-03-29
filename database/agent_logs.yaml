@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
-    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
-    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
-    - 2026 Summer (BS/MS)'
-  status: error
-  timestamp: '2026-03-27T07:51:28'
-- agent: PracticeAgent
   action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
     interview Q&A for ARM Institute - Data Analyst Intern'
   status: error
@@ -2694,3 +2687,7 @@ logs:
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-03-29T07:36:47'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-29T07:36:48'
