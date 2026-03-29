@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
-    failed to generate interview Q&A for Hone Health - Data Science Intern (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-27T07:54:47'
-- agent: PracticeAgent
   action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
     Gemini failed to generate interview Q&A for The Goat Academy Private Limited -
     Data Science Intern'
@@ -2692,3 +2686,9 @@ logs:
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-29T07:47:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate interview Q&A for Neoteric Analytics - Data And AI Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-29T07:47:54'
