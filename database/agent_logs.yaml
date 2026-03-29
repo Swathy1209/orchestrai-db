@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAnalyticsAgent
-  action: Generated analytics dashboard — readiness=75.6
-  status: completed
-  timestamp: '2026-03-27T07:54:09'
 - agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate interview Q&A for Talkspace - Marketing Data Analyst Intern'
@@ -2689,3 +2685,8 @@ logs:
     to generate interview Q&A for Lensa - Artificial Intelligence (AI) Intern'
   status: error
   timestamp: '2026-03-29T07:47:04'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
+    Q&A for AARP - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-29T07:47:08'
