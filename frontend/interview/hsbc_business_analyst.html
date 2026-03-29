@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mock Interview — Business Analyst at HSBC</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',sans-serif;background:#0B0B0B;color:#F5F5F5;min-height:100vh;line-height:1.6}
+  .hero{background:linear-gradient(135deg,#1A1A1A,#0B0B0B);border-bottom:1px solid rgba(225,6,0,0.2);padding:50px 40px;text-align:center}
+  .hero h1{font-size:28px;font-weight:700;margin-bottom:8px;color:#F5F5F5}
+  .hero h2{font-size:16px;font-weight:400;color:#9A9A9A;margin-bottom:16px}
+  .badge{background:rgba(255,255,255,0.03);padding:6px 16px;border-radius:20px;font-size:12px;display:inline-block;margin:4px;border:1px solid rgba(255,255,255,0.1);color:#9A9A9A}
+  .container{max-width:860px;margin:0 auto;padding:40px 20px}
+  .card{background:#1A1A1A;border-radius:14px;padding:28px;margin-bottom:24px;border:1px solid rgba(255,255,255,0.05);box-shadow:0 4px 20px rgba(0,0,0,0.5);transition:all 0.3s}
+  .card:hover{transform:translateY(-2px);border-color:rgba(225,6,0,0.4);box-shadow:0 10px 30px rgba(225,6,0,0.15)}
+  .card h3{color:#E10600;font-size:20px;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600}
+  ul{list-style:none;padding:0}
+  .timer{background:#1A1A1A;border:1px solid rgba(225,6,0,0.3);border-radius:12px;padding:24px;text-align:center;margin-bottom:24px;box-shadow:0 10px 30px rgba(0,0,0,0.3);position:relative;overflow:hidden}
+  .timer span{font-size:42px;font-weight:700;color:#F5F5F5;font-variant-numeric:tabular-nums;letter-spacing:-1px}
+  .ai-feedback{background:linear-gradient(135deg,#1A1A1A,#0B0B0B);border:1px dashed rgba(225,6,0,0.5);border-radius:12px;padding:24px;text-align:center}
+  .footer{text-align:center;color:#9A9A9A;font-size:12px;padding:30px;border-top:1px solid rgba(255,255,255,0.05);text-transform:uppercase;letter-spacing:1px}
+  
+  .btn-primary{background:linear-gradient(90deg,#E10600,#FF3B3B);color:white;border:none;padding:10px 24px;border-radius:24px;cursor:pointer;font-size:14px;font-weight:600;transition:all 0.2s;box-shadow:0 4px 15px rgba(225,6,0,0.3)}
+  .btn-primary:hover{transform:scale(1.02);box-shadow:0 6px 20px rgba(225,6,0,0.5)}
+  .btn-secondary{background:#0B0B0B;color:#F5F5F5;border:1px solid rgba(225,6,0,0.5);padding:10px 24px;border-radius:24px;cursor:pointer;font-size:14px;font-weight:600;transition:all 0.2s}
+  .btn-secondary:hover{border-color:#E10600;box-shadow:0 0 10px rgba(225,6,0,0.2)}
+
+  /* Form Elements */
+  label {color:#9A9A9A;font-size:12px;font-weight:600;display:block;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px}
+  input[type="text"], input[readonly], textarea {background:#0B0B0B;border:1px solid rgba(255,255,255,0.1);border-radius:6px;padding:12px 14px;color:#F5F5F5;font-size:13px;transition:all 0.2s;width:100%}
+  input:focus, textarea:focus {border-color:#E10600;outline:none;box-shadow:0 0 10px rgba(225,6,0,0.2)}
+  
+  input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #E10600;
+    cursor: pointer;
+    margin-top: -6px;
+    box-shadow: 0 0 10px rgba(225,6,0,0.5);
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #333;
+    border-radius: 2px;
+  }
+
+  @media(max-width:600px){.hero{padding:40px 20px}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🎤 Mock Interview Simulation</h1>
+  <h2>Business Analyst at <strong>HSBC</strong></h2>
+  <div style="margin-top:20px">
+    <span class="badge">👤 swathiga</span>
+    <span class="badge">📅 March 29, 2026</span>
+    <span class="badge">⏱️ ~30 min</span>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Skills -->
+  <div class="card">
+    <h3>🎯 Skills Being Tested</h3>
+    <div style="margin-top:12px"><span style="color:#9A9A9A">General CS skills</span></div>
+  </div>
+
+  <!-- Timer -->
+  <div class="timer">
+    <p style="color:#E10600;font-size:12px;margin-bottom:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase">Interview Timer</p>
+    <span id="timer">30:00</span>
+    <div style="margin-top:20px;display:flex;gap:12px;justify-content:center">
+      <button onclick="startTimer()" class="btn-primary">▶ Start</button>
+      <button onclick="resetTimer()" class="btn-secondary">↺ Reset</button>
+    </div>
+  </div>
+
+  <!-- Section 1: Technical -->
+  <div class="card">
+    <h3>⚙️ Section 1: Technical Interview Questions</h3>
+    <p style="color:#9A9A9A;font-size:13px;margin-bottom:20px">
+      Role-specific technical depth questions — answer out loud or in writing
+    </p>
+    <ul><li style="margin:12px 0;padding:14px 18px;background:#0B0B0B;border-left:4px solid #E10600;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.5);line-height:1.6;color:#F5F5F5;font-size:14px;border-top:1px solid rgba(255,255,255,0.02);border-right:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)"><span style="font-weight:700;color:#E10600;margin-right:8px">Q1.</span> Explain your experience with Python and how you've used it in projects.</li><li style="margin:12px 0;padding:14px 18px;background:#0B0B0B;border-left:4px solid #E10600;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.5);line-height:1.6;color:#F5F5F5;font-size:14px;border-top:1px solid rgba(255,255,255,0.02);border-right:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)"><span style="font-weight:700;color:#E10600;margin-right:8px">Q2.</span> How would you approach building a Business Analyst pipeline from scratch?</li><li style="margin:12px 0;padding:14px 18px;background:#0B0B0B;border-left:4px solid #E10600;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.5);line-height:1.6;color:#F5F5F5;font-size:14px;border-top:1px solid rgba(255,255,255,0.02);border-right:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)"><span style="font-weight:700;color:#E10600;margin-right:8px">Q3.</span> Describe a challenging technical problem you solved using Machine Learning.</li></ul>
+  </div>
+
+  <!-- Section 2: Coding -->
+  <div class="card">
+    <h3>💻 Section 2: Coding Challenge</h3>
+    <p style="color:#9A9A9A;font-size:13px;margin-bottom:20px">
+      Implement solutions and explain your thought process
+    </p>
+    <div style="background:#0B0B0B;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:20px;margin-bottom:14px"><p style="color:#F5F5F5;font-size:14px;margin:0;line-height:1.6"><span style="color:#E10600;font-weight:700">Problem 1:</span> Implement a function to clean a dataset and handle missing values</p><div style="margin-top:12px;background:#1A1A1A;border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,0.05)"><span style="color:#9A9A9A;font-size:12px">// Write your solution here...</span></div></div><div style="background:#0B0B0B;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:20px;margin-bottom:14px"><p style="color:#F5F5F5;font-size:14px;margin:0;line-height:1.6"><span style="color:#E10600;font-weight:700">Problem 2:</span> Write an efficient algorithm for binary search and analyze its time complexity</p><div style="margin-top:12px;background:#1A1A1A;border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,0.05)"><span style="color:#9A9A9A;font-size:12px">// Write your solution here...</span></div></div>
+  </div>
+
+  <!-- Section 3: Behavioral -->
+  <div class="card">
+    <h3>🧠 Section 3: Behavioral Questions (STAR Method)</h3>
+    <p style="color:#9A9A9A;font-size:13px;margin-bottom:20px">
+      Use the <strong>Situation → Task → Action → Result</strong> framework
+    </p>
+    <ul><li style="margin:12px 0;padding:14px 18px;background:#0B0B0B;border-left:4px solid #E10600;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.5);line-height:1.6;color:#F5F5F5;font-size:14px;border-top:1px solid rgba(255,255,255,0.02);border-right:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)"><span style="font-weight:700;color:#E10600;margin-right:8px">Q1.</span> Tell me about a time you had to learn a new technology quickly.</li><li style="margin:12px 0;padding:14px 18px;background:#0B0B0B;border-left:4px solid #E10600;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.5);line-height:1.6;color:#F5F5F5;font-size:14px;border-top:1px solid rgba(255,255,255,0.02);border-right:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)"><span style="font-weight:700;color:#E10600;margin-right:8px">Q2.</span> Describe a situation where you had to work under tight deadlines.</li><li style="margin:12px 0;padding:14px 18px;background:#0B0B0B;border-left:4px solid #E10600;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.5);line-height:1.6;color:#F5F5F5;font-size:14px;border-top:1px solid rgba(255,255,255,0.02);border-right:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02)"><span style="font-weight:700;color:#E10600;margin-right:8px">Q3.</span> Give an example of a project where you collaborated with a team.</li></ul>
+  </div>
+
+  
+        <div class="card">
+          <h3>📊 Section 4: Case Study Questions</h3>
+          <p style="color:#9A9A9A;font-size:13px;margin-bottom:16px">
+            Analytical and data-driven scenario questions for this role
+          </p>
+          <div style="background:#0B0B0B;border:1px solid rgba(225,6,0,0.3);border-radius:8px;padding:16px;margin-bottom:12px;color:#F5F5F5;font-size:14px"><span style="font-weight:700;color:#E10600;margin-right:8px">📊 Case 1:</span> Given a dataset of HSBC's user behavior, how would you identify churn patterns?</div><div style="background:#0B0B0B;border:1px solid rgba(225,6,0,0.3);border-radius:8px;padding:16px;margin-bottom:12px;color:#F5F5F5;font-size:14px"><span style="font-weight:700;color:#E10600;margin-right:8px">📊 Case 2:</span> A/B test results show 10% lift in metric X but 5% drop in metric Y — what's your recommendation?</div>
+        </div>
+
+  <!-- Log Feedback Form -->
+  <div class="card" style="border:1px solid #E10600;background:linear-gradient(180deg,#1A1A1A,#121212)">
+    <h3>📝 Log Interview Feedback</h3>
+    <p style="color:#9A9A9A;font-size:13px;margin-bottom:24px;line-height:1.6">
+      Submit your feedback after the interview — skill gaps and learning roadmap will
+      update automatically in tomorrow's daily report.
+    </p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px">
+      <div>
+        <label>Company</label>
+        <input id="fb_company" value="HSBC" readonly/>
+      </div>
+      <div>
+        <label>Role</label>
+        <input id="fb_role" value="Business Analyst" readonly/>
+      </div>
+    </div>
+
+    <div style="margin-bottom:20px">
+        <label>Questions You Faced <span style="text-transform:none;opacity:0.7">(one per line)</span></label>
+        <textarea id="fb_questions" rows="4" placeholder="Explain gradient descent&#10;What is bias-variance tradeoff&#10;..." style="font-family:Inter,sans-serif;resize:vertical"></textarea>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-bottom:30px">
+      <div>
+        <label style="margin-bottom:12px">
+          Confidence Level: <span id="conf_val" style="color:#F5F5F5;font-size:14px;font-weight:700">6</span>/10
+        </label>
+        <input id="fb_confidence" type="range" min="1" max="10" value="6" oninput="document.getElementById('conf_val').textContent=this.value"/>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:#9A9A9A;margin-top:6px;text-transform:uppercase;letter-spacing:0.5px">
+          <span>Low</span><span>High</span>
+        </div>
+      </div>
+      <div>
+        <label style="margin-bottom:12px">
+          Difficulty Level: <span id="diff_val" style="color:#F5F5F5;font-size:14px;font-weight:700">7</span>/10
+        </label>
+        <input id="fb_difficulty" type="range" min="1" max="10" value="7" oninput="document.getElementById('diff_val').textContent=this.value"/>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:#9A9A9A;margin-top:6px;text-transform:uppercase;letter-spacing:0.5px">
+          <span>Easy</span><span>Hard</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;">
+        <button onclick="submitFeedback()" class="btn-primary">
+          📤 Log Interview Feedback
+        </button>
+        <span id="fb_status" style="margin-left:20px;font-size:13px;font-weight:600"></span>
+    </div>
+  </div>
+</div>
+
+<div class="footer">Generated by OrchestrAI • Porsche Design Edition • March 29, 2026</div>
+
+<script>
+// ── Timer ──────────────────────────────────────────────────────────────────
+let timerInterval = null;
+let seconds = 1800;
+function startTimer() {
+  if (timerInterval) return;
+  timerInterval = setInterval(() => {
+    if (seconds <= 0) { clearInterval(timerInterval); return; }
+    seconds--;
+    const m = String(Math.floor(seconds/60)).padStart(2,'0');
+    const s = String(seconds%60).padStart(2,'0');
+    document.getElementById('timer').textContent = m+':'+s;
+  }, 1000);
+}
+function resetTimer() {
+  clearInterval(timerInterval);
+  timerInterval = null;
+  seconds = 1800;
+  document.getElementById('timer').textContent = '30:00';
+}
+
+// ── Feedback Submission ────────────────────────────────────────────────────
+async function submitFeedback() {
+  const company    = document.getElementById('fb_company').value.trim();
+  const role       = document.getElementById('fb_role').value.trim();
+  const rawQ       = document.getElementById('fb_questions').value.trim();
+  const confidence = parseInt(document.getElementById('fb_confidence').value);
+  const difficulty = parseInt(document.getElementById('fb_difficulty').value);
+  const status     = document.getElementById('fb_status');
+
+  if (!rawQ) {
+    status.textContent = '⚠️ Please enter at least one question you faced.';
+    status.style.color = '#F59E0B';
+    return;
+  }
+
+  const questions_faced = rawQ.split('\n').map(q => q.trim()).filter(q => q.length > 2);
+
+  const payload = { company, role, questions_faced, confidence_level: confidence, difficulty_level: difficulty };
+
+  status.textContent = '⏳ Saving...';
+  status.style.color = '#F5F5F5';
+
+  try {
+    const base = window.location.origin;
+    const resp = await fetch(base + '/log-feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const data = await resp.json();
+    if (resp.ok && data.status === 'ok') {
+      status.textContent = '✅ ' + data.message;
+      status.style.color = '#10B981';
+      document.getElementById('fb_questions').value = '';
+    } else {
+      status.textContent = '❌ ' + (data.message || 'Error saving feedback');
+      status.style.color = '#E10600';
+    }
+  } catch(e) {
+    status.textContent = '❌ Network error: ' + e.message;
+    status.style.color = '#E10600';
+  }
+}
+</script>
+</body>
+</html>
