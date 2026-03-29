@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
-    generate interview Q&A for White & Co - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-27T07:55:12'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
     to generate interview Q&A for Reach Technologies - Machine Learning Intern'
   status: error
@@ -2695,3 +2690,9 @@ logs:
     Intelligence (AI)'
   status: error
   timestamp: '2026-03-29T07:48:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
+    failed to generate interview Q&A for Barclays - Private Bank Processing Business
+    Analyst'
+  status: error
+  timestamp: '2026-03-29T07:48:42'
