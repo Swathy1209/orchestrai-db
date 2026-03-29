@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
-    Engineering Intern: Gemini failed to generate interview Q&A for Command Post Technologies,
-    Inc - AI/Machine Learning Software Engineering Intern'
-  status: error
-  timestamp: '2026-03-27T07:54:05'
-- agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
     interview Q&A for Neurasys - Machine Learning'
   status: error
@@ -2690,3 +2684,8 @@ logs:
     to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-29T07:46:54'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    interview Q&A for EXL - Data Analyst Associate'
+  status: error
+  timestamp: '2026-03-29T07:46:59'
