@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
-    Learning Intern: Gemini failed to generate interview Q&A for KIDLOLAND KIDS &
-    TODDLER GAMES PRIVATE LIMITED - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-27T07:56:12'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
     failed to generate interview Q&A for Technoculture Research - Machine Learning
     Intern'
@@ -2694,3 +2688,8 @@ logs:
     Q&A for Infits - Machine Learning'
   status: error
   timestamp: '2026-03-29T07:50:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
+    interview Q&A for Deloitte - Business Analyst'
+  status: error
+  timestamp: '2026-03-29T07:50:10'
