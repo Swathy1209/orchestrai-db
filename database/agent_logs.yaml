@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate interview Q&A for Zulitech Solution - Machine Learning'
-  status: error
-  timestamp: '2026-03-28T07:36:56'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
     (AI)'
@@ -2716,3 +2711,9 @@ logs:
     PRIVATE LIMITED - Data Science Intern'
   status: error
   timestamp: '2026-03-29T07:52:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
+    failed to generate interview Q&A for Collective Artists Network - Data Science
+    Intern'
+  status: error
+  timestamp: '2026-03-29T07:52:24'
