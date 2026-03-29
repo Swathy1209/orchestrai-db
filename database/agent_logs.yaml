@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
-    & Paid)'
-  status: error
-  timestamp: '2026-03-28T07:35:45'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation)
@@ -2713,3 +2707,8 @@ logs:
     to generate interview Q&A for The Hustle House - Machine Learning Intern'
   status: error
   timestamp: '2026-03-29T07:51:08'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
+    to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-29T07:51:10'
