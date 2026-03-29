@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
-  status: error
-  timestamp: '2026-03-27T07:52:34'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
@@ -2680,3 +2675,9 @@ logs:
     - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-29T07:44:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
+    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
+    Private Limited - Computer Vision'
+  status: error
+  timestamp: '2026-03-29T07:44:23'
