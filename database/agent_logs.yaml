@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-28T07:30:55'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-03-28T07:30:57'
@@ -2708,3 +2704,8 @@ logs:
     interview Q&A for Neha Singh - Data Science Intern'
   status: error
   timestamp: '2026-03-29T07:50:55'
+- agent: PracticeAgent
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate interview Q&A for IIIT Hyderabad - Data Science Intern'
+  status: error
+  timestamp: '2026-03-29T07:50:56'
