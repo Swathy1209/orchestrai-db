@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
-    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
-    Intern'
-  status: error
-  timestamp: '2026-03-28T07:36:46'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
     interview Q&A for Tatari - Data Science, Intern'
   status: error
@@ -2714,3 +2708,9 @@ logs:
     to generate interview Q&A for Alster IT Solutions - Machine Learning Intern'
   status: error
   timestamp: '2026-03-29T07:52:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Sudeva Sports Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Sudeva Sports Private Limited
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-29T07:52:16'
