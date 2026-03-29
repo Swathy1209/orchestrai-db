@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Removed 1 expired jobs
-  status: completed
-  expired_removed: 1
-  timestamp: '2026-03-28T07:30:38'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2701,3 +2696,8 @@ logs:
     to generate interview Q&A for Raviraj Sarees Pvt Ltd - Data Science Intern'
   status: error
   timestamp: '2026-03-29T07:50:42'
+- agent: PracticeAgent
+  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
+    interview Q&A for AsiaDirect - Data Science Intern'
+  status: error
+  timestamp: '2026-03-29T07:50:44'
