@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate interview Q&A for ACCA Careers - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-28T07:36:21'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
@@ -2711,3 +2706,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-29T07:51:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Tejate Education Private Limited
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-29T07:51:39'
