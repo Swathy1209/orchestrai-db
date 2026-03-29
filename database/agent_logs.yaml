@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Invensis Technologies Artificial Intelligence Intern:
-    Gemini failed to generate interview Q&A for Invensis Technologies - Artificial
-    Intelligence Intern'
-  status: error
-  timestamp: '2026-03-27T07:55:28'
-- agent: PracticeAgent
   action: 'Failed portal for Arihant Publications Artificial Intelligence Intern:
     Gemini failed to generate interview Q&A for Arihant Publications - Artificial
     Intelligence Intern'
@@ -2694,3 +2688,8 @@ logs:
     interview Q&A for Xometry - Machine Learning Intern'
   status: error
   timestamp: '2026-03-29T07:48:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-29T07:49:01'
