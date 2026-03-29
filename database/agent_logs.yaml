@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
-    to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
-  status: error
-  timestamp: '2026-03-27T07:53:18'
-- agent: PracticeAgent
   action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
     Gemini failed to generate interview Q&A for AmRit Hub Private Limited - Artificial
     Intelligence (AI)'
@@ -2681,3 +2676,9 @@ logs:
     to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
   status: error
   timestamp: '2026-03-29T07:45:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
+    Energy (Summer 2026)'
+  status: error
+  timestamp: '2026-03-29T07:45:22'
