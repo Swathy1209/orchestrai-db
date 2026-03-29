@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
-    interview Q&A for AsiaDirect - Data Science Intern'
-  status: error
-  timestamp: '2026-03-27T07:54:52'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
     generate interview Q&A for OMNIDYA TECH LLP - Data Science Intern'
   status: error
@@ -2692,3 +2687,8 @@ logs:
     failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
   status: error
   timestamp: '2026-03-29T07:48:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
+  status: error
+  timestamp: '2026-03-29T07:48:10'
