@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
-    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
-  status: error
-  timestamp: '2026-03-27T07:53:00'
-- agent: PracticeAgent
   action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
     Intern  OCR & Document AI: Gemini failed to generate interview Q&A for Vite Tech
     IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
@@ -2677,3 +2672,9 @@ logs:
     Learning Intern - Summer 2026'
   status: error
   timestamp: '2026-03-29T07:45:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-29T07:45:05'
