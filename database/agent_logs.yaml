@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-28T07:36:57'
-- agent: PracticeAgent
   action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
     to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
   status: error
@@ -2717,3 +2711,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-29T07:52:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
+    failed to generate interview Q&A for Globik AI Private Limited - Data Science
+    Intern'
+  status: error
+  timestamp: '2026-03-29T07:52:25'
