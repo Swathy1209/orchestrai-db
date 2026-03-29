@@ -1639,3 +1639,43 @@
   match_score: 65
   selection_probability: Medium
   priority: Strong Consideration
+- company: Novaflow (YC S25)
+  role: Machine Learning Engineer Intern - Summer 2026
+  match_score: 75
+  selection_probability: Medium
+  priority: Strong Consideration
+- company: IndiaBizForSale.com
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: CipherSchools (Chandigarh, India)
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: The Skill Guru Foundation
+  role: Data Science Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: RegisterKaro
+  role: Machine Learning Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: OMR Shipping India Private Limited
+  role: Machine Learning Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Ramyoz
+  role: Artificial Intelligence Intern
+  match_score: 80
+  selection_probability: Medium
+  priority: Apply Now
+- company: Optum
+  role: Senior Data Engineering Consultant
+  match_score: 70
+  selection_probability: Medium
+  priority: Strong Consideration
