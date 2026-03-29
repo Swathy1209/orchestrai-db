@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
-    interview Q&A for Myntra - Associate -Data Analyst'
-  status: error
-  timestamp: '2026-03-27T07:54:35'
-- agent: PracticeAgent
   action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate interview
     Q&A for Cult Fit - Data Analyst'
   status: error
@@ -2691,3 +2686,8 @@ logs:
     Q&A for Fractal - Data Engineer'
   status: error
   timestamp: '2026-03-29T07:47:32'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
+    to generate interview Q&A for HSBC - Business Analyst- Transformation'
+  status: error
+  timestamp: '2026-03-29T07:47:34'
