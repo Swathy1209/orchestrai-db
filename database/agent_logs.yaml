@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Joveo Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Joveo - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-28T07:41:58'
-- agent: PracticeAgent
   action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Artificial
     Intelligence Intern: Gemini failed to generate interview Q&A for KIDLOLAND KIDS
     & TODDLER GAMES PRIVATE LIMITED - Artificial Intelligence Intern'
@@ -2696,3 +2691,8 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-30T08:18:21'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for ILEAD Kolkata - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-30T08:18:22'
