@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
-    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
-    Engineering Intern (MS/Ph.D. New Grad)'
-  status: error
-  timestamp: '2026-03-29T07:47:39'
-- agent: PracticeAgent
   action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
     Gemini failed to generate interview Q&A for GreenLeaf, a Chefs'' Warehouse company
     - Data Analyst Intern'
@@ -2707,3 +2701,9 @@ logs:
     Business Analyst Intern'
   status: error
   timestamp: '2026-03-30T08:21:02'
+- agent: PracticeAgent
+  action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
+    failed to generate interview Q&A for BNM Business Solutions LLP - Data Science
+    Intern'
+  status: error
+  timestamp: '2026-03-30T08:21:03'
