@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
-    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
-  status: error
-  timestamp: '2026-03-29T07:46:05'
-- agent: PracticeAgent
   action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
     interview Q&A for Hughes - ML Engineering Intern'
   status: error
@@ -2708,3 +2703,8 @@ logs:
     interview Q&A for Neurasys - Machine Learning Intern'
   status: error
   timestamp: '2026-03-30T08:20:23'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
+    generate interview Q&A for CareerNest - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-30T08:20:24'
