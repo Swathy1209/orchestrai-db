@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
-    Learning Intern: Gemini failed to generate interview Q&A for KIDLOLAND KIDS &
-    TODDLER GAMES PRIVATE LIMITED - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-28T07:41:55'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
     failed to generate interview Q&A for Technoculture Research - Machine Learning
     Intern'
@@ -2695,3 +2689,9 @@ logs:
     (Remote)'
   status: error
   timestamp: '2026-03-30T08:18:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
+    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
+    Engineering Intern (MS/Ph.D. New Grad)'
+  status: error
+  timestamp: '2026-03-30T08:18:20'
