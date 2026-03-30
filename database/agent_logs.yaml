@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for Stirring Minds - Artificial Intelligence
-    Intern'
-  status: error
-  timestamp: '2026-03-28T07:41:10'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
     Intern: Gemini failed to generate interview Q&A for Tejate Education Private Limited
     - Artificial Intelligence Intern'
@@ -2698,3 +2692,8 @@ logs:
     India Private Limited - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-30T08:17:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
+    to generate interview Q&A for Random Groups Of Companies - Data Science'
+  status: error
+  timestamp: '2026-03-30T08:17:56'
