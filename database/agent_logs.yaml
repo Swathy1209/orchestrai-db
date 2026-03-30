@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
-    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
-    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-29T07:43:57'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
     Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Business Analyst Project Intern - Monetization Strategy & Operations
@@ -2717,3 +2711,9 @@ logs:
     generate interview Q&A for Sofar Ocean - Machine Learning Intern'
   status: error
   timestamp: '2026-03-30T08:19:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
+    Engineering Intern: Gemini failed to generate interview Q&A for Command Post Technologies,
+    Inc - AI/Machine Learning Software Engineering Intern'
+  status: error
+  timestamp: '2026-03-30T08:19:25'
