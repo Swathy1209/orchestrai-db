@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
-    to generate interview Q&A for Cisco - Staff Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-28T07:39:27'
-- agent: PracticeAgent
   action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
     to generate interview Q&A for 365 Retail Markets - Business Analyst Intern'
   status: error
@@ -2684,3 +2679,9 @@ logs:
     to generate interview Q&A for targetjobs UK - Business Analyst Internship'
   status: error
   timestamp: '2026-03-30T08:17:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
+    Science'
+  status: error
+  timestamp: '2026-03-30T08:17:04'
