@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
-    failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
-    (AI)'
-  status: error
-  timestamp: '2026-03-28T07:37:43'
-- agent: PracticeAgent
   action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
     Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
     Learning Engineer'
@@ -2710,3 +2704,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-03-30T08:08:33'
+- agent: CareerAgent
+  action: 104 jobs fetched
+  level: INFO
+  timestamp: '2026-03-30T08:08:46'
