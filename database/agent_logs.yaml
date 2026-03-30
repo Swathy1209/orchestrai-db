@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Across The Globe (ATG) Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Across The Globe (ATG) - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-28T07:42:12'
-- agent: PracticeAgent
   action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
     interview Q&A for Symonis - Machine Learning Intern'
   status: error
@@ -2694,3 +2688,8 @@ logs:
     failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
   status: error
   timestamp: '2026-03-30T08:18:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
+  status: error
+  timestamp: '2026-03-30T08:18:34'
