@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
-    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
-    Analyst Intern'
-  status: error
-  timestamp: '2026-03-28T07:37:42'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
     (AI)'
@@ -2712,3 +2706,7 @@ logs:
     to generate interview Q&A for Optum - Senior Data Engineering Consultant'
   status: error
   timestamp: '2026-03-29T07:53:17'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-30T08:08:33'
