@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Almost Magic Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-28T07:39:38'
-- agent: PracticeAgent
   action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate interview
     Q&A for GCCX - AI/ML Engineer'
   status: error
@@ -2685,3 +2679,9 @@ logs:
     generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
   timestamp: '2026-03-30T08:17:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-30T08:17:07'
