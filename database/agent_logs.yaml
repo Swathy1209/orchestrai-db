@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    interview Q&A for MTX Group - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-29T07:44:05'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
@@ -2717,3 +2712,9 @@ logs:
     (AI)'
   status: error
   timestamp: '2026-03-30T08:19:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
+    Executive: Gemini failed to generate interview Q&A for Syncretic Engineering -
+    Business Analyst/Data Analyst/Office Executive'
+  status: error
+  timestamp: '2026-03-30T08:19:29'
