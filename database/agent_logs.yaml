@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
-    failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
-    Intern'
-  status: error
-  timestamp: '2026-03-29T07:48:50'
-- agent: PracticeAgent
   action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
     interview Q&A for DevTown - Data Science Mentor'
   status: error
@@ -2712,3 +2706,9 @@ logs:
     generate interview Q&A for RegisterKaro - Machine Learning Intern'
   status: error
   timestamp: '2026-03-30T08:21:44'
+- agent: PracticeAgent
+  action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
+    Gemini failed to generate interview Q&A for OMR Shipping India Private Limited
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-30T08:21:45'
