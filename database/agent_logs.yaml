@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate interview
-    Q&A for HSBC - Business Analyst'
-  status: error
-  timestamp: '2026-03-28T07:42:18'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2692,3 +2687,9 @@ logs:
     generate interview Q&A for GE Aerospace - Data Science Specialist'
   status: error
   timestamp: '2026-03-30T08:18:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
+    2026 Intern: Gemini failed to generate interview Q&A for Lensa - Artificial Intelligence/Machine
+    Learning - Summer 2026 Intern'
+  status: error
+  timestamp: '2026-03-30T08:18:38'
