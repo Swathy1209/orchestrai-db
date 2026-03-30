@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
-    Gemini failed to generate interview Q&A for ODN Digital Services Private Limited
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-28T07:41:27'
-- agent: PracticeAgent
   action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
     generate interview Q&A for Adex Media Hub - Data Science Intern'
   status: error
@@ -2696,3 +2690,9 @@ logs:
     to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
   status: error
   timestamp: '2026-03-30T08:18:08'
+- agent: PracticeAgent
+  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-30T08:18:09'
