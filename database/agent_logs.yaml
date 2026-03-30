@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
-    interview Q&A for Sungrow - Data Analyst Internship'
-  status: error
-  timestamp: '2026-03-29T07:49:02'
-- agent: PracticeAgent
   action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
     Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
     Analyst Intern'
@@ -2711,3 +2706,8 @@ logs:
     to generate interview Q&A for Vaibhav Wakade - Machine Learning Intern'
   status: error
   timestamp: '2026-03-30T08:21:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Login2Xplore Machine Learning Intern: Gemini failed to
+    generate interview Q&A for Login2Xplore - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-30T08:21:55'
