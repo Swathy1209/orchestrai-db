@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
-    failed to generate interview Q&A for Artha Energy Projects Private Limited - Data
-    Science'
-  status: error
-  timestamp: '2026-03-28T07:39:54'
-- agent: PracticeAgent
   action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
     failed to generate interview Q&A for VVP Healthcare Evolution Pvt Ltd - AI/ML
     Engineer'
@@ -2691,3 +2685,8 @@ logs:
     to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
   status: error
   timestamp: '2026-03-30T08:17:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
+  status: error
+  timestamp: '2026-03-30T08:17:18'
