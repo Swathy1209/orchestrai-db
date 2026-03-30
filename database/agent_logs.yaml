@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Machine Learning Intern:
-    Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-28T07:42:12'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Machine Learning Intern: Gemini
     failed to generate interview Q&A for Across The Globe (ATG) - Machine Learning
     Intern'
@@ -2695,3 +2689,8 @@ logs:
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
   timestamp: '2026-03-30T08:18:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
+    failed to generate interview Q&A for Rebel Foods Private Limited - Data Engineering'
+  status: error
+  timestamp: '2026-03-30T08:18:33'
