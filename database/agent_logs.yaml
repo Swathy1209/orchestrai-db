@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alster IT Solutions Data Science Intern: Gemini failed
-    to generate interview Q&A for Alster IT Solutions - Data Science Intern'
-  status: error
-  timestamp: '2026-03-28T07:42:08'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Data Science Intern:
     Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
     - Data Science Intern'
@@ -2694,3 +2689,9 @@ logs:
     to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
   status: error
   timestamp: '2026-03-30T08:18:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
+    Gemini failed to generate interview Q&A for Los Angeles Kings - Summer Intern,
+    Data Science (LA Kings)'
+  status: error
+  timestamp: '2026-03-30T08:18:30'
