@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Across The Globe (ATG) Artificial Intelligence Intern:
-    Gemini failed to generate interview Q&A for Across The Globe (ATG) - Artificial
-    Intelligence Intern'
-  status: error
-  timestamp: '2026-03-28T07:42:15'
-- agent: PracticeAgent
   action: 'Failed portal for 10x Impact Labs Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for 10x Impact Labs - Artificial Intelligence
     Intern'
@@ -2694,3 +2688,8 @@ logs:
     IT Solutions Private Limited - Machine Learning Intern  OCR & Document AI'
   status: error
   timestamp: '2026-03-30T08:18:34'
+- agent: PracticeAgent
+  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
+    interview Q&A for ARVO - Internship - Computer Vision'
+  status: error
+  timestamp: '2026-03-30T08:18:35'
