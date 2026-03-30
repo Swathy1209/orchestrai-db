@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
-    failed to generate interview Q&A for Spectral AI - Deep Learning Data Science
-    Intern'
-  status: error
-  timestamp: '2026-03-29T07:48:20'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
     2026): Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring/Summer
     2026)'
@@ -2711,3 +2705,9 @@ logs:
     to generate interview Q&A for Alster IT Solutions - Data Science Intern'
   status: error
   timestamp: '2026-03-30T08:21:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
+    - Data Science Intern'
+  status: error
+  timestamp: '2026-03-30T08:21:27'
