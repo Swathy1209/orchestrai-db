@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TMRW - House Of Brands Machine Learning Intern: Gemini
-    failed to generate interview Q&A for TMRW - House Of Brands - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-28T07:41:54'
-- agent: PracticeAgent
   action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
     Learning Intern: Gemini failed to generate interview Q&A for KIDLOLAND KIDS &
     TODDLER GAMES PRIVATE LIMITED - Machine Learning Intern'
@@ -2693,5 +2687,11 @@ logs:
 - agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate interview Q&A for HSBC - Business Analyst- Transformation'
+  status: error
+  timestamp: '2026-03-30T08:18:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Intern - Summer 2026
+    (Remote)'
   status: error
   timestamp: '2026-03-30T08:18:18'
