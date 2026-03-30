@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
-    failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
-    (Hourly)'
-  status: error
-  timestamp: '2026-03-28T07:39:24'
-- agent: PracticeAgent
   action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
     (AI): Gemini failed to generate interview Q&A for Hamsi Marketing Private Limited
     - Artificial Intelligence (AI)'
@@ -2688,3 +2682,8 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-30T08:16:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science, Intern'
+  status: error
+  timestamp: '2026-03-30T08:17:00'
