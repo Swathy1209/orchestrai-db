@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science, Intern'
-  status: error
-  timestamp: '2026-03-29T07:44:48'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
@@ -2718,3 +2713,8 @@ logs:
     interview Q&A for Saniya SanjayGaikwad - Data Science'
   status: error
   timestamp: '2026-03-30T08:19:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
+    interview Q&A for Hexa Solution - Data Analyst'
+  status: error
+  timestamp: '2026-03-30T08:19:50'
