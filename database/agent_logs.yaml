@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
-    2026 Intern: Gemini failed to generate interview Q&A for Lensa - Artificial Intelligence/Machine
-    Learning - Summer 2026 Intern'
-  status: error
-  timestamp: '2026-03-28T07:38:53'
-- agent: PracticeAgent
   action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
     - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
     Intern (Summer 2026 - In-Person - NYC)'
@@ -2691,3 +2685,8 @@ logs:
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
   timestamp: '2026-03-30T08:16:36'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-30T08:16:37'
