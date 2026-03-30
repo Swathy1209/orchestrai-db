@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
-    Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
-    India Private Limited - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-28T07:37:56'
-- agent: PracticeAgent
   action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
     to generate interview Q&A for Random Groups Of Companies - Data Science'
   status: error
@@ -2694,3 +2688,7 @@ logs:
   status: completed
   expired_removed: 0
   timestamp: '2026-03-30T08:11:02'
+- agent: CareerAgent
+  action: 104 jobs fetched
+  level: INFO
+  timestamp: '2026-03-30T08:11:17'
