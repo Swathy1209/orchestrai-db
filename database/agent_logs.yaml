@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 107 jobs fetched
-  level: INFO
-  timestamp: '2026-03-29T07:34:05'
-- agent: CareerAgent
   action: 107 jobs fetched, 92 relevant
   level: INFO
   timestamp: '2026-03-29T07:34:43'
@@ -2695,3 +2691,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-30T08:18:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate interview Q&A for Paramount+ - Data Science
+    Intern (Summer 2026 - In-Person - NYC)'
+  status: error
+  timestamp: '2026-03-30T08:18:40'
