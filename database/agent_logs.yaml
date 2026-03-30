@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
-    Gemini failed to generate interview Q&A for Web Management Consultants Ltd - Business
-    Analyst Intern'
-  status: error
-  timestamp: '2026-03-28T07:39:23'
-- agent: PracticeAgent
   action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
     failed to generate interview Q&A for New Jersey Courts - Business Analyst Intern
     (Hourly)'
@@ -2688,3 +2682,9 @@ logs:
     interview Q&A for Primetrade.ai - Data Science'
   status: error
   timestamp: '2026-03-30T08:16:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-30T08:16:59'
