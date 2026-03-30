@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
-    failed to generate interview Q&A for Hone Health - Data Science Intern (Summer
-    2026)'
-  status: error
-  timestamp: '2026-03-28T07:40:22'
-- agent: PracticeAgent
   action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
     Gemini failed to generate interview Q&A for The Goat Academy Private Limited -
     Data Science Intern'
@@ -2692,3 +2686,8 @@ logs:
     Internship Spring 2026'
   status: error
   timestamp: '2026-03-30T08:17:34'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-30T08:17:35'
