@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science, Intern'
-  status: error
-  timestamp: '2026-03-30T08:17:00'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
@@ -2709,3 +2704,9 @@ logs:
     Intern'
   status: error
   timestamp: '2026-03-31T08:05:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Tejate Education Private Limited
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-31T08:05:44'
