@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VISHVASNIYA EDUCATION FOUNDATION Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for VISHVASNIYA EDUCATION FOUNDATION
-    - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-29T07:51:27'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence Intern:
     Gemini failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Artificial
     Intelligence Intern'
@@ -2689,3 +2683,8 @@ logs:
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
   timestamp: '2026-03-31T08:00:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
+  status: error
+  timestamp: '2026-03-31T08:00:23'
