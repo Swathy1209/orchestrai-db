@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
-    to generate interview Q&A for Old World Industries - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-29T07:51:51'
-- agent: PracticeAgent
   action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
     to generate interview Q&A for MSX International - Data Analyst - Intern'
   status: error
@@ -2690,3 +2685,8 @@ logs:
     Team - 2026 Summer (BS/MS)'
   status: error
   timestamp: '2026-03-31T08:00:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-31T08:00:42'
