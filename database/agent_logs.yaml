@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
-    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
-    States'
-  status: error
-  timestamp: '2026-03-30T08:17:41'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     interview Q&A for Veolia - Business Analyst Intern'
   status: error
@@ -2704,3 +2698,8 @@ logs:
     - Machine Learning Intern'
   status: error
   timestamp: '2026-03-31T08:07:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Ramyoz Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Ramyoz - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-31T08:07:10'
