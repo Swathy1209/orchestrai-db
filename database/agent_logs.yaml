@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
-    Learning Engineer'
-  status: error
-  timestamp: '2026-03-30T08:17:45'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Data Science Intern'
@@ -2701,3 +2695,8 @@ logs:
     failed to generate interview Q&A for Innomax IT Solutions - Machine Learning Intern'
   status: error
   timestamp: '2026-03-31T08:07:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Turing - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-31T08:07:18'
