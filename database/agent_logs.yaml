@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
-    Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
-    Analyst Intern (BA-I) - Summer 2026'
-  status: error
-  timestamp: '2026-03-30T08:16:35'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
@@ -2708,3 +2701,8 @@ logs:
     & Database Research'
   status: error
   timestamp: '2026-03-31T08:04:35'
+- agent: PracticeAgent
+  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for C3 AI - Data Science - Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-31T08:04:41'
