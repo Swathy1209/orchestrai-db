@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Data Science Intern: Gemini failed
-    to generate interview Q&A for Raviraj Sarees Pvt Ltd - Data Science Intern'
-  status: error
-  timestamp: '2026-03-29T07:50:42'
-- agent: PracticeAgent
   action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
     interview Q&A for AsiaDirect - Data Science Intern'
   status: error
@@ -2687,3 +2682,9 @@ logs:
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
   timestamp: '2026-03-31T07:59:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
+    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
+    degree)'
+  status: error
+  timestamp: '2026-03-31T07:59:54'
