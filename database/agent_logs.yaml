@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
-    Summer 2026: Gemini failed to generate interview Q&A for Novaflow (YC S25) - Machine
-    Learning Engineer Intern - Summer 2026'
-  status: error
-  timestamp: '2026-03-29T07:53:07'
-- agent: PracticeAgent
   action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
     to generate interview Q&A for IndiaBizForSale.com - Data Science Intern'
   status: error
@@ -2686,3 +2680,9 @@ logs:
     to generate interview Q&A for HSBC - Business Analyst- Transformation'
   status: error
   timestamp: '2026-03-31T08:02:19'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
+    Gemini failed to generate interview Q&A for GreenLeaf, a Chefs'' Warehouse company
+    - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-31T08:02:25'
