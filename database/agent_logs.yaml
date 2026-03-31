@@ -1,12 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
-    for The Institute for Advanced Learning and Research - Artificial Intelligence
-    / Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-30T08:17:40'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
     States'
@@ -2705,3 +2698,9 @@ logs:
     generate interview Q&A for RegisterKaro - Machine Learning Intern'
   status: error
   timestamp: '2026-03-31T08:07:07'
+- agent: PracticeAgent
+  action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
+    Gemini failed to generate interview Q&A for OMR Shipping India Private Limited
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-31T08:07:08'
