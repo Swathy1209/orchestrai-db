@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
-    interview Q&A for Neurasys - Machine Learning'
-  status: error
-  timestamp: '2026-03-29T07:49:43'
-- agent: PracticeAgent
   action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
     Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
     Techno Functional Operations/Data Analyst'
@@ -2686,3 +2681,8 @@ logs:
     to generate interview Q&A for RefinedScience - Data Engineering Intern'
   status: error
   timestamp: '2026-03-31T07:59:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
+    generate interview Q&A for Cylinder Health - Junior Data Engineer'
+  status: error
+  timestamp: '2026-03-31T07:59:13'
