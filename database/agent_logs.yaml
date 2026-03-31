@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for Chamadia Group - Artificial Intelligence
-    Intern'
-  status: error
-  timestamp: '2026-03-29T07:51:35'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for OMNIDYA TECH LLP - Artificial Intelligence
     Intern'
@@ -2685,3 +2679,9 @@ logs:
     generate interview Q&A for Zulitech Solution - Machine Learning'
   status: error
   timestamp: '2026-03-31T08:00:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-31T08:00:29'
