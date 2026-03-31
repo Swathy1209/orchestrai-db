@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
-    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-30T08:17:23'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
     interview Q&A for Lensa - Intern, Data Science'
   status: error
@@ -2705,3 +2700,9 @@ logs:
     PRIVATE LIMITED - Data Science Intern'
   status: error
   timestamp: '2026-03-31T08:06:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
+    failed to generate interview Q&A for Collective Artists Network - Data Science
+    Intern'
+  status: error
+  timestamp: '2026-03-31T08:06:19'
