@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
-    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
-  status: error
-  timestamp: '2026-03-30T08:17:37'
-- agent: PracticeAgent
   action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
     interview Q&A for Hughes - ML Engineering Intern'
   status: error
@@ -2705,3 +2700,9 @@ logs:
     Q&A for HSBC - Business Analyst'
   status: error
   timestamp: '2026-03-31T08:07:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
+    Summer 2026: Gemini failed to generate interview Q&A for Novaflow (YC S25) - Machine
+    Learning Engineer Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-31T08:07:01'
