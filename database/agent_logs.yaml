@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched, 89 relevant
-  level: INFO
-  timestamp: '2026-03-30T08:09:24'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-03-30T08:09:26'
@@ -2688,3 +2684,8 @@ logs:
     to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
   status: error
   timestamp: '2026-03-31T08:02:44'
+- agent: PracticeAgent
+  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
+    interview Q&A for ARVO - Internship - Computer Vision'
+  status: error
+  timestamp: '2026-03-31T08:02:47'
