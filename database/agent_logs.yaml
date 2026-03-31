@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
-    generate interview Q&A for Havas Edge - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-29T07:49:53'
-- agent: PracticeAgent
   action: 'Failed portal for Nihon Kohden Digital Health Solutions Finance/Business
     Analyst Intern: Gemini failed to generate interview Q&A for Nihon Kohden Digital
     Health Solutions - Finance/Business Analyst Intern'
@@ -2684,3 +2679,8 @@ logs:
     & Paid)'
   status: error
   timestamp: '2026-03-31T07:59:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-31T07:59:23'
