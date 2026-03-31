@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched
-  level: INFO
-  timestamp: '2026-03-30T08:08:46'
-- agent: CareerAgent
   action: 104 jobs fetched, 89 relevant
   level: INFO
   timestamp: '2026-03-30T08:09:24'
@@ -2687,3 +2683,8 @@ logs:
     to generate interview Q&A for MCube AI Private Limited - Data Science'
   status: error
   timestamp: '2026-03-31T08:02:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate interview Q&A for Xolver AI - Physical AI Engineer (Internship)'
+  status: error
+  timestamp: '2026-03-31T08:02:44'
