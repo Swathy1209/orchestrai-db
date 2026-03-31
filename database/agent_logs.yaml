@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
-    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
-    - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-30T08:17:48'
-- agent: PracticeAgent
   action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
     interview Q&A for OralKart - Machine Learning'
   status: error
@@ -2699,3 +2693,8 @@ logs:
     USA - Artificial Intelligence / Machine Learning - Intern'
   status: error
   timestamp: '2026-03-31T08:07:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
+    interview Q&A for Allo Innoware - Data Science Intern'
+  status: error
+  timestamp: '2026-03-31T08:07:27'
