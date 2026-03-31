@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
-    to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
-  status: error
-  timestamp: '2026-03-30T08:16:05'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
     failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
     & Paid)'
@@ -2705,3 +2700,8 @@ logs:
     to generate interview Q&A for Gharpayy - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-31T08:03:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
+    interview Q&A for Sungrow - Data Analyst Internship'
+  status: error
+  timestamp: '2026-03-31T08:03:29'
