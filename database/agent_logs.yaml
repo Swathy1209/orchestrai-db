@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
-    failed to generate interview Q&A for Cornerstone Building Brands - Data Analyst
-    Intern'
-  status: error
-  timestamp: '2026-03-30T08:16:19'
-- agent: PracticeAgent
   action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
     Q&A for Go Offer - Data Analyst'
   status: error
@@ -2705,3 +2699,9 @@ logs:
     interview Q&A for Neurasys - Machine Learning'
   status: error
   timestamp: '2026-03-31T08:04:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
+    Analyst: Gemini failed to generate interview Q&A for Alchelyst India Pvt Ltd -
+    Techno Functional Operations/Data Analyst'
+  status: error
+  timestamp: '2026-03-31T08:04:04'
