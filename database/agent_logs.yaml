@@ -1,9 +1,4 @@
 logs:
-- agent: InternshipScraperAgent
-  action: Scrape completed, added 12 jobs
-  status: completed
-  jobs_scraped: 12
-  timestamp: '2026-03-30T08:09:45'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 44 repos, priority fix: SQL String Concat'
   status: completed
@@ -2695,3 +2690,9 @@ logs:
     Intern (Summer 2026 - In-Person - NYC)'
   status: error
   timestamp: '2026-03-31T08:02:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring/Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-31T08:02:57'
