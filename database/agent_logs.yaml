@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
-    Engineering Intern: Gemini failed to generate interview Q&A for Command Post Technologies,
-    Inc - AI/Machine Learning Software Engineering Intern'
-  status: error
-  timestamp: '2026-03-29T07:49:41'
-- agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
     interview Q&A for Neurasys - Machine Learning'
   status: error
@@ -2687,3 +2681,8 @@ logs:
   action: Generated 353 cover letters
   status: success
   timestamp: '2026-03-31T07:59:07'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
+    to generate interview Q&A for RefinedScience - Data Engineering Intern'
+  status: error
+  timestamp: '2026-03-31T07:59:12'
