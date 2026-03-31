@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RegisterKaro Machine Learning Intern: Gemini failed to
-    generate interview Q&A for RegisterKaro - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-29T07:53:13'
-- agent: PracticeAgent
   action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
     Gemini failed to generate interview Q&A for OMR Shipping India Private Limited
     - Machine Learning Intern'
@@ -2684,3 +2679,9 @@ logs:
     to generate interview Q&A for REALBRIDGE - Artificial Intelligence (AI)'
   status: error
   timestamp: '2026-03-31T08:02:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate interview Q&A for Neoteric Analytics - Data And AI Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-31T08:02:35'
