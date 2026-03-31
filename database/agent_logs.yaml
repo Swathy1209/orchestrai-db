@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sudeva Sports Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for Sudeva Sports Private Limited
-    - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-29T07:52:16'
-- agent: PracticeAgent
   action: 'Failed portal for Better Artificial Intelligence Intern: Gemini failed
     to generate interview Q&A for Better - Artificial Intelligence Intern'
   status: error
@@ -2691,3 +2685,8 @@ logs:
     to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
   status: error
   timestamp: '2026-03-31T08:00:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-31T08:01:02'
