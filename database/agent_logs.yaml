@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Data Science
-    Intern: Gemini failed to generate interview Q&A for KIDLOLAND KIDS & TODDLER GAMES
-    PRIVATE LIMITED - Data Science Intern'
-  status: error
-  timestamp: '2026-03-29T07:52:22'
-- agent: PracticeAgent
   action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
     failed to generate interview Q&A for Collective Artists Network - Data Science
     Intern'
@@ -2691,3 +2685,8 @@ logs:
     Internship Spring 2026'
   status: error
   timestamp: '2026-03-31T08:01:08'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-31T08:01:09'
