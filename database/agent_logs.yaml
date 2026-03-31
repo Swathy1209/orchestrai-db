@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
-    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
-    Engineer'
-  status: error
-  timestamp: '2026-03-30T08:17:47'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
     - Machine Learning Intern'
@@ -2699,3 +2693,9 @@ logs:
     - Artificial Intelligence Intern'
   status: error
   timestamp: '2026-03-31T08:07:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
+    Learning - Intern: Gemini failed to generate interview Q&A for Bosch Home Comfort
+    USA - Artificial Intelligence / Machine Learning - Intern'
+  status: error
+  timestamp: '2026-03-31T08:07:24'
