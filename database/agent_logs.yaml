@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
-    - Machine Learning'
-  status: error
-  timestamp: '2026-03-30T08:16:50'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
     interview Q&A for Career Solutions - Data Science'
   status: error
@@ -2707,3 +2701,8 @@ logs:
     to generate interview Q&A for The Hustle House - Machine Learning Intern'
   status: error
   timestamp: '2026-03-31T08:05:15'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
+    to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-31T08:05:17'
