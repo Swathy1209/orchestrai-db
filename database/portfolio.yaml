@@ -1,60 +1,60 @@
 portfolio:
   url: https://orchestrai-agent.onrender.com/portfolio/
-  generated_at: '2026-03-31T07:53:47.953921+00:00'
+  generated_at: '2026-04-01T15:47:06.129923+00:00'
   projects:
   - original_name: STST
     title: STST
-    summary: A technical repository.
+    summary: None
     technologies: Python
-    impact_statement: Contributed to open source community.
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/STST
     demo_link: '#'
   - original_name: Swathy1209
     title: Swathy1209
     summary: Config files for my GitHub profile.
-    technologies: Python
-    impact_statement: Contributed to open source community.
+    technologies: null
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/Swathy1209
     demo_link: '#'
   - original_name: orchestrai-db
     title: orchestrai-db
-    summary: A technical repository.
+    summary: None
     technologies: HTML
-    impact_statement: Contributed to open source community.
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/orchestrai-db
+    demo_link: '#'
+  - original_name: orchestrai-agent
+    title: orchestrai-agent
+    summary: None
+    technologies: HTML
+    impact_statement: No impact metric formulated.
+    github_link: https://github.com/Swathy1209/orchestrai-agent
     demo_link: '#'
   - original_name: Self-Verifying_LLMs
     title: Self-Verifying_LLMs
-    summary: A technical repository.
+    summary: None
     technologies: Jupyter Notebook
-    impact_statement: Contributed to open source community.
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/Self-Verifying_LLMs
     demo_link: '#'
   - original_name: Citation_Hallucination
     title: Citation_Hallucination
-    summary: A technical repository.
+    summary: None
     technologies: Jupyter Notebook
-    impact_statement: Contributed to open source community.
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/Citation_Hallucination
-    demo_link: '#'
-  - original_name: orchestrai-agent
-    title: orchestrai-agent
-    summary: A technical repository.
-    technologies: HTML
-    impact_statement: Contributed to open source community.
-    github_link: https://github.com/Swathy1209/orchestrai-agent
     demo_link: '#'
   - original_name: orchi-agent
     title: orchi-agent
-    summary: A technical repository.
+    summary: None
     technologies: Python
-    impact_statement: Contributed to open source community.
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/orchi-agent
     demo_link: '#'
   - original_name: acia-cloud-deployment
     title: acia-cloud-deployment
-    summary: A technical repository.
-    technologies: Python
-    impact_statement: Contributed to open source community.
+    summary: None
+    technologies: null
+    impact_statement: No impact metric formulated.
     github_link: https://github.com/Swathy1209/acia-cloud-deployment
     demo_link: '#'
