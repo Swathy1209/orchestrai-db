@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
-  status: error
-  timestamp: '2026-03-30T08:18:10'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate interview Q&A for Tatari - Data Science Analyst, Intern'
   status: error
@@ -2677,3 +2672,8 @@ logs:
   status: completed
   jobs_scraped: 13
   timestamp: '2026-04-01T16:36:10'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-04-01T16:37:40'
