@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
-    to generate interview Q&A for Bizlem Private Limited - AI/ML Engineering'
-  status: error
-  timestamp: '2026-03-30T08:18:29'
-- agent: PracticeAgent
   action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
     Gemini failed to generate interview Q&A for Los Angeles Kings - Summer Intern,
     Data Science (LA Kings)'
@@ -2654,3 +2649,8 @@ logs:
   status: completed
   jobs_scraped: 13
   timestamp: '2026-04-01T17:21:05'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-04-01T17:22:42'
