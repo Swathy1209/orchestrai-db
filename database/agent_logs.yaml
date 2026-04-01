@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
-    New Grad): Gemini failed to generate interview Q&A for Lensa - AI/Machine Learning
-    Engineering Intern (MS/Ph.D. New Grad)'
-  status: error
-  timestamp: '2026-03-30T08:18:20'
-- agent: PracticeAgent
   action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
     Gemini failed to generate interview Q&A for GreenLeaf, a Chefs'' Warehouse company
     - Data Analyst Intern'
@@ -2666,3 +2660,8 @@ logs:
   action: Generated optimizations for 378 internships
   status: success
   timestamp: '2026-04-01T16:45:20'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-04-01T16:46:29'
